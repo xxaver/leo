@@ -1,9 +1,14 @@
+"use client";
 import {FC} from "react";
 import {UIMessage} from "ai";
 import {User} from "lucide-react";
 import Image from "next/image";
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import {parsePartial} from "@/app/partial";
+import {getSchema} from "@/data/schema";
+import {z} from "zod";
+import {PromptSuggestion} from "@/app/PromptSuggestion";
 
 export const ChatMessageLogo: FC<{ role: "system" | "user" | "assistant" | "data" }> = ({role}) => {
     return <div
@@ -20,6 +25,11 @@ export const ChatMessageLogo: FC<{ role: "system" | "user" | "assistant" | "data
 
 }
 export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
+    const [complete, parsed_] = parsePartial<z.infer<ReturnType<typeof getSchema>>>(message.content);
+    const parsed = message.role === "assistant" ? parsed_ : {
+        parts: [{text: message.content}],
+    };
+
     return <div
         className={`mb-6 flex ${message.role === "user" ? "sm:justify-end" : "sm:justify-start"} justify-stretch`}>
         <div
@@ -31,27 +41,38 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                     {message.role === "user" ? "Du" : "Leo"}
                 </div>
             </div>
-            <div
-                className={`p-3 rounded-2xl shadow-sm ${
-                    message.role === "user"
-                        ? "bg-red-500 text-white"
-                        : "bg-gray-50 text-gray-800 border border-gray-200"
-                }`}
-            >
-                {message.parts.map((part, i) => {
-                    switch (part.type) {
-                        case "text":
-                            return (
-                                <div key={`${message.id}-${i}`}
-                                     className="flex flex-col gap-2 leading-relaxed">
-                                    <Markdown remarkPlugins={[remarkGfm]}>{part.text}</Markdown>
-                                    {/*{part.text}*/}
-                                </div>
-                            )
-                        default:
-                            return null
-                    }
-                })}
+            <div>
+                <div
+                    className={`p-3 rounded-2xl shadow-sm ${
+                        message.role === "user"
+                            ? "bg-red-500 text-white"
+                            : "bg-gray-50 text-gray-800 border border-gray-200"
+                    }`}
+                >
+                    {parsed?.parts?.map((part, i) => {
+                        return (
+                            <div key={`${message.id}-${i}`}
+                                 className="flex flex-col gap-2 leading-relaxed"
+                                 onClick={e => {
+                                     const target = e.target as HTMLAnchorElement;
+                                     if (target.tagName !== "A" || !target.href.startsWith("https://")) return;
+                                     e.preventDefault();
+                                     window.open(target.href, "_blank");
+                                 }}
+                            >
+                                <Markdown remarkPlugins={[remarkGfm]}>{part.text}</Markdown>
+                                {/*{part.text}*/}
+                            </div>
+                        )
+                    })}
+                </div>
+                {complete && parsed?.promptSuggestions && parsed.promptSuggestions.length > 0 && <div className="flex items-center gap-2 mt-3">
+                    {parsed?.promptSuggestions?.map((suggestion, i) => {
+                        return <PromptSuggestion prompt={suggestion.full} key={i} submit={!suggestion.editable}>
+                            {suggestion.short || suggestion.full}
+                        </PromptSuggestion>
+                    })}
+                </div>}
             </div>
         </div>
     </div>
