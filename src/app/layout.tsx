@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: process.env.NEXT_PUBLIC_ASSISTENT_NAME,
+  title: process.env.NEXT_PUBLIC_ASSISTANT_NAME,
   description: "Der offizielle Chatbot des Gymnasium Weingartens",
 };
 

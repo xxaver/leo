@@ -3,6 +3,7 @@ import {UIMessage} from "ai";
 import {User} from "lucide-react";
 import Image from "next/image";
 import Markdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 export const ChatMessageLogo: FC<{ role: "system" | "user" | "assistant" | "data" }> = ({role}) => {
     return <div
@@ -43,7 +44,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                             return (
                                 <div key={`${message.id}-${i}`}
                                      className="flex flex-col gap-2 leading-relaxed">
-                                    <Markdown>{part.text}</Markdown>
+                                    <Markdown remarkPlugins={[remarkGfm]}>{part.text}</Markdown>
                                     {/*{part.text}*/}
                                 </div>
                             )
