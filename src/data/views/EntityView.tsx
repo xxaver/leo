@@ -97,13 +97,13 @@ export const EntityView: FC<{
                     {inTable}
                     </tbody>
                 </table>}
-                {related?.length > 0 && <div className="hidden md:flex mt-4 gap-3">{related}</div>}
+                {related?.length > 0 && size !== "small" && <div className="hidden md:flex mt-4 gap-3">{related}</div>}
             </div>
         </div>
-        {related?.length > 0 && <div className="md:hidden mt-4 gap-3">{related}</div>}
-        {size !== "large" && !listener && <div className="flex mt-3">
-            <div className="grow" />
-            <Button onClick={() => setSize("medium")} className="cursor-pointer">
+        {related?.length > 0 && size !== "small" && <div className="md:hidden mt-4 gap-3">{related}</div>}
+        {size === "small" && !listener && <div className="flex mt-3">
+            <div className="grow"/>
+            <Button onClick={() => setSize("large")} className="cursor-pointer">
                 Mehr anzeigen
             </Button>
         </div>}

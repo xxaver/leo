@@ -16,6 +16,11 @@ export async function POST(req: Request) {
                     model: google('gemini-2.5-flash'),
                     system: generateSystemPrompt(req.headers.get(languageHeader) || "Deutsch"),
                     schema: getSchema(),
+                    providerOptions: {
+                        groq: {
+                            reasoningFormat: "hidden",
+                        }
+                    },
                     messages,
                 });
                 let i = 0;

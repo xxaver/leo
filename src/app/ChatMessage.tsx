@@ -28,7 +28,7 @@ export const ChatMessageLogo: FC<{ role: "system" | "user" | "assistant" | "data
 }
 export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
     const [complete, parsed_] = parsePartial<z.infer<ReturnType<typeof getSchema>>>(message.content);
-    const parsed = message.role === "assistant" ? parsed_ : {
+    const parsed = (message.role === "assistant" && parsed_) || {
         parts: [{text: message.content}],
     };
 
