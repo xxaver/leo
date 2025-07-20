@@ -10,7 +10,7 @@ export interface News extends EntityBase {
 
 export const renderNews = (news: News) => {
     return [
-        news.date && new Date(news.date).toLocaleString("de-DE"),
+        news.date && new Date(news.date).toLocaleString("de-DE", {timeZone: "Europe/Berlin"}),
         news.description,
     ]
 }

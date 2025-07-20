@@ -35,7 +35,8 @@ ${renderEntities(news)}
 
 Jetziges Datum: ${new Date().toLocaleString("de-De", {
     dateStyle: "full",
-    timeStyle: "full"   
+    timeStyle: "full",
+    timeZone: "Europe/Berlin"
 })}
 `
 console.log(systemPrompt)

@@ -3,7 +3,7 @@ import {Entity} from "@/data/types/entityBase";
 import {Button} from "@/components/ui/button";
 import {ArrowLeft, ArrowUpRight, Calendar, Euro, MapPin, User} from "lucide-react";
 
-const options: Intl.DateTimeFormatOptions = {dateStyle: "long", timeStyle: "short"}
+const options: Intl.DateTimeFormatOptions = {dateStyle: "long", timeStyle: "short", timeZone: "Europe/Berlin"};
 //     year: "numeric",
 //     month: "long",
 //     day: "numeric",
