@@ -21,7 +21,7 @@ const getLanguage = () => {
 }
 
 export const Chat: FC = () => {
-    const [language, setLanguage] = useState("English");
+    const [language, setLanguage] = useState("Deutsch");
     useEffect(() => {
         setLanguage(localStorage.getItem(languageHeader) || getLanguage());
     }, []);

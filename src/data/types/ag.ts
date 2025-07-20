@@ -16,7 +16,7 @@ export interface Ag extends EntityBase {
 }
 
 export const renderRegularDate = (d: RegularDate) => {
-    return [d.startDate, d.endDate, d.place].filter(Boolean).join(" ")
+    return [d.startDate + " bis " + d.endDate, d.place].filter(Boolean).join(" ")
 }
 export const renderRegularDates = (d: RegularDate[]) => {
     return d.map(renderRegularDate).join(" / ")

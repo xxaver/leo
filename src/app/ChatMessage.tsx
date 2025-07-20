@@ -35,7 +35,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
     return <div
         className={`mb-6 flex ${message.role === "user" ? "sm:justify-end" : "sm:justify-start"} justify-stretch`}>
         <div
-            className={`flex flex-col gap-3 max-w-full sm:max-w-[85%] w-max ${message.role === "user" ? "sm:flex-row-reverse items-end sm:items-start" : "sm:flex-row items-start"}`}
+            className={`flex flex-col gap-3 max-w-full sm:max-w-[85%] ${message.role === "user" ? "sm:flex-row-reverse items-end sm:items-start w-full sm:w-max" : "sm:flex-row items-start w-max"}`}
         >
             <div className={"flex items-center gap-2 shrink-0 max-w-full " + (message.role === "user" ? "flex-row-reverse" : "")}>
                 <ChatMessageLogo role={message.role}/>

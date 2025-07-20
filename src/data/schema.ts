@@ -5,7 +5,7 @@ import {all} from "@/data/all";
 export const getSchema = () => z.object({
     parts: z.array(
         z.object({
-            text: z.string().optional().describe("The normal response text. You may use markdown as usual."),
+            text: z.string().optional().describe("The normal response text. You are encouraged to use markdown as usual."),
             showDetails: z.object({
                 id: createLiterals(all),
                 size: createLiterals(["small", "medium", "large"]).describe("The size of the card. The more directly the user asked for this object, the larger the card should be."),
