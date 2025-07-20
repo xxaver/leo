@@ -11,7 +11,8 @@ export const getSchema = () => z.object({
                 size: createLiterals(["small", "medium", "large"])
                     .describe("The size of the card. It should be 'small' expect if the user extremely specifically asked for this specific object"),
             }).describe("Shows information about the given ID or shows the form if the id belongs to a form. " +
-                "If the user doesn't specifically ask for a specific date of an event, use the id of the event in general instead of multiple ids of specific dates.").array().optional(),
+                "If the user doesn't specifically ask for a specific date of an event, use the id of the event in general instead of multiple ids of specific dates. " +
+                "Bear in mind that a detail card takes up a significant amount of space, so don't use to many of them in a single response!").array().optional(),
         })
     ).describe("The response parts to the user's question, including the normal text response."),
     promptSuggestions: z.array(

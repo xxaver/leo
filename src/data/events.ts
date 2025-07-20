@@ -24,8 +24,8 @@ export const theater: EventInfo = {
         type: "eventDate",
         id: "theater2025-3",
         place: "Turnhalle 4",
-        startDate: 1753023600000,
-        endDate: 1753030800000,
+        startDate: 1753034400,
+        endDate: 1753041600,
         price: 6
     }],
     description: `Inspiriert von Antoine de Saint-Exupérys zeitlosem Werk, bringen wir dieses Jahr „Der Kleine Prinz“ auf die Bühne. Ursprünglich in den 1940er Jahren geschrieben, haben wir die Geschichte behutsam in unsere Gegenwart übertragen und sie mit Musik aus den 1970er Jahren verbunden – dem Gründungsjahrzehnt des Gymnasiums Weingarten. Wir laden Sie herzlich ein, mit uns auf diese Reise zu gehen! Feiern Sie mit uns 50 Jahre Gymnasium Weingarten – und lassen Sie sich von einer Geschichte verzaubern, die nach wie vor Generationen verbindet.`
