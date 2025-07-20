@@ -39,5 +39,14 @@ export const English: typeof Deutsch = {
             prompt: "How can I register my child?",
             text: "Register Child"
         }
+    },
+    entityTable: {
+        startDate: "When?",
+        place: "Where?",
+        phone: "Phone:",
+        email: "Mail:",
+        fax: "Fax:",
+        price: "Admission:",
+        targetGroup: "For whom?",
     }
 }

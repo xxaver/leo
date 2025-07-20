@@ -1,7 +1,8 @@
-import {FC, Fragment, useEffect, useState} from "react";
+import {FC, useEffect, useState} from "react";
 import {Entity} from "@/data/types/entityBase";
 import {Button} from "@/components/ui/button";
-import {ArrowLeft, ArrowUpRight, Calendar, Euro, MapPin, User} from "lucide-react";
+import {ArrowLeft, ArrowUpRight, Calendar, Euro, Mail, MapPin, Phone, Printer, User} from "lucide-react";
+import {useTranslations} from "@/app/languages/useTranslations";
 
 const options: Intl.DateTimeFormatOptions = {dateStyle: "long", timeStyle: "short", timeZone: "Europe/Berlin"};
 //     year: "numeric",
@@ -14,32 +15,47 @@ const options: Intl.DateTimeFormatOptions = {dateStyle: "long", timeStyle: "shor
 // }
 
 const table = {
-    startDate: <><Calendar/> Wann?</>,
-    place: <><MapPin/> Wo?</>,
-    targetGroup: <><User/>Für wen:</>,
-    price: <><Euro/> Eintritt:</>,
+    startDate: <Calendar/>,
+    place: <MapPin/>,
+    phone: <Phone/>,
+    email: <Mail/>,
+    fax: <Printer/>,
+    targetGroup: <User/>,
+    price: <Euro/>,
 }
 const format = {
     price: (e: Entity) => typeof e.price === "number" ? `${e.price} €` : e.price,
+    place: (e: Entity) => [e.place, ...(e.dates?.map(e => e.place) || [])].filter(Boolean).join(", "),
     startDate: (e: Entity) => {
-        return (typeof e.startDate === "number" ? new Date(e.startDate).toLocaleString("de-DE", options) : e.startDate)
+        const format = (e) => (typeof e.startDate === "number" ? new Date(e.startDate).toLocaleString("de-DE", options) : e.startDate)
             + " bis "
             + (typeof e.endDate === "number" ? new Date(e.endDate).toLocaleString("de-DE", options) : e.endDate)
+
+        return [
+            (e.startDate || e.endDate) && format(e),
+            ...(e.dates?.map(format) || [])
+        ].filter(Boolean).join(", ");
     },
 }
 
-export const EntityView: FC<{ entity: Entity; listener?: () => void; size?: "medium" | "small" | "large" }> = ({entity: entity_, listener}) => {
+export const EntityView: FC<{
+    entity: Entity;
+    listener?: () => void;
+    size?: "medium" | "small" | "large"
+}> = ({entity: entity_, listener}) => {
     console.log(entity_)
     const [stack, setStack] = useState([entity_]);
     useEffect(() => {
         setStack([entity_])
     }, [entity_]);
     const entity = stack.at(-1)!;
+    const translations = useTranslations()
 
-    const inTable = Object.keys(table).map((e) => entity[e] && <tr key={e} className="border-transparent border-b-5">
-        <td className="flex items-center gap-1.5 text-muted-foreground mr-2">{table[e]}</td>
-        <td>{format[e] ? format[e](entity) : entity[e]}</td>
-    </tr>).filter(Boolean);
+    const inTable = Object.keys(table).map((e) => (format[e] ? format[e](entity) : entity[e]) &&
+        <tr key={e} className="border-transparent border-b-5">
+            <td className="flex items-center gap-1.5 text-muted-foreground mr-2">{table[e]}{translations.entityTable[e]}</td>
+            <td>{format[e] ? format[e](entity) : entity[e]}</td>
+        </tr>).filter(Boolean);
 
     const related = entity.related?.map((e, i) => <EntityView entity={e} key={e.id}
                                                               listener={() => setStack(stack => [...stack, e])}/>)

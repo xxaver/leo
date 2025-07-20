@@ -12,6 +12,14 @@ export const robotics: Ag = {
         startDate: "Freitag, 13:30 Uhr",
         endDate: "Freitag, 15:30 Uhr",
     }],
+    related: [
+        {
+            id: "rothmaier",
+            type: "contact",
+            name: "Herr Rothmaier",
+            description: "Ansprechpartner"
+        }
+    ],
     link: "https://robotics.gymnasium-weingarten.de/"
 }
 export const ags = [robotics]

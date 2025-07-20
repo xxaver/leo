@@ -37,5 +37,14 @@ export const Deutsch = {
             prompt: "Wie melde ich mein Kind an?",
             text: "Kind Anmelden"
         }
+    },
+    entityTable: {
+        startDate: "Wann?",
+        place: "Wo?",
+        phone: "Telefon:",
+        email: "E-Mail:",
+        fax: "Fax:",
+        price: "Eintritt:",
+        targetGroup: "Für Wen?",
     }
 }
