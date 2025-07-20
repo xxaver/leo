@@ -1,6 +1,6 @@
 "use client";
 
-import {FC, useEffect, useMemo, useRef} from "react";
+import {FC, useEffect, useMemo, useRef, useState} from "react";
 import {useChat} from "@ai-sdk/react";
 import Image from "next/image";
 import {Welcome} from "@/app/Welcome";
@@ -8,9 +8,28 @@ import {ChatInput} from "@/app/ChatInput";
 import {ChatMessage, ChatMessageLogo} from "@/app/ChatMessage";
 import {ChatContext} from "@/app/ChatContext";
 import {ChatDropdownMenu} from "@/app/ChatDropdownMenu";
+import {languageHeader} from "@/data/systemPrompt";
+import {languages} from "@/app/languages/languages";
+
+const getLanguage = () => {
+    const lang = navigator.languages.map(e => e.split("-")[0])
+    for(const l of lang) {
+        const found = languages.find(e => e.code === l);
+        if(found) return found.nativeName;
+    }
+    return "English";
+}
 
 export const Chat: FC = () => {
-    const chat = useChat();
+    const [language, setLanguage] = useState("English");
+    useEffect(() => {
+        setLanguage(localStorage.getItem(languageHeader) || getLanguage());
+    }, []);
+    const chat = useChat({
+        headers: {
+            [languageHeader]: language
+        }
+    });
     const inputRef = useRef<HTMLInputElement>(null);
     const scrollRef = useRef<HTMLInputElement>(null);
     const {status} = chat;
@@ -19,9 +38,8 @@ export const Chat: FC = () => {
     useEffect(() => {
         scrollRef.current?.scrollIntoView({behavior: "smooth"});
     }, [messages]);
-    console.log(chat, chat.messages.map(e => e.createdAt!.valueOf()), messages)
 
-    return <ChatContext value={{...chat, inputRef}}>
+    return <ChatContext value={{...chat, inputRef, language, setLanguage}}>
         <div className="flex flex-col h-screen overflow-hidden min-w-0">
             <div className="border-b p-3 font-medium text-2xl flex items-center gap-3">
                 <ChatMessageLogo role="assistant"/>

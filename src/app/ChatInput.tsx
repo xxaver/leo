@@ -6,8 +6,10 @@ import {ChatContext} from "@/app/ChatContext";
 
 import {PromptSuggestions} from "@/app/PromptSuggestions";
 import {ScrollArea} from "@/components/ui/scroll-area";
+import {useTranslations} from "@/app/languages/useTranslations";
 
 export const ChatInput: FC = () => {
+    const translations = useTranslations();
     const {handleSubmit, input, handleInputChange, inputRef, messages, stop, status} = useContext(ChatContext)!;
     const Icon = status === "ready" ? Send: Square;
     return <>
@@ -21,17 +23,17 @@ export const ChatInput: FC = () => {
             if(status === "ready") handleSubmit(e)
             else stop();
         }} className="flex gap-3 border-t px-3 pt-5 pb-2 items-center ">
-            <Input ref={inputRef} name="prompt" value={input} placeholder="👋 Wie kann ich dir behilflich sein?"
+            <Input ref={inputRef} name="prompt" value={input} placeholder={translations.input.placeholder}
                    className="grow md:text-lg p-6" onChange={handleInputChange}/>
             <Button asChild variant="destructive">
                 <button type="submit" className="md:text-xl !p-6">
-                    <div className="hidden md:shown">Senden</div>
+                    <div className="hidden md:shown">{translations.input.send}</div>
                     <Icon size={96} className="md:!h-6 md:!w-6"/>
                 </button>
             </Button>
         </form>
         <div className="text-center text-muted-foreground pb-3 text-sm">
-            KI macht Fehler. Überprüfe wichtige Informationen.
+            {translations.input.warning}
         </div>
     </>
 }

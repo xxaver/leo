@@ -1,6 +1,6 @@
 import {google} from '@ai-sdk/google';
 import {createDataStreamResponse, streamObject} from 'ai';
-import {systemPrompt} from "@/data/systemPrompt";
+import {generateSystemPrompt, languageHeader} from "@/data/systemPrompt";
 import {getSchema} from "@/data/schema";
 import {v4} from "uuid";
 
@@ -14,7 +14,7 @@ export async function POST(req: Request) {
             try {
                 const result = streamObject({
                     model: google('gemini-2.5-flash'),
-                    system: systemPrompt,
+                    system: generateSystemPrompt(req.headers.get(languageHeader) || "Deutsch"),
                     schema: getSchema(),
                     messages,
                 });

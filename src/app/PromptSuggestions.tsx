@@ -3,11 +3,13 @@ import {ChatContext} from "@/app/ChatContext";
 import {z} from "zod";
 import {getSchema} from "@/data/schema";
 import {PromptSuggestion} from "@/app/PromptSuggestion";
-import {CalendarClock, FileUser, Info, Newspaper, PartyPopper} from "lucide-react";
+import {CalendarClock, FileUser, Info, Languages, Newspaper, PartyPopper} from "lucide-react";
 import {Separator} from "@/components/ui/separator";
+import {useTranslations} from "@/app/languages/useTranslations";
 
 export const PromptSuggestions: FC = () => {
-    const {messages} = useContext(ChatContext)!;
+    const translations = useTranslations();
+    const {messages, language} = useContext(ChatContext)!;
     const latest = useMemo(() => {
         if (!messages) return [];
         const m = [...messages.reverse()];
@@ -25,26 +27,30 @@ export const PromptSuggestions: FC = () => {
                                                          submit={!suggestion.editable}>{suggestion.short || suggestion.full}
         </PromptSuggestion>)}
         {latest.length > 0 && <Separator orientation="vertical" className="bg-red-300 !h-[42px] mx-1"/>}
-        <PromptSuggestion submit prompt="Erzähle mir mehr über das Gymnasium Weingarten und seine Einrichtungen">
-            <Info/> Generelle Informationen
+        {language !== "Deutsch" && <PromptSuggestion submit prompt="Are there any opportunities for non-German speakers?">
+            <Languages />
+            Opportunities for non-Germans
+        </PromptSuggestion>}
+        <PromptSuggestion submit prompt={translations.promptSuggestions.general.prompt}>
+            <Info/> {translations.promptSuggestions.general.text}
             {/*📚 Generelle Informationen*/}
         </PromptSuggestion>
         {/*<PromptSuggestion submit prompt="Zeige mir aktuelle Termine.">*/}
         {/*    <Calendar/> Termine*/}
         {/*    📅 Termine*/}
         {/*</PromptSuggestion>*/}
-        <PromptSuggestion submit prompt="Wie sieht ein typischer Stundenplan aus?">
-            <CalendarClock/> Stundenplan
+        <PromptSuggestion submit prompt={translations.promptSuggestions.timetable.prompt}>
+            <CalendarClock/> {translations.promptSuggestions.timetable.text}
             {/*📝 Stundenplan*/}
         </PromptSuggestion>
-        <PromptSuggestion submit prompt="Welche Veranstaltungen finden demnächst statt?">
-            <PartyPopper/> Veranstaltungen
+        <PromptSuggestion submit prompt={translations.promptSuggestions.events.prompt}>
+            <PartyPopper/> {translations.promptSuggestions.events.text}
         </PromptSuggestion>
-        <PromptSuggestion submit prompt="Was gibt's neues?">
-            <Newspaper/> Neuigkeiten
+        <PromptSuggestion submit prompt={translations.promptSuggestions.news.prompt}>
+            <Newspaper/> {translations.promptSuggestions.news.text}
         </PromptSuggestion>
-        <PromptSuggestion submit prompt="Wie melde ich mein Kind an?">
-            <FileUser/> Wie melde ich mein Kind an?
+        <PromptSuggestion submit prompt={translations.promptSuggestions.signup.prompt}>
+            <FileUser/> {translations.promptSuggestions.signup.text}
         </PromptSuggestion>
     </>
 }

@@ -13,42 +13,64 @@ import {
 } from "@/components/ui/drawer";
 import {useContext} from "react";
 import {ChatContext} from "@/app/ChatContext";
+import {Select, SelectContent, SelectItem, SelectTrigger, SelectValue} from "@/components/ui/select";
+import {languages} from "@/app/languages/languages";
+import {languageHeader} from "@/data/systemPrompt";
+import {useTranslations} from "@/app/languages/useTranslations";
 
 export const ChatDropdownMenu = () => {
-    const {setData, setMessages} = useContext(ChatContext)!;
-    return <Drawer>
-        <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-                <Button variant="ghost" size="icon">
-                    <EllipsisVertical/>
-                </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent>
-                <DrawerTrigger asChild>
-                    <DropdownMenuItem>
-                        <RotateCcw/>
-                        Neu anfangen
-                    </DropdownMenuItem>
-                </DrawerTrigger>
-            </DropdownMenuContent>
-        </DropdownMenu>
-        <DrawerContent>
-            <DrawerHeader>
-                <DrawerTitle>Zurücksetzen</DrawerTitle>
-                <DrawerDescription>Willst du den Chatverlauf wirklich zurücksetzen?</DrawerDescription>
-            </DrawerHeader>
-            <DrawerFooter>
-                <DrawerClose asChild>
-                    <Button variant="outline">Abbrechen</Button>
-                </DrawerClose>
-                <DrawerClose asChild>
-                    <Button variant="destructive"
-                            onClick={() => {
-                                setData([]);
-                                setMessages([]);
-                            }}>Zurücksetzen</Button>
-                </DrawerClose>
-            </DrawerFooter>
-        </DrawerContent>
-    </Drawer>
+    const translations = useTranslations();
+    const {setData, setMessages, language, setLanguage} = useContext(ChatContext)!;
+    return <>
+        <Select value={language} onValueChange={(e) => {
+            setLanguage(e)
+            localStorage.setItem(languageHeader, e);
+        }}>
+            <SelectTrigger>
+                <SelectValue/>
+            </SelectTrigger>
+            <SelectContent>
+                {languages.map((lang) => <SelectItem key={lang.code} value={lang.nativeName}>
+                    {lang.flag}
+                    {" "}
+                    {lang.nativeName}
+                </SelectItem>)}
+            </SelectContent>
+        </Select>
+        <Drawer>
+            <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                    <Button variant="ghost" size="icon">
+                        <EllipsisVertical/>
+                    </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent>
+                    <DrawerTrigger asChild>
+                        <DropdownMenuItem>
+                            <RotateCcw/>
+                            {translations.reset.restart}
+                        </DropdownMenuItem>
+                    </DrawerTrigger>
+                </DropdownMenuContent>
+            </DropdownMenu>
+            <DrawerContent>
+                <DrawerHeader>
+                    <DrawerTitle>{translations.reset.reset}</DrawerTitle>
+                    <DrawerDescription>{translations.reset.description}</DrawerDescription>
+                </DrawerHeader>
+                <DrawerFooter>
+                    <DrawerClose asChild>
+                        <Button variant="outline">{translations.cancel}</Button>
+                    </DrawerClose>
+                    <DrawerClose asChild>
+                        <Button variant="destructive"
+                                onClick={() => {
+                                    setData([]);
+                                    setMessages([]);
+                                }}>{translations.reset.reset}</Button>
+                    </DrawerClose>
+                </DrawerFooter>
+            </DrawerContent>
+        </Drawer>
+    </>
 }

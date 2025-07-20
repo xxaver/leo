@@ -1,0 +1,43 @@
+import {Deutsch} from "@/app/languages/deutsch";
+
+export const English: typeof Deutsch = {
+    cancel: "Cancel",
+    reset: {
+        restart: "Start Over",
+        reset: "Reset",
+        description: "Do you really want to reset the chat history?"
+    },
+    input: {
+        warning: "AI is making mistakes. Please check important information.",
+        placeholder: "👋 How can I help you?",
+        send: "Send"
+    },
+    welcome: {
+        h1: `Hi there! I’m ${process.env.NEXT_PUBLIC_ASSISTANT_NAME} 🦁`,
+        subtitle: "I'm a chat assistant of Gymnasium Weingarten, developed during the 2025 project days for the school's 50th anniversary.",
+        help: "I can help with questions about:",
+        help2: "Feel free to ask me your question!"
+    },
+    promptSuggestions: {
+        general: {
+            prompt: "Tell me more about the Gymnasium Weingarten and its facilities",
+            text: "General Information"
+        },
+        timetable: {
+            prompt: "What's a typical timetable like?",
+            text: "Typical Timetable"
+        },
+        events: {
+            prompt: "What events are coming up next?",
+            text: "Events"
+        },
+        news: {
+            prompt: "What's on the news?",
+            text: "News"
+        },
+        signup: {
+            prompt: "How can I register my child?",
+            text: "Register Child"
+        }
+    }
+}
