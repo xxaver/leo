@@ -56,13 +56,23 @@ export const EntityView: FC<{
             <td className="flex items-center gap-1.5 text-muted-foreground mr-2">{table[e]}{translations.entityTable[e]}</td>
             <td>{format[e] ? format[e](entity) : entity[e]}</td>
         </tr>).filter(Boolean);
+    const Element = entity.element;
 
-    const related = entity.related?.map((e, i) => <EntityView entity={e} key={e.id}
-                                                              size="small"
-                                                              listener={() => setStack(stack => [...stack, e])}/>)
+    const relatedItems = entity.related?.map((e, i) =>
+        <EntityView entity={e} key={e.id}
+                    size="small"
+                    listener={() => setStack(stack => {
+                        if (stack.includes(e)) return stack.slice(0, stack.indexOf(e) + 1)
+                        return [...stack, e]
+                    })}/>)
+    
+    const related = !listener && (relatedItems?.length || 0) > 0 && size !== "small" && <>
+        <div className="text-muted-foreground text-sm">Weitere Informationen</div>
+        <div className="flex mt-1 gap-3 flex-wrap">{relatedItems}</div>
+    </>
 
     return <div
-        className={`bg-background border p-4 rounded-sm grow ${listener ? "cursor-pointer hover:border-muted-foreground transition" : "border-red-300"}`}
+        className={`bg-background border p-4 rounded-sm ${listener ? "cursor-pointer hover:border-muted-foreground transition" : "border-red-300 grow"} ${size === "small" ? "text-sm" : ""}`}
         onClick={listener}>
         {/*return <div className="bg-[var(--decent)] p-4 rounded-sm grow">*/}
         <div className="flex items-baseline gap-2">
@@ -78,18 +88,19 @@ export const EntityView: FC<{
                 </a>
             </Button>}
         </div>
-        <div className="mt-4 flex sm:items-start gap-5 sm:flex-row flex-col items-center">
+        {entity.type === "form" && size !== "small" && <div className="mt-3"><Element/></div>}
+        <div className="flex sm:items-start gap-5 sm:flex-row flex-col items-center">
             {size !== "small" && (entity.image || entity.parent?.image) &&
                 <img src={entity.image || entity.parent?.image} alt=""
-                     className="w-48 sm:w-24 md:w-48 rounded-md"/>
+                     className="w-48 sm:w-24 md:w-48 rounded-md mt-3"/>
             }
             <div>
                 {(entity.description || entity.parent?.description) &&
-                    <div className={size === "small"
+                    <div className={"mt-3 " + (size === "small"
                         ? "line-clamp-1"
                         : size === "medium"
                             ? "line-clamp-[4]"
-                            : "line-clamp-[10]"}>
+                            : "line-clamp-[10]")}>
                         {entity.description || entity.parent?.description}
                     </div>}
                 {inTable.length > 0 && <table className="mt-3">
@@ -97,15 +108,17 @@ export const EntityView: FC<{
                     {inTable}
                     </tbody>
                 </table>}
-                {related?.length > 0 && size !== "small" && <div className="hidden md:flex mt-4 gap-3">{related}</div>}
+                {related && <div className="hidden md:block mt-3">{related}</div>}
             </div>
         </div>
-        {related?.length > 0 && size !== "small" && <div className="md:hidden mt-4 gap-3">{related}</div>}
-        {size === "small" && !listener && <div className="flex mt-3">
-            <div className="grow"/>
-            <Button onClick={() => setSize("large")} className="cursor-pointer">
-                Mehr anzeigen
-            </Button>
-        </div>}
+        {related && <div className="md:hidden mt-3">{related}</div>}
+        {
+            size === "small" && !listener && <div className="flex mt-3">
+                <div className="grow"/>
+                <Button onClick={() => setSize("large")} className="cursor-pointer">
+                    Mehr anzeigen
+                </Button>
+            </div>
+        }
     </div>
 }

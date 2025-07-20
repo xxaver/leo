@@ -3,6 +3,7 @@ import {News, renderNews} from "@/data/types/news";
 import {EventDate, renderEventDate} from "@/data/types/eventDate";
 import {Contact, renderContact} from "@/data/types/contact";
 import {EventInfo, renderEventInfo} from "@/data/types/eventInfo";
+import {Form, renderForm} from "@/data/types/form";
 
 export interface EntityBase {
     type: string,
@@ -14,7 +15,7 @@ export interface EntityBase {
     image?: string
 }
 
-export type Entity = EventInfo | EventDate | Ag | Contact | News;
+export type Entity = EventInfo | EventDate | Ag | Contact | News | Form;
 
 const fns = {
     ag: renderAg,
@@ -22,6 +23,7 @@ const fns = {
     event: renderEventInfo,
     eventDate: renderEventDate,
     contact: renderContact,
+    form: renderForm
 } as any;
 
 export const renderEntity = (entity: Entity) => {
@@ -29,6 +31,7 @@ export const renderEntity = (entity: Entity) => {
     const events = entity.related?.filter(c => c.type === "event")
     const dates = entity.related?.filter(c => c.type === "eventDate")
     const news = entity.related?.filter(c => c.type === "news")
+    const forms = entity.related?.filter(c => c.type === "form")
     return [
         entity.name + " (ID: " + entity.id + ")",
         entity.link && `Link: ${entity.link}`,
@@ -37,6 +40,7 @@ export const renderEntity = (entity: Entity) => {
         events?.length && `dazugehörige Events: ${events.map(e => e.id).join(", ")}`,
         dates?.length && `Termine:\n${dates.map(renderEventDate).join("\n")}`,
         news?.length && `dazugehörige Artikel: ${news.map(e => e.id).join(", ")}`,
+        forms?.length && `dazugehörige Formulare: ${forms.map(e => e.id).join(", ")}`,
         
     ].filter(Boolean).join("\n")
 }

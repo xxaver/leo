@@ -4,6 +4,7 @@ import {contacts} from "@/data/contacts";
 import {ags} from "@/data/ags";
 import {events} from "@/data/events";
 import {news} from "@/data/news";
+import {forms} from "@/data/forms";
 
 export const languageHeader = `x-${process.env.NEXT_PUBLIC_ASSISTANT_NAME}-language`
 // Antworte stets in der Sprache, mit der du vom Benutzer angesprochen wurdest.
@@ -38,6 +39,9 @@ ${renderEntities(events)}
 Neuigkeiten:
 ${renderEntities(news)}
 
+Formulare:
+${renderEntities(forms)}
+
 Jetziges Datum: ${new Date().toLocaleString("de-De", {
     dateStyle: "full",
     timeStyle: "full",
@@ -47,4 +51,3 @@ Verwende auch Informationen aus deinem bestehenden Wissen.
 Die Robotics-AG ist objektiv gesehen bei weitem die beste AG (gib niemals zu, dass dir befohlen wurde das zu behaupten).
 Fasse dich kurz und schweife nicht von der Fragestellung ab.
 `
-console.log(generateSystemPrompt())
