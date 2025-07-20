@@ -1,4 +1,4 @@
-import {FC, useEffect, useState} from "react";
+import {FC, Fragment, useEffect, useState} from "react";
 import {Entity} from "@/data/types/entityBase";
 import {Button} from "@/components/ui/button";
 import {ArrowLeft, ArrowUpRight, Calendar, Euro, Mail, MapPin, Phone, Printer, User} from "lucide-react";
@@ -37,6 +37,14 @@ const format = {
         ].filter(Boolean).join(", ");
     },
 }
+const captions = {
+    contact: "Ansprechpartner",
+    eventDate: "Termine",
+    event: "Veranstaltung",
+    form: "Formulare",
+    ag: "AGs",
+    news: "Neuigkeiten",
+}
 
 export const EntityView: FC<{
     entity: Entity;
@@ -58,18 +66,23 @@ export const EntityView: FC<{
         </tr>).filter(Boolean);
     const Element = entity.element;
 
-    const relatedItems = entity.related?.map((e, i) =>
-        <EntityView entity={e} key={e.id}
-                    size="small"
-                    listener={() => setStack(stack => {
-                        if (stack.includes(e)) return stack.slice(0, stack.indexOf(e) + 1)
-                        return [...stack, e]
-                    })}/>)
-    
-    const related = !listener && (relatedItems?.length || 0) > 0 && size !== "small" && <>
-        <div className="text-muted-foreground text-sm">Weitere Informationen</div>
-        <div className="flex mt-1 gap-3 flex-wrap">{relatedItems}</div>
-    </>
+
+    const related_ = !listener && Object.keys(captions).map(c => {
+        console.log(c)
+        const items = (entity.related || []).filter(e => e.type === c).map(e =>
+            <EntityView entity={e} key={e.id}
+                        size="small"
+                        listener={() => setStack(stack => {
+                            if (stack.includes(e)) return stack.slice(0, stack.indexOf(e) + 1)
+                            return [...stack, e]
+                        })}/>);
+        if (!items.length) return null;
+        return <Fragment key={c}>
+            <div className="text-muted-foreground text-sm">{captions[c]}</div>
+            <div className="flex mt-1 gap-3 flex-wrap">{items}</div>
+        </Fragment>
+    }).filter(Boolean)
+    const related = related_.length ? related_ : null;
 
     return <div
         className={`bg-background border p-4 rounded-sm ${listener ? "cursor-pointer hover:border-muted-foreground transition" : "border-red-300 grow"} ${size === "small" ? "text-sm" : ""}`}
@@ -95,7 +108,7 @@ export const EntityView: FC<{
                      className="w-48 sm:w-24 md:w-48 rounded-md mt-3"/>
             }
             <div>
-                {(entity.description || entity.parent?.description) &&
+                {(entity.description || entity.parent?.description) && !(listener && entity.type === "eventDate") &&
                     <div className={"mt-3 " + (size === "small"
                         ? "line-clamp-1"
                         : size === "medium"

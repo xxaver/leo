@@ -15,6 +15,6 @@ export const rothmaier =  {
     id: "rothmaier",
     type: "contact",
     name: "Herr Rothmaier",
-    description: "Leiter der Robotics-AG"
+    // description: "Leiter der Robotics-AG"
 }
 export const contacts = [sekretariat];

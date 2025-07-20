@@ -38,6 +38,7 @@ export const Chat: FC = () => {
     useEffect(() => {
         scrollRef.current?.scrollIntoView({behavior: "smooth"});
     }, [messages]);
+    console.log(messages)
 
     return <ChatContext value={{...chat, inputRef, language, setLanguage}}>
         <div className="flex flex-col h-screen overflow-hidden min-w-0">
