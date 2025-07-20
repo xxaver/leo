@@ -32,4 +32,10 @@ ${renderEntities(events)}
 
 Neuigkeiten:
 ${renderEntities(news)}
+
+Jetziges Datum: ${new Date().toLocaleString("de-De", {
+    dateStyle: "full",
+    timeStyle: "full"   
+})}
 `
+console.log(systemPrompt)

@@ -4,13 +4,13 @@ import {Contact} from "@/data/types/contact";
 export interface News extends EntityBase {
     type: "news",
     date?: number,
-    text?: string,
+    description?: string,
     images?: string[],
 }
 
 export const renderNews = (news: News) => {
     return [
         news.date && new Date(news.date).toLocaleString("de-DE"),
-        news.text,
+        news.description,
     ]
 }

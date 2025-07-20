@@ -15,7 +15,7 @@ export const Welcome: FC = () => {
                 <div className="mb-4 text-muted-foreground flex justify-center">
                     <div className="max-w-[40em]">
                         der Chat-Assistent des Gymnasium Weingartens,
-                        der im Rahmen der Projekttage 2025 zum 50-jährigen Jubiläum des Gymnasiums Weingarten
+                        der während der Projekttage 2025 zum 50-jährigen Jubiläum des Gymnasiums Weingarten
                         entwickelt wurde.
                     </div>
                 </div>

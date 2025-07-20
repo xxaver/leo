@@ -20,7 +20,6 @@ export async function POST(req: Request) {
                 });
                 let i = 0;
                 for await (const str of result.textStream) {
-                    console.log(str)
                     if (i === 0) {
                         const id = v4();
                         dataStream.write(`f:${JSON.stringify({

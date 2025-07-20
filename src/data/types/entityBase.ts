@@ -9,7 +9,9 @@ export interface EntityBase {
     id: string,
     name?: string,
     link?: string
-    related?: Entity[]
+    related?: Entity[];
+    parent?: Entity;
+    image?: string
 }
 
 export type Entity = EventInfo | EventDate | Ag | Contact | News;

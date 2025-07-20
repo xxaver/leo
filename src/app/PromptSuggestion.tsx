@@ -14,7 +14,6 @@ export const PromptSuggestion: FC<PropsWithChildren<{ prompt: string; submit?: b
                         role: "user",
                         content: prompt,
                     });
-                    console.log("Submitting")
                 }
                 else {
                     inputRef.current?.focus();

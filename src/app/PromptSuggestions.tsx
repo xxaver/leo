@@ -9,7 +9,6 @@ import {Separator} from "@/components/ui/separator";
 export const PromptSuggestions: FC = () => {
     const {messages} = useContext(ChatContext)!;
     const latest = useMemo(() => {
-        console.log(messages)
         if (!messages) return [];
         const m = [...messages.reverse()];
         for (const message of m) {
