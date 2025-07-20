@@ -8,7 +8,8 @@ export const getSchema = () => z.object({
             text: z.string().optional().describe("The normal response text. You are encouraged to use markdown as usual."),
             showDetails: z.object({
                 id: createLiterals(all),
-                size: createLiterals(["small", "medium", "large"]).describe("The size of the card. The more directly the user asked for this object, the larger the card should be."),
+                size: createLiterals(["small", "medium", "large"])
+                    .describe("The size of the card. It should be 'small' expect if the user extremely specifically asked for this specific object"),
             }).describe("Shows information about the given ID. " +
                 "If the user doesn't specifically ask for a specific date of an event, use the id of the event in general instead of multiple ids of specific dates.").array().optional(),
         })

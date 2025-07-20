@@ -9,4 +9,10 @@ export const sekretariat: Contact = {
     fax: "+49 751 561921-60",
     email: "poststelle@gym-weingarten.schule.bwl.de",
 };
+export const rothmaier =  {
+    id: "rothmaier",
+    type: "contact",
+    name: "Herr Rothmaier",
+    description: "Leiter der Robotics-AG"
+}
 export const contacts = [sekretariat];

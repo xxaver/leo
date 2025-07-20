@@ -1,4 +1,5 @@
 import {Ag} from "@/data/types/ag";
+import {rothmaier} from "@/data/contacts";
 
 export const robotics: Ag = {
     id: "robotics-ag",
@@ -13,12 +14,7 @@ export const robotics: Ag = {
         endDate: "Freitag, 15:30 Uhr",
     }],
     related: [
-        {
-            id: "rothmaier",
-            type: "contact",
-            name: "Herr Rothmaier",
-            description: "Ansprechpartner"
-        }
+       rothmaier
     ],
     link: "https://robotics.gymnasium-weingarten.de/"
 }

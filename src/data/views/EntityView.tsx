@@ -42,7 +42,8 @@ export const EntityView: FC<{
     entity: Entity;
     listener?: () => void;
     size?: "medium" | "small" | "large"
-}> = ({entity: entity_, listener}) => {
+}> = ({entity: entity_, listener, size: size_}) => {
+    const [size, setSize] = useState<"medium" | "small" | "large">(size_ || "medium");
     const [stack, setStack] = useState([entity_]);
     useEffect(() => {
         setStack([entity_])
@@ -57,6 +58,7 @@ export const EntityView: FC<{
         </tr>).filter(Boolean);
 
     const related = entity.related?.map((e, i) => <EntityView entity={e} key={e.id}
+                                                              size="small"
                                                               listener={() => setStack(stack => [...stack, e])}/>)
 
     return <div
@@ -77,13 +79,17 @@ export const EntityView: FC<{
             </Button>}
         </div>
         <div className="mt-4 flex sm:items-start gap-5 sm:flex-row flex-col items-center">
-            {!listener && (entity.image || entity.parent?.image) &&
+            {size !== "small" && (entity.image || entity.parent?.image) &&
                 <img src={entity.image || entity.parent?.image} alt=""
                      className="w-48 sm:w-24 md:w-48 rounded-md"/>
             }
             <div>
-                {(!listener || !inTable.length) && (entity.description || entity.parent?.description) &&
-                    <div className={listener ? "line-clamp-[4]" : "line-clamp-[10]"}>
+                {(entity.description || entity.parent?.description) &&
+                    <div className={size === "small"
+                        ? "line-clamp-1"
+                        : size === "medium"
+                            ? "line-clamp-[4]"
+                            : "line-clamp-[10]"}>
                         {entity.description || entity.parent?.description}
                     </div>}
                 {inTable.length > 0 && <table className="mt-3">
@@ -95,5 +101,11 @@ export const EntityView: FC<{
             </div>
         </div>
         {related?.length > 0 && <div className="md:hidden mt-4 gap-3">{related}</div>}
+        {size !== "large" && !listener && <div className="flex mt-3">
+            <div className="grow" />
+            <Button onClick={() => setSize("medium")} className="cursor-pointer">
+                Mehr anzeigen
+            </Button>
+        </div>}
     </div>
 }
