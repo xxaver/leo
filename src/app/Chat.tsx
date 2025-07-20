@@ -1,6 +1,6 @@
 "use client";
 
-import {FC, useEffect, useRef} from "react";
+import {FC, useEffect, useMemo, useRef} from "react";
 import {useChat} from "@ai-sdk/react";
 import Image from "next/image";
 import {Welcome} from "@/app/Welcome";
@@ -13,11 +13,13 @@ export const Chat: FC = () => {
     const chat = useChat();
     const inputRef = useRef<HTMLInputElement>(null);
     const scrollRef = useRef<HTMLInputElement>(null);
-    const {messages, status} = chat;
+    const {status} = chat;
+    const messages = useMemo(() => [...chat.messages].sort((a, b) => a.createdAt!.valueOf() - b.createdAt!.valueOf()), [chat.messages])
 
     useEffect(() => {
         scrollRef.current?.scrollIntoView({behavior: "smooth"});
     }, [messages]);
+    console.log(chat, chat.messages.map(e => e.createdAt!.valueOf()), messages)
 
     return <ChatContext value={{...chat, inputRef}}>
         <div className="flex flex-col h-screen overflow-hidden min-w-0">
@@ -54,7 +56,7 @@ export const Chat: FC = () => {
                         </div>
                     </div>
                 )}
-                <div ref={scrollRef} />
+                <div ref={scrollRef}/>
             </div>
             <ChatInput/>
         </div>
