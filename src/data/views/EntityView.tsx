@@ -110,13 +110,13 @@ export const EntityView: FC<{
             <div>
                 {(entity.description || entity.parent?.description) && !(listener && entity.type === "eventDate") &&
                     <div className={"mt-3 " + (size === "small"
-                        ? "line-clamp-1"
+                        ? "not-hover:line-clamp-1"
                         : size === "medium"
-                            ? "line-clamp-[4]"
-                            : "line-clamp-[10]")}>
+                            ? "not-hover:line-clamp-[4]"
+                            : "not-hover:line-clamp-[10]")}>
                         {entity.description || entity.parent?.description}
                     </div>}
-                {inTable.length > 0 && <table className="mt-3">
+                {inTable.length > 0 && !(listener && entity.type !== "eventDate") && <table className="mt-3">
                     <tbody>
                     {inTable}
                     </tbody>

@@ -7,6 +7,7 @@ import {ChatContext} from "@/app/ChatContext";
 import {PromptSuggestions} from "@/app/PromptSuggestions";
 import {ScrollArea} from "@/components/ui/scroll-area";
 import {useTranslations} from "@/app/languages/useTranslations";
+import {Textarea} from "@/components/ui/textarea";
 
 export const ChatInput: FC = () => {
     const translations = useTranslations();
@@ -23,8 +24,13 @@ export const ChatInput: FC = () => {
             if(status === "ready") handleSubmit(e)
             else stop();
         }} className="flex gap-3 border-t px-3 pt-5 pb-2 items-center ">
-            <Input ref={inputRef} name="prompt" value={input} placeholder={translations.input.placeholder}
-                   className="grow md:text-lg p-6" onChange={handleInputChange}/>
+            <Textarea onKeyDown={e => {
+                if(e.key === "Enter" && !e.shiftKey) {
+                    e.preventDefault();
+                    handleSubmit(e)
+                }
+            }} ref={inputRef} rows={1} name="prompt" value={input} placeholder={translations.input.placeholder}
+                   className="grow md:text-lg px-6 py-2.5 min-h-[50px]" onChange={handleInputChange}/>
             <Button asChild variant="destructive">
                 <button type="submit" className="md:text-xl !p-6">
                     <div className="hidden md:shown">{translations.input.send}</div>
