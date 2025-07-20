@@ -20,7 +20,7 @@ export const English: typeof Deutsch = {
     },
     promptSuggestions: {
         general: {
-            prompt: "Tell me more about the Gymnasium Weingarten and its facilities",
+            prompt: "Tell me more about the Gymnasium Weingarten",
             text: "General Information"
         },
         timetable: {

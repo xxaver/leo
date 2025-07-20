@@ -30,7 +30,7 @@ export const ChatDropdownMenu = () => {
                 <SelectValue/>
             </SelectTrigger>
             <SelectContent>
-                {languages.map((lang) => <SelectItem key={lang.code} value={lang.nativeName}>
+                {languages.map((lang) => <SelectItem key={lang.code} value={lang.englishName}>
                     {lang.flag}
                     {" "}
                     {lang.nativeName}

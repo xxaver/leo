@@ -5,5 +5,5 @@ import {Deutsch} from "@/app/languages/deutsch";
 
 export const useTranslations = () => {
     const {language} = useContext(ChatContext)!;
-    return language === "Deutsch" ? Deutsch : English;
+    return language === "German" ? Deutsch : English;
 };

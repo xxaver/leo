@@ -54,7 +54,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                     {parsed?.parts?.map((part, i) => {
                         return <Fragment key={i}>
                             {part.text && <div
-                                className="flex flex-col gap-2 leading-relaxed"
+                                className="flex flex-col gap-2 leading-relaxed text-lg"
                                 onClick={e => {
                                     const target = e.target as HTMLAnchorElement;
                                     if (target.tagName !== "A" || !target.href.startsWith("https://")) return;
@@ -77,7 +77,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                     })}
                 </div>
                 {complete && parsed?.promptSuggestions && parsed.promptSuggestions.length > 0 &&
-                    <div className="flex items-center gap-2 mt-3">
+                    <div className="flex items-center gap-2 mt-3 flex-wrap">
                         {parsed?.promptSuggestions?.map((suggestion, i) => {
                             return <PromptSuggestion prompt={suggestion.full} key={i} submit={!suggestion.editable}>
                                 {suggestion.short || suggestion.full}

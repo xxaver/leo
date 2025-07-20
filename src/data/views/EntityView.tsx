@@ -43,7 +43,6 @@ export const EntityView: FC<{
     listener?: () => void;
     size?: "medium" | "small" | "large"
 }> = ({entity: entity_, listener}) => {
-    console.log(entity_)
     const [stack, setStack] = useState([entity_]);
     useEffect(() => {
         setStack([entity_])
@@ -77,10 +76,10 @@ export const EntityView: FC<{
                 </a>
             </Button>}
         </div>
-        <div className="mt-4 flex items-start gap-5">
+        <div className="mt-4 flex sm:items-start gap-5 sm:flex-row flex-col items-center">
             {!listener && (entity.image || entity.parent?.image) &&
                 <img src={entity.image || entity.parent?.image} alt=""
-                     className="w-24 md:w-48 rounded-md"/>
+                     className="w-48 sm:w-24 md:w-48 rounded-md"/>
             }
             <div>
                 {(!listener || !inTable.length) && (entity.description || entity.parent?.description) &&

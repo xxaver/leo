@@ -27,7 +27,7 @@ export const PromptSuggestions: FC = () => {
                                                          submit={!suggestion.editable}>{suggestion.short || suggestion.full}
         </PromptSuggestion>)}
         {latest.length > 0 && <Separator orientation="vertical" className="bg-red-300 !h-[42px] mx-1"/>}
-        {language !== "Deutsch" && <PromptSuggestion submit prompt="Are there any opportunities for non-German speakers?">
+        {language !== "German" && <PromptSuggestion submit prompt="Are there any opportunities for non-German speakers?">
             <Languages />
             Opportunities for non-Germans
         </PromptSuggestion>}

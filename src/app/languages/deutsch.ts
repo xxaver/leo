@@ -18,7 +18,7 @@ export const Deutsch = {
     },
     promptSuggestions: {
         general: {
-            prompt: "Erzähle mir mehr über das Gymnasium Weingarten und seine Einrichtungen",
+            prompt: "Erzähle mir mehr über das Gymnasium Weingarten",
             text: "Generelle Informationen"
         },
         timetable: {
