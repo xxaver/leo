@@ -17,15 +17,7 @@
     "image": "https://www.gymnasium-weingarten.de/fileadmin/user_upload/IMG_0511.jpeg",
     "link": "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=590&cHash=1c0d8c6b01b323232158d99a7bde77c1"
   },
-  "news_582": {
-    "type": "news",
-    "id": "news_582",
-    "name": "Zum 50-jährigen Jubiläum unserer Schule präsentieren wir: „Der Kleine Prinz“",
-    "description": "Inspiriert von Antoine de Saint-Exupérys zeitlosem Werk, bringen wir dieses Jahr „Der Kleine Prinz“ auf die Bühne. Ursprünglich in den 1940er Jahren geschrieben, haben wir die Geschichte behutsam in unsere Gegenwart übertragen und sie mit Musik aus den 1970er Jahren verbunden – dem Gründungsjahrzehnt des Gymnasiums Weingarten. Wir laden Sie herzlich ein, mit uns auf diese Reise zu gehen! Am 18., 19. und 20. Juli, jeweils um 20:00 Uhr in Halle 4, beginnt unser Theaterabend voller Poesie, Musik und Zeit zum Nachdenken. Feiern Sie mit uns 50 Jahre Gymnasium Weingarten – und lassen Sie sich von einer Geschichte verzaubern, die nach wie vor Generationen verbindet.",
-    "date": 1752969600000,
-    "image": "https://www.gymnasium-weingarten.de/fileadmin/user_upload/1000066610.jpg",
-    "link": "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=582&cHash=bca768db28dbcd76a690f00254729c73"
-  },
+  "news_582": null,
   "news_588": {
     "type": "news",
     "id": "news_588",

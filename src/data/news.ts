@@ -11,4 +11,4 @@ export const lesescouts_17_7_25: News = {
     Wer sich also noch mit Lesestoff für die Ferien eindecken möchte, sollte unbedingt in der Schülerbücherei vorbeischauen. Die Auswahl an neuen Büchern ist groß, eure Ferien sind gerettet!
     Vielen Dank auch an Frau Rapp für ihr Vertrauen in die Lesescouts.`
 }
-export const news = Object.values(actualNews) as News[];
+export const news = Object.values(actualNews).filter(Boolean) as News[];
