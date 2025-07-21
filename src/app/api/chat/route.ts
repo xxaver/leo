@@ -17,16 +17,18 @@ const models = [
     google('gemini-2.5-flash', {
         object: true
     }),
+    google('gemini-2.0-flash', {
+        schema: true
+    }),
     // google('gemini-2.0-flash'),
     // groq("llama-3.1-8b-instant"),
     // groq("llama-3.3-70b-versatile"),
     groq("deepseek-r1-distill-llama-70b"),
     groq("meta-llama/llama-4-scout-17b-16e-instruct"),
-    google('gemini-2.5-flash-lite-preview-06-17'),
     // ollama("gemma3:12b"),
     // ollama("llama3.1:8b"),
     // google('gemini-2.5-pro'),
-    // google('gemini-2.5-flash-lite-preview-06-17'),
+    google('gemini-2.5-flash-lite-preview-06-17'),
     // google('gemini-2.0-flash'),
     // google('gemini-2.0-flash-lite')
 ]
@@ -75,7 +77,7 @@ export async function POST(req: Request) {
                             onFinish: () => {
                                 console.log("FINISH", model)
                             },
-                            system: generateSystemPrompt(req.headers.get(languageHeader) || "Deutsch", object, model.settings?.withSchema),
+                            system: generateSystemPrompt(req.headers.get(languageHeader) || "Deutsch", object, model.settings?.schema),
                             schema: getSchema(),
                             providerOptions: {
                                 groq: {
