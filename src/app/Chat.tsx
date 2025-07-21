@@ -36,7 +36,7 @@ export const Chat: FC = () => {
     const messages = useMemo(() => [...chat.messages].sort((a, b) => a.createdAt!.valueOf() - b.createdAt!.valueOf()), [chat.messages])
 
     useEffect(() => {
-        scrollRef.current?.scrollIntoView({behavior: "smooth"});
+        if(messages.length) scrollRef.current?.scrollIntoView({behavior: "smooth"});
     }, [messages]);
     console.log(messages)
 
