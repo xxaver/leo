@@ -5,6 +5,8 @@ import {getSchema} from "@/data/schema";
 import {v4} from "uuid";
 import {openai} from "@ai-sdk/openai";
 import {ollama} from "ollama-ai-provider";
+import {writeFile} from "node:fs/promises";
+import {knowledge} from "@/data/knowledge";
 
 const models = [
     // ollama("gemma3:12b"),
@@ -71,3 +73,4 @@ export async function POST(req: Request) {
         if(result) return result;
     }
 }
+writeFile("./systemPrompt.txt", knowledge)

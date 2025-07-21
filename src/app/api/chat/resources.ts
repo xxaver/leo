@@ -4,6 +4,7 @@ import {createClient} from "@supabase/supabase-js";
 import {readFile} from "node:fs/promises";
 
 import {target} from "../../../../scraper/config";
+const model = ollama.embedding("mxbai-embed-large")
 
 const generateChunks = (input: string): string[] => {
     return input
@@ -20,12 +21,12 @@ const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_SE
 })
 
 export const generateEmbeddings = async (
-    value: string,
+    value: string[],
     additional: { content: string }[] = [],
 ): Promise<Array<{ embedding: number[]; content: string }>> => {
-    const chunks = generateChunks(value);
+    const chunks = value//generateChunks(value);
     const {embeddings} = await embedMany({
-        model: ollama.embedding("nomic-embed-text"),
+        model,
         values: [...chunks, ...additional.map(a => a.content)],
     });
     return embeddings.map((e, i) => i < chunks.length ? ({
@@ -58,6 +59,7 @@ export const generateEmbeddingsForResources = async () => {
 }
 
 export const generateNewResources = async () => {
+    console.log(await supabase.from("resources").delete().gte("id", 0));
     const scraped = await readFile(`${target}/other.json`, "utf-8").then(JSON.parse);
     const resources = []//(await supabase.from("resources").select("url")).data!;
     await Promise.all(Object.keys(scraped).filter(k => scraped[k]?.content && !resources.some(e => e.url === k)).map(async k => {
@@ -86,13 +88,14 @@ export const generateNewResources = async () => {
     }))
 }
 const test = async () => {
-    const {embedding} = await embed({model: ollama.embedding("nomic-embed-text"), value: "aktivitäten"});
-    // console.log(embedding)
+    const {embedding} = await embed({model, value: "aufführung"});
+    console.log(embedding)
     const {data} = await supabase.rpc("search_embeddings", {
         query_embedding: embedding,
         match_threshold: .5, // choose an appropriate threshold for your data  match_count: 10, // choose the number of matches
-        match_count: 10, // choose the number of matches
+        match_count: 4, // choose the number of matches
     })
+    // console.log(data)
     console.log(data!.map(e => ({content: e.content, resource: e.resource})))
 }
 test();

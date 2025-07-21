@@ -74,7 +74,8 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                                 <div className="flex gap-2 flex-wrap items-start my-3">
                                     {part.showImages.map((e, i) => {
                                         return <div>
-                                            <div className="text-muted-foreground p-1 text-center text-sm">{e.description}</div>
+                                            <div
+                                                className="text-muted-foreground p-1 text-center text-sm">{e.description}</div>
                                             <img
                                                 key={i}
                                                 src={decompressUrls(getUrl(e.url, origins[0]))}
@@ -95,9 +96,9 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                                             key={i}
                                             href={decompressUrls(getUrl(e.url, origins[0]))}
                                             className="border rounded-md p-3 bg-white !text-foreground flex items-center gap-2 not-hover:!no-underline">
-                                            <LucideFile />
+                                            <LucideFile/>
                                             {e.description}
-                                            <ArrowUpRight />
+                                            <ArrowUpRight/>
                                         </a>
                                     })}
                                 </div>}
@@ -112,12 +113,13 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                         </Fragment>
                     })}
                 </div>
-                {complete && parsed?.promptSuggestions && parsed.promptSuggestions.length > 0 &&
+                {parsed?.promptSuggestions && parsed.promptSuggestions.length > 0 &&
                     <div className="flex items-center gap-2 mt-3 flex-wrap">
                         {parsed?.promptSuggestions?.map((suggestion, i) => {
-                            return <PromptSuggestion prompt={suggestion.full} key={i} submit={!suggestion.editable}>
-                                {suggestion.short || suggestion.full}
-                            </PromptSuggestion>
+                            return suggestion.full &&
+                                <PromptSuggestion prompt={suggestion.full} key={i} submit={!suggestion.editable}>
+                                    {suggestion.short || suggestion.full}
+                                </PromptSuggestion>
                         })}
                     </div>}
             </div>

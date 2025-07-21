@@ -18,6 +18,7 @@ const includeContent = (url: string) => {
     return u.pathname !== "/" && u.pathname !== "/aktuelles";
 }
 export const scrapeOther = async (target: string) => {
+    const cache = JSON.parse(await readFile("./scrape-cache.json", "utf-8").catch(() => "{}") || "{}");
     const other = `${target}\\other.json`;
     // const images = `${target}\\images.json`;
     // const documents = `${target}\\documents.json`;
@@ -42,10 +43,15 @@ export const scrapeOther = async (target: string) => {
             if (visited.has(id) || !includeSite(url)) return;
             console.log("Scraping", url)
             visited.add(id);
-            await new Promise(r => setTimeout(r, delay));
 
-            const req = await fetch(url);
-            const text = await req.text();
+            let text;
+            if(cache[url]) text = cache[url];
+            else {
+                await new Promise(r => setTimeout(r, delay));
+                const req = await fetch(url);
+                text = await req.text();
+                cache[url] = text;
+            }
             const dom = new JSDOM(text);
             const document = dom.window.document;
 
@@ -58,7 +64,7 @@ export const scrapeOther = async (target: string) => {
                 if (!main) next[id] = null;
                 else {
                     next[id] = {
-                        content: getInnerText(main),
+                        content: Array.from(main.querySelectorAll("p, h1, h2, h3, h4, h5, h6")).map(getInnerText).filter(Boolean),
                         images: Array.from(document.querySelectorAll<HTMLImageElement>("main img")).map((e) => {
                             const src = getUrl(e.src, origins[0]);
                             return {
@@ -94,6 +100,7 @@ export const scrapeOther = async (target: string) => {
     // const resultDocuments = {...nextDocuments, ...previousDocuments};
     console.log(result)
     await writeFile(other, JSON.stringify(result, null, 2), "utf-8")
+    await writeFile("./scrape-cache.json", JSON.stringify(cache, null, 2), "utf-8")
     // await writeFile(documents, JSON.stringify(resultDocuments, null, 2), "utf-8")
     // await writeFile(images, JSON.stringify(resultImages, null, 2), "utf-8")
 };

@@ -1,3 +1,4 @@
+// import knowledge from "@/data/knowledge.txt";
 import {knowledge} from "@/data/knowledge";
 
 export const languageHeader = `x-${process.env.NEXT_PUBLIC_ASSISTANT_NAME}-language`

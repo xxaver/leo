@@ -40,7 +40,7 @@ Zusammenfassung der Website inklusive Links:
 ${
     Object.keys(other)
         .filter(k => other[k])
-        .map(k => `${k}: ${other[k].content}
+        .map(k => `${k}: ${other[k].content.join("\n")}
          Bilder auf der Seite: ${other[k].images?.map(img => img.description ? `${img.src} (${img.description})` : img.src).join("; ")}
          Dokumente auf der Seite: ${other[k].documents?.map(img => img.description ? `${img.src} (${img.description})` : img.src).join("; ")}`
         ).join("\n")
