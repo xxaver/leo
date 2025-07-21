@@ -1,35 +1,18 @@
 import {JSDOM} from "jsdom"
 import {readFile, writeFile} from "node:fs/promises";
 import {News} from "@/data/types/news";
+import {getInnerText} from "./utils";
 
-const target = "C:\\Users\\Daniel\\WebstormProjects\\gym-wgt-ai\\src\\data\\news.json";
-const getInnerText = (e: Element) => {
-    const step = (e: Element): string[] => {
-        if (e.style.display === "none") return [];
-        const result: string[] = [];
-        for (const child of e.childNodes) {
-            if (!child.childNodes.length) result.push(child.textContent!.includes("main text") ? "" : child.textContent!);
-            else result.push(...step(child));
-        }
-        return result;
-    }
-    return step(e).map(e => e.trim()).join(" ")
-        .replace(/\s+/g, " ")
-        .replace(/\s+([.,!?;:])/g, '$1')
-        .trim();
-}
-
-const main = async () => {
+export const scrapeNews = async (target: string) => {
     const previous: Record<string, News> = JSON.parse(await readFile(target, "utf-8").catch(() => "{}") || "{}")
     const next: Record<string, News> = {};
 
     const request = await fetch("https://www.gymnasium-weingarten.de/")
     const text = await request.text()
     const jsdom = new JSDOM(text);
-    const doc = jsdom.window.document;
+    const document = jsdom.window.document;
     const links = Array.from<HTMLAnchorElement>(
-        doc.querySelectorAll("main a"))
-        // .filter(e => e.checkVisibility())
+        document.querySelectorAll("main a"))
         .map(e => e.href)
         .filter(e => e.startsWith("/aktuelles/"))
 
@@ -46,11 +29,11 @@ const main = async () => {
 
         const r = await fetch(url);
         const text = await r.text();
-        const doc = new JSDOM(text).window.document;
-        const name = getInnerText(doc.querySelector("main h1")!);
-        const description = getInnerText(doc.querySelector("main .article .row")!);
-        const date = doc.querySelector("main time")!.getAttribute("datetime")!;
-        const image = doc.querySelector("main img")!.src;
+        const document = new JSDOM(text).window.document;
+        const name = getInnerText(document.querySelector("main h1")!);
+        const description = getInnerText(document.querySelector("main .article .row")!);
+        const date = document.querySelector("main time")!.getAttribute("datetime")!;
+        const image = document.querySelector("main img")!.src;
 
         next[id] = {
             type: "news",
@@ -67,4 +50,3 @@ const main = async () => {
     console.log(result)
     await writeFile(target, JSON.stringify(result, null, 2), "utf-8")
 }
-main();

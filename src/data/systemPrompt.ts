@@ -5,6 +5,7 @@ import {ags} from "@/data/ags";
 import {events} from "@/data/events";
 import {news} from "@/data/news";
 import {forms} from "@/data/forms";
+import other from "@/data/other.json";
 
 export const languageHeader = `x-${process.env.NEXT_PUBLIC_ASSISTANT_NAME}-language`
 // Antworte stets in der Sprache, mit der du vom Benutzer angesprochen wurdest.
@@ -41,6 +42,9 @@ ${renderEntities(news)}
 
 Formulare:
 ${renderEntities(forms)}
+
+Zusammenfassung der Website inklusive Links:
+${Object.keys(other).filter(k => other[k]).map(k => `${k}: ${other[k]}`).join("\n")}
 
 Jetziges Datum: ${new Date().toLocaleString("de-De", {
     dateStyle: "full",
