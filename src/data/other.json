@@ -1,5 +1,6 @@
 {
   "https://www.gymnasium-weingarten.de/menschen/schulleitungsteam": {
+    "title": "Schulleitungsteam",
     "content": [
       "Schulleitungsteam",
       "Das Schulleitungsteam des Gymnasiums Weingarten besteht aus:",
@@ -24,6 +25,7 @@
     ]
   },
   "https://www.gymnasium-weingarten.de/menschen/verwaltung": {
+    "title": "Sekretariat",
     "content": [
       "Sekretariat",
       "Wenn Sie Fragen zur Schule haben, dann wenden Sie sich an unsere Sekretärinnen bzw. wunderbaren Hausengel:",
@@ -40,6 +42,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/menschen/lehrerinnen-und-lehrer": {
+    "title": "Kollegium",
     "content": [
       "Kollegium"
     ],
@@ -57,6 +60,7 @@
     ]
   },
   "https://www.gymnasium-weingarten.de/menschen/schuelerinnen-und-schueler": {
+    "title": "Das Gymnasium Weingarten wird 50!",
     "content": [
       "Das Gymnasium Weingarten wird 50!"
     ],
@@ -74,6 +78,7 @@
     ]
   },
   "https://www.gymnasium-weingarten.de/menschen/schuelerinnen-und-schueler/smv": {
+    "title": "SMV - SchülerMitVerantwortung",
     "content": [
       "SMV - SchülerMitVerantwortung",
       "Anstehende Ereignisse:",
@@ -86,6 +91,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/menschen/schuelerinnen-und-schueler/jgr": {
+    "title": "Jugendgemeinderat ",
     "content": [
       "Wusstest Du das der Jugendgemeinderat Weingarten der älteste Jungendgemeinderat Deutschlands ist?",
       "Jugendgemeinderat",
@@ -106,6 +112,7 @@
     ]
   },
   "https://www.gymnasium-weingarten.de/menschen/oberstufenberatung": {
+    "title": "Oberstufenberatung",
     "content": [
       "Oberstufenberatung",
       "Katja Rilling und Cornelius Lehmann organisieren alle Belange rund um die gymnasiale Kursstufe.",
@@ -133,6 +140,7 @@
   },
   "https://www.gymnasium-weingarten.de/menschen/ak-elternmitwirkung": null,
   "https://www.gymnasium-weingarten.de/menschen/schulsozialarbeit": {
+    "title": "Schulsozialarbeit",
     "content": [
       "Schulsozialarbeit",
       "Realschule und Gymnasium Weingarten",
@@ -168,6 +176,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/menschen/beratungslehrerin": {
+    "title": "Beratungslehrerin",
     "content": [
       "Beratungslehrerin",
       "Was macht eine Beratungslehrerin eigentlich?",
@@ -194,6 +203,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/menschen/multimediaberatung": {
+    "title": "Multimediaberatung",
     "content": [
       "Multimediaberatung",
       "Eine Zusammenstellung der Gedanken von Schulleiter, Multimediaberatern und Schulsozialarbeit zum Umgang mit den modernen Medien finden Sie HIER.",
@@ -215,6 +225,7 @@
     ]
   },
   "https://www.gymnasium-weingarten.de/menschen/praktikantinnen-und-praktikanten": {
+    "title": "Orientierungspraktikum",
     "content": [
       "Praxissemester",
       "Schulpraxissemester am Gymnasium Weingarten für Studierende des Lehramts an Gymnasien in Baden-Württemberg",
@@ -261,6 +272,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/menschen/ehemaligenverein": {
+    "title": "Willkommen im Club",
     "content": [
       "Willkommen im Club",
       "Hallo Internetsurfende! Hier sind sie also, die Seiten des »Vereins der Freunde und Ehemaligen des Gymnasiums Weingarten e.V.«. Hier gibt es alles über unsere Arbeit und unsere alte Schule, alle Newsletter, Infos zu den Aktiven des Vereins und mehr. Wir hoffen, viele finden hierher und stöbern ein bisschen in unserem Angebot, lassen alte Erinnerungen wieder wach werden oder sagen sogar: »Ich mach mit!« Also viel Vergnügen …",
@@ -277,6 +289,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/menschen/wer-macht-was": {
+    "title": "Organisationsplan",
     "content": [
       "Organisationsplan",
       "... hier als pdf."
@@ -299,6 +312,7 @@
     ]
   },
   "https://www.gymnasium-weingarten.de/profile/nwt": {
+    "title": "NwT",
     "content": [
       "NwT",
       "Naturwissenschaft und Technik",
@@ -347,6 +361,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/profile/spanisch": {
+    "title": "Spanisch",
     "content": [
       "Spanisch",
       "Se habla español",
@@ -382,6 +397,7 @@
     ]
   },
   "https://www.gymnasium-weingarten.de/profile/sport": {
+    "title": "Sport",
     "content": [
       "Sport",
       "Das Sportprofil:",
@@ -416,6 +432,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/konzepte/leitbild": {
+    "title": "Leitbild",
     "content": [
       "Leitbild",
       "Am Gymnasium Weingarten tätig sein heißt Verantwortung übernehmen!",
@@ -438,6 +455,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/konzepte/foerderkonzept": {
+    "title": "Drei Säulen im Umgang mit Heterogenität",
     "content": [
       "Drei Säulen im Umgang mit Heterogenität",
       "Lernwerkstatt – was ist das?",
@@ -454,6 +472,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/konzepte/praevention": {
+    "title": "Prävention",
     "content": [
       "Prävention",
       "Der Arbeitskreis beschäftigt sich mit dem weiten Feld der Präventionsarbeit am Gymnasium Weingarten.",
@@ -499,6 +518,7 @@
     ]
   },
   "https://www.gymnasium-weingarten.de/schulleben/arbeitsgemeinschaften": {
+    "title": "Ein buntes Schulleben mit Veranstaltungen, Ausfahrten und Schullandheimen bieten bleibende soziale und kulturelle Erfahrungen",
     "content": [
       "Ein buntes Schulleben mit Veranstaltungen, Ausfahrten und Schullandheimen bieten bleibende soziale und kulturelle Erfahrungen",
       "Ob Jonglage, Innenhofgestaltung, Imkerei, Skaten, Kreatives, Sanitätsdienst oder Robotics – unsere AGs bereichern das Schulleben, ergänzen und vertiefen den Unterricht, fördern das soziale Lernen und stärken so das Wir-Gefühl am Gymnasium Weingarten.",
@@ -553,6 +573,7 @@
     ]
   },
   "https://www.gymnasium-weingarten.de/schulleben/loewentage-2024": {
+    "title": "Impressionen",
     "content": [
       "Impressionen"
     ],
@@ -842,6 +863,7 @@
     ]
   },
   "https://www.gymnasium-weingarten.de/schulleben/arbeitsgemeinschaften/imkerei": {
+    "title": "Sommer 2025 - Es blüht und der erste Honig wird geschleudert",
     "content": [
       "Sommer 2025 - Es blüht und der erste Honig wird geschleudert",
       "50 Jahre Projekttage in unserem Biotop mit Klasse 5 und 6",
@@ -852,6 +874,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/schulleben/kunstunterricht": {
+    "title": "Impressionen aus dem Kunstunterricht",
     "content": [
       "Impressionen aus dem Kunstunterricht",
       "Hier finden Sie regelmäßig wechselnde Bilder aus dem Kunstunterricht an unserem Gymnasium.",
@@ -7964,6 +7987,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/schulleben/kummerkasten-fuer-digitales": {
+    "title": "Kummerkasten für Digitales",
     "content": [
       "Kummerkasten für Digitales"
     ],
@@ -7976,6 +8000,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/schulleben/bogy": {
+    "title": "BOGY",
     "content": [
       "BOGY",
       "Das Kürzel steht für die Abkürzung B erufs o rientierung am Gy mnasium. BOGY ist ein Prozess, der Berufs- und Studienorientierung, der an unserem Gymnasium in Klasse 9 beginnt und sich kontinuierlich bis Klasse 12 fortsetzt.",
@@ -7995,6 +8020,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/schulleben/mensa": {
+    "title": "Mensa",
     "content": [
       "Mensa",
       "Die Mensa am Gymnasium Weingarten, die Mitte 2006 eröffnet wurde, ist Teil des Konzepts für die offene Ganztagsschule.",
@@ -8021,6 +8047,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/schulleben/team-courage": {
+    "title": "Hallo! Wir sind das Team Courage!",
     "content": [
       "Hallo! Wir sind das Team Courage!",
       "Jede zweite Woche treffen wir uns zum Mittagessen in der Mittagspause im Schülercafé. Wir- das sind Schüler*innen aus verschiedenen Klassen und Lehrer*innen. Wir haben den Mittagstisch gegründet, weil wir uns so einmal ungezwungen begegnen können- ohne schulische Zwänge. Bei einem (oft sehr) leckeren Essen tauschen wir uns über Themen aus, die uns wichtig sind und überlegen uns gemeinsame Projekte. Wir wollen das Schulleben mitgestalten, und setzen uns für ein wohlwollendes und buntes Miteinander ein. Vielleicht hast du mitbekommen, dass wir anlässlich des 75. Jahrestags, an dem die Nationalsozialisten 1933 Bücher von u.a. jüdischen oder Regime kritischen Autor*innen verbrannten, eine Lesung veranstaltet haben? Diese ging über mehrere Schultage und die Schulgemeinschaft las nonstop ihre Texte vor. Wir haben auch unsere Litfaßsäule zu neuem Leben erweckt, an der wir schon verschiedene Aktionen initiiert haben. Zum Beispiel haben wir dort über Diskriminierung oder Rassismus aufgeklärt oder ein schulinternes Tippspiel zur EM 24 veranstaltet, bei dem wir unsere Nationalmannschaft (Männer) und ihre Nationalitäten und Einstellungen vorgestellt haben. Außerdem haben wir schon T-Shirts und Taschen mit einem bunten Logo mit Siebdruck bedruckt und entwerfen gerade Sticker- seid gespannt!",
@@ -8046,6 +8073,7 @@
     ]
   },
   "https://www.gymnasium-weingarten.de/info-klasse-4/ankommen-am-gymnasium": {
+    "title": "Ankommen am Gymnasium Weingarten",
     "content": [
       "Ankommen am Gymnasium Weingarten",
       "Wir am Gymnasium Weingarten bemühen uns sehr um die \"sanfte Landung\" ihres Kindes an der neuen Schule. Neben den neuen Fächern, neuen Lehrkräften und einem neuen Gebäude gibt es noch viele andere Dinge zu entdecken. Um hiermit möglichst gut zurechtzukommen, haben wir uns auf die drei Bereiche \"Struktur\" (Wie organisiere ich mich an der neue Schule?), \"Emotion\" (Wie fühle ich mich an meiner neuen Schule wohl?) und \"Leistung\" (Wie erfülle ich die erwünschten Anforderungen?) konzentriert.",
@@ -8070,6 +8098,7 @@
     ]
   },
   "https://www.gymnasium-weingarten.de/info-klasse-4/termine": {
+    "title": "Termine",
     "content": [
       "Termine",
       "Liebe Viertklässler, liebe Eltern,",
@@ -8084,6 +8113,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/info-klasse-4/impressionen-vom-tag-der-offenen-tuer": {
+    "title": "Impressionen vom Tag der offenen Tür",
     "content": [
       "Impressionen vom Tag der offenen Tür"
     ],
@@ -8220,6 +8250,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/info-klasse-4/vorstellung": {
+    "title": "Dürfen wir uns vorstellen?",
     "content": [
       "Dürfen wir uns vorstellen?",
       "Willkommen - wir freuen uns, dass Sie sich für unser Gymnasium interessieren!",
@@ -8239,6 +8270,7 @@
     ]
   },
   "https://www.gymnasium-weingarten.de/downloads": {
+    "title": "Formulare und Informationen",
     "content": [
       "Formulare und Informationen",
       "Aktuelles:",
@@ -8351,6 +8383,7 @@
     ]
   },
   "https://www.gymnasium-weingarten.de/kontakt": {
+    "title": "Kontakt",
     "content": [
       "Kontakt",
       "Zum Routenplaner (Google-Maps)",
@@ -8376,6 +8409,7 @@
   "https://www.gymnasium-weingarten.de/datenschutz/": null,
   "https://www.gymnasium-weingarten.de/impressum/": null,
   "https://www.gymnasium-weingarten.de/info-klasse-4/vorstellung/lage-und-atmosphaere": {
+    "title": "Vorstellung des Gymnasiums Weingarten",
     "content": [
       "Vorstellung des Gymnasiums Weingarten",
       "Lage und Atmosphäre unseres Gymnasiums",
@@ -8414,6 +8448,7 @@
     ]
   },
   "https://www.gymnasium-weingarten.de/info-klasse-4/vorstellung/fremdsprachen-und-profile": {
+    "title": "Vorstellung des Gymnasiums Weingarten",
     "content": [
       "Vorstellung des Gymnasiums Weingarten",
       "Wir sind das Gymnasium der 6 Wege",
@@ -8461,6 +8496,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/info-klasse-4/vorstellung/mittagsbetreuung": {
+    "title": "Offenes Ganztagesangebot",
     "content": [
       "Offenes Ganztagesangebot",
       "Wir sind ein Gymnasium mit offenem Ganztagesangebot. Dies bedeutet, dass es einzelne Betreuungsangebote außerhalb des Klassenstundenplans gibt, die alle freiwillig und obendrein kostenlos sind. Über diese Angebote wollen wir Sie hier informieren.",
@@ -8511,6 +8547,7 @@
     ]
   },
   "https://www.gymnasium-weingarten.de/info-klasse-4/vorstellung/schule-ist-mehr": {
+    "title": "Vorstellung des Gymnasiums Weingarten",
     "content": [
       "Vorstellung des Gymnasiums Weingarten",
       "Schule ist mehr als nur ein Ort des Lernens",
@@ -8564,6 +8601,7 @@
     ]
   },
   "https://www.gymnasium-weingarten.de/schulleben/austauschprogramme-und-sprachreisen/barcelona": {
+    "title": "Sprachreise Barcelona",
     "content": [
       "Sprachreise Barcelona",
       "An unserem Gymnasium lernen einige Schülerinnen und Schüler Spanisch. Natürlich lernt man eine Sprache, um sie sprechen zu können, also um sich im anderen spanischsprechenden Menschen verständigen zu können. Ob wir dieses Ziel erreicht haben, testen wir Ende des dritten Lernjahres, also in der Klasse 10, mit unserer Sprachreise nach Barcelona. Alle Schülerinnen und Schüler der Spanischkurse dürfen teilnehmen und eine Woche in der wohl schönsten katalanischen Stadt an der Ostküste der iberischen Halbinsel ihre Sprachkenntnisse auf die Probe stellen. Da es sich um eine Sprachreise handelt, verbringen die SchülerInnen drei Vormittage in der Sprachschule. Die Unterrichtsstunden werden von Muttersprachlern durchgeführt und sind in Niveaustufen aufgeteilt. An den Nachmittagen erkunden die begleitenden LehrerInnen mit den SchülerInnen die Stadt. Dabei gibt es ein straffes Programm, denn Barcelona hat allerhand zu bieten. Zu den Highlights zählen u.a. der Besuch der Sagrada Familia, des Parque Güell und des Olympiageländes. Bei schönem Wetter verbringen wir auch Zeit am Strand bei einem selbst organisierten Picknick. Am Abend begeben sich die SchülerInnen zu ihren Gastfamilien, wo sie verpflegt werden und sich auf Spanisch verständigen müssen. Die Woche vergeht immer wie im Fluge, denn Barcelona ist einfach atemberaubend schön und für die SchülerInnen ein unvergessliches Erlebnis. Wir freuen uns auf die kommenden Jahre und hoffen noch viele SchülerInnen für Barcelona und ganz Spanien begeistern zu können."
@@ -8582,6 +8620,7 @@
     ]
   },
   "https://www.gymnasium-weingarten.de/schulleben/austauschprogramme-und-sprachreisen/frankreich": {
+    "title": "Gymnasium Weingarten und Lycée Jean-Paul Sartre in Bron...",
     "content": [
       "Gymnasium Weingarten und Lycée Jean-Paul Sartre in Bron...",
       "... eine lebendige Schulpartnerschaft seit über 25 Jahren",
@@ -8601,6 +8640,7 @@
     ]
   },
   "https://www.gymnasium-weingarten.de/schulleben/austauschprogramme-und-sprachreisen/israel": {
+    "title": "Schüleraustausch zwischen den Partnerschulen \"Ytzhak Rabin\" in Nahariya (Israel), dem Gymnasium Weingarten und dem Welfen-Gymnasium Ravensburg",
     "content": [
       "Schüleraustausch zwischen den Partnerschulen \"Ytzhak Rabin\" in Nahariya (Israel), dem Gymnasium Weingarten und dem Welfen-Gymnasium Ravensburg",
       "Seit 1991 startet der Israelaustausch alle zwei Jahre in eine neue Runde. Schüler*innen der Klasse 9 und 10 können sich bewerben um einen Platz bei diesem ganz besonderen Austauschprogramm. Beteiligt sind zwei deutsche Schulen (Welfengymnasium und Gymnasium Weingarten) und unsere Partnerschule in Naharija, die Amal Comprehensive High School „Ytzhak Rabin“.",
@@ -8618,6 +8658,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/schulleben/austauschprogramme-und-sprachreisen/argentinien": {
+    "title": "Schüleraustausch Argentinien",
     "content": [
       "Schüleraustausch Argentinien",
       "Seit dem Schuljahr 2014/15 findet an unserem Gymnasium ein achtwöchiger Schüleraustausch mit Buenos Aires, Argentinien statt. Dieser Austausch ist eine echte Chance für die teilnehmenden Schülerinnen und Schüler der zehnten Klasse. Zunächst kommen die argentinischen Austauschschüler Ende November nach Deutschland und leben für acht Wochen bei ihren Austauschfamilien, nehmen am Schulalltag teil, machen verschiedene Ausflüge, zum Beispiel nach Berlin und lernen das schöne Oberschwaben kennen. Im Sommer des folgenden Jahres ist es dann für unsere Schüler soweit. Die Koffer werden gepackt für acht Wochen Südamerika. Das bedeutet eine lange Flugreise inklusive vier Stunden Zeitverschiebung und einen Jahreszeitenwechsel, denn wenn es bei uns sommerlich warm ist, ist es in Buenos Aires gerade Winter, also zwischen 10 und 20 Grad. Auch unsere Schüler dürfen das ganz normale Leben in argentinischen Familien und das Schulleben kennenlernen. Eine einwöchige Reise zu den gigantischen Wasserfällen in Iguazú ist für die meisten der Höhepunkt der Reise, ein unvergessliches Erlebnis. Nach dem Austausch stellen die Schüler fest, dass sich ihre Sprachkenntnisse erheblich verbessert haben, sie sprechen jetzt sogar den argentinischen Slang. Außerdem macht sie ein solches Abenteuer selbstständiger, selbstbewusster, offener und eröffnet die Möglichkeit wirklich wertvolle Freundschaften zu knüpfen. Wir freuen uns sehr unseren Schülern diese einzigartige Möglichkeit bieten zu können und hoffen, dieses Austauschprojekt auch in Zukunft weiter ausbauen zu können."
@@ -8631,6 +8672,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/schulleben/austauschprogramme-und-sprachreisen/eastbourne": {
+    "title": "Londonfahrt in Klasse 9",
     "content": [
       "Londonfahrt in Klasse 9",
       "Wir bieten in der 9. Klasse im Frühjahr eine klassenübergreifende Studienreise nach London an. Die Teilnahme ist freiwillig. Über Nacht fahren wir mit Bus und Fähre von Weingarten nach England, wo wir fünf Tage verbringen, um Land und Leute kennenzulernen. Die Unterbringung erfolgt in Kleingruppen in Gastfamilien, die im Stadtgebiet Catford leben. Dort ist man tatsächlich nur zum Übernachten, weil wir tagsüber ein vielfältiges Programm bieten. Zu Fuß, per Bus und U-Bahn erkunden wir das Westend, spazieren an Big Ben, Buckingham Palace und Co. vorbei, gehen in Museen (u.a. Madame Tussaud’s ), besuchen ein Musical, machen eine Fahrt mit dem London Eye und eine Bootsfahrt auf der Themse und vieles mehr. Außerdem fahren wir einmal an die Küste an den schönen Seeort Brighton.",
@@ -8665,6 +8707,7 @@
   "https://www.gymnasium-weingarten.de/menschen/elternbeirat/allgemein/links-zum-thema": null,
   "https://www.gymnasium-weingarten.de/menschen/elternbeirat/elternbeirat-2024-2025/vorsitz-und-kontakt": null,
   "https://www.gymnasium-weingarten.de/menschen/schulsozialarbeit/beratungsangebot": {
+    "title": "Beratungsangebot...",
     "content": [
       "Beratungsangebot...",
       "... für Schülerinnen und Schüler",
@@ -8684,6 +8727,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/menschen/schulsozialarbeit/praeventionsangebote-und-gruppenarbeit": {
+    "title": "Präventionsangebote und Gruppenarbeit",
     "content": [
       "Präventionsangebote und Gruppenarbeit",
       "Soziales Lernen",
@@ -8701,6 +8745,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/menschen/schulsozialarbeit/offene-angebote": {
+    "title": "Offene Angebote",
     "content": [
       "Offene Angebote",
       "Spieletreff - Der offene Spieletreff in unseren Räumen bietet die Gelegenheit, über die Mittagszeit verschiedene Spiele für drinnen und draußen auszuleihen und an Tischen oder auf dem Pausenhof zu spielen. Der Treff ist offen für alle Schüler/innen aus Gymnasium und Realschule und kostenlos. Die Öffnungszeiten sind Montag – Donnerstag jeweils 12:40 bis 13.50 Uhr und es braucht keine Anmeldung."
@@ -8714,6 +8759,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/menschen/praktikantinnen-und-praktikanten/praxissemester": {
+    "title": "Schulpraxissemester",
     "content": [
       "Schulpraxissemester",
       "Liebe Studentinnen, liebe Studenten,",
@@ -8738,6 +8784,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/menschen/praktikantinnen-und-praktikanten/orientierungspraktikum": {
+    "title": "Dreiwöchiges Orientierungspraktikum ",
     "content": [
       "Dreiwöchiges Orientierungspraktikum",
       "Ein Orientierungstest und ein dreiwöchiges Orientierungspraktikum sind verpflichtender Bestandteil Ihres Lehramtsstudiums für Gymnasien in Baden- Württemberg. Das Orientierungspraktikum wird im Bachelorstudiengang absolviert.",
@@ -8753,6 +8800,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/menschen/ehemaligenverein/termine-und-aktuelles": {
+    "title": "Termine und Aktuelles",
     "content": [
       "Termine und Aktuelles",
       "Eine wichtige Bitte an alle Mitglieder*innen:",
@@ -8763,6 +8811,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/menschen/ehemaligenverein/vorstands-team": {
+    "title": "Das Vorstandsteam",
     "content": [
       "Das Vorstandsteam"
     ],
@@ -8791,6 +8840,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/menschen/ehemaligenverein/mitgliederbereich": {
+    "title": "Mitgliederbereich",
     "content": [
       "Mitgliederbereich",
       "Hier könnt ihr euch im Mitgliedsbereich des Vereins der Freunde und Ehemaligen des Gymnasium Weingarten anmelden.",
@@ -8803,6 +8853,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/menschen/ehemaligenverein/aufnahmeformular": {
+    "title": "Aufnahmeformular",
     "content": [
       "Aufnahmeformular",
       "Ihr habt euch entscheiden den Verein zu unterstützen und die Zukunft aktiv mitzugestalten?",
@@ -8814,6 +8865,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/menschen/ehemaligenverein/ruhestandskollegen": {
+    "title": "Ruhestandskollegen",
     "content": [
       "Ruhestandskollegen",
       "Der »Club im Club« für alle Lehrerkräfte, die sich ein Berufsleben lang mit der Schuljugend herumgeplagt haben und nun unser aller Schicksal teilen: Ehemalige zu sein. Für viele ehemaligen Schüler*innen waren sie die prägenden Gesichter der eigenen Schulzeit und markante Persönlichkeiten – da sind wir uns einig – die es heute nicht mehr oft gibt.",
@@ -8825,6 +8877,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/menschen/ehemaligenverein/kontakt": {
+    "title": "Kontakt",
     "content": [
       "Kontakt",
       "Verein der Freunde und Ehemaligen des Gymnasiums Weingarten e.V.",
@@ -8842,6 +8895,7 @@
     "documents": []
   },
   "https://www.gymnasium-weingarten.de/menschen/verwaltung#c7": {
+    "title": "Sekretariat",
     "content": [
       "Sekretariat",
       "Wenn Sie Fragen zur Schule haben, dann wenden Sie sich an unsere Sekretärinnen bzw. wunderbaren Hausengel:",
@@ -8856,5 +8910,13 @@
     ],
     "images": [],
     "documents": []
+  },
+  "https://www.gymnasium-weingarten.de/fileadmin/user_upload/Downloads/Entschuldigungsregelung_5-10_23.pdf": {
+    "title": "Entschuldigungsregelung Klasse 5 bis 10",
+    "content": ["Schuljahr 2022/23 \nBeurlaubungen vom Unterricht (z.B. aus familiären Gründen, wegen unumgänglicher\nArzttermine, …) sind grundsätzlich mindestens 2 Tage vor der Abwesenheit beim\nKlassenlehrer (bis zu einem Tag) oder beim Schulleiter (mehr als einen Tag) zu beantragen.\nSchulische Termine (insbesondere Klassenarbeitstermine) sind generell vorrangig.\nBei allen Fehlzeiten gilt: Der Schüler / die Schülerin ist selbst für das Nachlernen des Stoffes\nverantwortlich.\nKrankheitsbedingte Abwesenheit:\n\uF0F1 Am ersten Tag hat am Vormittag eine telefonische oder schriftliche Entschuldigung durch\ndie Eltern über das Sekretariat zu erfolgen.\n\uF0F1 Dem Klassenlehrer muss spätestens innerhalb von drei weiteren Schultagen eine\nschriftliche Entschuldigung vorliegen. Entschuldigungen können als Brief, Fax oder\nals Scan der schriftlichen Entschuldigung abgegeben bzw. gesendet werden.\nVorzeitiges Verlassen des Unterrichts:\n\uF0F1 Der Schüler / die Schülerin holt sich im Sekretariat einen Laufzettel und meldet sich\ndamit beim Lehrer der folgenden Stunde ab.\n\uF0F1 Die Eltern bestätigen auf dem Laufzettel, dass sie vom vorzeitigen Verlassen Kenntnis\ngenommen haben und der Schüler / die Schülerin gibt den Laufzettel baldmöglichst beim\nKlassenlehrer ab.\nKonsequenzen:\nBei Verstößen gegen diese Festlegung gelten folgende Regelungen:\n\uF0F1 Bei Erkrankung an Tagen, an welchen eine Klassenarbeit angesetzt ist, ist der Schüler\nverpflichtet, dies unverzüglich im Sekretariat zu melden (Tel. 0751/561921-50).\n\uF0F1 Fehlt der Schüler unentschuldigt, wird die Klassenarbeit mit der Note 6 bewertet!\n\uF0F1 Häufiges Fehlen kann auf Beschluss der Klassenkonferenz in der Halbjahresinformation\nund/oder im Zeugnis vermerkt werden (§ 5 – NVO).\n\uF0F1 Unentschuldigtes Fehlen wird mit Nachsitzen geahndet."]
+  },
+  "https://www.gymnasium-weingarten.de/fileadmin/user_upload/Downloads/Entschuldigungsregelung_11-12.pdf": {
+    "title": "Entschuldigungsregelung Klasse 11 bis 12",
+    "content": ["Schuljahr 2022/23 \nBeurlaubungen vom Unterricht (z.B. aus familiären Gründen, für die Führerscheinprüfung, …)\nsind grundsätzlich mindestens 2 Tage vor der Abwesenheit beim Tutor oder Schulleiter zu\nbeantragen.\nSchulische Termine (insbesondere Klausurtermine) sind generell vorrangig!\nKrankheitsbedingte Abwesenheit:\n1. Am ersten Tag hat vor dem individuellen Unterrichtsbeginn eine fernmündliche oder\nschriftliche Entschuldigung (durch den volljährigen Schüler oder die Eltern) über das\nSekretariat zu erfolgen.\n2. Dem Tutor muss spätestens innerhalb von drei weiteren Schultagen eine schriftliche\nEntschuldigung vorliegen (siehe Anwendungsbeispiel). Entschuldigungen können als\nBrief, Fax oder als Scan der schriftlichen Entschuldigung abgegeben bzw. gesendet\nwerden.\n3. Wenn ein Schüler eine Klausur versäumt hat, erkundigt er sich zeitnah beim Fachlehrer, ob\nein Nachtermin für die Klausur oder eine Abfrage angesetzt wird.\nKonsequenzen:\nBei Verstößen gegen diese Festlegung gelten folgende Regelungen:\n• Wenn innerhalb von 3 Tagen nach Krankmeldung dem Tutor keine schriftliche\nEntschuldigung vorliegt, führt die Nichtteilnahme an einer Klausur zu der Bewertung\nmit 0-Notenpunkten (siehe 2.)\n• Hat ein Schüler mehr als 6 Fehlzeiten, so kann auf Beschluss der\nJahrgangsstufenkonferenz eine entsprechende Bemerkung (z.B. „fehlt häufig“) in das\nZeugnis aufgenommen werden. Hierfür wird nicht nur der Umfang der versäumten\nStunden (Fehlstunden) berücksichtigt, sondern auch die Menge der Fehlzeiten. Wer z.B.\nsechsmal eine Stunde fehlt, hat 6 Fehlzeiten; wer eine Woche im Krankenhaus ist, hat eine\nFehlzeit.\nVorzeitiges Verlassen des Unterrichts:\n• Der Schüler / die Schülerin holt sich im Sekretariat einen Laufzettel und meldet sich damit\nbeim Lehrer der folgenden Stunde ab.\n• Bei noch nicht 18-jährigen bestätigen die Eltern auf dem Laufzettel, dass sie vom\nvorzeitigen Verlassen Kenntnis genommen haben. Der Schüler / die Schülerin gibt den\nLaufzettel baldmöglichst unterschrieben beim Tutor ab.\nbitte wenden\n→\nGymnasium Weingarten Fax: 0751/561-921-60 – Tel.: 0751/561-921-50\nBrechenmacherstr. 19 Homepage: www.gymnasium-weingarten.de\nD-88250 Weingarten Mail: poststelle@gym-weingarten.schule.bwl.de\nVersäumnisblatt:\nJeder Schüler erhält ein persönliches Versäumnisblatt, das folgendermaßen zu führen ist:\n1. Jeder Schüler ist verpflichtet, das Versäumnisblatt ordnungsgemäß zu führen und auf\nAufforderung jederzeit vorlegen zu können!\n2. Bei Unterrichtsversäumnissen ist für jeden Tag eine Zeile zu verwenden. Der Schüler trägt\nin der oberen Zeile das Fach ein, addiert die versäumten Stunden und gibt den Grund des\nFehlens an.\n3. Der Schüler legt spätestens in der ersten Unterrichtsstunde, in der er wieder anwesend\nist, dem jeweiligen Fachlehrer unaufgefordert das Versäumnisblatt vor. Der Fachlehrer\nunterzeichnet mit seinem Namenskürzel die bei ihm versäumten Stunden und vermerkt in\nseinem Kurstagebuch, dass der Schüler entschuldigt ist.\n4. Bei Fehlzeiten von mehr als 5 Tagen wird – abweichend von 2. – folgendermaßen\nverfahren:\n◦ Unter „Datum“ wird der Zeitraum (z.B. 15.09. - 29.09.) eingetragen.\n◦ Der Schüler addiert gewissenhaft die Zahl der versäumten Stunden und trägt dies ein.\n5. Bei Beurlaubungen wird entsprechend verfahren mit dem Unterschied, dass der Schüler\nvorher beim Tutor oder Schulleiter einen schriftlichen Antrag stellt. Der Tutor oder\nSchulleiter vermerkt unter „Grund des Fehlens“ „beurlaubt“ mit Datum und Unterschrift.\n6. Ein volles Versäumnisblatt wird im Sekretariat abgegeben, wo der Schüler ein neues erhält.\nAnwendungsbeispiel für die Kursstufe zur Entschuldigungsregelung:\nAnwendungsbeispiel:\nFritz ruft am Montag im Sekretariat an um sich krank zu melden.\nDie Klausur wird am Mittwoch geschrieben.\nDer Tutor erhält die schriftliche Entschuldigung am Freitag.\nFolge: Fritz erhält 0 Punkte.\nWarum? Die Entschuldigung hätte dem Tutor am Donnerstag vorliegen müssen.\nAusnahme: Schwerwiegende Verhinderungsgründe wie z.B. Verkehrsunfall,\nKrankenhausaufenthalt usw.\nInformation für die Klassenstufe 12: Im verkürzten Kurshalbjahr 12/2 gilt für die Fehlzeiten nicht\nder Grenzwert 6 Fehlzeiten, sondern 4 Fehlzeiten!\nHinweis in Corona-Zeiten:\n1. Bitte beim Auftreten von COVID-Symptomen unbedingt zuhause bleiben.\n2. Quarantäne wird vom Gesundheitsamt angeordnet und wird daher nicht als Fehlzeit\ngezählt.\n3. Eine Quarantäne zählt aber dann als Fehlzeit, wenn sie durch eine private Fahrt in ein\nvorher bekanntes Risikogebiet selbst verursacht wird.\n4. Bitte immer die Schule informieren!"]
   }
 }

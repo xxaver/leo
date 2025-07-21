@@ -64,6 +64,7 @@ export const scrapeOther = async (target: string) => {
                 if (!main) next[id] = null;
                 else {
                     next[id] = {
+                        title: (main.querySelector("h1") || main.querySelector("h2") || main.querySelector("h3") || main.querySelector("h4"))?.textContent,
                         content: Array.from(main.querySelectorAll("p, h1, h2, h3, h4, h5, h6")).map(getInnerText).filter(Boolean),
                         images: Array.from(document.querySelectorAll<HTMLImageElement>("main img")).map((e) => {
                             const src = getUrl(e.src, origins[0]);

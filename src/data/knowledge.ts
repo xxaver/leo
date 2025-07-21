@@ -8,8 +8,17 @@ import {events} from "@/data/events";
 import other from "@/data/other.json";
 import entschuldigung from "@/data/entschuldigungspraxis_neu.txt";
 import {compressUrls} from "@/data/formatUrls";
+import {formatOther} from "@/data/types/other";
 
-export const knowledge = compressUrls(`Wichtige Links:
+export const knowledge = `Wichtige Links:
+Website: https://www.gymnasium-weingarten.de/
+WebUntis (Stundenplan, Vertretungsplan): https://perseus.webuntis.com/WebUntis/?school=gym-weingarten#/basic/login
+Moodle: https://bw.schule/login
+NextCloud (gleiche Zugangsdaten wie bei den Computern intern): https://cloud.gymnasium-weingarten.de/nextcloud/login
+`;
+
+
+export const fullKnowledge = compressUrls(`Wichtige Links:
 Website: https://www.gymnasium-weingarten.de/
 WebUntis (Stundenplan, Vertretungsplan): https://perseus.webuntis.com/WebUntis/?school=gym-weingarten#/basic/login
 Moodle: https://bw.schule/login
@@ -40,9 +49,6 @@ Zusammenfassung der Website inklusive Links:
 ${
     Object.keys(other)
         .filter(k => other[k])
-        .map(k => `${k}: ${other[k].content.join("\n")}
-         Bilder auf der Seite: ${other[k].images?.map(img => img.description ? `${img.src} (${img.description})` : img.src).join("; ")}
-         Dokumente auf der Seite: ${other[k].documents?.map(img => img.description ? `${img.src} (${img.description})` : img.src).join("; ")}`
-        ).join("\n")
+        .map(formatOther).join("\n")
 }
 `)
