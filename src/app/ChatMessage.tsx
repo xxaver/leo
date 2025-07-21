@@ -14,6 +14,7 @@ import {all} from "@/data/all";
 import {getUrl} from "../../scraper/utils";
 
 import {origins} from "../../scraper/config";
+import {decompressUrls} from "@/data/formatUrls";
 
 export const ChatMessageLogo: FC<{ role: "system" | "user" | "assistant" | "data" }> = ({role}) => {
     return <div
@@ -76,7 +77,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                                             <div className="text-muted-foreground p-1 text-center text-sm">{e.description}</div>
                                             <img
                                                 key={i}
-                                                src={getUrl(e.url, origins[0])}
+                                                src={decompressUrls(getUrl(e.url, origins[0]))}
                                                 alt={e.description}
                                                 width={500}
                                                 title={e.description}
@@ -92,7 +93,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                                         return <a
                                             target="_blank"
                                             key={i}
-                                            href={getUrl(e.url, origins[0])}
+                                            href={decompressUrls(getUrl(e.url, origins[0]))}
                                             className="border rounded-md p-3 bg-white !text-foreground flex items-center gap-2 not-hover:!no-underline">
                                             <LucideFile />
                                             {e.description}

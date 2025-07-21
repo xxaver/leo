@@ -1,15 +1,19 @@
 import {google} from '@ai-sdk/google';
-import {createDataStreamResponse, streamObject} from 'ai';
+import {createDataStreamResponse, streamObject, streamText} from 'ai';
 import {generateSystemPrompt, languageHeader} from "@/data/systemPrompt";
 import {getSchema} from "@/data/schema";
 import {v4} from "uuid";
+import {openai} from "@ai-sdk/openai";
+import {ollama} from "ollama-ai-provider";
 
 const models = [
+    // ollama("gemma3:12b"),
+    // ollama("llama3.1:8b"),
     google('gemini-2.5-flash'),
-    google('gemini-2.5-pro'),
-    google('gemini-2.5-flash-lite-preview-06-17'),
-    google('gemini-2.0-flash'),
-    google('gemini-2.0-flash-lite')
+    // google('gemini-2.5-pro'),
+    // google('gemini-2.5-flash-lite-preview-06-17'),
+    // google('gemini-2.0-flash'),
+    // google('gemini-2.0-flash-lite')
 ]
 
 export const maxDuration = 30;

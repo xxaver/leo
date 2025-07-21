@@ -31,6 +31,7 @@ export const scrapeOther = async (target: string) => {
     const previous: Record<string, string> = JSON.parse(await readFile(target, "utf-8").catch(() => "{}") || "{}")
     const next: Record<string, string> = {};
     const visited = new Set<string>(Object.keys(previous));
+    let count = 0;
 
     const scrapeSite = async (url: string) => {
         try {
@@ -52,38 +53,30 @@ export const scrapeOther = async (target: string) => {
                 document.querySelectorAll("a"))
 
             if (includeContent(url)) {
+                count++;
                 const main = document.querySelector("main")!;
                 if (!main) next[id] = null;
                 else {
-                    next[id] = getInnerText(main);
-                    let done = false;
-                    document.querySelectorAll<HTMLImageElement>("main img").forEach((e) => {
-                        const src = getUrl(e.src, url);
-                        if (false) {
-                        }// if (e.alt) nextImages[src] = nextImages[src] ? nextImages[src] + "; " + e.alt : e.alt;
-                        else {
-                            if (!done) next[id] += "| BILDER auf dieser Seite:";
-                            done = true;
-                            next[id] += " " + e.src;
-                            if(e.alt) next[id] += "(" + e.alt + ")";
-                            next[id] += ";";
-                        }
-                    })
-
-                    done = false;
-                    links.forEach(e => {
-                        const href = getUrl(e.href, url);
-                        if (!e.href.includes("/fileadmin/")) return;
-                        if (false) {
-                            // nextDocuments[href] = nextImages[href] ? nextImages[href] + "; " + e.textContent! : e.textContent!;
-                        } else {
-                            if (!done) next[id] += "| DOKUMENTE auf dieser Seite:";
-                            done = true;
-                            next[id] += " " + e.href;
-                            if(e.textContent) next[id] += "(" + e.textContent + ")";
-                            next[id] += ";";
-                        }
-                    })
+                    next[id] = {
+                        content: getInnerText(main),
+                        images: Array.from(document.querySelectorAll<HTMLImageElement>("main img")).map((e) => {
+                            const src = getUrl(e.src, origins[0]);
+                            return {
+                                src,
+                                description: e.alt,
+                            }
+                        }),
+                        documents: Array.from(document.querySelectorAll<HTMLAnchorElement>("main a"))
+                            .filter(e => e.href.includes("/fileadmin/"))
+                            .map((e) => {
+                            const href = getUrl(e.href, origins[0]);
+                            // if (!e.href.includes("/fileadmin/")) return;
+                            return {
+                                src: href,
+                                description: e.textContent,
+                            }
+                        })
+                    };
                 }
             }
 
@@ -95,6 +88,7 @@ export const scrapeOther = async (target: string) => {
         }
     }
     await Promise.all(start.map(scrapeSite))
+    console.log("ANZAHL SEITEN:", count)
     const result = {...next, ...previous};
     // const resultImages = {...nextImages, ...previousImages};
     // const resultDocuments = {...nextDocuments, ...previousDocuments};
