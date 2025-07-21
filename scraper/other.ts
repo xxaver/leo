@@ -29,7 +29,7 @@ export const scrapeOther = async (target: string) => {
     // const previousDocuments: Record<string, string> = JSON.parse(await readFile(documents, "utf-8").catch(() => "{}") || "{}")
     // const nextDocuments: Record<string, string> = {};
 
-    const previous: Record<string, string> = JSON.parse(await readFile(target, "utf-8").catch(() => "{}") || "{}")
+    const previous: Record<string, string> = JSON.parse(await readFile(other, "utf-8").catch(() => "{}") || "{}")
     const next: Record<string, string> = {};
     const visited = new Set<string>(Object.keys(previous));
     let count = 0;

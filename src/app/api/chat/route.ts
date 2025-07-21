@@ -17,9 +17,9 @@ const models = [
     google('gemini-2.5-flash', {
         object: true
     }),
-    google('gemini-2.0-flash', {
-        schema: true
-    }),
+    // google('gemini-2.0-flash', {
+    //     schema: true
+    // }),
     // google('gemini-2.0-flash'),
     // groq("llama-3.1-8b-instant"),
     // groq("llama-3.3-70b-versatile"),
