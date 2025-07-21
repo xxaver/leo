@@ -3,7 +3,8 @@ export const Deutsch = {
     reset: {
         restart: "Neu anfangen",
         reset: "Zurücksetzen",
-        description: "Willst du den Chatverlauf wirklich zurücksetzen?"
+        description: "Willst du den Chatverlauf wirklich zurücksetzen?",
+        newChat: "Neuer Chat"
     },
     input: {
         warning: "KI macht Fehler. Überprüfe wichtige Informationen.",
@@ -20,6 +21,10 @@ export const Deutsch = {
         general: {
             prompt: "Erzähle mir mehr über das Gymnasium Weingarten",
             text: "Generelle Informationen"
+        },
+        apology: {
+            prompt: "Ich bin krank und kann morgen nicht in die Schule kommen. Was müssen meine Eltern tun?",
+            text: "Entschuldigungspraxis"
         },
         timetable: {
             prompt: "Wie sieht ein typischer Stundenplan aus?",

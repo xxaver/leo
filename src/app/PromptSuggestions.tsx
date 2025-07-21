@@ -3,7 +3,7 @@ import {ChatContext} from "@/app/ChatContext";
 import {z} from "zod";
 import {getSchema} from "@/data/schema";
 import {PromptSuggestion} from "@/app/PromptSuggestion";
-import {CalendarClock, FileUser, Info, Languages, Newspaper, PartyPopper} from "lucide-react";
+import {Bed, CalendarClock, FileUser, Info, Languages, Newspaper, PartyPopper} from "lucide-react";
 import {Separator} from "@/components/ui/separator";
 import {useTranslations} from "@/app/languages/useTranslations";
 
@@ -34,6 +34,9 @@ export const PromptSuggestions: FC = () => {
         <PromptSuggestion submit prompt={translations.promptSuggestions.general.prompt}>
             <Info/> {translations.promptSuggestions.general.text}
             {/*📚 Generelle Informationen*/}
+        </PromptSuggestion>
+        <PromptSuggestion submit prompt={translations.promptSuggestions.apology.prompt}>
+            <Bed/> {translations.promptSuggestions.apology.text}
         </PromptSuggestion>
         {/*<PromptSuggestion submit prompt="Zeige mir aktuelle Termine.">*/}
         {/*    <Calendar/> Termine*/}

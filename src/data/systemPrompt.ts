@@ -6,6 +6,7 @@ import {events} from "@/data/events";
 import {news} from "@/data/news";
 import {forms} from "@/data/forms";
 import other from "@/data/other.json";
+import entschuldigung from "@/data/entschuldigungspraxis_neu.txt";
 
 export const languageHeader = `x-${process.env.NEXT_PUBLIC_ASSISTANT_NAME}-language`
 // Antworte stets in der Sprache, mit der du vom Benutzer angesprochen wurdest.
@@ -39,6 +40,9 @@ ${renderEntities(events)}
 
 Neuigkeiten:
 ${renderEntities(news)}
+
+Entschuldigungsregelung:
+${entschuldigung}
 
 Formulare:
 ${renderEntities(forms)}

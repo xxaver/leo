@@ -5,7 +5,8 @@ export const English: typeof Deutsch = {
     reset: {
         restart: "Start Over",
         reset: "Reset",
-        description: "Do you really want to reset the chat history?"
+        description: "Do you really want to reset the chat history?",
+        newChat: "New Chat"
     },
     input: {
         warning: "AI is making mistakes. Please check important information.",
@@ -22,6 +23,10 @@ export const English: typeof Deutsch = {
         general: {
             prompt: "Tell me more about the Gymnasium Weingarten",
             text: "General Information"
+        },
+        apology: {
+            prompt: "I'm sick and can't come to school tomorrow. What must my parents do?",
+            text: "Apology Policy"
         },
         timetable: {
             prompt: "What's a typical timetable like?",

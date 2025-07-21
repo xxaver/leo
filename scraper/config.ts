@@ -1,0 +1,1 @@
+export const origins = ["https://www.gymnasium-weingarten.de"];

@@ -1,6 +1,6 @@
 import {DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger} from "@/components/ui/dropdown-menu";
 import {Button} from "@/components/ui/button";
-import {EllipsisVertical, RotateCcw} from "lucide-react";
+import {EllipsisVertical, Plus, RotateCcw} from "lucide-react";
 import {
     Drawer,
     DrawerClose,
@@ -38,21 +38,27 @@ export const ChatDropdownMenu = () => {
             </SelectContent>
         </Select>
         <Drawer>
-            <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                    <Button variant="ghost" size="icon">
-                        <EllipsisVertical/>
-                    </Button>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent>
-                    <DrawerTrigger asChild>
-                        <DropdownMenuItem>
-                            <RotateCcw/>
-                            {translations.reset.restart}
-                        </DropdownMenuItem>
-                    </DrawerTrigger>
-                </DropdownMenuContent>
-            </DropdownMenu>
+            {/*<DropdownMenu>*/}
+            {/*    <DropdownMenuTrigger asChild>*/}
+            {/*        <Button variant="ghost" size="icon">*/}
+            {/*            <EllipsisVertical/>*/}
+            {/*        </Button>*/}
+            {/*    </DropdownMenuTrigger>*/}
+            {/*    <DropdownMenuContent>*/}
+            {/*        <DrawerTrigger asChild>*/}
+            {/*            <DropdownMenuItem>*/}
+            {/*                <RotateCcw/>*/}
+            {/*                {translations.reset.restart}*/}
+            {/*            </DropdownMenuItem>*/}
+            {/*        </DrawerTrigger>*/}
+            {/*    </DropdownMenuContent>*/}
+            {/*</DropdownMenu>*/}
+            <DrawerTrigger asChild>
+                <Button variant="outline">
+                    <Plus/>
+                    {translations.reset.newChat}
+                </Button>
+            </DrawerTrigger>
             <DrawerContent>
                 <DrawerHeader>
                     <DrawerTitle>{translations.reset.reset}</DrawerTitle>
