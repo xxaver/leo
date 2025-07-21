@@ -6,7 +6,7 @@ export const getInnerText = (e: Element) => {
         return Array.from(e.childNodes).flatMap(step);
     }
     return step(e).map(e => e.trim()).join(" ")
-        .replace(/\s+/g, " ")
+        // .replace(/\s+/g, " ")
         .replace(/\s+([.,!?;:])/g, '$1')
         .trim();
 }

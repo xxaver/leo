@@ -6,6 +6,7 @@ import {PromptSuggestion} from "@/app/PromptSuggestion";
 import {Bed, CalendarClock, FileUser, Info, Languages, Newspaper, PartyPopper} from "lucide-react";
 import {Separator} from "@/components/ui/separator";
 import {useTranslations} from "@/app/languages/useTranslations";
+import {findSuggestions} from "@/app/ChatMessage";
 
 export const PromptSuggestions: FC = () => {
     const translations = useTranslations();
@@ -15,7 +16,8 @@ export const PromptSuggestions: FC = () => {
         const m = [...messages.reverse()];
         for (const message of m) {
             try {
-                return (JSON.parse(message.content) as z.infer<ReturnType<typeof getSchema>>).promptSuggestions || [];
+                const suggestions = findSuggestions(JSON.parse(message.content))
+                if(suggestions.length > 0) return suggestions;
             } catch {
             }
         }

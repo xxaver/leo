@@ -14,10 +14,20 @@ import {groq} from "@ai-sdk/groq";
 const mapName = ([k, e]: any) => e?.title || k.split("/").reverse().find(Boolean) || k;
 
 const models = [
-    // groq("deepseek-r1-distill-llama-70b"),
+    google('gemini-2.5-flash', {
+        withSchema: false,
+        object: true
+    }),
+    // google('gemini-2.0-flash'),
+    // groq("llama-3.1-8b-instant"),
+    // groq("llama-3.3-70b-versatile"),
+    groq("deepseek-r1-distill-llama-70b"),
+    groq("meta-llama/llama-4-scout-17b-16e-instruct"),
+    google('gemini-2.5-flash-lite-preview-06-17', {
+        withSchema: false
+    }),
     // ollama("gemma3:12b"),
     // ollama("llama3.1:8b"),
-    google('gemini-2.0-flash'),
     // google('gemini-2.5-pro'),
     // google('gemini-2.5-flash-lite-preview-06-17'),
     // google('gemini-2.0-flash'),
@@ -26,7 +36,7 @@ const models = [
 console.log(Object.entries(other).map(mapName))
 const tools: ToolSet = {
     getInformation: tool({
-        description: `read the contents of articles from the official Gymnasium Weingarten website. use this to gather information when answering questions.`,
+        description: `read the contents of articles from the official Gymnasium Weingarten website. use this to gather information when answering questions. use this whenever applicable.`,
         parameters: z.object({
             articles: z.array(createLiterals(Object.entries(other).map(mapName))).describe('the articles to read'),
         }),
@@ -46,17 +56,17 @@ export async function POST(req: Request) {
     const {messages} = await req.json();
 
     for (const model of models) {
-        const result = new Promise(resolve => {
+        const result = await new Promise(resolve => {
             const response = createDataStreamResponse({
                 onError: error => {
-                    console.error(error);
+                    // console.error(error);
+                    resolve(null)
                     return error.toString();
                 },
                 execute: async dataStream => {
                     try {
-                        const object = false //model.provider.startsWith("google");
-                        // console.log(model)
-                        const result = (object ? streamObject: streamText)({
+                        const object = model.settings?.object //model.provider.startsWith("google");
+                        const result = (object ? streamObject : streamText)({
                             maxSteps: 5,
                             model,
                             tools,
@@ -65,7 +75,10 @@ export async function POST(req: Request) {
                                 console.error(model, e)
                                 resolve(null)
                             },
-                            system: generateSystemPrompt(req.headers.get(languageHeader) || "Deutsch", object),
+                            onFinish: () => {
+                                console.log("FINISH", model)
+                            },
+                            system: generateSystemPrompt(req.headers.get(languageHeader) || "Deutsch", object, model.settings?.withSchema),
                             schema: getSchema(),
                             providerOptions: {
                                 groq: {

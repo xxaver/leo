@@ -15,7 +15,9 @@ import {getUrl} from "../../scraper/utils";
 
 import {origins} from "../../scraper/config";
 import {decompressUrls} from "@/data/formatUrls";
-
+export const findSuggestions = (parsed: z.infer<ReturnType<typeof getSchema>>) => {
+    return parsed?.promptSuggestions || parsed?.parts?.findLast(e => e.promptSuggestions)?.promptSuggestions || [];
+}
 export const ChatMessageLogo: FC<{ role: "system" | "user" | "assistant" | "data" }> = ({role}) => {
     return <div
         className={`w-8 h-8 sm:w-12 overflow-hidden sm:h-12 rounded-full flex items-center justify-center shadow-md shrink-0 ${
@@ -35,6 +37,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
     const parsed = (message.role === "assistant" && parsed_) || {
         parts: [{text: message.content}],
     };
+    const suggestions = findSuggestions(parsed_);
 
     return <div
         className={`mb-6 flex ${message.role === "user" ? "sm:justify-end" : "sm:justify-start"} justify-stretch`}>
@@ -67,7 +70,9 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                                     window.open(target.href, "_blank");
                                 }}
                             >
-                                <Markdown remarkPlugins={[remarkGfm]}>{part.text}</Markdown>
+                                <Markdown remarkPlugins={[remarkGfm]}>{part.text
+                                    // .replace(/([.,!?;:])/g, '$1 ')
+                                }</Markdown>
                                 {/*{part.text}*/}
                             </div>}
                             {part.showImages && part.showImages.length > 0 &&
@@ -80,10 +85,10 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                                                 key={i}
                                                 src={decompressUrls(getUrl(e.url, origins[0]))}
                                                 alt={e.description}
-                                                width={500}
+                                                // width={500}
                                                 title={e.description}
-                                                className="rounded-md"
-                                                // className="object-cover w-96 h-96 rounded-sm"
+                                                // className="rounded-md"
+                                                className="object-cover w-96 h-96 rounded-sm"
                                             />
                                         </div>
                                     })}
@@ -113,9 +118,9 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                         </Fragment>
                     })}
                 </div>
-                {parsed?.promptSuggestions && parsed.promptSuggestions.length > 0 &&
+                {suggestions && suggestions.length > 0 &&
                     <div className="flex items-center gap-2 mt-3 flex-wrap">
-                        {parsed?.promptSuggestions?.map((suggestion, i) => {
+                        {suggestions.map((suggestion, i) => {
                             return suggestion.full &&
                                 <PromptSuggestion prompt={suggestion.full} key={i} submit={!suggestion.editable}>
                                     {suggestion.short || suggestion.full}

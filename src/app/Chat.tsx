@@ -50,7 +50,7 @@ export const Chat: FC = () => {
 
             <div className="flex-1 p-6 overflow-auto min-h-0">
                 {messages.length === 0 && <Welcome/>}
-                {messages.map((message) => <ChatMessage message={message} key={message.id}/>)}
+                {messages.map((message, i) => <ChatMessage message={message} key={message.id || i}/>)}
 
                 {(status === "submitted" || status === "error") && (
                     <div className="flex justify-start mb-6">
