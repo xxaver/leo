@@ -15,7 +15,6 @@ const mapName = ([k, e]: any) => e?.title || k.split("/").reverse().find(Boolean
 
 const models = [
     google('gemini-2.5-flash', {
-        withSchema: false,
         object: true
     }),
     // google('gemini-2.0-flash'),
@@ -23,9 +22,7 @@ const models = [
     // groq("llama-3.3-70b-versatile"),
     groq("deepseek-r1-distill-llama-70b"),
     groq("meta-llama/llama-4-scout-17b-16e-instruct"),
-    google('gemini-2.5-flash-lite-preview-06-17', {
-        withSchema: false
-    }),
+    google('gemini-2.5-flash-lite-preview-06-17'),
     // ollama("gemma3:12b"),
     // ollama("llama3.1:8b"),
     // google('gemini-2.5-pro'),
