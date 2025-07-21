@@ -136,6 +136,10 @@ body {
   }
 }
 
+body, html {
+  overflow: hidden;
+}
+
 a {
   color: blue;
   text-decoration: underline;
