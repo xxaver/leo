@@ -8,7 +8,7 @@ import {ChatMessage, ChatMessageLogo} from "@/app/ChatMessage";
 import {ChatContext} from "@/app/ChatContext";
 import {ChatDropdownMenu} from "@/app/ChatDropdownMenu";
 import {languages} from "@/app/languages/languages";
-import {AlertCircle, X} from "lucide-react";
+import {AlertCircle, ArrowUpRight, X} from "lucide-react";
 import {Button} from "@/components/ui/button";
 import {languageHeader} from "@/data/languageHeader";
 
@@ -45,20 +45,27 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
         initialized.current = true;
     }, []);
     useEffect(() => {
-        if(messages.length) localStorage.setItem("ai-messages", JSON.stringify(messages));
+        if (messages.length) localStorage.setItem("ai-messages", JSON.stringify(messages));
         if (messages.length) scrollRef.current?.scrollIntoView({behavior: "smooth"});
     }, [messages]);
-    
+
 
     return <ChatContext value={{...chat, inputRef, language, setLanguage}}>
         <div className="flex flex-col fixed inset-0 overflow-hidden min-w-0">
-            <div className="border-b p-3 font-medium text-2xl flex items-center gap-3">
+            <div className="border-b p-3 font-medium text-2xl flex items-center gap-2">
                 <ChatMessageLogo role="assistant"/>
                 <h1 className="grow">{process.env.NEXT_PUBLIC_ASSISTANT_NAME}</h1>
                 <ChatDropdownMenu/>
-                {onClose && <Button onClick={onClose} variant="ghost" size="icon" className="shrink-0 cursor-pointer">
-                    <X/>
-                </Button>}
+                {onClose && <>
+                    <Button asChild onClick={onClose} variant="ghost" size="icon" className="shrink-0 cursor-pointer">
+                        <a href="/" target="_blank" className="!text-foreground">
+                            <ArrowUpRight />
+                        </a>
+                    </Button>
+                    <Button onClick={onClose} variant="ghost" size="icon" className="shrink-0 cursor-pointer">
+                        <X/>
+                    </Button>
+                </>}
             </div>
 
             <div className="flex-1 p-6 overflow-auto min-h-0">
