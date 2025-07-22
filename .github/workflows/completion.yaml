@@ -1,0 +1,6 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  completion:
+    runs-on: self-hosted
