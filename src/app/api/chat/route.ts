@@ -18,6 +18,9 @@ const models = [
     google('gemini-2.5-flash', {
         object: true
     }),
+    google('gemini-2.5-flash-lite-preview-06-17', {
+        object: true
+    }),
     // google('gemini-2.0-flash', {
     //     schema: true
     // }),
@@ -25,7 +28,6 @@ const models = [
     // groq("llama-3.1-8b-instant"),
     // groq("llama-3.3-70b-versatile"),
     groq("moonshotai/kimi-k2-instruct", {schema: true}),
-    google('gemini-2.5-flash-lite-preview-06-17'),
     groq("meta-llama/llama-4-maverick-17b-128e-instruct", {schema: false}),
     groq("deepseek-r1-distill-llama-70b", {schema: true}),
     groq("meta-llama/llama-4-scout-17b-16e-instruct", {schema: true}),
