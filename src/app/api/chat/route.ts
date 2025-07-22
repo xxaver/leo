@@ -24,12 +24,14 @@ const models = [
     // google('gemini-2.0-flash'),
     // groq("llama-3.1-8b-instant"),
     // groq("llama-3.3-70b-versatile"),
+    groq("moonshotai/kimi-k2-instruct", {schema: true}),
+    google('gemini-2.5-flash-lite-preview-06-17'),
+    groq("meta-llama/llama-4-maverick-17b-128e-instruct", {schema: false}),
     groq("deepseek-r1-distill-llama-70b", {schema: true}),
-    groq("meta-llama/llama-4-scout-17b-16e-instruct"),
+    groq("meta-llama/llama-4-scout-17b-16e-instruct", {schema: true}),
     // ollama("gemma3:12b"),
     // ollama("llama3.1:8b"),
     // google('gemini-2.5-pro'),
-    google('gemini-2.5-flash-lite-preview-06-17'),
     // google('gemini-2.0-flash'),
     // google('gemini-2.0-flash-lite')
 ]

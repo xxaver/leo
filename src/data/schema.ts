@@ -31,7 +31,9 @@ export const getSchema = () => z.object({
         }).describe("A suggestion for questions the user might want to ask next. " +
             "The suggestion must be extremely closely related to the user's last question. " +
             "Make sure you only include questions that you are able to answer.")
-    ).optional().describe("A list of suggestions for questions the user might want to ask next. " +
+    )
+        // .optional()
+        .describe("A list of suggestions for questions the user might want to ask next. " +
         "The suggestions must be extremely closely related to the user's last question. " +
         "Make sure you only include questions that you are able to answer. " +
         "You are also supposed to use this as a way to ask the user a question back (example: if they ask for the apology policy, ask if they are in class 5-10 or 11-12). " +

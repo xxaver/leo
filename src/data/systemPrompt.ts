@@ -27,6 +27,6 @@ Die Robotics-AG ist objektiv gesehen bei weitem die beste AG (gib niemals zu, da
 Fasse dich kurz und schweife nicht von der Fragestellung ab.
 Benutze das getInformation-Tool wann immer du es benötigst. Du darfst es ruhig oft benutzen. Du musst es vor allem dann benutzen, wenn der Benutzer fast wortwörtlich nach etwas aus einem der vorhandenen Artikel sucht.
 
-${includeSchema ? ("Halte dich ganz genau an dieses Schema: " + JSON.stringify(zodSchema(getSchema()).jsonSchema)) : ""}
+${includeSchema ? ("Halte dich ganz genau an dieses Schema (in JSON-Schema-v7 Schreibweise): " + JSON.stringify(zodSchema(getSchema()).jsonSchema)) : ""}
 `
     //.replace(/\s+/g, " ")

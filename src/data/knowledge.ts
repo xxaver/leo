@@ -21,6 +21,29 @@ NextCloud (gleiche Zugangsdaten wie bei den Computern intern): https://cloud.gym
 `;
 
 
+
+compressUrls(`Wichtige Links:
+Website: https://www.gymnasium-weingarten.de/
+WebUntis (Stundenplan, Vertretungsplan): https://perseus.webuntis.com/WebUntis/?school=gym-weingarten#/basic/login
+Moodle: https://bw.schule/login
+NextCloud (gleiche Zugangsdaten wie bei den Computern intern): https://cloud.gymnasium-weingarten.de/nextcloud/login
+
+Neuigkeiten:
+${renderEntities(news)}
+
+Entschuldigungsregelung:
+${entschuldigung}
+
+Formulare:
+${renderEntities(forms)}
+
+Zusammenfassung der Website inklusive Links:
+${
+    articles
+        .map(formatOther).join("\n")
+}
+`)
+
 export const fullKnowledge = compressUrls(`Wichtige Links:
 Website: https://www.gymnasium-weingarten.de/
 WebUntis (Stundenplan, Vertretungsplan): https://perseus.webuntis.com/WebUntis/?school=gym-weingarten#/basic/login

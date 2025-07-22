@@ -1,7 +1,7 @@
 "use client";
 import {FC, Fragment} from "react";
 import {UIMessage} from "ai";
-import {ArrowUpRight, LucideFile, User} from "lucide-react";
+import {ArrowUpRight, Globe, LucideFile, User} from "lucide-react";
 import Image from "next/image";
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -101,7 +101,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                                             key={i}
                                             href={decompressUrls(getUrl(e.url, origins[0]))}
                                             className="border rounded-md p-3 bg-white !text-foreground flex items-center gap-2 not-hover:!no-underline">
-                                            <LucideFile/>
+                                            {e.url?.endsWith(".pdf") ? <LucideFile/> : <Globe />}
                                             {e.description}
                                             <ArrowUpRight/>
                                         </a>
