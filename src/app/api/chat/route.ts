@@ -122,4 +122,4 @@ export async function POST(req: Request) {
     }
 }
 
-writeFile("./systemPrompt.txt", knowledge)
+// writeFile("./systemPrompt.txt", knowledge)
