@@ -57,7 +57,7 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
                 <h1 className="grow">{process.env.NEXT_PUBLIC_ASSISTANT_NAME}</h1>
                 <ChatDropdownMenu/>
                 {onClose && <>
-                    <Button asChild onClick={onClose} variant="ghost" size="icon" className="shrink-0 cursor-pointer">
+                    <Button asChild variant="ghost" size="icon" className="shrink-0 cursor-pointer">
                         <a href="/" target="_blank" className="!text-foreground">
                             <ArrowUpRight />
                         </a>

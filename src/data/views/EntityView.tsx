@@ -85,7 +85,7 @@ export const EntityView: FC<{
     const related = related_.length ? related_ : null;
 
     return <div
-        className={`bg-background border p-4 rounded-sm ${listener ? "cursor-pointer hover:border-muted-foreground transition" : "border-red-300 grow"} ${size === "small" ? "text-sm" : ""}`}
+        className={`@container bg-background border p-4 rounded-sm ${listener ? "cursor-pointer hover:border-muted-foreground transition" : "border-red-300 grow"} ${size === "small" ? "text-sm" : ""}`}
         onClick={listener}>
         {/*return <div className="bg-[var(--decent)] p-4 rounded-sm grow">*/}
         <div className="flex items-baseline gap-2">
@@ -102,10 +102,10 @@ export const EntityView: FC<{
             </Button>}
         </div>
         {entity.type === "form" && size !== "small" && <div className="mt-3"><Element/></div>}
-        <div className="flex sm:items-start gap-5 sm:flex-row flex-col items-center">
+        <div className="flex @sm:items-start gap-5 @sm:flex-row flex-col items-center">
             {size !== "small" && (entity.image || entity.parent?.image) &&
                 <img src={entity.image || entity.parent?.image} alt=""
-                     className="w-48 sm:w-24 md:w-48 rounded-md mt-3"/>
+                     className="w-48 @sm:w-24 @md:w-48 rounded-md mt-3"/>
             }
             <div>
                 {(entity.description || entity.parent?.description) && !(listener && entity.type === "eventDate") &&
@@ -121,10 +121,10 @@ export const EntityView: FC<{
                     {inTable}
                     </tbody>
                 </table>}
-                {related && <div className="hidden md:block mt-3">{related}</div>}
+                {related && <div className="hidden @md:block mt-3">{related}</div>}
             </div>
         </div>
-        {related && <div className="md:hidden mt-3">{related}</div>}
+        {related && <div className="@md:hidden mt-3">{related}</div>}
         {
             size === "small" && !listener && <div className="flex mt-3">
                 <div className="grow"/>
