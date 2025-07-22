@@ -16,7 +16,7 @@ export const MiniChat = () => {
         setOpen_(o);
         sessionStorage.setItem("ai-open", o ? "true" : "");
     }
-    
+
     useEffect(() => {
         setShowHintStart(!sessionStorage.getItem("ai-hint-hidden"));
         setOpen(sessionStorage.getItem("ai-open"));
@@ -43,7 +43,10 @@ export const MiniChat = () => {
                     scale: 0.85,
                     display: "none",
                 }}
-                className={`sm:-translate-y-3 sm:h-[60em] sm:w-[35em] border rounded-md overflow-hidden bg-white shadow-lg origin-bottom-right fixed inset-0 sm:relative`}>
+                className={`sm:-translate-y-3 sm:h-[60em] sm:w-[35em] border rounded-md overflow-hidden bg-white shadow-lg origin-bottom-right fixed inset-0 sm:relative`}
+                style={{
+                    maxHeight: "calc(100vh - 100px)",
+                }}>
                 {loaded && <Chat onClose={() => setOpen(false)}/>}
             </motion.div>
         </div>

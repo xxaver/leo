@@ -107,7 +107,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                                             key={i}
                                             href={decompressUrls(getUrl(e.url, origins[0]))}
                                             className="border rounded-md p-3 bg-white !text-foreground flex items-center gap-2 not-hover:!no-underline">
-                                            {e.url?.endsWith(".pdf") ? <LucideFile/> : <Globe/>}
+                                            {e.url?.endsWith(".pdf") ? <LucideFile className="shrink-0"/> : <Globe className="shrink-0"/>}
                                             {e.description}
                                             <ArrowUpRight/>
                                         </a>
