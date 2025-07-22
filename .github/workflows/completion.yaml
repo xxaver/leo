@@ -1,3 +1,4 @@
+name: Generate completion
 on:
   workflow_dispatch:
 
