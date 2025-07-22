@@ -12,6 +12,7 @@ import {getSchema} from "@/data/schema";
 import {groq} from "@ai-sdk/groq";
 
 const mapName = ([k, e]: any) => e?.title || k.split("/").reverse().find(Boolean) || k;
+const available = Object.entries(other).filter(e => e[1] && !e[0].includes("archiv")).map(mapName);
 
 const models = [
     google('gemini-2.5-flash', {
@@ -23,7 +24,7 @@ const models = [
     // google('gemini-2.0-flash'),
     // groq("llama-3.1-8b-instant"),
     // groq("llama-3.3-70b-versatile"),
-    groq("deepseek-r1-distill-llama-70b"),
+    groq("deepseek-r1-distill-llama-70b", {schema: true}),
     groq("meta-llama/llama-4-scout-17b-16e-instruct"),
     // ollama("gemma3:12b"),
     // ollama("llama3.1:8b"),
@@ -32,12 +33,12 @@ const models = [
     // google('gemini-2.0-flash'),
     // google('gemini-2.0-flash-lite')
 ]
-console.log(Object.entries(other).map(mapName))
+console.log(available);
 const tools: ToolSet = {
     getInformation: tool({
         description: `read the contents of articles from the official Gymnasium Weingarten website. use this to gather information when answering questions. use this whenever applicable.`,
         parameters: z.object({
-            articles: z.array(createLiterals(Object.entries(other).map(mapName))).describe('the articles to read'),
+            articles: z.array(createLiterals(available)).describe('the articles to read'),
         }),
         execute: async ({articles: urls}) => {
             console.log("URLS", urls)

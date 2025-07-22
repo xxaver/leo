@@ -13,10 +13,14 @@ export const getInnerText = (e: Element) => {
 
 export const getUrl = (href: string, base: string) => {
     try {
-        return new URL(href).href;
+        const url = new URL(href);
+        url.hash = "";
+        return url.href;
     } catch {
         try {
-            return new URL(href, base).href;
+            const url = new URL(href, base);
+            url.hash = "";
+            return url.href;
         } catch {
             return "";
         }

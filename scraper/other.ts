@@ -9,13 +9,13 @@ const delay = 100;
 const includeSite = (url: string) => {
     const u = new URL(url);
     if (!origins.includes(u.origin)) return false;
-    if (url.includes("/aktuelles/")) return false;
+    // if (url.includes("/aktuelles/")) return false;
     if (url.includes("/fileadmin/")) return false;
     return true;
 }
 const includeContent = (url: string) => {
     const u = new URL(url);
-    return u.pathname !== "/" && u.pathname !== "/aktuelles";
+    return u.pathname !== "/" && u.pathname !== "/aktuelles" && !u.pathname.includes("archiv");
 }
 export const scrapeOther = async (target: string) => {
     const cache = JSON.parse(await readFile("./scrape-cache.json", "utf-8").catch(() => "{}") || "{}");
@@ -31,7 +31,7 @@ export const scrapeOther = async (target: string) => {
 
     const previous: Record<string, string> = JSON.parse(await readFile(other, "utf-8").catch(() => "{}") || "{}")
     const next: Record<string, string> = {};
-    const visited = new Set<string>(Object.keys(previous));
+    const visited = new Set<string>()//Object.keys(previous));
     let count = 0;
 
     const scrapeSite = async (url: string) => {
@@ -45,7 +45,7 @@ export const scrapeOther = async (target: string) => {
             visited.add(id);
 
             let text;
-            if(cache[url]) text = cache[url];
+            if (cache[url]) text = cache[url];
             else {
                 await new Promise(r => setTimeout(r, delay));
                 const req = await fetch(url);
@@ -57,12 +57,12 @@ export const scrapeOther = async (target: string) => {
 
             const links = Array.from<HTMLAnchorElement>(
                 document.querySelectorAll("a"))
-
             if (includeContent(url)) {
-                count++;
                 const main = document.querySelector("main")!;
-                if (!main) next[id] = null;
+                const date = document.querySelector("main time")?.getAttribute("datetime");
+                if (!main || (date && new Date(date).getTime() < 1735686000000)) next[id] = null;
                 else {
+                    count++;
                     next[id] = {
                         title: (main.querySelector("h1") || main.querySelector("h2") || main.querySelector("h3") || main.querySelector("h4"))?.textContent,
                         content: Array.from(main.querySelectorAll("p, h1, h2, h3, h4, h5, h6")).map(getInnerText).filter(Boolean),
@@ -76,16 +76,16 @@ export const scrapeOther = async (target: string) => {
                         documents: Array.from(document.querySelectorAll<HTMLAnchorElement>("main a"))
                             .filter(e => e.href.includes("/fileadmin/"))
                             .map((e) => {
-                            const href = getUrl(e.href, origins[0]);
-                            // if (!e.href.includes("/fileadmin/")) return;
-                            return {
-                                src: href,
-                                description: e.textContent,
-                            }
-                        })
+                                const href = getUrl(e.href, origins[0]);
+                                // if (!e.href.includes("/fileadmin/")) return;
+                                return {
+                                    src: href,
+                                    description: e.textContent,
+                                }
+                            })
                     };
                 }
-            }
+            } else next[id] = null;
 
 
             for (const link of links) await scrapeSite(link.href);
@@ -96,10 +96,11 @@ export const scrapeOther = async (target: string) => {
     }
     await Promise.all(start.map(scrapeSite))
     console.log("ANZAHL SEITEN:", count)
-    const result = {...next, ...previous};
+    const result = {...previous, ...next};
+    console.log(result)
     // const resultImages = {...nextImages, ...previousImages};
     // const resultDocuments = {...nextDocuments, ...previousDocuments};
-    console.log(result)
+    // console.log(result)
     await writeFile(other, JSON.stringify(result, null, 2), "utf-8")
     await writeFile("./scrape-cache.json", JSON.stringify(cache, null, 2), "utf-8")
     // await writeFile(documents, JSON.stringify(resultDocuments, null, 2), "utf-8")

@@ -10,6 +10,9 @@ import entschuldigung from "@/data/entschuldigungspraxis_neu.txt";
 import {compressUrls} from "@/data/formatUrls";
 import {formatOther} from "@/data/types/other";
 
+const articles = Object.keys(other)
+    .filter(k => other[k] && !k.includes("/aktuelles/") && !other[k].title?.includes("Impressionen aus dem Kunstunterricht"))
+
 export const knowledge = `Wichtige Links:
 Website: https://www.gymnasium-weingarten.de/
 WebUntis (Stundenplan, Vertretungsplan): https://perseus.webuntis.com/WebUntis/?school=gym-weingarten#/basic/login
@@ -47,8 +50,8 @@ ${renderEntities(forms)}
 
 Zusammenfassung der Website inklusive Links:
 ${
-    Object.keys(other)
-        .filter(k => other[k])
+    articles
         .map(formatOther).join("\n")
 }
 `)
+console.log(fullKnowledge, articles)
