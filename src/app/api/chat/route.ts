@@ -11,11 +11,13 @@ import {formatOther} from "@/data/types/other";
 import {getSchema} from "@/data/schema";
 import {groq} from "@ai-sdk/groq";
 import {languageHeader} from "@/data/languageHeader";
+import {Octokit} from "octokit";
 
 const mapName = ([k, e]: any) => e?.title || k.split("/").reverse().find(Boolean) || k;
 const available = Object.entries(other).filter(e => e[1] && !e[0].includes("archiv")).map(mapName);
 
 const models = [
+    // "github-workflow",
     google('gemini-2.5-flash', {
         object: true
     }),
@@ -61,6 +63,22 @@ export async function POST(req: Request) {
     const {messages} = await req.json();
 
     for (const model of models) {
+        if(model === "github-workflow") {
+            const octokit = new Octokit({
+                auth: process.env.GITHUB_TOKEN,
+            })
+
+            const result = await octokit.request('POST /repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches', {
+                owner: 'xxaver',
+                repo: 'leo',
+                workflow_id: 'completion.yaml',
+                ref: 'master',
+                inputs: {
+                    messages: JSON.stringify(messages),
+                },
+            })
+        }
+        
         const result = await new Promise(resolve => {
             const response = createDataStreamResponse({
                 onError: error => {

@@ -85,7 +85,7 @@ export const EntityView: FC<{
     const related = related_.length ? related_ : null;
 
     return <div
-        className={`@container bg-background border p-4 rounded-sm ${listener ? "cursor-pointer hover:border-muted-foreground transition" : "border-red-300 grow"} ${size === "small" ? "text-sm" : ""}`}
+        className={`bg-background border p-4 rounded-sm ${listener ? "cursor-pointer hover:border-muted-foreground transition" : "border-red-300 grow @container"} ${size === "small" ? "text-sm" : ""}`}
         onClick={listener}>
         {/*return <div className="bg-[var(--decent)] p-4 rounded-sm grow">*/}
         <div className="flex items-baseline gap-2">
