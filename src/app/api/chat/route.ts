@@ -21,7 +21,7 @@ const models = [
     google('gemini-2.5-flash', {
         object: true
     }),
-    google('gemini-2.5-flash-lite-preview-06-17', {
+    google('gemini-2.5-flash-lite', {
         object: true
     }),
     // google('gemini-2.0-flash', {
