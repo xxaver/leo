@@ -45,7 +45,7 @@ export const MiniChat = () => {
                 }}
                 className={`sm:-translate-y-3 sm:h-[60em] sm:w-[35em] border rounded-md overflow-hidden bg-white shadow-lg origin-bottom-right fixed inset-0 sm:relative`}
                 style={{
-                    maxHeight: "calc(100vh - 100px)",
+                    maxHeight: "calc(100dvh - 100px)",
                 }}>
                 {loaded && <Chat onClose={() => setOpen(false)}/>}
             </motion.div>
