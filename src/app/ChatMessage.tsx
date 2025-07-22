@@ -53,7 +53,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
             </div>
             <div className="max-w-full">
                 <div
-                    className={`p-3 rounded-2xl shadow-sm ${
+                    className={`p-3 rounded-2xl shadow-sm flex flex-col gap-3 ${
                         message.role === "user"
                             ? "bg-red-500 text-white"
                             : "bg-gray-50 text-gray-800 border border-gray-200"
@@ -62,7 +62,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                     {parsed?.parts?.map((part, i) => {
                         return <Fragment key={i}>
                             {part.text && <div
-                                className="flex flex-col gap-2 leading-relaxed text-lg"
+                                className="flex flex-col gap-2 leading-relaxed text-lg markdown"
                                 onClick={e => {
                                     const target = e.target as HTMLAnchorElement;
                                     if (target.tagName !== "A" || !target.href.startsWith("https://")) return;
@@ -76,7 +76,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                                 {/*{part.text}*/}
                             </div>}
                             {part.showImages && part.showImages.length > 0 &&
-                                <div className="flex gap-2 flex-wrap items-start my-3">
+                                <div className="flex gap-2 flex-wrap items-start">
                                     {part.showImages.map((e, i) => {
                                         return <div>
                                             <div
@@ -94,7 +94,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                                     })}
                                 </div>}
                             {part.showDocuments && part.showDocuments.length > 0 &&
-                                <div className="flex gap-2 flex-wrap my-3 items-start">
+                                <div className="flex gap-2 flex-wrap items-start">
                                     {part.showDocuments.map((e, i) => {
                                         return <a
                                             target="_blank"
