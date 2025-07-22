@@ -15,8 +15,8 @@ import {useContext} from "react";
 import {ChatContext} from "@/app/ChatContext";
 import {Select, SelectContent, SelectItem, SelectTrigger, SelectValue} from "@/components/ui/select";
 import {languages} from "@/app/languages/languages";
-import {languageHeader} from "@/data/systemPrompt";
 import {useTranslations} from "@/app/languages/useTranslations";
+import {languageHeader} from "@/data/languageHeader";
 
 export const ChatDropdownMenu = () => {
     const translations = useTranslations();
@@ -73,6 +73,7 @@ export const ChatDropdownMenu = () => {
                                 onClick={() => {
                                     setData([]);
                                     setMessages([]);
+                                    localStorage.setItem("ai-messages", "[]")
                                 }}>{translations.reset.reset}</Button>
                     </DrawerClose>
                 </DrawerFooter>

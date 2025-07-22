@@ -5,9 +5,9 @@ import {useTranslations} from "@/app/languages/useTranslations";
 
 export const Welcome: FC = () => {
     const translations = useTranslations();
-    return <div className="flex h-full flex-col justify-center">
+    return <div className="flex min-h-full flex-col justify-center">
         <div className="bg-white md:mx-6 my-6 rounded-xl amd:shadow-lg amd:border border-gray-200 flex flex-col">
-            <div className="text-center py-24 justify-self-center">
+            <div className="text-center justify-self-center">
                 <div
                     className="bg-white w-24 h-24 rounded-full mx-auto mb-6 flex items-center justify-center shadow-lg border-2 border-red-500">
                     <Image src="/logo.png" alt="Leo" width={60} height={60}/>
@@ -21,7 +21,7 @@ export const Welcome: FC = () => {
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 max-w-2xl mx-auto">
                     {/*<p className="text-lg text-gray-700 mb-3">Willkommen beim Chat-Assistenten des Gymnasium Weingarten!</p>*/}
                     <p className="text-gray-600 mb-4">{translations.welcome.help}</p>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-left">
+                    <div className="grid grid-cols-1 gap-3 text-left">
                         <PromptSuggestions/>
                     </div>
                     <p className="text-red-500 mt-4 font-semibold">{translations.welcome.help2}</p>

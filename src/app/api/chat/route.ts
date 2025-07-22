@@ -1,6 +1,6 @@
 import {google} from '@ai-sdk/google';
 import {convertToCoreMessages, createDataStreamResponse, streamObject, streamText, tool, ToolSet} from 'ai';
-import {generateSystemPrompt, languageHeader} from "@/data/systemPrompt";
+import {generateSystemPrompt} from "@/data/systemPrompt";
 import {v4} from "uuid";
 import {writeFile} from "node:fs/promises";
 import {knowledge} from "@/data/knowledge";
@@ -10,6 +10,7 @@ import other from "@/data/other.json";
 import {formatOther} from "@/data/types/other";
 import {getSchema} from "@/data/schema";
 import {groq} from "@ai-sdk/groq";
+import {languageHeader} from "@/data/languageHeader";
 
 const mapName = ([k, e]: any) => e?.title || k.split("/").reverse().find(Boolean) || k;
 const available = Object.entries(other).filter(e => e[1] && !e[0].includes("archiv")).map(mapName);

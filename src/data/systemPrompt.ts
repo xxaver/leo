@@ -3,7 +3,6 @@ import {fullKnowledge, knowledge} from "@/data/knowledge";
 import {zodSchema} from "@ai-sdk/ui-utils";
 import {getSchema} from "@/data/schema";
 
-export const languageHeader = `x-${process.env.NEXT_PUBLIC_ASSISTANT_NAME}-language`
 // Antworte stets in der Sprache, mit der du vom Benutzer angesprochen wurdest.
 export const generateSystemPrompt = (language = "German", useFullKnowledge = false, includeSchema = false) => `
 Du bist ${process.env.NEXT_PUBLIC_ASSISTANT_NAME}, ein hilfreicher Chatbot fürs Gymnasium Weingarten, der im Rahmen der Projekttage 2025 zum 50-jährigen Jubiläum des Gymnasiums Weingarten entwickelt wurde.

@@ -15,19 +15,25 @@ import {getUrl} from "../../scraper/utils";
 
 import {origins} from "../../scraper/config";
 import {decompressUrls} from "@/data/formatUrls";
+
 export const findSuggestions = (parsed: z.infer<ReturnType<typeof getSchema>>) => {
     return parsed?.promptSuggestions || parsed?.parts?.findLast(e => e.promptSuggestions)?.promptSuggestions || [];
 }
-export const ChatMessageLogo: FC<{ role: "system" | "user" | "assistant" | "data" }> = ({role}) => {
+export const ChatMessageLogo: FC<{
+    role: "system" | "user" | "assistant" | "data";
+    size?: string;
+    outerSize?: string
+}> = ({role, size, outerSize}) => {
     return <div
-        className={`w-8 h-8 sm:w-12 overflow-hidden sm:h-12 rounded-full flex items-center justify-center shadow-md shrink-0 ${
+        className={`${outerSize || "w-8 h-8 sm:w-12 sm:h-12"} overflow-hidden rounded-full flex items-center justify-center shadow-md shrink-0 ${
             role === "user" ? "bg-red-500" : "bg-white border border-red-500"
         }`}
     >
         {role === "user" ? (
-            <User className="w-5 h-5 sm:w-6 sm:h-6 text-white"/>
+            <User className={`${size || "w-5 h-5 sm:w-6"} sm:h-6 text-white`}/>
         ) : (
-            <Image className="w-5 h-5 sm:w-9 sm:h-9" src="/logo.png" alt="Leo" width={48} height={48}/>
+            <Image className={size || "w-5 h-5 sm:w-9 sm:h-9"} src="/logo.png" alt="Leo" width={96} height={96}
+                   priority/>
         )}
     </div>
 
@@ -101,7 +107,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                                             key={i}
                                             href={decompressUrls(getUrl(e.url, origins[0]))}
                                             className="border rounded-md p-3 bg-white !text-foreground flex items-center gap-2 not-hover:!no-underline">
-                                            {e.url?.endsWith(".pdf") ? <LucideFile/> : <Globe />}
+                                            {e.url?.endsWith(".pdf") ? <LucideFile/> : <Globe/>}
                                             {e.description}
                                             <ArrowUpRight/>
                                         </a>

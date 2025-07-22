@@ -77,4 +77,5 @@ ${
         .map(formatOther).join("\n")
 }
 `)
+// console.trace("HALLO")
 console.log(fullKnowledge, articles)
