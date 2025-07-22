@@ -4,3 +4,5 @@ on:
 jobs:
   completion:
     runs-on: self-hosted
+    steps:
+      - run: cd C:\
