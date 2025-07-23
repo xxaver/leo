@@ -12,19 +12,25 @@ const setupLeo = () => {
 
     const chat = document.createElement('div');
     const iframe = document.createElement('iframe');
-    iframe.src = 'https://frag-leo.vercel.app/';
+    iframe.src = 'https://frag-leo.vercel.app/?embedded=true';
+    // iframe.src = 'http://localhost:3000/?embedded=true';
     chat.appendChild(iframe);
     chat.classList.add('leo-chat');
 
     leo.appendChild(logo);
     leo.appendChild(chat);
 
-    let isOpen = localStorage.getItem('leo-open');
+    let isOpen = sessionStorage.getItem('leo-open');
     const setOpen = (open) => {
         isOpen = open;
+        sessionStorage.setItem('leo-open', isOpen ? 'true' : '');
 
-        if(isOpen) chat.classList.add('leo-open');
-        else chat.classList.remove('leo-open');
+        leo.classList.add("leo-transitioning");
+        setTimeout(() => {
+            leo.classList.remove("leo-transitioning")
+            if (isOpen) leo.classList.add('leo-open');
+            else leo.classList.remove('leo-open');
+        }, isOpen ? 10 : 200);
     }
     setOpen(isOpen);
 
@@ -33,7 +39,7 @@ const setupLeo = () => {
     })
 
     window.addEventListener("message", (event) => {
-        if(event.data.action === 'leo-close') setOpen(false);
+        if (event.data.action === 'leo-close') setOpen(false);
     });
 
     document.body.appendChild(leo);

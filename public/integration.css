@@ -13,27 +13,24 @@
     overflow: hidden;
     background-color: white;
     border: 1px solid #fb2c36;
-    transition: transform .2s;
+    transition: all .2s;
     cursor: pointer;
 }
 .leo-logo:hover {
     transform: scale(1.1);
 }
-.leo-log img {
-    width: 2rem;
-    height: 2rem;
+.leo-logo img {
+    width: 3rem;
+    height: 3rem;
 }
 .leo-chat {
     overflow: hidden;
     transform-origin: bottom right;
     position: absolute;
-    bottom: 0;
     right: 0;
-    translate: 0 calc(-100%);
-    transition: transform .2s;
+    transition: all .1s;
     height: 60em;
     width: 35em;
-    max-height: calc(100dvh - 100px);
     border: 1px solid oklch(0.922 0 0);
     border-radius: 4px;
     display: flex;
@@ -42,9 +39,14 @@
 }
 .leo-chat iframe {
     flex-grow: 1;
+    outline: none !important;
 }
-.leo-chat:not(.leo-open) {
+.leo:not(.leo-open):not(.leo-transitioning) .leo-chat {
     display: none;
+}
+.leo:not(.leo-open) .leo-chat, .leo.leo-transitioning .leo-chat {
+    opacity: 0;
+    transform: scale(.95);
 }
 
 @keyframes leo-open {
@@ -59,5 +61,34 @@
     }
     100% {
         display: none;
+    }
+}
+
+@media (max-height: 1024px) {
+    .leo-chat {
+        max-height: calc(100dvh - 40px);
+        bottom: 0;
+    }
+    .leo.leo-open .leo-logo {
+        opacity: 0;
+    }
+}
+@media (min-height: 1025px) {
+    .leo-chat {
+        max-height: calc(100dvh - 100px);
+        translate: 0 calc(-100% - 10px);
+        top: 0
+    }
+}
+
+@media(max-width: 700px) {
+    .leo-chat {
+        translate: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100dvw;
+        height: 100dvh;
+        max-height: 100dvh;
     }
 }
