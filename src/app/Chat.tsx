@@ -39,21 +39,29 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
 
     const initialized = useRef(false);
     useEffect(() => {
-        const messages = localStorage.getItem("ai-messages");
+        const messages = sessionStorage.getItem("ai-messages");
         if (messages) {
             chat.setMessages(JSON.parse(messages));
         }
         initialized.current = true;
     }, []);
     useEffect(() => {
-        if (messages.length) localStorage.setItem("ai-messages", JSON.stringify(messages));
+        if (messages.length) sessionStorage.setItem("ai-messages", JSON.stringify(messages));
         if (messages.length) scrollRef.current?.scrollIntoView({behavior: "smooth"});
     }, [messages]);
 
 
     return <ChatContext value={{...chat, inputRef, language, setLanguage, showImage, setShowImage}}>
         {showImage && <>
-            <div className="absolute top-0 left-0 w-full h-full flex-col bg-black/50 z-10 flex items-center justify-center gap-2 p-6" onClick={() => setShowImage(null)}>
+            <div className="absolute top-0 left-0 w-full h-full flex-col bg-black/70 z-10 flex items-center justify-center gap-2 p-6" onClick={() => setShowImage(null)}>
+                <div className="flex self-stretch">
+                    <div className="grow" />
+                    <div>
+                        <button className="text-white transition hover:scale-120 cursor-pointer">
+                            <X/>
+                        </button>
+                    </div>
+                </div>
                 <img src={showImage.url} alt={showImage.description} className="grow object-contain min-h-0"/>
                 {showImage.description && <div className="text-background">{showImage.description}</div>}
             </div>

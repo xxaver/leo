@@ -85,7 +85,7 @@ export const ChatDropdownMenu = () => {
                                 onClick={() => {
                                     setData([]);
                                     setMessages([]);
-                                    localStorage.setItem("ai-messages", "[]")
+                                    sessionStorage.setItem("ai-messages", "[]")
                                 }}>{translations.reset.reset}</Button>
                     </DrawerClose>
                 </DrawerFooter>

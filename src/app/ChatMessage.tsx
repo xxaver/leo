@@ -84,11 +84,9 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                                 {/*{part.text}*/}
                             </div>}
                             {part.showImages && part.showImages.length > 0 &&
-                                <div className="flex gap-2 flecx-wrap items-start">
+                                <div className="flex gap-2 items-start">
                                     {part.showImages.map((e, i) => {
                                         return <div className="w-40 @xl/chat:w-96 text-xs @xl/chat:text-sm">
-                                            <div
-                                                className="text-muted-foreground p-1 text-center">{e.description}</div>
                                             <img
                                                 key={i}
                                                 src={decompressUrls(getUrl(e.url, origins[0]))}
@@ -99,6 +97,8 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                                                 onClick={() => chat.setShowImage(e)}
                                                 className="object-cover h-40 w-40 @xl/chat:w-96 @xl/chat:h-96 rounded-sm cursor-pointer"
                                             />
+                                            <div
+                                                className="text-muted-foreground p-1 text-center">{e.description}</div>
                                         </div>
                                     })}
                                 </div>}

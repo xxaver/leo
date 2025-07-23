@@ -3,7 +3,7 @@ import {convertToCoreMessages, createDataStreamResponse, streamObject, streamTex
 import {generateSystemPrompt} from "@/data/systemPrompt";
 import {v4} from "uuid";
 import {writeFile} from "node:fs/promises";
-import {knowledge} from "@/data/knowledge";
+import {fullKnowledge, knowledge} from "@/data/knowledge";
 import {z} from "zod";
 import {createLiterals} from "@/data/types/createLiterals";
 import other from "@/data/other.json";
@@ -89,6 +89,7 @@ export async function POST(req: Request) {
                 execute: async dataStream => {
                     try {
                         const object = model.settings?.object //model.provider.startsWith("google");
+                        // const result = streamObject({
                         const result = (object ? streamObject : streamText)({
                             maxSteps: 5,
                             model,
@@ -108,7 +109,20 @@ export async function POST(req: Request) {
                                     // reasoningFormat: "hidden",
                                 }
                             },
-                            messages: convertToCoreMessages(messages),
+                            // messages: [
+                            //     {
+                            //         role: "user",
+                            //         content: [
+                            //             {
+                            //                 type: "file",
+                            //                 data: Buffer.from(fullKnowledge, "utf-8"),
+                            //                 mimeType: "text/plain",
+                            //             }
+                            //         ]
+                            //     },
+                            //     ...convertToCoreMessages(messages)
+                            // ],
+                            messages
                         });
                         let i = 0;
                         for await (const str of result.textStream) {
