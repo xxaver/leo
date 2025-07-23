@@ -79,7 +79,7 @@ const setupLeo = () => {
     }
 
     .leo.leo-open .leo-logo {
-        opacity: 0;
+
     }
 }
 
