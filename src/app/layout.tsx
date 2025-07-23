@@ -27,7 +27,6 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-        <link rel="stylesheet" href="/integration.css"/>
         <body
             className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >

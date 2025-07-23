@@ -71,7 +71,6 @@ export const EntityView: FC<{
 
 
     const related_ = !listener && Object.keys(captions).map(c => {
-        console.log(c)
         const items = (entity.related || []).filter(e => e.type === c).map(e =>
             <EntityView entity={e} key={e.id}
                         size="small"

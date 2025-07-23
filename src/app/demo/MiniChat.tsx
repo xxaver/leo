@@ -52,7 +52,6 @@ export const MiniChat = () => {
         </div>
         <Tooltip open={showHint || showHintStart} onOpenChange={setShowHint}>
             <TooltipTrigger onClick={() => {
-                console.log("CLICK")
                 setOpen(o => !o)
             }} className={`hover:scale-110 transition cursor-pointer ${open ? "hidden sm:block" : ""}`}>
                 <ChatMessageLogo role="assistant" outerSize="h-16 w-16" size="h-12 w-12"/>

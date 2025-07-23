@@ -78,4 +78,4 @@ ${
 }
 `)
 // console.trace("HALLO")
-console.log(fullKnowledge, articles)
+// console.log(fullKnowledge, articles)
