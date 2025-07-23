@@ -1,6 +1,5 @@
 const setupLeo = () => {
-    // const origin = "http://localhost:3000";
-    const origin = "https://frag-leo.vercel.app";
+    const origin = location.origin === "http://localhost:3000" ? "http://localhost:3000" : "https://frag-leo.vercel.app";
 
     const leo = document.createElement('div');
     leo.classList.add('leo');

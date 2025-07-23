@@ -11,7 +11,7 @@ import {
     DrawerTitle,
     DrawerTrigger
 } from "@/components/ui/drawer";
-import {useContext} from "react";
+import {useContext, useEffect, useState} from "react";
 import {ChatContext} from "@/app/ChatContext";
 import {Select, SelectContent, SelectItem, SelectTrigger, SelectValue} from "@/components/ui/select";
 import {languages} from "@/app/languages/languages";
@@ -19,9 +19,14 @@ import {useTranslations} from "@/app/languages/useTranslations";
 import {languageHeader} from "@/data/languageHeader";
 
 export const ChatDropdownMenu = () => {
+    const [ok, setOk] = useState(false)
+    useEffect(() => {
+        setOk(true)
+    }, []);
+    
     const translations = useTranslations();
     const {setData, setMessages, language, setLanguage} = useContext(ChatContext)!;
-    return <>
+    return ok && <>
         <Select value={language} onValueChange={(e) => {
             setLanguage(e)
             localStorage.setItem(languageHeader, e);
