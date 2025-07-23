@@ -117,7 +117,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                                     })}
                                 </div>}
                             {(part.showDetails?.length || 0) > 0 && <div className="grid gap-2 flex-wrap my-3" style={{
-                                gridTemplateColumns: "repeat(auto-fill, minmax(400px, 1fr))",
+                                gridTemplateColumns: "repeat(auto-fill, minmax(min(100%, 400px), 1fr))",
                             }}>
                                 {part.showDetails.map((e, i) => {
                                     const el = all.find(a => a.id === e.id);
