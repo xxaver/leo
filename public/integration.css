@@ -3,6 +3,7 @@
     right: 1.25rem;
     bottom: 1.25rem;
 }
+
 .leo-logo {
     height: 4rem;
     width: 4rem;
@@ -16,13 +17,16 @@
     transition: all .2s;
     cursor: pointer;
 }
+
 .leo-logo:hover {
     transform: scale(1.1);
 }
+
 .leo-logo img {
     width: 3rem;
     height: 3rem;
 }
+
 .leo-chat {
     overflow: hidden;
     transform-origin: bottom right;
@@ -32,7 +36,7 @@
     height: 60rem;
     width: 35rem;
     border: 1px solid oklch(0.922 0 0);
-    border-radius: 4px;
+    border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,6 +44,7 @@
     color: gray;
     text-align: center;
     font-size: 1.4rem;
+    box-shadow: 0 7px 10px 0 #dfdfdf;
 }
 
 .leo-chat iframe {
@@ -47,12 +52,15 @@
     align-self: stretch;
     outline: none !important;
 }
+
 .leo-chat iframe:not(.leo-loaded) {
     display: none;
 }
+
 .leo:not(.leo-open):not(.leo-transitioning) .leo-chat {
     display: none;
 }
+
 .leo:not(.leo-open) .leo-chat, .leo.leo-transitioning .leo-chat {
     opacity: 0;
     transform: scale(.95);
@@ -63,10 +71,12 @@
         max-height: calc(100dvh - 40px);
         bottom: 0;
     }
+
     .leo.leo-open .leo-logo {
         opacity: 0;
     }
 }
+
 @media (min-height: 1025px) {
     .leo-chat {
         max-height: calc(100dvh - 100px);
@@ -75,7 +85,7 @@
     }
 }
 
-@media(max-width: 700px) {
+@media (max-width: 700px) {
     .leo-chat {
         translate: none;
         position: fixed;
@@ -101,7 +111,9 @@
     border-radius: 10px;
     transform: translateX(-20px);
     transition: all .2s;
+    max-width: calc(100dvw - 120px);
 }
+
 .leo-tooltip:after {
     content: "";
     position: absolute;
@@ -119,6 +131,7 @@
 .leo-tooltip:not(.leo-open):not(.leo-transitioning) {
     display: none;
 }
+
 .leo-tooltip.leo-transitioning {
     opacity: 0;
     transform: translateX(-10px);
@@ -127,16 +140,20 @@
 .shrink-0 {
     flex-shrink: 0;
 }
+
 .grow {
     flex-grow: 1;
 }
+
 .text-lg {
     font-size: 1.125rem;
     line-height: 1.5rem;
 }
+
 .font-medium {
     font-weight: 500;
 }
+
 .text-sm {
     font-size: .875rem;
     line-height: 1.25rem;

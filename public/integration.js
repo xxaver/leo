@@ -60,19 +60,23 @@ const setupLeo = () => {
     let isOpen = storage.getItem('leo-open');
     let isTooltipOpen = !storage.getItem('leo-tooltip-hidden');
     let loaded = false;
+    
+    const loadIframe = () => {
+        loaded = true;
+        const iframe = document.createElement('iframe');
+        iframe.src = origin + '/?embedded=true';
+        chat.appendChild(iframe);
+        iframe.addEventListener("load", () => {
+            chat.childNodes.forEach(e => e.nodeName.toLowerCase() === "#text" && e.remove())
+            iframe.classList.add('leo-loaded');
+        })
+    }
+    loadIframe();
+    
     const setOpen = (open) => {
         isOpen = open;
         if(isOpen) setTooltipOpen(false);
-        if(isOpen && !loaded) {
-            const iframe = document.createElement('iframe');
-            iframe.src = origin + '/?embedded=true';
-            chat.appendChild(iframe);
-            iframe.addEventListener("load", () => {
-                chat.childNodes.forEach(e => e.nodeName.toLowerCase() === "#text" && e.remove())
-                iframe.classList.add('leo-loaded');
-            })
-            loaded = true;
-        }
+        if(isOpen && !loaded) loadIframe();
         
         storage.setItem('leo-open', isOpen ? 'true' : '');
 
