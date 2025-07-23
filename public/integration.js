@@ -1,20 +1,30 @@
 const setupLeo = () => {
     const origin = location.origin === "http://localhost:3000" ? "http://localhost:3000" : "https://frag-leo.vercel.app";
 
-    const leo = document.createElement('div');
+
+    const presentLeo = document.querySelector('.leo');
+
+    const leo = presentLeo || document.createElement('div');
     leo.classList.add('leo');
 
-    const logo = document.createElement('div');
-    logo.classList.add('leo-logo');
-    const img = document.createElement('img');
-    img.width = 96;
-    img.height = 96;
-    img.src = "https://www.gymnasium-weingarten.de/fileadmin/templates/gymnasium-weingarten-de/assets/img/favicon.ico";
-    logo.appendChild(img);
+    const logo = document.querySelector(".leo-logo") || document.createElement('div');
+    const tooltip = document.querySelector('.leo-tooltip') || document.createElement('div');
+    const chat = document.querySelector('.leo-chat') || document.createElement('div');
+    const storage = sessionStorage;
 
-    const tooltip = document.createElement('div');
-    tooltip.classList.add('leo-tooltip');
-    tooltip.innerHTML = `
+    if (!presentLeo) {
+        chat.classList.add('leo-chat');
+        chat.textContent = "Wird geladen..."
+        logo.classList.add('leo-logo');
+        
+        const img = document.createElement('img');
+        img.width = 96;
+        img.height = 96;
+        img.src = "https://www.gymnasium-weingarten.de/fileadmin/templates/gymnasium-weingarten-de/assets/img/favicon.ico";
+        logo.appendChild(img);
+        
+        tooltip.classList.add('leo-tooltip');
+        tooltip.innerHTML = `
         <svg
           class="shrink-0"
           xmlns="http://www.w3.org/2000/svg"
@@ -45,21 +55,17 @@ const setupLeo = () => {
     </div>
     `;
 
-    const storage = sessionStorage;
-    
-    const chat = document.createElement('div');
+        leo.appendChild(logo);
+        leo.appendChild(chat);
+        leo.appendChild(tooltip);
 
-    chat.classList.add('leo-chat');
-    chat.textContent = "Wird geladen..."
-
-    leo.appendChild(logo);
-    leo.appendChild(chat);
-    leo.appendChild(tooltip);
+        document.body.appendChild(leo);
+    }
 
     let isOpen = storage.getItem('leo-open');
     let isTooltipOpen = !storage.getItem('leo-tooltip-hidden');
-    let loaded = false;
-    
+    let loaded = leo.querySelector("iframe") !== null;
+
     const loadIframe = () => {
         loaded = true;
         const iframe = document.createElement('iframe');
@@ -71,12 +77,12 @@ const setupLeo = () => {
         })
     }
     loadIframe();
-    
+
     const setOpen = (open) => {
         isOpen = open;
-        if(isOpen) setTooltipOpen(false);
-        if(isOpen && !loaded) loadIframe();
-        
+        if (isOpen) setTooltipOpen(false);
+        if (isOpen && !loaded) loadIframe();
+
         storage.setItem('leo-open', isOpen ? 'true' : '');
 
         leo.classList.add("leo-transitioning");
@@ -102,16 +108,16 @@ const setupLeo = () => {
     logo.addEventListener('click', () => {
         setOpen(!isOpen);
     })
-    
+
     const tooltipTargets = [logo, tooltip];
     tooltipTargets.forEach(target => {
         target.addEventListener('mouseenter', () => {
-            if(isOpen) return;
-            if(target === logo) storage.setItem('leo-tooltip-hidden', 'true');
+            if (isOpen) return;
+            if (target === logo) storage.setItem('leo-tooltip-hidden', 'true');
             setTooltipOpen(true);
         })
         target.addEventListener('mouseleave', (e) => {
-            if(e.target !== target) return;
+            if (e.target !== target) return;
             setTooltipOpen(false);
         })
     })
@@ -119,8 +125,6 @@ const setupLeo = () => {
     window.addEventListener("message", (event) => {
         if (event.data.action === 'leo-close') setOpen(false);
     });
-
-    document.body.appendChild(leo);
 }
 
 window.addEventListener('load', setupLeo)

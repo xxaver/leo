@@ -1,6 +1,5 @@
-import {DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger} from "@/components/ui/dropdown-menu";
 import {Button} from "@/components/ui/button";
-import {EllipsisVertical, Plus, RotateCcw} from "lucide-react";
+import {Plus} from "lucide-react";
 import {
     Drawer,
     DrawerClose,
@@ -13,7 +12,7 @@ import {
 } from "@/components/ui/drawer";
 import {useContext, useEffect, useState} from "react";
 import {ChatContext} from "@/app/ChatContext";
-import {Select, SelectContent, SelectItem, SelectTrigger, SelectValue} from "@/components/ui/select";
+import {Select, SelectContent, SelectItem, SelectTrigger} from "@/components/ui/select";
 import {languages} from "@/app/languages/languages";
 import {useTranslations} from "@/app/languages/useTranslations";
 import {languageHeader} from "@/data/languageHeader";
@@ -23,16 +22,22 @@ export const ChatDropdownMenu = () => {
     useEffect(() => {
         setOk(true)
     }, []);
-    
+
     const translations = useTranslations();
     const {setData, setMessages, language, setLanguage} = useContext(ChatContext)!;
+
+    const selected = languages.find(e => e.englishName === language);
     return ok && <>
         <Select value={language} onValueChange={(e) => {
             setLanguage(e)
             localStorage.setItem(languageHeader, e);
         }}>
             <SelectTrigger>
-                <SelectValue/>
+                {selected ? <>
+                    {selected.flag}
+                    {" "}
+                    <div className="hidden xs:block">{selected.nativeName}</div>
+                </> : "Sprache"}
             </SelectTrigger>
             <SelectContent>
                 {languages.map((lang) => <SelectItem key={lang.code} value={lang.englishName}>
@@ -61,7 +66,9 @@ export const ChatDropdownMenu = () => {
             <DrawerTrigger asChild>
                 <Button variant="outline">
                     <Plus/>
-                    {translations.reset.newChat}
+                    <div className="hidden xs:block">
+                        {translations.reset.newChat}
+                    </div>
                 </Button>
             </DrawerTrigger>
             <DrawerContent>
