@@ -1,5 +1,5 @@
 "use client";
-import {FC, Fragment} from "react";
+import {FC, Fragment, useContext} from "react";
 import {UIMessage} from "ai";
 import {ArrowUpRight, Globe, LucideFile, User} from "lucide-react";
 import Image from "next/image";
@@ -15,6 +15,7 @@ import {getUrl} from "../../scraper/utils";
 
 import {origins} from "../../scraper/config";
 import {decompressUrls} from "@/data/formatUrls";
+import {ChatContext} from "@/app/ChatContext";
 
 export const findSuggestions = (parsed: z.infer<ReturnType<typeof getSchema>>) => {
     return parsed?.promptSuggestions || parsed?.parts?.findLast(e => e.promptSuggestions)?.promptSuggestions || [];
@@ -39,6 +40,7 @@ export const ChatMessageLogo: FC<{
 
 }
 export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
+    const chat = useContext(ChatContext)!;
     const [complete, parsed_] = parsePartial<z.infer<ReturnType<typeof getSchema>>>(message.content);
     const parsed = (message.role === "assistant" && parsed_) || {
         parts: [{text: message.content}],
@@ -82,7 +84,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                                 {/*{part.text}*/}
                             </div>}
                             {part.showImages && part.showImages.length > 0 &&
-                                <div className="flex gap-2 flex-wrap items-start">
+                                <div className="flex gap-2 flecx-wrap items-start">
                                     {part.showImages.map((e, i) => {
                                         return <div className="w-40 @xl/chat:w-96 text-xs @xl/chat:text-sm">
                                             <div
@@ -94,7 +96,8 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                                                 // width={500}
                                                 title={e.description}
                                                 // className="rounded-md"
-                                                className="object-cover h-40 w-40 @xl/chat:w-96 @xl/chat:h-96 rounded-sm"
+                                                onClick={() => chat.setShowImage(e)}
+                                                className="object-cover h-40 w-40 @xl/chat:w-96 @xl/chat:h-96 rounded-sm cursor-pointer"
                                             />
                                         </div>
                                     })}
@@ -113,12 +116,12 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                                         </a>
                                     })}
                                 </div>}
-                            {(part.showDetails?.length || 0) > 0 && <div className="flex gap-2 flex-wrap my-3" style={{
-                                // gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))",
+                            {(part.showDetails?.length || 0) > 0 && <div className="grid gap-2 flex-wrap my-3" style={{
+                                gridTemplateColumns: "repeat(auto-fill, minmax(400px, 1fr))",
                             }}>
                                 {part.showDetails.map((e, i) => {
                                     const el = all.find(a => a.id === e.id);
-                                    return el && <EntityView key={i} entity={el} size={e.size}/>
+                                    return el && <EntityView key={i} entity={el} size={"small"}/>
                                 })}
                             </div>}
                         </Fragment>

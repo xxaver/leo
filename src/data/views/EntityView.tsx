@@ -1,8 +1,9 @@
-import {FC, Fragment, useEffect, useState} from "react";
+import {FC, Fragment, useContext, useEffect, useState} from "react";
 import {Entity} from "@/data/types/entityBase";
 import {Button} from "@/components/ui/button";
 import {ArrowLeft, ArrowUpRight, Calendar, Euro, Mail, MapPin, Phone, Printer, User} from "lucide-react";
 import {useTranslations} from "@/app/languages/useTranslations";
+import {ChatContext} from "@/app/ChatContext";
 
 const options: Intl.DateTimeFormatOptions = {dateStyle: "long", timeStyle: "short", timeZone: "Europe/Berlin"};
 //     year: "numeric",
@@ -51,6 +52,8 @@ export const EntityView: FC<{
     listener?: () => void;
     size?: "medium" | "small" | "large"
 }> = ({entity: entity_, listener, size: size_}) => {
+    const chat = useContext(ChatContext)!;
+    
     const [size, setSize] = useState<"medium" | "small" | "large">(size_ || "medium");
     const [stack, setStack] = useState([entity_]);
     useEffect(() => {
@@ -82,10 +85,10 @@ export const EntityView: FC<{
             <div className="flex mt-1 gap-3 flex-wrap">{items}</div>
         </Fragment>
     }).filter(Boolean)
-    const related = related_.length ? related_ : null;
+    const related = size !== "small" && (related_.length ? related_ : null);
 
     return <div
-        className={`bg-background border p-4 rounded-sm ${listener ? "cursor-pointer hover:border-muted-foreground transition" : "border-red-300 grow @container"} ${size === "small" ? "text-sm" : ""}`}
+        className={`flex flex-col bg-background border p-4 rounded-sm ${listener ? "cursor-pointer hover:border-muted-foreground transition" : "border-red-300 grow @container-normal"}`}
         onClick={listener}>
         {/*return <div className="bg-[var(--decent)] p-4 rounded-sm grow">*/}
         <div className="flex items-baseline gap-2">
@@ -102,36 +105,40 @@ export const EntityView: FC<{
             </Button>}
         </div>
         {entity.type === "form" && size !== "small" && <div className="mt-3"><Element/></div>}
-        <div className="flex @sm:items-start gap-5 @sm:flex-row flex-col items-center">
-            {size !== "small" && (entity.image || entity.parent?.image) &&
+        <div className="flex @sm:items-start gap-5 @sm:flex-row flex-col items-center grow">
+            {(entity.image || entity.parent?.image) && !listener &&
                 <img src={entity.image || entity.parent?.image} alt=""
-                     className="w-48 @sm:w-24 @md:w-48 rounded-md mt-3"/>
+                     onClick={() => chat.setShowImage({url: entity.image || entity.parent?.image!, description: entity.name})}
+                     className={`cursor-pointer rounded-md mt-3 transition-all ${size === "small" ? "w-32 @sm:w-24 @md:w-32" : "w-48 @sm:w-24 @md:w-48"}`}/>
             }
-            <div>
+            <div className="self-stretch flex flex-col gap-3">
                 {(entity.description || entity.parent?.description) && !(listener && entity.type === "eventDate") &&
-                    <div className={"mt-3 " + (size === "small"
-                        ? "not-hover:line-clamp-1"
+                    <div className={(size === "small"
+                        ? "line-clamp-3"
                         : size === "medium"
-                            ? "not-hover:line-clamp-[4]"
-                            : "not-hover:line-clamp-[10]")}>
+                            ? "line-clamp-[4]"
+                            : "line-clamp-[10]")}>
                         {entity.description || entity.parent?.description}
                     </div>}
-                {inTable.length > 0 && !(listener && entity.type !== "eventDate") && <table className="mt-3">
+                {size !== "small" && (inTable.length > 0) && !(listener && entity.type !== "eventDate") && <table>
                     <tbody>
                     {inTable}
                     </tbody>
                 </table>}
-                {related && <div className="hidden @md:block mt-3">{related}</div>}
+                {related && <div className="hidden @md:block">{related}</div>}
+                {
+                    size === "small" && !listener && <>
+                        <div className="grow" />
+                        <div className="flex mt-3">
+                            <div className="grow"/>
+                            <Button onClick={() => setSize("large")} className="cursor-pointer">
+                                Mehr anzeigen
+                            </Button>
+                        </div>
+                    </>
+                }
             </div>
         </div>
         {related && <div className="@md:hidden mt-3">{related}</div>}
-        {
-            size === "small" && !listener && <div className="flex mt-3">
-                <div className="grow"/>
-                <Button onClick={() => setSize("large")} className="cursor-pointer">
-                    Mehr anzeigen
-                </Button>
-            </div>
-        }
     </div>
 }

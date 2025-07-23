@@ -5,7 +5,7 @@ import {useChat} from "@ai-sdk/react";
 import {Welcome} from "@/app/Welcome";
 import {ChatInput} from "@/app/ChatInput";
 import {ChatMessage, ChatMessageLogo} from "@/app/ChatMessage";
-import {ChatContext} from "@/app/ChatContext";
+import {ChatContext, ShowImage} from "@/app/ChatContext";
 import {ChatDropdownMenu} from "@/app/ChatDropdownMenu";
 import {languages} from "@/app/languages/languages";
 import {AlertCircle, ArrowUpRight, X} from "lucide-react";
@@ -22,6 +22,7 @@ const getLanguage = () => {
 }
 
 export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
+    const [showImage, setShowImage] = useState<null | ShowImage>(null);
     const [language, setLanguage] = useState("German");
     useEffect(() => {
         setLanguage(localStorage.getItem(languageHeader) || getLanguage());
@@ -50,7 +51,14 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
     }, [messages]);
 
 
-    return <ChatContext value={{...chat, inputRef, language, setLanguage}}>
+    return <ChatContext value={{...chat, inputRef, language, setLanguage, showImage, setShowImage}}>
+        {showImage && <>
+            <div className="absolute top-0 left-0 w-full h-full flex-col bg-black/50 z-10 flex items-center justify-center gap-2 p-6" onClick={() => setShowImage(null)}>
+                <img src={showImage.url} alt={showImage.description} className="grow object-contain min-h-0"/>
+                {showImage.description && <div className="text-background">{showImage.description}</div>}
+            </div>
+        </>}
+        
         <div className="flex flex-col fixed inset-0 overflow-hidden min-w-0 @container/chat">
             <div className="border-b p-3 font-medium text-2xl flex items-center gap-2">
                 <ChatMessageLogo role="assistant"/>
