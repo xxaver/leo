@@ -84,7 +84,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                                 {/*{part.text}*/}
                             </div>}
                             {part.showImages && part.showImages.length > 0 &&
-                                <div className="flex gap-2 items-start">
+                                <div className="flex flex-wrap gap-2 items-start">
                                     {part.showImages.map((e, i) => {
                                         return <div className="w-40 @xl/chat:w-96 text-xs @xl/chat:text-sm">
                                             <img
