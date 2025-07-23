@@ -51,7 +51,7 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
 
 
     return <ChatContext value={{...chat, inputRef, language, setLanguage}}>
-        <div className="flex flex-col fixed inset-0 overflow-hidden min-w-0">
+        <div className="flex flex-col fixed inset-0 overflow-hidden min-w-0 @container/chat">
             <div className="border-b p-3 font-medium text-2xl flex items-center gap-2">
                 <ChatMessageLogo role="assistant"/>
                 <h1 className="grow">{process.env.NEXT_PUBLIC_ASSISTANT_NAME}</h1>

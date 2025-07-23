@@ -68,7 +68,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                     {parsed?.parts?.map((part, i) => {
                         return <Fragment key={i}>
                             {part.text && <div
-                                className="flex flex-col gap-2 leading-relaxed text-lg markdown"
+                                className="flex flex-col gap-2 leading-relaxed markdown @xl/chat:text-lg"
                                 onClick={e => {
                                     const target = e.target as HTMLAnchorElement;
                                     if (target.tagName !== "A" || !target.href.startsWith("https://")) return;
@@ -84,9 +84,9 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                             {part.showImages && part.showImages.length > 0 &&
                                 <div className="flex gap-2 flex-wrap items-start">
                                     {part.showImages.map((e, i) => {
-                                        return <div>
+                                        return <div className="w-40 @xl/chat:w-96 text-xs @xl/chat:text-sm">
                                             <div
-                                                className="text-muted-foreground p-1 text-center text-sm">{e.description}</div>
+                                                className="text-muted-foreground p-1 text-center">{e.description}</div>
                                             <img
                                                 key={i}
                                                 src={decompressUrls(getUrl(e.url, origins[0]))}
@@ -94,19 +94,19 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                                                 // width={500}
                                                 title={e.description}
                                                 // className="rounded-md"
-                                                className="object-cover w-96 h-96 rounded-sm"
+                                                className="object-cover h-40 w-40 @xl/chat:w-96 @xl/chat:h-96 rounded-sm"
                                             />
                                         </div>
                                     })}
                                 </div>}
                             {part.showDocuments && part.showDocuments.length > 0 &&
-                                <div className="flex gap-2 flex-wrap items-start">
+                                <div className="flex gap-2 flex-wrap items-start text-sm ">
                                     {part.showDocuments.map((e, i) => {
                                         return <a
                                             target="_blank"
                                             key={i}
                                             href={decompressUrls(getUrl(e.url, origins[0]))}
-                                            className="border rounded-md p-3 bg-white !text-foreground flex items-center gap-2 not-hover:!no-underline">
+                                            className="border rounded-md p-2 py-1.5 bg-white !text-foreground flex items-center gap-2 not-hover:!no-underline">
                                             {e.url?.endsWith(".pdf") ? <LucideFile className="shrink-0"/> : <Globe className="shrink-0"/>}
                                             {e.description}
                                             <ArrowUpRight/>
@@ -125,7 +125,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                     })}
                 </div>
                 {suggestions && suggestions.length > 0 &&
-                    <div className="flex items-center gap-2 mt-3 flex-wrap">
+                    <div className="flex items-center gap-2 mt-3 flex-wrap text-sm @xl/chat:text-lg">
                         {suggestions.map((suggestion, i) => {
                             return suggestion.full &&
                                 <PromptSuggestion prompt={suggestion.full} key={i} submit={!suggestion.editable}>
