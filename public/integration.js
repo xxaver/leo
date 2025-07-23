@@ -1,4 +1,181 @@
+let isLeoSetUp = false;
 const setupLeo = () => {
+    if (!isLeoSetUp) {
+        const style = document.createElement('style');
+        style.textContent = `.leo {
+    position: fixed;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    z-index: 1030;
+}
+
+.leo-logo {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid #fb2c36;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.leo-logo:hover {
+    transform: scale(1.1);
+}
+
+.leo-logo img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.leo-chat {
+    overflow: hidden;
+    transform-origin: bottom right;
+    position: absolute;
+    right: 0;
+    transition: all .1s;
+    height: 60rem;
+    width: 35rem;
+    border: 1px solid oklch(0.922 0 0);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    color: gray;
+    text-align: center;
+    font-size: 1.4rem;
+    box-shadow: 0 7px 10px 0 #dfdfdf;
+    background-color: white;
+}
+
+.leo-chat iframe {
+    flex-grow: 1;
+    align-self: stretch;
+    outline: none !important;
+}
+
+.leo-chat iframe:not(.leo-loaded) {
+    display: none;
+}
+
+.leo:not(.leo-open):not(.leo-transitioning) .leo-chat {
+    display: none;
+}
+
+.leo:not(.leo-open) .leo-chat, .leo.leo-transitioning .leo-chat {
+    opacity: 0;
+    transform: scale(.95);
+}
+
+@media (max-height: 1024px) {
+    .leo-chat {
+        max-height: calc(100dvh - 40px);
+        bottom: 0;
+    }
+
+    .leo.leo-open .leo-logo {
+        opacity: 0;
+    }
+}
+
+@media (min-height: 1025px) {
+    .leo-chat {
+        max-height: calc(100dvh - 40px);
+        bottom: 0;
+        
+        /*max-height: calc(100dvh - 100px);*/
+        /*translate: 0 calc(-100% - 10px);*/
+        /*top: 0*/
+    }
+}
+
+@media (max-width: 700px) {
+    .leo-chat {
+        translate: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100dvw;
+        height: 100dvh;
+        max-height: 100dvh;
+    }
+}
+
+.leo-tooltip {
+    width: max-content;
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    translate: -100% -50%;
+    background-color: white;
+    border: 1px solid #fb2c36;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    transform: translateX(-20px);
+    transition: all .2s;
+    max-width: calc(100dvw - 120px);
+}
+
+.leo-tooltip:after {
+    content: "";
+    position: absolute;
+    right: 9px;
+    top: 50%;
+    translate: 100% -50%;
+    border-right: 1px solid #fb2c36;
+    border-top: 1px solid #fb2c36;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+
+.leo-tooltip:not(.leo-open):not(.leo-transitioning) {
+    display: none;
+}
+
+.leo-tooltip.leo-transitioning {
+    opacity: 0;
+    transform: translateX(-10px);
+}
+
+.shrink-0 {
+    flex-shrink: 0;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.text-sm {
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.scroll-top {
+    translate: 0 -5rem;
+}`;
+        document.head.appendChild(style);
+    }
+    isLeoSetUp = true;
+
+
     const origin = location.origin === "http://localhost:3000" ? "http://localhost:3000" : "https://frag-leo.vercel.app";
 
 
@@ -16,13 +193,13 @@ const setupLeo = () => {
         chat.classList.add('leo-chat');
         chat.textContent = "Wird geladen..."
         logo.classList.add('leo-logo');
-        
+
         const img = document.createElement('img');
         img.width = 96;
         img.height = 96;
         img.src = "https://www.gymnasium-weingarten.de/fileadmin/templates/gymnasium-weingarten-de/assets/img/favicon.ico";
         logo.appendChild(img);
-        
+
         tooltip.classList.add('leo-tooltip');
         tooltip.innerHTML = `
         <svg
@@ -127,4 +304,5 @@ const setupLeo = () => {
     });
 }
 
-window.addEventListener('load', setupLeo)
+if (document.readyState === "complete") setupLeo()
+else window.addEventListener('load', setupLeo)
