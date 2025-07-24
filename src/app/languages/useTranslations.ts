@@ -7,6 +7,9 @@ import {Ukrainian} from "@/app/languages/ukrainian";
 import {Russian} from "@/app/languages/russian";
 import {Polish} from "@/app/languages/polish";
 import {Turkish} from "@/app/languages/turkish";
+import {Hindi} from "@/app/languages/hindi";
+import {Urdu} from "@/app/languages/urdu";
+import {Spanish} from "@/app/languages/spanish";
 
 const merge = (p: any, c: any) => {
     const newObj = {...p};
@@ -26,6 +29,9 @@ const translations = {
     Russian,
     Polish,
     Turkish,
+    Hindi,
+    Urdu,
+    Spanish
 } as any;
 for(const key in translations) {
     translations[key] = merge(translations[key], English);

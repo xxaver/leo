@@ -9,7 +9,7 @@ import {ChatContext, ShowImage} from "@/app/ChatContext";
 import {ChatDropdownMenu} from "@/app/ChatDropdownMenu";
 import {AlertCircle, ArrowUpRight, X} from "lucide-react";
 import {Button} from "@/components/ui/button";
-import {languageHeader} from "@/data/languageHeader";
+import {customHeader, languageHeader} from "@/data/languageHeader";
 import {Footer} from "@/app/Footer";
 import {Header} from "@/app/Header";
 import {LanguageContext} from "@/app/languages/LanguageContext";
@@ -20,7 +20,8 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
 
     const chat = useChat({
         headers: {
-            [languageHeader]: language
+            [languageHeader]: language,
+            [customHeader]: localStorage.getItem(customHeader)!
         }
     });
     const inputRef = useRef<HTMLInputElement>(null);
@@ -82,7 +83,7 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
         </>}>
 
             <div ref={containerRef}
-                 className={"flex-1 p-6 overflow-auto min-h-0 flex-col " + (messages.length ? "flex" : "")}>
+                 className={"flex-1 p-6 !pb-3 overflow-auto min-h-0 flex-col " + (messages.length ? "flex" : "")}>
                 {messages.length === 0 && <Welcome/>}
                 {messages.map((message, i) => <ChatMessage message={message} key={message.id || i}/>)}
 
