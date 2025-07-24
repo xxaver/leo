@@ -39,7 +39,7 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
     }, []);
     useEffect(() => {
         if (messages.length) sessionStorage.setItem("ai-messages", JSON.stringify(messages));
-        if (messages.length) scrollRef.current?.scrollIntoView({behavior: "smooth"});
+        if (messages.length) scrollRef.current?.scrollIntoView({behavior: "smooth", block: "end"});
     }, [messages]);
 
 
@@ -75,7 +75,7 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
             </>}
         </>}>
 
-            <div className="flex-1 p-6 overflow-auto min-h-0">
+            <div className="flex-1 p-6 overflow-auto min-h-0 flex flex-col">
                 {messages.length === 0 && <Welcome/>}
                 {messages.map((message, i) => <ChatMessage message={message} key={message.id || i}/>)}
 

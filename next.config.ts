@@ -16,7 +16,8 @@ const nextConfig: NextConfig = {
                 ...config.module,
                 rules: [
                     ...config.module.rules,
-                    {test: /\.txt$/, use: 'raw-loader'}
+                    {test: /\.txt$/, use: 'raw-loader'},
+                    {test: /\.md$/, use: 'raw-loader'}
                 ]
             }
         };

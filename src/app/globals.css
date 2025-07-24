@@ -150,3 +150,33 @@ a {
   color: blue;
   text-decoration: underline;
 }
+
+.feedback h1 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.feedback h2 {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.feedback h3 {
+  font-weight: bold;
+  font-size: 1.17em;
+}
+.feedback h4 {
+  font-weight: bold;
+  font-size: 1em;
+}
+.feedback h5 {
+  font-weight: bold;
+  font-size: 0.83em;
+}
+.feedback h6 {
+  font-weight: bold;
+  font-size: 0.67em;
+}
+.feedback :is(h1, h2, h3, h4, h5, h6, p) {
+  margin-block-start: 1em; 
+  margin-block-end: 1em;
+}

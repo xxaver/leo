@@ -54,7 +54,7 @@ export const German = {
         targetGroup: "Für Wen?",
     },
     footer: {
-        madeBy: "Gemacht von",
+        madeBy: "Entwickelt von",
         source: "Quellcode",
         privacyPolicy: "Datenschutz",
         feedback: "Feedback"

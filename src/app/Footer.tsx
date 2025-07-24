@@ -5,7 +5,7 @@ import {ArrowUpRight, Github, MessageCircle, Shield} from "lucide-react";
 export const Footer: FC = () => {
     const translations = useTranslations();
     
-    return <div className='text-center text-muted-foreground flex items-center gap-3 justify-center flex-wrap'>
+    return <div className='text-center text-muted-foreground flex items-center gap-2 justify-center flex-wrap text-sm'>
         <div>
             {translations.footer.madeBy} <span className="text-foreground">Daniel Kuhn</span>
         </div>
