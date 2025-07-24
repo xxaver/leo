@@ -75,7 +75,7 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
             </>}
         </>}>
 
-            <div className="flex-1 p-6 overflow-auto min-h-0 flex flex-col">
+            <div className={"flex-1 p-6 overflow-auto min-h-0 flex-col " + (messages.length ? "flex" : "")}>
                 {messages.length === 0 && <Welcome/>}
                 {messages.map((message, i) => <ChatMessage message={message} key={message.id || i}/>)}
 
@@ -110,7 +110,7 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
                     </div>
                 )}
                 <div ref={scrollRef}/>
-                <div className="grow"/>
+                <div className="grow h-6"/>
                 <Footer/>
             </div>
             <ChatInput/>

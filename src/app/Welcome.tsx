@@ -5,7 +5,7 @@ import {useTranslations} from "@/app/languages/useTranslations";
 
 export const Welcome: FC = () => {
     const translations = useTranslations();
-    return <div className="flex min-h-full flex-col justify-center">
+    return <div className="flex flex-col justify-center">
         <div className="bg-white md:mx-6 my-6 rounded-xl amd:shadow-lg amd:border border-gray-200 flex flex-col">
             <div className="text-center justify-self-center">
                 <div
