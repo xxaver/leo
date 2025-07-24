@@ -7,7 +7,6 @@ import {ChatInput} from "@/app/ChatInput";
 import {ChatMessage, ChatMessageLogo} from "@/app/ChatMessage";
 import {ChatContext, ShowImage} from "@/app/ChatContext";
 import {ChatDropdownMenu} from "@/app/ChatDropdownMenu";
-import {languages} from "@/app/languages/languages";
 import {AlertCircle, ArrowUpRight, X} from "lucide-react";
 import {Button} from "@/components/ui/button";
 import {languageHeader} from "@/data/languageHeader";
@@ -25,7 +24,8 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
         }
     });
     const inputRef = useRef<HTMLInputElement>(null);
-    const scrollRef = useRef<HTMLInputElement>(null);
+    const scrollRef = useRef<HTMLDivElement>(null);
+    const containerRef = useRef<HTMLDivElement>(null);
     const {status} = chat;
     const messages = useMemo(() => [...chat.messages].sort((a, b) => a.createdAt!.valueOf() - b.createdAt!.valueOf()), [chat.messages])
 
@@ -39,7 +39,13 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
     }, []);
     useEffect(() => {
         if (messages.length) sessionStorage.setItem("ai-messages", JSON.stringify(messages));
-        if (messages.length) scrollRef.current?.scrollIntoView({behavior: "smooth", block: "end"});
+        if (messages.length) {
+            const last = Array.from(document.querySelectorAll(".message-assistant")).at(-1);
+            if (last && last.getBoundingClientRect().y - containerRef.current?.getBoundingClientRect().y! > 0) last.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+        }
     }, [messages]);
 
 
@@ -75,7 +81,8 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
             </>}
         </>}>
 
-            <div className={"flex-1 p-6 overflow-auto min-h-0 flex-col " + (messages.length ? "flex" : "")}>
+            <div ref={containerRef}
+                 className={"flex-1 p-6 overflow-auto min-h-0 flex-col " + (messages.length ? "flex" : "")}>
                 {messages.length === 0 && <Welcome/>}
                 {messages.map((message, i) => <ChatMessage message={message} key={message.id || i}/>)}
 
