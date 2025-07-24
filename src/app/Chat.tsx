@@ -8,7 +8,7 @@ import {ChatMessage, ChatMessageLogo} from "@/app/ChatMessage";
 import {ChatContext, ShowImage} from "@/app/ChatContext";
 import {ChatDropdownMenu} from "@/app/ChatDropdownMenu";
 import {languages} from "@/app/languages/languages";
-import {AlertCircle, ArrowUpRight, X} from "lucide-react";
+import {AlertCircle, ArrowUpRight, X, Github} from "lucide-react";
 import {Button} from "@/components/ui/button";
 import {languageHeader} from "@/data/languageHeader";
 
@@ -53,9 +53,11 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
 
     return <ChatContext value={{...chat, inputRef, language, setLanguage, showImage, setShowImage}}>
         {showImage && <>
-            <div className="absolute top-0 left-0 w-full h-full flex-col bg-black/70 z-10 flex items-center justify-center gap-2 p-6" onClick={() => setShowImage(null)}>
+            <div
+                className="absolute top-0 left-0 w-full h-full flex-col bg-black/70 z-10 flex items-center justify-center gap-2 p-6"
+                onClick={() => setShowImage(null)}>
                 <div className="flex self-stretch">
-                    <div className="grow" />
+                    <div className="grow"/>
                     <div>
                         <button className="text-white transition hover:scale-120 cursor-pointer">
                             <X/>
@@ -66,7 +68,7 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
                 {showImage.description && <div className="text-background">{showImage.description}</div>}
             </div>
         </>}
-        
+
         <div className="flex flex-col fixed inset-0 overflow-hidden min-w-0 @container/chat">
             <div className="border-b p-3 font-medium text-2xl flex items-center gap-2">
                 <ChatMessageLogo role="assistant"/>
@@ -75,7 +77,7 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
                 {onClose && <>
                     <Button asChild variant="ghost" size="icon" className="shrink-0 cursor-pointer">
                         <a href="/" target="_blank" className="!text-foreground">
-                            <ArrowUpRight />
+                            <ArrowUpRight/>
                         </a>
                     </Button>
                     <Button onClick={onClose} variant="ghost" size="icon" className="shrink-0 cursor-pointer">
@@ -118,6 +120,15 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
                         </div>
                     </div>
                 )}
+                <div className='text-center text-muted-foreground flex items-center gap-3 justify-center'>
+                    Gemacht von Daniel Kuhn
+                    <div>•</div>
+                    <a className='!text-foreground flex items-center gap-2 not-hover:!no-underline' href="https://github.com/xxaver/leo">
+                        <Github />
+                        Quellcode
+                        <ArrowUpRight />
+                    </a>
+                </div>
                 <div ref={scrollRef}/>
             </div>
             <ChatInput/>
