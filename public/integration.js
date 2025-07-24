@@ -239,7 +239,7 @@ const setupLeo = () => {
         document.body.appendChild(leo);
     }
 
-    let isOpen = storage.getItem('leo-open');
+    let isOpen = false;//storage.getItem('leo-open');
     let isTooltipOpen = !storage.getItem('leo-tooltip-hidden');
     let loaded = leo.querySelector("iframe") !== null;
 
