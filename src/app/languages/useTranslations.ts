@@ -1,9 +1,14 @@
 import {useContext} from "react";
-import {ChatContext} from "@/app/ChatContext";
 import {English} from "@/app/languages/english";
-import {Deutsch} from "@/app/languages/deutsch";
+import {German} from "@/app/languages/german";
+import {LanguageContext} from "@/app/languages/LanguageContext";
+
+const translations = {
+    German,
+    English
+} as any;
 
 export const useTranslations = () => {
-    const {language} = useContext(ChatContext)!;
-    return language === "German" ? Deutsch : English;
+    const {language} = useContext(LanguageContext);
+    return (translations[language] || English) as typeof German;
 };

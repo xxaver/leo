@@ -1,6 +1,6 @@
 "use client";
 
-import {FC, useEffect, useMemo, useRef, useState} from "react";
+import {FC, useContext, useEffect, useMemo, useRef, useState} from "react";
 import {useChat} from "@ai-sdk/react";
 import {Welcome} from "@/app/Welcome";
 import {ChatInput} from "@/app/ChatInput";
@@ -8,25 +8,17 @@ import {ChatMessage, ChatMessageLogo} from "@/app/ChatMessage";
 import {ChatContext, ShowImage} from "@/app/ChatContext";
 import {ChatDropdownMenu} from "@/app/ChatDropdownMenu";
 import {languages} from "@/app/languages/languages";
-import {AlertCircle, ArrowUpRight, X, Github} from "lucide-react";
+import {AlertCircle, ArrowUpRight, X} from "lucide-react";
 import {Button} from "@/components/ui/button";
 import {languageHeader} from "@/data/languageHeader";
-
-const getLanguage = () => {
-    const lang = navigator.languages.map(e => e.split("-")[0])
-    for (const l of lang) {
-        const found = languages.find(e => e.code === l);
-        if (found) return found.englishName;
-    }
-    return "English";
-}
+import {Footer} from "@/app/Footer";
+import {Header} from "@/app/Header";
+import {LanguageContext} from "@/app/languages/LanguageContext";
 
 export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
+    const {language} = useContext(LanguageContext);
     const [showImage, setShowImage] = useState<null | ShowImage>(null);
-    const [language, setLanguage] = useState("German");
-    useEffect(() => {
-        setLanguage(localStorage.getItem(languageHeader) || getLanguage());
-    }, []);
+
     const chat = useChat({
         headers: {
             [languageHeader]: language
@@ -51,7 +43,7 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
     }, [messages]);
 
 
-    return <ChatContext value={{...chat, inputRef, language, setLanguage, showImage, setShowImage}}>
+    return <ChatContext value={{...chat, inputRef, showImage, setShowImage}}>
         {showImage && <>
             <div
                 className="absolute top-0 left-0 w-full h-full flex-col bg-black/70 z-10 flex items-center justify-center gap-2 p-6"
@@ -69,22 +61,19 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
             </div>
         </>}
 
-        <div className="flex flex-col fixed inset-0 overflow-hidden min-w-0 @container/chat">
-            <div className="border-b p-3 font-medium text-2xl flex items-center gap-2">
-                <ChatMessageLogo role="assistant"/>
-                <h1 className="grow">{process.env.NEXT_PUBLIC_ASSISTANT_NAME}</h1>
-                <ChatDropdownMenu/>
-                {onClose && <>
-                    <Button asChild variant="ghost" size="icon" className="shrink-0 cursor-pointer">
-                        <a href="/" target="_blank" className="!text-foreground">
-                            <ArrowUpRight/>
-                        </a>
-                    </Button>
-                    <Button onClick={onClose} variant="ghost" size="icon" className="shrink-0 cursor-pointer">
-                        <X/>
-                    </Button>
-                </>}
-            </div>
+        <Header items={<>
+            <ChatDropdownMenu/>
+            {onClose && <>
+                <Button asChild variant="ghost" size="icon" className="shrink-0 cursor-pointer">
+                    <a href="/" target="_blank" className="!text-foreground">
+                        <ArrowUpRight/>
+                    </a>
+                </Button>
+                <Button onClick={onClose} variant="ghost" size="icon" className="shrink-0 cursor-pointer">
+                    <X/>
+                </Button>
+            </>}
+        </>}>
 
             <div className="flex-1 p-6 overflow-auto min-h-0">
                 {messages.length === 0 && <Welcome/>}
@@ -120,18 +109,11 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
                         </div>
                     </div>
                 )}
-                <div className='text-center text-muted-foreground flex items-center gap-3 justify-center'>
-                    Gemacht von Daniel Kuhn
-                    <div>•</div>
-                    <a target='_blank' className='!text-foreground flex items-center gap-2 not-hover:!no-underline' href="https://github.com/xxaver/leo">
-                        <Github />
-                        Quellcode
-                        <ArrowUpRight />
-                    </a>
-                </div>
                 <div ref={scrollRef}/>
+                <div className="grow"/>
+                <Footer/>
             </div>
             <ChatInput/>
-        </div>
+        </Header>
     </ChatContext>
 }

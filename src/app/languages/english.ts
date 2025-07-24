@@ -1,6 +1,6 @@
-import {Deutsch} from "@/app/languages/deutsch";
+import {German} from "@/app/languages/german";
 
-export const English: typeof Deutsch = {
+export const English: typeof German = {
     cancel: "Cancel",
     reset: {
         restart: "Start Over",
@@ -53,5 +53,39 @@ export const English: typeof Deutsch = {
         fax: "Fax:",
         price: "Admission:",
         targetGroup: "For whom?",
-    }
+    },
+    footer: {
+        madeBy: "Made by",
+        source: "Source Code",
+        privacyPolicy: "Privacy Policy",
+        feedback: "Feedback"
+    },
+    feedback: {
+        title: "Feedback for Leo",
+        description: "How was your experience with Leo?",
+        rating: "Rating",
+        message: "Your Message",
+        characters: "Characters",
+        name: "Your Name",
+
+        messagePlaceholder: "Tell us about your experience with Leo...",
+        namePlaceholder: "e.g. Max Mustermann",
+
+        optional: "Optional",
+
+        sending: "Sending",
+        send: "Send Feedback",
+
+        errors: {
+            message: "Please write a message",
+            rating: "Please give a rating",
+            network: "Error while sending",
+            unknown: "An error occurred"
+        },
+        thanks: {
+            title: "Thank you!",
+            message: "Your feedback helps me become a better assistant for Gymnasium Weingarten!"
+        }
+    },
+    close: "Close"
 }

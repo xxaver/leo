@@ -16,6 +16,7 @@ import {Select, SelectContent, SelectItem, SelectTrigger} from "@/components/ui/
 import {languages} from "@/app/languages/languages";
 import {useTranslations} from "@/app/languages/useTranslations";
 import {languageHeader} from "@/data/languageHeader";
+import {LanguageContext} from "@/app/languages/LanguageContext";
 
 export const ChatDropdownMenu = () => {
     const [ok, setOk] = useState(false)
@@ -24,7 +25,8 @@ export const ChatDropdownMenu = () => {
     }, []);
 
     const translations = useTranslations();
-    const {setData, setMessages, language, setLanguage} = useContext(ChatContext)!;
+    const {setData, setMessages} = useContext(ChatContext)!;
+    const {language, setLanguage} = useContext(LanguageContext);
 
     const selected = languages.find(e => e.englishName === language);
     return ok && <>

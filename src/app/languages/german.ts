@@ -1,5 +1,6 @@
-export const Deutsch = {
+export const German = {
     cancel: "Abbrechen",
+    close: "Schließen",
     reset: {
         restart: "Neu anfangen",
         reset: "Zurücksetzen",
@@ -51,5 +52,38 @@ export const Deutsch = {
         fax: "Fax:",
         price: "Eintritt:",
         targetGroup: "Für Wen?",
+    },
+    footer: {
+        madeBy: "Gemacht von",
+        source: "Quellcode",
+        privacyPolicy: "Datenschutz",
+        feedback: "Feedback"
+    },
+    feedback: {
+        title: "Feedback für Leo",
+        description: "Wie war deine Erfahrung mit Leo?",
+        rating: "Bewertung",
+        message: "Deine Nachricht",
+        characters: "Zeichen",
+        name: "Dein Name",
+        
+        messagePlaceholder: "Erzähl uns von deiner Erfahrung mit Leo...",
+        namePlaceholder: "z.B. Max Mustermann",
+        
+        optional: "Optional",
+        
+        sending: "Wird gesendet",
+        send: "Feedback senden",
+        
+        errors: {
+            message: "Bitte schreib eine Nachricht",
+            rating: "Bitte gib eine Bewertung ab",
+            network: "Fehler beim Senden",
+            unknown: "Ein Fehler ist aufgetreten"
+        },
+        thanks: {
+            title: "Vielen Dank!",
+            message: "Dein Feedback hilft mir dabei, ein besserer Assistent für das Gymnasium Weingarten zu werden!"
+        }
     }
 }

@@ -8,8 +8,6 @@ export interface ShowImage {
 
 export const ChatContext = createContext<(UseChatHelpers & {
     inputRef: RefObject<HTMLInputElement | null>;
-    language: string;
-    setLanguage: (language: string) => void;
     showImage: ShowImage | null;
     setShowImage: (image: ShowImage | null) => void
     

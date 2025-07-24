@@ -4,6 +4,7 @@ import "./globals.css";
 import {SpeedInsights} from "@vercel/speed-insights/next";
 import {Analytics} from "@vercel/analytics/next";
 import {Suspense} from "react";
+import {LanguageProvider} from "@/app/languages/LanguageProvider";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -31,7 +32,9 @@ export default function RootLayout({
             className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
         <Suspense>
-            {children}
+            <LanguageProvider>
+                {children}
+            </LanguageProvider>
         </Suspense>
         <SpeedInsights/>
         <Analytics/>
