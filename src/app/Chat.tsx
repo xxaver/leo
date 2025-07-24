@@ -123,7 +123,7 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
                 <div className='text-center text-muted-foreground flex items-center gap-3 justify-center'>
                     Gemacht von Daniel Kuhn
                     <div>•</div>
-                    <a className='!text-foreground flex items-center gap-2 not-hover:!no-underline' href="https://github.com/xxaver/leo">
+                    <a target='_blank' className='!text-foreground flex items-center gap-2 not-hover:!no-underline' href="https://github.com/xxaver/leo">
                         <Github />
                         Quellcode
                         <ArrowUpRight />
