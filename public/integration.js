@@ -253,7 +253,7 @@ const setupLeo = () => {
             iframe.classList.add('leo-loaded');
         })
     }
-    loadIframe();
+    // loadIframe();
 
     const setOpen = (open) => {
         isOpen = open;
