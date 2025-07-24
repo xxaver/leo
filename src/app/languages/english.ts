@@ -20,6 +20,10 @@ export const English: typeof German = {
         help2: "Feel free to ask me your question!"
     },
     promptSuggestions: {
+        nonGerman: {
+            prompt: "Are there any opportunities for non-German speakers?",
+            text: " Opportunities for non-Germans"
+        },
         general: {
             prompt: "Tell me more about the Gymnasium Weingarten",
             text: "General Information"

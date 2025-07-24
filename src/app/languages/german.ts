@@ -19,6 +19,10 @@ export const German = {
         help2: "Stell mir einfach deine Frage!"
     },
     promptSuggestions: {
+        nonGerman: {
+            prompt: "",
+            text: ""
+        },
         general: {
             prompt: "Erzähle mir mehr über das Gymnasium Weingarten",
             text: "Generelle Informationen"
