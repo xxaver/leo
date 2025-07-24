@@ -9,7 +9,7 @@ export const getSchema = () => z.object({
             showDocuments: z.array(z.object({
                 description: z.string().describe("The description of the document to show."),
                 url: z.string().describe("The url of the document to show."),
-            })).optional().describe("Shows documents or web pages with the given urls. You must also use this - whenever applicable - to provide sources for what you just said."),
+            })).optional().describe("Shows documents or web pages with the given urls. You must also use this - whenever applicable - to provide sources for what you just said, except if you already showed them using showDetails."),
             showImages: z.array(z.object({
                 description: z.string().optional().describe("The description of the image to show."),
                 url: z.string().describe("The url of the image to show."),

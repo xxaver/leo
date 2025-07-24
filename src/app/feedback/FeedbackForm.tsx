@@ -158,7 +158,7 @@ export function FeedbackForm({ onClose }: FeedbackFormProps) {
                             className="border-2 border-gray-300 focus:border-red-500 focus:ring-red-500 min-h-[100px]"
                             maxLength={500}
                         />
-                        <p className="text-xs text-gray-500 text-right">{message.length}/500 {translations.feedback.characters}</p>
+                        <p className="text-xs text-gray-500 text-right">{message.length}/500 {translations.feedback.characterLimit}</p>
                     </div>
 
                     {/* Optional Name */}

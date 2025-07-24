@@ -1,7 +1,5 @@
 import {FC, useContext, useMemo} from "react";
 import {ChatContext} from "@/app/ChatContext";
-import {z} from "zod";
-import {getSchema} from "@/data/schema";
 import {PromptSuggestion} from "@/app/PromptSuggestion";
 import {Bed, CalendarClock, FileUser, Info, Languages, Newspaper, PartyPopper} from "lucide-react";
 import {Separator} from "@/components/ui/separator";
@@ -19,20 +17,38 @@ export const PromptSuggestions: FC = () => {
         for (const message of m) {
             try {
                 const suggestions = findSuggestions(JSON.parse(message.content))
-                if(suggestions.length > 0) return suggestions;
+                if (suggestions.length > 0) return suggestions;
             } catch {
             }
         }
         return [];
     }, [messages])
 
+    const date = new Date();
+    const isSchulfest = (date.getMonth() === 6 && date.getDate() === 24 && date.getFullYear() === 2025) || process.env.NODE_ENV === "development";
+
     return <>
         {latest.map((suggestion, i) => <PromptSuggestion key={i} prompt={suggestion.full}
                                                          submit={!suggestion.editable}>{suggestion.short || suggestion.full}
         </PromptSuggestion>)}
         {latest.length > 0 && <Separator orientation="vertical" className="bg-red-300 !h-[42px] mx-1"/>}
+        {isSchulfest && <>
+            <PromptSuggestion red submit prompt={translations.promptSuggestions.schoolFestivalSchedule.prompt}>
+                <PartyPopper/>
+                {translations.promptSuggestions.schoolFestivalSchedule.text}
+            </PromptSuggestion>
+            <PromptSuggestion red submit prompt={translations.promptSuggestions.schoolFestivalProjects.prompt}>
+                <PartyPopper/>
+                {translations.promptSuggestions.schoolFestivalProjects.text}
+            </PromptSuggestion>
+            <PromptSuggestion red submit prompt={translations.promptSuggestions.schoolFestivalFood.prompt}>
+                <PartyPopper/>
+                {translations.promptSuggestions.schoolFestivalFood.text}
+            </PromptSuggestion>
+        </>}
+        <div className="h-1 w-1"/>
         {language !== "German" && <PromptSuggestion submit prompt={translations.promptSuggestions.nonGerman.prompt}>
-            <Languages />
+            <Languages/>
             {translations.promptSuggestions.nonGerman.text}
         </PromptSuggestion>}
         <PromptSuggestion submit prompt={translations.promptSuggestions.general.prompt}>

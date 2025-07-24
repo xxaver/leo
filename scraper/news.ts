@@ -17,7 +17,6 @@ export const scrapeNews = async (target: string) => {
         .map(e => e.href)
         .filter(e => e.startsWith("/aktuelles/"))
 
-    console.log(links)
     for (const link of links) {
 
 
@@ -26,7 +25,8 @@ export const scrapeNews = async (target: string) => {
         const params = new URLSearchParams(url.search);
         const id = "news_" + params.get("tx_news_pi1[news]")
 
-        if (previous[id] !== undefined) return;
+        if (previous[id] !== undefined || next[id] !== undefined) continue;
+        console.log("Scraping news", url.href);
 
         const r = await fetch(url);
         const text = await r.text();
@@ -45,9 +45,9 @@ export const scrapeNews = async (target: string) => {
             image: new URL(image, url).href,
             link: url.href
         }
+        
         // }))
     }
     const result = {...next, ...previous};
-    console.log(result)
     await writeFile(target, JSON.stringify(result, null, 2), "utf-8")
 }

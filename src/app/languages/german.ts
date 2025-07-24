@@ -19,9 +19,22 @@ export const German = {
         help2: "Stell mir einfach deine Frage!"
     },
     promptSuggestions: {
+        schoolFestivalSchedule: {
+            prompt: "Wie ist der zeitliche Ablauf des Schulfestes?",
+            text: "Schulfest - Programm"
+        },
+        schoolFestivalProjects: {
+            prompt: "Was gibt es heute beim Schulfest für Projekte zu sehen?",
+            text: "Schulfest - Projekte"
+        },
+        schoolFestivalFood: {
+            prompt: "Welche Essensangebote gibt es heute am Schulfest?",
+            text: "Schulfest - Verpflegung"
+        },
+        
         nonGerman: {
-            prompt: "",
-            text: ""
+            prompt: "Möglichkeiten für Nicht-Deutschsprachige?",
+            text: "Gibt es Möglichkeiten für Nicht-Deutschsprachige?"
         },
         general: {
             prompt: "Erzähle mir mehr über das Gymnasium Weingarten",
@@ -68,7 +81,7 @@ export const German = {
         description: "Wie war deine Erfahrung mit Leo?",
         rating: "Bewertung",
         message: "Deine Nachricht",
-        characters: "Zeichen",
+        characterLimit: "Zeichen",
         name: "Dein Name",
         
         messagePlaceholder: "Erzähl uns von deiner Erfahrung mit Leo...",

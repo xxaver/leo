@@ -1,8 +1,9 @@
 import {scrapeOther} from "./other";
 import {target} from "./config";
+import { scrapeNews } from "./news";
 
-export const scrape = () => {
-    // scrapeNews("C:\\Users\\Daniel\\WebstormProjects\\gym-wgt-ai\\src\\data\\news.json");
-    scrapeOther(target);
+export const scrape = async () => {
+    await scrapeNews(target);
+    await scrapeOther(target);
 };
 scrape();
