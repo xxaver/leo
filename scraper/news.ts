@@ -4,6 +4,7 @@ import {News} from "@/data/types/news";
 import {getInnerText} from "./utils";
 
 export const scrapeNews = async (target: string) => {
+    target += "/news.json"
     const previous: Record<string, News> = JSON.parse(await readFile(target, "utf-8").catch(() => "{}") || "{}")
     const next: Record<string, News> = {};
 

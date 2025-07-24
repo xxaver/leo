@@ -11,15 +11,16 @@ const includeSite = (url: string) => {
     if (!origins.includes(u.origin)) return false;
     // if (url.includes("/aktuelles/")) return false;
     if (url.includes("/fileadmin/")) return false;
+    if (u.pathname.includes("archiv")) return false;
     return true;
 }
 const includeContent = (url: string) => {
     const u = new URL(url);
     return u.pathname !== "/" && u.pathname !== "/aktuelles" && !u.pathname.includes("archiv");
 }
-export const scrapeOther = async (target: string) => {
+export const scrapeOther = async (target: string, useCache = false) => {
     const cache = JSON.parse(await readFile("./scrape-cache.json", "utf-8").catch(() => "{}") || "{}");
-    const other = `${target}\\other.json`;
+    const other = `${target}/other.json`;
     // const images = `${target}\\images.json`;
     // const documents = `${target}\\documents.json`;
 
@@ -31,7 +32,7 @@ export const scrapeOther = async (target: string) => {
 
     const previous: Record<string, string> = JSON.parse(await readFile(other, "utf-8").catch(() => "{}") || "{}")
     const next: Record<string, string> = {};
-    const visited = new Set<string>()//Object.keys(previous));
+    const visited = new Set<string>(useCache ? Object.keys(previous) : [])
     let count = 0;
 
     const scrapeSite = async (url: string) => {
@@ -45,7 +46,7 @@ export const scrapeOther = async (target: string) => {
             visited.add(id);
 
             let text;
-            if (cache[url]) text = cache[url];
+            if (cache[url] && useCache) text = cache[url];
             else {
                 await new Promise(r => setTimeout(r, delay));
                 const req = await fetch(url);
