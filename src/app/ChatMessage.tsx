@@ -128,7 +128,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                     })}
                 </div>
                 {suggestions && suggestions.length > 0 &&
-                    <div className="flex items-center gap-2 mt-3 flex-wrap text-sm @xl/chat:text-lg">
+                    <div className="flex items-center gap-2 mt-3 flex-wrap text-sm @xl/chat:text-base">
                         {suggestions.map((suggestion, i) => {
                             return suggestion.full &&
                                 <PromptSuggestion prompt={suggestion.full} key={i} submit={!suggestion.editable}>

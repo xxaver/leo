@@ -5,8 +5,7 @@ import {German} from "@/app/languages/german";
 import {writeFile} from "node:fs/promises";
 
 const languages = [
-    // "english", "french", "polish", "russian", "ukrainian", "turkish",
-    "spanish", "hindi", "urdu"
+    "english", "french", "polish", "russian", "ukrainian", "turkish", "spanish", "hindi", "urdu"
 ]
 const translate = async () => {
     const model = google("gemini-2.5-pro");

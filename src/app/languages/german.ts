@@ -8,7 +8,7 @@ export const German = {
         newChat: "Neuer Chat"
     },
     input: {
-        warning: "KI macht Fehler. Überprüfe wichtige Informationen.",
+        warning: "KI macht Fehler. Überprüfe wichtige Informationen. Gib keine persönlichen Daten an.",
         placeholder: "👋 Wie kann ich dir behilflich sein?",
         send: "Senden"
     },

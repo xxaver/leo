@@ -14,7 +14,7 @@ export const ChatInput: FC = () => {
     const Icon = ready ? Send : Square;
     return <>
         {messages.length > 0 && <div className="overflow-auto min-w-0 border-t bg-accent">
-            <div className="flex gap-2 p-2 py-4 px-4 w-max text-sm @xl/chat:text-lg">
+            <div className="flex gap-2 p-2 @xs/py-4 px-4 w-max text-sm @xl/chat:text-base">
                 <PromptSuggestions/>
             </div>
         </div>}
