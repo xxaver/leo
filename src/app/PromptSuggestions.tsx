@@ -31,7 +31,7 @@ export const PromptSuggestions: FC = () => {
         {latest.map((suggestion, i) => <PromptSuggestion key={i} prompt={suggestion.full}
                                                          submit={!suggestion.editable}>{suggestion.short || suggestion.full}
         </PromptSuggestion>)}
-        {latest.length > 0 && <Separator orientation="vertical" className="bg-red-300 !h-[42px] mx-1"/>}
+        {latest.length > 0 && <Separator orientation="vertical" className="bg-primary/30 !h-[42px] mx-1"/>}
         {isSchulfest && <>
             <PromptSuggestion red submit prompt={translations.promptSuggestions.schoolFestivalSchedule.prompt}>
                 <PartyPopper/>

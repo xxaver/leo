@@ -30,7 +30,7 @@ export const ChatInput: FC = () => {
                 }
             }} ref={inputRef} rows={1} name="prompt" value={input} placeholder={translations.input.placeholder}
                       className="grow md:text-lg px-6 py-2.5 min-h-[50px]" onChange={handleInputChange}/>
-            <Button asChild variant="destructive">
+            <Button asChild>
                 <button type="submit" className="md:text-xl !p-6">
                     {/*<div className="hidden md:block">{translations.input.send}</div>*/}
                     <Icon size={96} className="md:!h-6 md:!w-6"/>

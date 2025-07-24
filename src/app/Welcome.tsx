@@ -9,7 +9,7 @@ export const Welcome: FC = () => {
         <div className="bg-white md:mx-6 my-6 rounded-xl amd:shadow-lg amd:border border-gray-200 flex flex-col">
             <div className="text-center justify-self-center">
                 <div
-                    className="bg-white w-24 h-24 rounded-full mx-auto mb-6 flex items-center justify-center shadow-lg border-2 border-red-500">
+                    className="bg-white w-24 h-24 rounded-full mx-auto mb-6 flex items-center justify-center shadow-lg border-2 border-primary">
                     <Image src="/logo.png" alt="Leo" width={60} height={60}/>
                 </div>
                 <h1 className="text-3xl font-bold text-gray-800 mb-1">{translations.welcome.h1}</h1>
@@ -24,7 +24,7 @@ export const Welcome: FC = () => {
                     <div className="grid grid-cols-1 gap-3 text-left">
                         <PromptSuggestions/>
                     </div>
-                    <p className="text-red-500 mt-4 font-semibold">{translations.welcome.help2}</p>
+                    <p className="text-primary mt-4 font-semibold">{translations.welcome.help2}</p>
                 </div>
             </div>
         </div>

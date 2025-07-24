@@ -76,7 +76,7 @@ export function FeedbackForm({ onClose }: FeedbackFormProps) {
 
     if (isSubmitted) {
         return (
-            <Card className="w-full max-w-md mx-auto border-2 border-red-500 shadow-lg overflow-hidden">
+            <Card className="w-full max-w-md mx-auto border-2 border-primary shadow-lg overflow-hidden">
                 <CardContent className="p-8 text-center">
                     <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                         <ChatMessageLogo role="assistant" size="w-14 h-14" outerSize="h-18 w-18" />
@@ -86,7 +86,7 @@ export function FeedbackForm({ onClose }: FeedbackFormProps) {
                         {translations.feedback.thanks.message}
                     </p>
                     {onClose && (
-                        <Button onClick={onClose} className="bg-red-500 hover:bg-red-600 text-white">
+                        <Button onClick={onClose} className="bg-primary hover:brightness-90 transition-all text-white">
                             {translations.close}
                         </Button>
                     )}
@@ -96,8 +96,8 @@ export function FeedbackForm({ onClose }: FeedbackFormProps) {
     }
 
     return (
-        <Card className="w-full max-w-md mx-auto border-2 border-red-500  shadow-lg !p-0 overflow-hidden">
-            <CardHeader className="bg-red-500 text-white">
+        <Card className="w-full max-w-md mx-auto border-2 border-primary  shadow-lg !p-0 overflow-hidden">
+            <CardHeader className="bg-primary text-white">
                 <CardTitle className="flex items-center gap-3 !py-4 rounded-t-lg">
                     <MessageSquare className="w-6 h-6" />
                     {translations.feedback.title}
@@ -128,7 +128,7 @@ export function FeedbackForm({ onClose }: FeedbackFormProps) {
                                 >
                                     <Star
                                         className={`w-8 h-8 ${
-                                            star <= (hoveredRating || rating) ? "fill-red-500 text-red-500" : "text-gray-300"
+                                            star <= (hoveredRating || rating) ? "fill-primary text-primary" : "text-gray-300"
                                         }`}
                                     />
                                 </button>
@@ -155,7 +155,7 @@ export function FeedbackForm({ onClose }: FeedbackFormProps) {
                             value={message}
                             onChange={(e) => setMessage(e.target.value)}
                             placeholder={translations.feedback.messagePlaceholder}
-                            className="border-2 border-gray-300 focus:border-red-500 focus:ring-red-500 min-h-[100px]"
+                            className="border-2 border-gray-300 focus:border-primary focus:ring-primary min-h-[100px]"
                             maxLength={500}
                         />
                         <p className="text-xs text-gray-500 text-right">{message.length}/500 {translations.feedback.characterLimit}</p>
@@ -171,7 +171,7 @@ export function FeedbackForm({ onClose }: FeedbackFormProps) {
                             value={name}
                             onChange={(e) => setName(e.target.value)}
                             placeholder={translations.feedback.namePlaceholder}
-                            className="border-2 border-gray-300 focus:border-red-500 focus:ring-red-500"
+                            className="border-2 border-gray-300 focus:border-primary focus:ring-primary"
                             maxLength={50}
                         />
                     </div>
@@ -187,7 +187,7 @@ export function FeedbackForm({ onClose }: FeedbackFormProps) {
                     <Button
                         type="submit"
                         disabled={isSubmitting}
-                        className="w-full bg-red-500 hover:bg-red-600 text-white py-3 text-lg font-semibold"
+                        className="w-full bg-primary hover:brightness-90 text-white py-3 text-lg font-semibold"
                     >
                         {isSubmitting ? (
                             <div className="flex items-center gap-2">
@@ -208,7 +208,7 @@ export function FeedbackForm({ onClose }: FeedbackFormProps) {
                             type="button"
                             variant="outline"
                             onClick={onClose}
-                            className="w-full border-2 border-gray-300 hover:border-red-500 hover:text-red-500 bg-transparent"
+                            className="w-full border-2 border-gray-300 hover:border-primary hover:text-primary bg-transparent"
                         >
                             {translations.cancel}
                         </Button>

@@ -27,7 +27,7 @@ export const ChatMessageLogo: FC<{
 }> = ({role, size, outerSize}) => {
     return <div
         className={`${outerSize || "w-8 h-8 sm:w-12 sm:h-12"} overflow-hidden rounded-full flex items-center justify-center shadow-md shrink-0 ${
-            role === "user" ? "bg-red-500" : "bg-white border border-red-500"
+            role === "user" ? "bg-primary" : "bg-white border border-primary"
         }`}
     >
         {role === "user" ? (
@@ -63,7 +63,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                 <div
                     className={`p-3 rounded-2xl shadow-sm flex flex-col gap-3 ${
                         message.role === "user"
-                            ? "bg-red-500 text-white"
+                            ? "bg-primary text-white"
                             : "bg-gray-50 text-gray-800 border border-gray-200"
                     }`}
                 >
