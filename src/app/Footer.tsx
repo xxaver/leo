@@ -10,19 +10,19 @@ export const Footer: FC = () => {
             {translations.footer.madeBy} <span className="text-foreground">Daniel Kuhn</span>
         </div>
         <div>•</div>
-        <a target='_blank' className='transition !text-muted-foreground hover:!text-foreground flex items-center gap-2 not-hover:!no-underline' href="https://github.com/xxaver/leo">
+        <a target='_blank' className='transition !text-muted-foreground hover:!text-foreground flex items-center gap-1.5 not-hover:!no-underline' href="https://github.com/xxaver/leo">
             <Github />
             {translations.footer.source}
             <ArrowUpRight />
         </a>
         <div>•</div>
-        <a target='_blank' className='transition !text-muted-foreground hover:!text-foreground flex items-center gap-2 not-hover:!no-underline' href="/feedback">
+        <a target='_blank' className='transition !text-muted-foreground hover:!text-foreground flex items-center gap-1.5 not-hover:!no-underline' href="/feedback">
             <MessageCircle />
             {translations.footer.feedback}
             <ArrowUpRight />
         </a>
         {/*<div>•</div>*/}
-        {/*<a target='_blank' className='transition !text-muted-foreground hover:!text-foreground flex items-center gap-2 not-hover:!no-underline' href="/privacy">*/}
+        {/*<a target='_blank' className='transition !text-muted-foreground hover:!text-foreground flex items-center gap-1.5 not-hover:!no-underline' href="/privacy">*/}
         {/*    <Shield />*/}
         {/*    {translations.footer.privacyPolicy}*/}
         {/*    <ArrowUpRight />*/}

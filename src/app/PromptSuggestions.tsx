@@ -7,10 +7,12 @@ import {Bed, CalendarClock, FileUser, Info, Languages, Newspaper, PartyPopper} f
 import {Separator} from "@/components/ui/separator";
 import {useTranslations} from "@/app/languages/useTranslations";
 import {findSuggestions} from "@/app/ChatMessage";
+import {LanguageContext} from "@/app/languages/LanguageContext";
 
 export const PromptSuggestions: FC = () => {
     const translations = useTranslations();
-    const {messages, language} = useContext(ChatContext)!;
+    const {language} = useContext(LanguageContext)!;
+    const {messages} = useContext(ChatContext)!;
     const latest = useMemo(() => {
         if (!messages) return [];
         const m = [...messages.reverse()];
