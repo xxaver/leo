@@ -17,11 +17,15 @@ import {LanguageContext} from "@/app/languages/LanguageContext";
 export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
     const {language} = useContext(LanguageContext);
     const [showImage, setShowImage] = useState<null | ShowImage>(null);
+    const [custom, setCustom] = useState(null as null | string);
+    useEffect(() => {
+        setCustom(localStorage.getItem(customHeader));
+    }, []);
 
     const chat = useChat({
         headers: {
             [languageHeader]: language,
-            [customHeader]: localStorage.getItem(customHeader)!
+            [customHeader]: custom!
         }
     });
     const inputRef = useRef<HTMLInputElement>(null);
