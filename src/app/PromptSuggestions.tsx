@@ -45,8 +45,8 @@ export const PromptSuggestions: FC = () => {
                 <PartyPopper/>
                 {translations.promptSuggestions.schoolFestivalFood.text}
             </PromptSuggestion>
+            <div className="h-1 w-1"/>
         </>}
-        <div className="h-1 w-1"/>
         {language !== "German" && <PromptSuggestion submit prompt={translations.promptSuggestions.nonGerman.prompt}>
             <Languages/>
             {translations.promptSuggestions.nonGerman.text}
