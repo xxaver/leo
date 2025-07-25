@@ -2,6 +2,7 @@ import {FC, useContext} from "react";
 import {useTranslations} from "@/app/languages/useTranslations";
 import {ArrowUpRight, Github, MessageCircle} from "lucide-react";
 import {LanguageContext} from "@/app/languages/LanguageContext";
+import {sourceUrl} from "../../config";
 
 export const Footer: FC = () => {
     const translations = useTranslations();
@@ -12,7 +13,7 @@ export const Footer: FC = () => {
             {translations.footer.madeBy} <span className="text-foreground">Daniel Kuhn</span>
         </div>
         <div>•</div>
-        <a target='_blank' className='transition !text-muted-foreground hover:!text-foreground flex items-center gap-1.5 not-hover:!no-underline' href="https://github.com/xxaver/leo">
+        <a target='_blank' className='transition !text-muted-foreground hover:!text-foreground flex items-center gap-1.5 not-hover:!no-underline' href={sourceUrl}>
             <Github />
             {translations.footer.source}
             <ArrowUpRight />

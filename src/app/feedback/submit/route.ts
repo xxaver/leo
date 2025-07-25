@@ -1,5 +1,6 @@
 import {createClient} from "@supabase/supabase-js";
 import {NextResponse} from "next/server";
+import {assistantName} from "../../../../config";
 
 export async function POST(req) {
     try {
@@ -17,7 +18,8 @@ export async function POST(req) {
         const result = await supabase.from('feedback').insert([{
             name,
             message,
-            rating
+            rating,
+            bot: assistantName
         }]);
         console.log(result)
 

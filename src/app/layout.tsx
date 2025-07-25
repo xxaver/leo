@@ -5,6 +5,7 @@ import {SpeedInsights} from "@vercel/speed-insights/next";
 import {Analytics} from "@vercel/analytics/next";
 import {Suspense} from "react";
 import {LanguageProvider} from "@/app/languages/LanguageProvider";
+import {assistantName, description} from "../../config";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -17,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: process.env.NEXT_PUBLIC_ASSISTANT_NAME,
-    description: "Der offizielle Chatbot des Gymnasium Weingartens",
+    title: assistantName,
+    description,
 };
 
 export default function RootLayout({

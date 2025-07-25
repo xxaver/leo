@@ -1,3 +1,5 @@
+import {assistantName, description} from "../../../config";
+
 export const German = {
     cancel: "Abbrechen",
     close: "Schließen",
@@ -13,8 +15,8 @@ export const German = {
         send: "Senden"
     },
     welcome: {
-        h1: `Hallo, Ich bin ${process.env.NEXT_PUBLIC_ASSISTANT_NAME}! 🦁`,
-        subtitle: "Ich bin der Chat-Assistent des Gymnasium Weingartens, der während der Projekttage 2025 zum 50-jährigen Jubiläum des Gymnasiums Weingarten entwickelt wurde.",
+        h1: `Hallo, Ich bin ${assistantName}!`,
+        subtitle: description,
         help: "Ich helfe dir gerne bei Fragen zu:",
         help2: "Stell mir einfach deine Frage!"
     },

@@ -1,5 +1,4 @@
 import {Contact} from "@/data/types/contact";
-import {kontakt} from "@/data/forms";
 
 export const sekretariat: Contact = {
     type: "contact",
@@ -9,7 +8,7 @@ export const sekretariat: Contact = {
     phone: "+49 751 561921-50",
     fax: "+49 751 561921-60",
     email: "poststelle@gym-weingarten.schule.bwl.de",
-    related: [kontakt]
+    // related: [kontakt]
 };
 export const rothmaier =  {
     id: "rothmaier",

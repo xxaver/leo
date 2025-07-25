@@ -13,9 +13,9 @@ import {EntityView} from "@/data/views/EntityView";
 import {all} from "@/data/all";
 import {getUrl} from "../../scraper/utils";
 
-import {origins} from "../../scraper/config";
 import {decompressUrls} from "@/data/formatUrls";
 import {ChatContext} from "@/app/ChatContext";
+import {scrapeOrigins} from "../../config";
 
 export const findSuggestions = (parsed: z.infer<ReturnType<typeof getSchema>>) => {
     return parsed?.promptSuggestions || parsed?.parts?.findLast(e => e.promptSuggestions)?.promptSuggestions || [];
@@ -89,7 +89,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                                         return <div className="w-40 @xl/chat:w-96 text-xs @xl/chat:text-sm">
                                             <img
                                                 key={i}
-                                                src={decompressUrls(getUrl(e.url, origins[0]))}
+                                                src={decompressUrls(getUrl(e.url, scrapeOrigins[0]))}
                                                 alt={e.description}
                                                 // width={500}
                                                 title={e.description}
@@ -108,7 +108,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                                         return <a
                                             target="_blank"
                                             key={i}
-                                            href={decompressUrls(getUrl(e.url, origins[0]))}
+                                            href={decompressUrls(getUrl(e.url, scrapeOrigins[0]))}
                                             className="border rounded-md p-2 py-1.5 bg-white !text-foreground flex items-center gap-2 not-hover:!no-underline">
                                             {e.url?.endsWith(".pdf") ? <LucideFile className="shrink-0"/> : <Globe className="shrink-0"/>}
                                             {e.description}

@@ -44,6 +44,6 @@ export const renderEntity = (entity: Entity) => {
         
     ].filter(Boolean).join("\n")
 }
-export const renderEntities = (entities: Entity[]) => {
+export const format = (entities: Entity[]) => {
     return entities.map(renderEntity).join("\n\n")
 }

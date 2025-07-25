@@ -8,4 +8,4 @@ export const kontakt: Form = {
     element: KontaktForm,
     related: []
 }
-export const forms = [kontakt];
+export const forms = [] //[kontakt];

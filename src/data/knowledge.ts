@@ -1,5 +1,5 @@
 import {general} from "@/data/general";
-import {renderEntities} from "@/data/types/entityBase";
+import {format} from "@/data/types/entityBase";
 import {ags} from "@/data/ags";
 import {news} from "@/data/news";
 import {forms} from "@/data/forms";
@@ -9,12 +9,13 @@ import other from "@/data/other.json";
 import entschuldigung from "@/data/entschuldigungspraxis_neu.txt";
 import {compressUrls} from "@/data/formatUrls";
 import {formatOther} from "@/data/types/other";
+import {schoolUrl} from "../../config";
 
 const articles = Object.keys(other)
     .filter(k => other[k] && !k.includes("/aktuelles/") && !other[k].title?.includes("Impressionen aus dem Kunstunterricht"))
 
 export const knowledge = `Wichtige Links:
-Website: https://www.gymnasium-weingarten.de/
+Website: ${schoolUrl}
 WebUntis (Stundenplan, Vertretungsplan): https://perseus.webuntis.com/WebUntis/?school=gym-weingarten#/basic/login
 Moodle: https://bw.schule/login
 NextCloud (gleiche Zugangsdaten wie bei den Computern intern): https://cloud.gymnasium-weingarten.de/nextcloud/login
@@ -23,19 +24,19 @@ NextCloud (gleiche Zugangsdaten wie bei den Computern intern): https://cloud.gym
 
 
 compressUrls(`Wichtige Links:
-Website: https://www.gymnasium-weingarten.de/
+Website: ${schoolUrl}
 WebUntis (Stundenplan, Vertretungsplan): https://perseus.webuntis.com/WebUntis/?school=gym-weingarten#/basic/login
 Moodle: https://bw.schule/login
 NextCloud (gleiche Zugangsdaten wie bei den Computern intern): https://cloud.gymnasium-weingarten.de/nextcloud/login
 
 Neuigkeiten:
-${renderEntities(news)}
+${format(news)}
 
 Entschuldigungsregelung:
 ${entschuldigung}
 
 Formulare:
-${renderEntities(forms)}
+${format(forms)}
 
 Zusammenfassung der Website inklusive Links:
 ${
@@ -45,7 +46,7 @@ ${
 `)
 
 export const fullKnowledge = compressUrls(`Wichtige Links:
-Website: https://www.gymnasium-weingarten.de/
+Website: ${schoolUrl}
 WebUntis (Stundenplan, Vertretungsplan): https://perseus.webuntis.com/WebUntis/?school=gym-weingarten#/basic/login
 Moodle: https://bw.schule/login
 NextCloud (gleiche Zugangsdaten wie bei den Computern intern): https://cloud.gymnasium-weingarten.de/nextcloud/login
@@ -54,22 +55,22 @@ Allgemeines zur Schule:
 ${general}
 
 Kontaktpersonen:
-${renderEntities(contacts)}
+${format(contacts)}
 
 Arbeitsgemeinschaften:
-${renderEntities(ags)}
+${format(ags)}
 
 Veranstaltungen und aktuelle Termine:
-${renderEntities(events)}
+${format(events)}
 
 Neuigkeiten:
-${renderEntities(news)}
+${format(news)}
 
 Entschuldigungsregelung:
 ${entschuldigung}
 
 Formulare:
-${renderEntities(forms)}
+${format(forms)}
 
 Zusammenfassung der Website inklusive Links:
 ${

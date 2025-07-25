@@ -4,6 +4,7 @@ import {FC, PropsWithChildren, ReactNode} from "react";
 import {ChatMessageLogo} from "@/app/ChatMessage";
 import Link from "next/link";
 import {usePathname} from "next/navigation";
+import {assistantName} from "../../config";
 
 export const Header: FC<PropsWithChildren & {
     items?: ReactNode
@@ -15,7 +16,7 @@ export const Header: FC<PropsWithChildren & {
         <div className="border-b p-3 font-medium text-2xl flex items-center gap-2">
             <Element href="/" className="flex grow items-center gap-2 !no-underline !text-foreground">
                 <ChatMessageLogo role="assistant"/>
-                <h1>{process.env.NEXT_PUBLIC_ASSISTANT_NAME}</h1>
+                <h1>{assistantName}</h1>
             </Element>
             {items}
         </div>

@@ -6,6 +6,7 @@ import {Tooltip, TooltipContent, TooltipTrigger} from "@/components/ui/tooltip";
 import {Bot} from "lucide-react";
 import {Chat} from "@/app/Chat";
 import {motion} from "framer-motion";
+import {assistantName} from "../../../config";
 
 export const MiniChat = () => {
     const [loaded, setLoaded] = useState(false);
@@ -62,7 +63,7 @@ export const MiniChat = () => {
                 </div>
                 <div className="grow">
                     <div className="text-lg font-medium">
-                        Hallo, Ich bin {process.env.NEXT_PUBLIC_ASSISTANT_NAME}! 🦁
+                        Hallo, Ich bin {assistantName}!
                     </div>
                     <div className="text-sm hidden md:block">
                         Ich helfe dir gerne bei Fragen rund ums Gymnasium Weingarten

@@ -1,23 +1,10 @@
 import {readFile, writeFile} from "node:fs/promises";
 import {JSDOM} from "jsdom";
 import {getInnerText, getUrl} from "./utils";
-import {origins} from "./config";
+import {scrapeIncludeContent, scrapeIncludeSite, scrapeOrigins, scrapeStart} from "../config";
 
-const start = ["https://www.gymnasium-weingarten.de/"];
 const delay = 100;
 
-const includeSite = (url: string) => {
-    const u = new URL(url);
-    if (!origins.includes(u.origin)) return false;
-    // if (url.includes("/aktuelles/")) return false;
-    if (url.includes("/fileadmin/")) return false;
-    if (u.pathname.includes("archiv")) return false;
-    return true;
-}
-const includeContent = (url: string) => {
-    const u = new URL(url);
-    return u.pathname !== "/" && u.pathname !== "/aktuelles" && !u.pathname.includes("archiv");
-}
 export const scrapeOther = async (target: string, useCache = false) => {
     const cache = JSON.parse(await readFile("./scrape-cache.json", "utf-8").catch(() => "{}") || "{}");
     const other = `${target}/other.json`;
@@ -37,11 +24,11 @@ export const scrapeOther = async (target: string, useCache = false) => {
 
     const scrapeSite = async (url: string) => {
         try {
-            url = getUrl(url, origins[0])
+            url = getUrl(url, scrapeOrigins[0])
             const u = new URL(url);
 
             const id = u.href;
-            if (visited.has(id) || !includeSite(url)) return;
+            if (visited.has(id) || !scrapeIncludeSite(url)) return;
             console.log("Scraping", url)
             visited.add(id);
 
@@ -58,7 +45,7 @@ export const scrapeOther = async (target: string, useCache = false) => {
 
             const links = Array.from<HTMLAnchorElement>(
                 document.querySelectorAll("a"))
-            if (includeContent(url)) {
+            if (scrapeIncludeContent(url)) {
                 const main = document.querySelector("main")!;
                 const date = document.querySelector("main time")?.getAttribute("datetime");
                 if (!main || (date && new Date(date).getTime() < 1735686000000)) next[id] = null;
@@ -68,7 +55,7 @@ export const scrapeOther = async (target: string, useCache = false) => {
                         title: (main.querySelector("h1") || main.querySelector("h2") || main.querySelector("h3") || main.querySelector("h4"))?.textContent,
                         content: Array.from(main.querySelectorAll("p, h1, h2, h3, h4, h5, h6")).map(getInnerText).filter(Boolean),
                         images: Array.from(document.querySelectorAll<HTMLImageElement>("main img")).map((e) => {
-                            const src = getUrl(e.src, origins[0]);
+                            const src = getUrl(e.src, scrapeOrigins[0]);
                             return {
                                 src,
                                 description: e.alt,
@@ -77,7 +64,7 @@ export const scrapeOther = async (target: string, useCache = false) => {
                         documents: Array.from(document.querySelectorAll<HTMLAnchorElement>("main a"))
                             .filter(e => e.href.includes("/fileadmin/"))
                             .map((e) => {
-                                const href = getUrl(e.href, origins[0]);
+                                const href = getUrl(e.href, scrapeOrigins[0]);
                                 // if (!e.href.includes("/fileadmin/")) return;
                                 return {
                                     src: href,
@@ -95,7 +82,7 @@ export const scrapeOther = async (target: string, useCache = false) => {
             console.error(e)
         }
     }
-    await Promise.all(start.map(scrapeSite))
+    await Promise.all(scrapeStart.map(scrapeSite))
     console.log("ANZAHL SEITEN:", count)
     const result = {...previous, ...next};
     console.log(result)
