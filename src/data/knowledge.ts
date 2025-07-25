@@ -9,7 +9,6 @@ import other from "@/data/other.json";
 import entschuldigung from "@/data/entschuldigungspraxis_neu.txt";
 import {compressUrls} from "@/data/formatUrls";
 import {formatOther} from "@/data/types/other";
-import schulfest from "@/data/schulfest.txt";
 
 const articles = Object.keys(other)
     .filter(k => other[k] && !k.includes("/aktuelles/") && !other[k].title?.includes("Impressionen aus dem Kunstunterricht"))
@@ -43,9 +42,6 @@ ${
     articles
         .map(formatOther).join("\n")
 }
-
-Infos zum Schulfest:
-${schulfest}
 `)
 
 export const fullKnowledge = compressUrls(`Wichtige Links:
@@ -80,9 +76,6 @@ ${
     articles
         .map(formatOther).join("\n")
 }
-
-Infos zum Schulfest:
-${schulfest}
 `)
 // console.trace("HALLO")
 // console.log(fullKnowledge, articles)
