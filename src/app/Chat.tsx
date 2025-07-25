@@ -13,6 +13,7 @@ import {customHeader, languageHeader} from "@/data/languageHeader";
 import {Footer} from "@/app/Footer";
 import {Header} from "@/app/Header";
 import {LanguageContext} from "@/app/languages/LanguageContext";
+import {LanguagePicker} from "@/LanguagePicker";
 
 export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
     const {language} = useContext(LanguageContext);
@@ -73,10 +74,11 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
         </>}
 
         <Header items={<>
+            <LanguagePicker />
             <ChatDropdownMenu/>
             {onClose && <>
                 <Button asChild variant="ghost" size="icon" className="shrink-0 cursor-pointer">
-                    <a href="/" target="_blank" className="!text-foreground">
+                    <a href={`/?lang=${language}`} target="_blank" className="!text-foreground">
                         <ArrowUpRight/>
                     </a>
                 </Button>

@@ -12,11 +12,7 @@ import {
 } from "@/components/ui/drawer";
 import {useContext, useEffect, useState} from "react";
 import {ChatContext} from "@/app/ChatContext";
-import {Select, SelectContent, SelectItem, SelectTrigger} from "@/components/ui/select";
-import {languages} from "@/app/languages/languages";
 import {useTranslations} from "@/app/languages/useTranslations";
-import {languageHeader} from "@/data/languageHeader";
-import {LanguageContext} from "@/app/languages/LanguageContext";
 
 export const ChatDropdownMenu = () => {
     const [ok, setOk] = useState(false)
@@ -26,29 +22,8 @@ export const ChatDropdownMenu = () => {
 
     const translations = useTranslations();
     const {setData, setMessages} = useContext(ChatContext)!;
-    const {language, setLanguage} = useContext(LanguageContext);
 
-    const selected = languages.find(e => e.englishName === language);
     return ok && <>
-        <Select value={language} onValueChange={(e) => {
-            setLanguage(e)
-            localStorage.setItem(languageHeader, e);
-        }}>
-            <SelectTrigger>
-                {selected ? <>
-                    {selected.flag}
-                    {" "}
-                    <div className="hidden xs:block">{selected.nativeName}</div>
-                </> : "Sprache"}
-            </SelectTrigger>
-            <SelectContent>
-                {languages.map((lang) => <SelectItem key={lang.code} value={lang.englishName}>
-                    {lang.flag}
-                    {" "}
-                    {lang.nativeName}
-                </SelectItem>)}
-            </SelectContent>
-        </Select>
         <Drawer>
             {/*<DropdownMenu>*/}
             {/*    <DropdownMenuTrigger asChild>*/}

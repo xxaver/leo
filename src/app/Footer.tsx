@@ -1,9 +1,11 @@
-import {FC} from "react";
+import {FC, useContext} from "react";
 import {useTranslations} from "@/app/languages/useTranslations";
-import {ArrowUpRight, Github, MessageCircle, Shield} from "lucide-react";
+import {ArrowUpRight, Github, MessageCircle} from "lucide-react";
+import {LanguageContext} from "@/app/languages/LanguageContext";
 
 export const Footer: FC = () => {
     const translations = useTranslations();
+    const {language} = useContext(LanguageContext);
     
     return <div className='text-center text-muted-foreground flex items-center gap-2 justify-center flex-wrap text-xs'>
         <div>
@@ -16,7 +18,7 @@ export const Footer: FC = () => {
             <ArrowUpRight />
         </a>
         <div>•</div>
-        <a target='_blank' className='transition !text-muted-foreground hover:!text-foreground flex items-center gap-1.5 not-hover:!no-underline' href="/feedback">
+        <a target='_blank' className='transition !text-muted-foreground hover:!text-foreground flex items-center gap-1.5 not-hover:!no-underline' href={`/feedback?lang=${language}`}>
             <MessageCircle />
             {translations.footer.feedback}
             <ArrowUpRight />

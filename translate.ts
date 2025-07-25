@@ -4,10 +4,14 @@ import {z} from "zod";
 import {German} from "@/app/languages/german";
 import {writeFile} from "node:fs/promises";
 
-const languages = [
-    "english", "french", "polish", "russian", "ukrainian", "turkish", "spanish", "hindi", "urdu"
-]
-const translate = async () => {
+// const languages = [
+//     "english", "french", "polish", "russian", "ukrainian", "turkish", "spanish", "hindi", "urdu"
+// ]
+// const languages = languages1.filter(e => e.englishName !== "German").map(e => e.englishName.toLowerCase());
+const languages = "indonesian".split(", ")
+
+const translate = async (languages: string[]) => {
+    console.log("Translating", languages.join(", "))
     const model = google("gemini-2.5-pro");
     const result = await generateObject({
         model,
@@ -32,4 +36,11 @@ export const ${l[0].toUpperCase() + l.slice(1)}: typeof German = ${result.object
     })
 }
 
-translate()
+const groups = 1;
+const grouped = new Array(groups).fill(0).map((_) => []);
+languages.forEach((l, i) => grouped[i % groups].push(l));
+
+const main = async () => {
+    for(const group of grouped) await translate(group);
+}
+main()

@@ -42,7 +42,7 @@ export const languages = [
     { code: 'mn', nativeName: 'Монгол', englishName: 'Mongolian', region: 'MN', flag: '🇲🇳' },
     { code: 'mr', nativeName: 'मराठी', englishName: 'Marathi', region: 'IN', flag: '🇮🇳' },
     { code: 'ms', nativeName: 'Bahasa Melayu', englishName: 'Malay', region: 'MY', flag: '🇲🇾' },
-    { code: 'nb', nativeName: 'Norsk Bokmål', englishName: 'Norwegian Bokmål', region: 'NO', flag: '🇳🇴' },
+    { code: 'nb', nativeName: 'Norsk Bokmål', englishName: 'Norwegian', region: 'NO', flag: '🇳🇴' },
     { code: 'ne', nativeName: 'नेपाली', englishName: 'Nepali', region: 'NP', flag: '🇳🇵' },
     { code: 'nl', nativeName: 'Nederlands', englishName: 'Dutch', region: 'NL', flag: '🇳🇱' },
     { code: 'pa', nativeName: 'ਪੰਜਾਬੀ', englishName: 'Punjabi', region: 'IN', flag: '🇮🇳' },
