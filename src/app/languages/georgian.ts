@@ -2,7 +2,7 @@ import {German} from "@/app/languages/german";
 
 export const Georgian: typeof German = {
     "welcome": {
-        "h1": "გამარჯობა, მე ვარ BlönBot!",
+        "h1": "გამარჯობა, მე ვარ Johannes!",
         "subtitle": "მე ვარ Studienkolleg St. Johann Blönried-ის ჩატის ასისტენტი. სიამოვნებით დაგეხმარებით ჩვენი სკოლის შესახებ თქვენს შეკითხვებში.",
         "help": "სიამოვნებით დაგეხმარებით კითხვებზე:",
         "help2": "უბრალოდ დამისვით თქვენი შეკითხვა!"
@@ -50,9 +50,9 @@ export const Georgian: typeof German = {
         }
     },
     "feedback": {
-        "title": "გამოხმაურება BlönBot-ისთვის",
-        "description": "როგორი იყო თქვენი გამოცდილება BlönBot-თან?",
-        "messagePlaceholder": "გვიამბეთ თქვენი გამოცდილების შესახებ BlönBot-თან...",
+        "title": "გამოხმაურება Johannes-ისთვის",
+        "description": "როგორი იყო თქვენი გამოცდილება Johannes-თან?",
+        "messagePlaceholder": "გვიამბეთ თქვენი გამოცდილების შესახებ Johannes-თან...",
         "thanks": {
             "message": "თქვენი გამოხმაურება მეხმარება გავხდე უკეთესი ასისტენტი Gymnasium Weingarten-ისთვის!",
             "title": "დიდი მადლობა!"

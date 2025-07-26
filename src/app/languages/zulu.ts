@@ -2,7 +2,7 @@ import {German} from "@/app/languages/german";
 
 export const Zulu: typeof German = {
     "welcome": {
-        "h1": "Sawubona, nginguBlönBot!",
+        "h1": "Sawubona, nginguJohannes!",
         "subtitle": "Ngingumsizi wengxoxo we-Studienkolleg St. Johann Blönried. Ngiyajabula ukukusiza ngemibuzo yakho mayelana nesikole sethu.",
         "help": "Ngiyajabula ukukusiza ngemibuzo mayelana:",
         "help2": "Vele ungibuze umbuzo wakho!"

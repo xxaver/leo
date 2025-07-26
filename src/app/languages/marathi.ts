@@ -2,7 +2,7 @@ import {German} from "@/app/languages/german";
 
 export const Marathi: typeof German = {
     "welcome": {
-        "h1": "नमस्कार, मी BlönBot आहे!",
+        "h1": "नमस्कार, मी Johannes आहे!",
         "subtitle": "मी Studienkolleg St. Johann Blönried चा चॅट असिस्टंट आहे. मला आमच्या शाळेबद्दलच्या तुमच्या प्रश्नांची उत्तरे देण्यात मदत करायला आवडेल.",
         "help": "मी तुम्हाला याबद्दलच्या प्रश्नांमध्ये मदत करण्यास उत्सुक आहे:",
         "help2": "फक्त तुमचा प्रश्न विचारा!"
@@ -50,9 +50,9 @@ export const Marathi: typeof German = {
         }
     },
     "feedback": {
-        "title": "BlönBot साठी अभिप्राय",
-        "description": "BlönBot सोबत तुमचा अनुभव कसा होता?",
-        "messagePlaceholder": "आम्हाला BlönBot सोबतच्या तुमच्या अनुभवाबद्दल सांगा...",
+        "title": "Johannes साठी अभिप्राय",
+        "description": "Johannes सोबत तुमचा अनुभव कसा होता?",
+        "messagePlaceholder": "आम्हाला Johannes सोबतच्या तुमच्या अनुभवाबद्दल सांगा...",
         "thanks": {
             "message": "तुमचा अभिप्राय मला Gymnasium Weingarten साठी एक चांगला सहाय्यक बनण्यास मदत करतो!",
             "title": "खूप खूप धन्यवाद!"

@@ -2,7 +2,7 @@ import {German} from "@/app/languages/german";
 
 export const Belarusian: typeof German = {
     "welcome": {
-        "h1": "Прывітанне, я BlönBot!",
+        "h1": "Прывітанне, я Johannes!",
         "subtitle": "Я чат-асістэнт Studienkolleg St. Johann Blönried. Я з радасцю дапамагу вам з пытаннямі пра нашу школу.",
         "help": "Я з радасцю дапамагу вам з пытаннямі пра:",
         "help2": "Проста задайце мне сваё пытанне!"

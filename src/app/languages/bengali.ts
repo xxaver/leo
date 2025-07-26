@@ -2,7 +2,7 @@ import {German} from "@/app/languages/german";
 
 export const Bengali: typeof German = {
     "welcome": {
-        "h1": "হ্যালো, আমি BlönBot!",
+        "h1": "হ্যালো, আমি Johannes!",
         "subtitle": "আমি Studienkolleg St. Johann Blönried-এর চ্যাট অ্যাসিস্ট্যান্ট। আমি আমাদের স্কুল সম্পর্কে আপনার প্রশ্নের উত্তর দিতে সাহায্য করতে পেরে খুশি হব।",
         "help": "আমি আপনাকে এই বিষয়ে প্রশ্ন করতে সাহায্য করতে পেরে খুশি:",
         "help2": "শুধু আপনার প্রশ্ন জিজ্ঞাসা করুন!"
@@ -50,7 +50,7 @@ export const Bengali: typeof German = {
         }
     },
     "feedback": {
-        "title": "BlönBot-এর জন্য মতামত",
+        "title": "Johannes-এর জন্য মতামত",
         "description": "BlönBot-এর সাথে আপনার অভিজ্ঞতা কেমন ছিল?",
         "messagePlaceholder": "BlönBot-এর সাথে আপনার অভিজ্ঞতা সম্পর্কে আমাদের বলুন...",
         "thanks": {

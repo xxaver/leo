@@ -2,7 +2,7 @@ import {German} from "@/app/languages/german";
 
 export const Ukrainian: typeof German = {
     "welcome": {
-        "h1": "Привіт, я BlönBot!",
+        "h1": "Привіт, я Johannes!",
         "subtitle": "Я чат-асистент Studienkolleg St. Johann Blönried. Я з радістю допоможу вам із запитаннями про нашу школу.",
         "help": "Я з радістю допоможу вам із запитаннями щодо:",
         "help2": "Просто поставте мені своє запитання!"

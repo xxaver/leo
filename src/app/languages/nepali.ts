@@ -2,7 +2,7 @@ import {German} from "@/app/languages/german";
 
 export const Nepali: typeof German = {
     "welcome": {
-        "h1": "नमस्ते, म BlönBot हुँ!",
+        "h1": "नमस्ते, म Johannes हुँ!",
         "subtitle": "म Studienkolleg St. Johann Blönried को च्याट सहायक हुँ। म तपाईंलाई हाम्रो स्कूलको बारेमा तपाईंको प्रश्नहरूको जवाफ दिन खुसी छु।",
         "help": "म तपाईंलाई निम्न बारेमा प्रश्नहरूको जवाफ दिन खुसी छु:",
         "help2": "मलाई आफ्नो प्रश्न सोध्नुहोस्!"
@@ -50,9 +50,9 @@ export const Nepali: typeof German = {
         }
     },
     "feedback": {
-        "title": "BlönBot को लागि प्रतिक्रिया",
-        "description": "BlönBot सँग तपाईंको अनुभव कस्तो रह्यो?",
-        "messagePlaceholder": "BlönBot सँगको तपाईंको अनुभवको बारेमा हामीलाई बताउनुहोस्...",
+        "title": "Johannes को लागि प्रतिक्रिया",
+        "description": "Johannes सँग तपाईंको अनुभव कस्तो रह्यो?",
+        "messagePlaceholder": "Johannes सँगको तपाईंको अनुभवको बारेमा हामीलाई बताउनुहोस्...",
         "thanks": {
             "message": "तपाईंको प्रतिक्रियाले मलाई Gymnasium Weingarten को लागि राम्रो सहायक बन्न मद्दत गर्दछ!",
             "title": "धेरै धेरै धन्यवाद!"

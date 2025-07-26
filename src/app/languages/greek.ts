@@ -2,7 +2,7 @@ import {German} from "@/app/languages/german";
 
 export const Greek: typeof German = {
     "welcome": {
-        "h1": "Γεια σας, είμαι ο BlönBot!",
+        "h1": "Γεια σας, είμαι ο Johannes!",
         "subtitle": "Είμαι ο βοηθός συνομιλίας του Studienkolleg St. Johann Blönried. Θα χαρώ να σας βοηθήσω με τις ερωτήσεις σας σχετικά με το σχολείο μας.",
         "help": "Θα χαρώ να σας βοηθήσω με ερωτήσεις σχετικά με:",
         "help2": "Απλώς κάντε μου την ερώτησή σας!"
@@ -50,7 +50,7 @@ export const Greek: typeof German = {
         }
     },
     "feedback": {
-        "title": "Σχόλια για το BlönBot",
+        "title": "Σχόλια για το Johannes",
         "description": "Πώς ήταν η εμπειρία σας με το BlönBot;",
         "messagePlaceholder": "Πείτε μας για την εμπειρία σας με το BlönBot...",
         "thanks": {

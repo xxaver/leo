@@ -1,4 +1,4 @@
-export const assistantName = "BlönBot";
+export const assistantName = "Johannes";
 export const description = "Ich bin der Chat-Assistent des Studienkolleg St. Johann Blönried. Ich helfe dir gerne bei deinen Fragen rund um unsere Schule.";
 export const schoolName = "Studienkolleg St. Johann Blönried";
 export const schoolAbbreviation = 'Du darfst den Namen der Schule mit SJB abkürzen.'

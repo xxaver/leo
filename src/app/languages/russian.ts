@@ -2,7 +2,7 @@ import {German} from "@/app/languages/german";
 
 export const Russian: typeof German = {
     "welcome": {
-        "h1": "Привет, я BlönBot!",
+        "h1": "Привет, я Johannes!",
         "subtitle": "Я чат-ассистент Studienkolleg St. Johann Blönried. Я буду рад помочь вам с вопросами о нашей школе.",
         "help": "Я с радостью помогу вам с вопросами о:",
         "help2": "Просто задайте мне свой вопрос!"
@@ -50,9 +50,9 @@ export const Russian: typeof German = {
         }
     },
     "feedback": {
-        "title": "Отзыв о BlönBot",
-        "description": "Как вам понравилось работать с BlönBot?",
-        "messagePlaceholder": "Расскажите нам о своем опыте работы с BlönBot...",
+        "title": "Отзыв о Johannes",
+        "description": "Как вам понравилось работать с Johannes?",
+        "messagePlaceholder": "Расскажите нам о своем опыте работы с Johannes...",
         "thanks": {
             "message": "Ваш отзыв поможет мне стать лучшим ассистентом для гимназии Вайнгартен!",
             "title": "Большое спасибо!"

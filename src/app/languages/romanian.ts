@@ -2,7 +2,7 @@ import {German} from "@/app/languages/german";
 
 export const Romanian: typeof German = {
     "welcome": {
-        "h1": "Salut, sunt BlönBot!",
+        "h1": "Salut, sunt Johannes!",
         "subtitle": "Sunt asistentul de chat al Studienkolleg St. Johann Blönried. Vă ajut cu plăcere cu întrebările dumneavoastră despre școala noastră.",
         "help": "Vă ajut cu plăcere la întrebări despre:",
         "help2": "Puneți-mi pur și simplu întrebarea!"
@@ -50,9 +50,9 @@ export const Romanian: typeof German = {
         }
     },
     "feedback": {
-        "title": "Feedback pentru BlönBot",
-        "description": "Cum a fost experiența ta cu BlönBot?",
-        "messagePlaceholder": "Spune-ne despre experiența ta cu BlönBot...",
+        "title": "Feedback pentru Johannes",
+        "description": "Cum a fost experiența ta cu Johannes?",
+        "messagePlaceholder": "Spune-ne despre experiența ta cu Johannes...",
         "thanks": {
             "message": "Feedback-ul tău mă ajută să devin un asistent mai bun pentru Studienkolleg St. Johann Blönried!",
             "title": "Mulțumesc mult!"

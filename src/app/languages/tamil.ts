@@ -2,7 +2,7 @@ import {German} from "@/app/languages/german";
 
 export const Tamil: typeof German = {
     "welcome": {
-        "h1": "வணக்கம், நான் BlönBot!",
+        "h1": "வணக்கம், நான் Johannes!",
         "subtitle": "நான் Studienkolleg St. Johann Blönried-இன் அரட்டை உதவியாளர். எங்கள் பள்ளியைப் பற்றிய உங்கள் கேள்விகளுக்கு உதவ நான் மகிழ்ச்சியடைகிறேன்.",
         "help": "பற்றிய கேள்விகளுக்கு உங்களுக்கு உதவ நான் மகிழ்ச்சியடைகிறேன்:",
         "help2": "உங்கள் கேள்வியை என்னிடம் கேளுங்கள்!"
