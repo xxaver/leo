@@ -48,7 +48,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
     const suggestions = findSuggestions(parsed_);
 
     return <div
-        className={`mb-6 flex ${message.role === "user" ? "sm:justify-end" : "sm:justify-start"} justify-stretch message-${message.role}`}>
+        className={`mb-6 flex ${message.role === "user" ? "sm:justify-end" : "sm:justify-start"} justify-stretch message message-${message.role}`}>
         <div
             className={`flex flex-col gap-3 max-w-full sm:max-w-[85%] ${message.role === "user" ? "sm:flex-row-reverse items-end sm:items-start w-full sm:w-max" : "sm:flex-row items-start w-max"}`}
         >
