@@ -46,8 +46,8 @@ export default function RootLayout({
                     "@context": "https://schema.org",
                     "@type": "WebSite",
                     name: assistantName + " - Chatbot des " + schoolName,
-                    url: `https://${process.env.VERCEL_URL}`,
-                    logo: `https://${process.env.VERCEL_URL}/logo.png`,
+                    url: `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`,
+                    logo: `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}/logo.png`,
                 }).replace(/</g, '\\u003c'),
             }}
         />
