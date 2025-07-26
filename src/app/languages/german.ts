@@ -1,4 +1,4 @@
-import {assistantName, description} from "../../../config";
+import {assistantName, description, schoolName} from "../../../config";
 
 export const German = {
     cancel: "Abbrechen",
@@ -39,7 +39,7 @@ export const German = {
             text: "Gibt es Möglichkeiten für Nicht-Deutschsprachige?"
         },
         general: {
-            prompt: "Erzähle mir mehr über das Gymnasium Weingarten",
+            prompt: `Erzähle mir mehr über das ${schoolName}`,
             text: "Generelle Informationen"
         },
         apology: {
