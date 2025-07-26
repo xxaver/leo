@@ -17,9 +17,24 @@ const geistMono = Geist_Mono({
     subsets: ["latin"],
 });
 
+const siteName = `${assistantName} - Chatbot des ${schoolName}`;
+
 export const metadata: Metadata = {
     title: assistantName,
     description,
+    openGraph: {
+        type: "website",
+        locale: "de_DE",
+        url: `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`,
+        description,
+        siteName, 
+        images: [
+            {
+                url: `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}/logo.png`,
+                alt: assistantName,
+            }
+        ]
+    }
 };
 
 export default function RootLayout({
@@ -45,7 +60,7 @@ export default function RootLayout({
                 __html: JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "WebSite",
-                    name: assistantName + " - Chatbot des " + schoolName,
+                    name: siteName,
                     url: `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`,
                     logo: `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}/logo.png`,
                 }).replace(/</g, '\\u003c'),
