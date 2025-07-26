@@ -15,7 +15,7 @@ import {getUrl} from "../../scraper/utils";
 
 import {decompressUrls} from "@/data/formatUrls";
 import {ChatContext} from "@/app/ChatContext";
-import {scrapeOrigins} from "../../config";
+import {assistantName, scrapeOrigins} from "../../config";
 
 export const findSuggestions = (parsed: z.infer<ReturnType<typeof getSchema>>) => {
     return parsed?.promptSuggestions || parsed?.parts?.findLast(e => e.promptSuggestions)?.promptSuggestions || [];
@@ -56,7 +56,7 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                 className={"flex items-center gap-2 shrink-0 max-w-full " + (message.role === "user" ? "flex-row-reverse" : "")}>
                 <ChatMessageLogo role={message.role}/>
                 <div className="sm:hidden">
-                    {message.role === "user" ? "Du" : "Leo"}
+                    {message.role === "user" ? "Du" : assistantName}
                 </div>
             </div>
             <div className="max-w-full">
