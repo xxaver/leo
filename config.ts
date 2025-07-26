@@ -19,3 +19,4 @@ export const scrapeIncludeContent = (url: string) => {
     const u = new URL(url);
     return u.pathname !== "/" && !u.pathname.includes("archiv");
 }
+export const fileadmin = "/fileadmin/";

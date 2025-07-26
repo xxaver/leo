@@ -1,7 +1,16 @@
 import other from "@/data/other.json";
+import {getUrl} from "../../../scraper/utils";
+import {schoolUrl} from "../../../config";
 
 export const formatOther = (k: any) => {
-    return`${k}: ${other[k].content.join("\n")}
-         Bilder auf der Seite: ${other[k].images?.slice(0, 3)?.map(img => img.description ? `${img.src} (${img.description})` : img.src).join("; ")}
-         Dokumente auf der Seite: ${other[k].documents?.slice(0, 3)?.map(img => img.description ? `${img.src} (${img.description})` : img.src).join("; ")}`
+    let imagesDone = 0;
+    
+    return`${k}: ${other[k].content.map(e => {
+        if(typeof e === "string") return e
+        if(e.image && imagesDone < 5) {
+            imagesDone++;
+            return `BILD: ${getUrl(e.image, schoolUrl)}`
+        }
+        if(e.document) return `DOKUMENT: ${getUrl(e.document, schoolUrl)}`
+    }).join("\n")}`
 }

@@ -12,7 +12,7 @@ import {formatOther} from "@/data/types/other";
 import {schoolUrl} from "../../config";
 
 const articles = Object.keys(other)
-    .filter(k => other[k] && !k.includes("/aktuelles/") && !other[k].title?.includes("Impressionen aus dem Kunstunterricht"))
+    .filter(k => other[k] && !k.includes("/aktuelles/"))
 
 export const knowledge = `Wichtige Links:
 Website: ${schoolUrl}
@@ -79,4 +79,4 @@ ${
 }
 `)
 // console.trace("HALLO")
-// console.log(fullKnowledge, articles)
+console.log(fullKnowledge)
