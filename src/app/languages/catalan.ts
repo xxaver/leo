@@ -2,7 +2,7 @@ import {German} from "@/app/languages/german";
 
 export const Catalan: typeof German = {
     "welcome": {
-        "h1": "Hola, sóc BlönBot!",
+        "h1": "Hola, sóc Johannes!",
         "subtitle": "Sóc l'assistent de xat de l'Studienkolleg St. Johann Blönried. Estaré encantat d'ajudar-te amb les teves preguntes sobre la nostra escola.",
         "help": "T'ajudo amb preguntes sobre:",
         "help2": "Fes-me la teva pregunta!"
@@ -50,9 +50,9 @@ export const Catalan: typeof German = {
         }
     },
     "feedback": {
-        "title": "Comentaris per a BlönBot",
-        "description": "Com ha estat la teva experiència amb BlönBot?",
-        "messagePlaceholder": "Explica'ns la teva experiència amb BlönBot...",
+        "title": "Comentaris per a Johannes",
+        "description": "Com ha estat la teva experiència amb Johannes?",
+        "messagePlaceholder": "Explica'ns la teva experiència amb Johannes...",
         "thanks": {
             "message": "Els teus comentaris m'ajuden a ser un millor assistent per al Gymnasium Weingarten!",
             "title": "Moltes gràcies!"

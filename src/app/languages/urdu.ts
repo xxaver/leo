@@ -2,7 +2,7 @@ import {German} from "@/app/languages/german";
 
 export const Urdu: typeof German = {
     "welcome": {
-        "h1": "ہیلو، میں BlönBot ہوں!",
+        "h1": "ہیلو، میں Johannes ہوں!",
         "subtitle": "میں Studienkolleg St. Johann Blönried کا چیٹ اسسٹنٹ ہوں۔ مجھے ہمارے اسکول کے بارے میں آپ کے سوالات میں آپ کی مدد کرنے میں خوشی ہوگی۔",
         "help": "میں آپ کو ان سوالات میں مدد کرنے میں خوشی محسوس کروں گا:",
         "help2": "بس اپنا سوال پوچھیں!"
@@ -50,9 +50,9 @@ export const Urdu: typeof German = {
         }
     },
     "feedback": {
-        "title": "BlönBot کے لیے تاثرات",
-        "description": "BlönBot کے ساتھ آپ کا تجربہ کیسا رہا؟",
-        "messagePlaceholder": "ہمیں BlönBot کے ساتھ اپنے تجربے کے بارے میں بتائیں...",
+        "title": "Johannes کے لیے تاثرات",
+        "description": "Johannes کے ساتھ آپ کا تجربہ کیسا رہا؟",
+        "messagePlaceholder": "ہمیں Johannes کے ساتھ اپنے تجربے کے بارے میں بتائیں...",
         "thanks": {
             "message": "آپ کے تاثرات مجھے Gymnasium Weingarten کے لیے ایک بہتر اسسٹنٹ بننے میں مدد کرتے ہیں!",
             "title": "بہت بہت شکریہ!"

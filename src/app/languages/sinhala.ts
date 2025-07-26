@@ -2,7 +2,7 @@ import {German} from "@/app/languages/german";
 
 export const Sinhala: typeof German = {
     "welcome": {
-        "h1": "ආයුබෝවන්, මම BlönBot!",
+        "h1": "ආයුබෝවන්, මම Johannes!",
         "subtitle": "මම Studienkolleg St. Johann Blönried හි චැට් සහායකයා වෙමි. අපගේ පාසල පිළිබඳ ඔබගේ ප්‍රශ්න වලට පිළිතුරු දීමට මම සතුටු වෙමි.",
         "help": "පිළිබඳ ප්‍රශ්න සඳහා ඔබට උදව් කිරීමට මම සතුටු වෙමි:",
         "help2": "ඔබේ ප්‍රශ්නය මගෙන් අසන්න!"
@@ -50,9 +50,9 @@ export const Sinhala: typeof German = {
         }
     },
     "feedback": {
-        "title": "BlönBot සඳහා ප්‍රතිපෝෂණ",
-        "description": "BlönBot සමඟ ඔබේ අත්දැකීම කෙසේද?",
-        "messagePlaceholder": "BlönBot සමඟ ඔබේ අත්දැකීම ගැන අපට කියන්න...",
+        "title": "Johannes සඳහා ප්‍රතිපෝෂණ",
+        "description": "Johannes සමඟ ඔබේ අත්දැකීම කෙසේද?",
+        "messagePlaceholder": "Johannes සමඟ ඔබේ අත්දැකීම ගැන අපට කියන්න...",
         "thanks": {
             "message": "ඔබගේ ප්‍රතිපෝෂණය Gymnasium Weingarten සඳහා වඩා හොඳ සහායකයෙකු වීමට මට උපකාරී වේ!",
             "title": "බොහොම ස්තුතියි!"

@@ -2,7 +2,7 @@ import {German} from "@/app/languages/german";
 
 export const Lao: typeof German = {
     "welcome": {
-        "h1": "ສະບາຍດີ, ຂ້ອຍແມ່ນ BlönBot!",
+        "h1": "ສະບາຍດີ, ຂ້ອຍແມ່ນ Johannes!",
         "subtitle": "ຂ້ອຍເປັນຜູ້ຊ່ວຍສົນທະນາຂອງ Studienkolleg St. Johann Blönried. ຂ້ອຍຍິນດີຊ່ວຍເຈົ້າຕອບຄຳຖາມກ່ຽວກັບໂຮງຮຽນຂອງພວກເຮົາ.",
         "help": "ຂ້ອຍຍິນດີຊ່ວຍເຈົ້າຕອບຄຳຖາມກ່ຽວກັບ:",
         "help2": "ພຽງແຕ່ຖາມຄຳຖາມຂອງເຈົ້າ!"
@@ -50,9 +50,9 @@ export const Lao: typeof German = {
         }
     },
     "feedback": {
-        "title": "ຄຳຕິຊົມສຳລັບ BlönBot",
-        "description": "ປະສົບການຂອງທ່ານກັບ BlönBot ເປັນແນວໃດ?",
-        "messagePlaceholder": "ບອກພວກເຮົາກ່ຽວກັບປະສົບການຂອງທ່ານກັບ BlönBot...",
+        "title": "ຄຳຕິຊົມສຳລັບ Johannes",
+        "description": "ປະສົບການຂອງທ່ານກັບ Johannes ເປັນແນວໃດ?",
+        "messagePlaceholder": "ບອກພວກເຮົາກ່ຽວກັບປະສົບການຂອງທ່ານກັບ Johannes...",
         "thanks": {
             "message": "ຄຳຕິຊົມຂອງທ່ານຊ່ວຍໃຫ້ຂ້ອຍກາຍເປັນຜູ້ຊ່ວຍທີ່ດີຂຶ້ນສຳລັບ Gymnasium Weingarten!",
             "title": "ຂອບໃຈຫຼາຍໆ!"

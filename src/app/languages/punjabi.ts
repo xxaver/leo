@@ -2,7 +2,7 @@ import {German} from "@/app/languages/german";
 
 export const Punjabi: typeof German = {
     "welcome": {
-        "h1": "ਸਤ ਸ੍ਰੀ ਅਕਾਲ, ਮੈਂ BlönBot ਹਾਂ!",
+        "h1": "ਸਤ ਸ੍ਰੀ ਅਕਾਲ, ਮੈਂ Johannes ਹਾਂ!",
         "subtitle": "ਮੈਂ Studienkolleg St. Johann Blönried ਦਾ ਚੈਟ ਸਹਾਇਕ ਹਾਂ। ਮੈਨੂੰ ਸਾਡੇ ਸਕੂਲ ਬਾਰੇ ਤੁਹਾਡੇ ਸਵਾਲਾਂ ਵਿੱਚ ਤੁਹਾਡੀ ਮਦਦ ਕਰਨ ਵਿੱਚ ਖੁਸ਼ੀ ਹੋਵੇਗੀ।",
         "help": "ਮੈਂ ਇਹਨਾਂ ਬਾਰੇ ਸਵਾਲਾਂ ਵਿੱਚ ਤੁਹਾਡੀ ਮਦਦ ਕਰਕੇ ਖੁਸ਼ ਹਾਂ:",
         "help2": "ਬੱਸ ਮੈਨੂੰ ਆਪਣਾ ਸਵਾਲ ਪੁੱਛੋ!"
@@ -50,9 +50,9 @@ export const Punjabi: typeof German = {
         }
     },
     "feedback": {
-        "title": "BlönBot ਲਈ ਫੀਡਬੈਕ",
-        "description": "BlönBot ਨਾਲ ਤੁਹਾਡਾ ਅਨੁਭਵ ਕਿਹੋ ਜਿਹਾ ਸੀ?",
-        "messagePlaceholder": "ਸਾਨੂੰ BlönBot ਨਾਲ ਆਪਣੇ ਅਨੁਭਵ ਬਾਰੇ ਦੱਸੋ...",
+        "title": "Johannes ਲਈ ਫੀਡਬੈਕ",
+        "description": "Johannes ਨਾਲ ਤੁਹਾਡਾ ਅਨੁਭਵ ਕਿਹੋ ਜਿਹਾ ਸੀ?",
+        "messagePlaceholder": "ਸਾਨੂੰ Johannes ਨਾਲ ਆਪਣੇ ਅਨੁਭਵ ਬਾਰੇ ਦੱਸੋ...",
         "thanks": {
             "message": "ਤੁਹਾਡਾ ਫੀਡਬੈਕ ਮੈਨੂੰ Gymnasium Weingarten ਲਈ ਇੱਕ ਬਿਹਤਰ ਸਹਾਇਕ ਬਣਨ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ!",
             "title": "ਤੁਹਾਡਾ ਬਹੁਤ ਧੰਨਵਾਦ!"

@@ -229,7 +229,7 @@ const setupLeo = () => {
 
     <div class="grow">
          <div class="text-lg font-medium">
-             Hallo, Ich bin Blönbot!
+             Hallo, Ich bin Johannes!
          </div>
          <div class="text-sm">
              Ich helfe dir gerne bei Fragen rund ums Studienkolleg St. Johann

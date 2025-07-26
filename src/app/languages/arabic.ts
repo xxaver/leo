@@ -50,9 +50,9 @@ export const Arabic: typeof German = {
         }
     },
     "feedback": {
-        "title": "ملاحظات لـ BlönBot",
-        "description": "كيف كانت تجربتك مع BlönBot؟",
-        "messagePlaceholder": "أخبرنا عن تجربتك مع BlönBot...",
+        "title": "ملاحظات لـ Johannes",
+        "description": "كيف كانت تجربتك مع Johannes؟",
+        "messagePlaceholder": "أخبرنا عن تجربتك مع Johannes...",
         "thanks": {
             "message": "تساعدني ملاحظاتك على أن أصبح مساعدًا أفضل لـ Studienkolleg St. Johann Blönried!",
             "title": "شكراً جزيلاً!"

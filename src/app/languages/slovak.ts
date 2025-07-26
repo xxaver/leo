@@ -2,7 +2,7 @@ import {German} from "@/app/languages/german";
 
 export const Slovak: typeof German = {
     "welcome": {
-        "h1": "Ahoj, ja som BlönBot!",
+        "h1": "Ahoj, ja som Johannes!",
         "subtitle": "Som chatový asistent Studienkolleg St. Johann Blönried. Rád vám pomôžem s vašimi otázkami o našej škole.",
         "help": "Rád vám pomôžem s otázkami týkajúcimi sa:",
         "help2": "Jednoducho mi položte svoju otázku!"

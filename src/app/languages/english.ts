@@ -2,7 +2,7 @@ import {German} from "@/app/languages/german";
 
 export const English: typeof German = {
     "welcome": {
-        "h1": "Hello, I am BlönBot!",
+        "h1": "Hello, I am Johannes!",
         "subtitle": "I am the chat assistant for the Studienkolleg St. Johann Blönried. I am happy to help you with your questions about our school.",
         "help": "I'm happy to help you with questions about:",
         "help2": "Just ask me your question!"
@@ -50,9 +50,9 @@ export const English: typeof German = {
         }
     },
     "feedback": {
-        "title": "Feedback for BlönBot",
-        "description": "How was your experience with BlönBot?",
-        "messagePlaceholder": "Tell us about your experience with BlönBot...",
+        "title": "Feedback for Johannes",
+        "description": "How was your experience with Johannes?",
+        "messagePlaceholder": "Tell us about your experience with Johannes...",
         "thanks": {
             "message": "Your feedback helps me become a better assistant for the Gymnasium Weingarten!",
             "title": "Thank you very much!"

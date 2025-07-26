@@ -2,7 +2,7 @@ import {German} from "@/app/languages/german";
 
 export const Korean: typeof German = {
     "welcome": {
-        "h1": "안녕하세요, 저는 BlönBot입니다!",
+        "h1": "안녕하세요, 저는 Johannes입니다!",
         "subtitle": "저는 Studienkolleg St. Johann Blönried의 채팅 도우미입니다. 저희 학교에 대한 질문에 기꺼이 도와드리겠습니다.",
         "help": "다음과 같은 질문에 대해 기꺼이 도와드리겠습니다:",
         "help2": "질문을 하세요!"
@@ -50,9 +50,9 @@ export const Korean: typeof German = {
         }
     },
     "feedback": {
-        "title": "BlönBot에 대한 피드백",
-        "description": "BlönBot 사용 경험은 어떠셨나요?",
-        "messagePlaceholder": "BlönBot 사용 경험에 대해 알려주세요...",
+        "title": "Johannes에 대한 피드백",
+        "description": "Johannes 사용 경험은 어떠셨나요?",
+        "messagePlaceholder": "Johannes 사용 경험에 대해 알려주세요...",
         "thanks": {
             "message": "귀하의 피드백은 제가 Gymnasium Weingarten을 위한 더 나은 조수가 되는 데 도움이 됩니다!",
             "title": "감사합니다!"

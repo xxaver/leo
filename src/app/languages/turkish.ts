@@ -2,7 +2,7 @@ import {German} from "@/app/languages/german";
 
 export const Turkish: typeof German = {
     "welcome": {
-        "h1": "Merhaba, ben BlönBot!",
+        "h1": "Merhaba, ben Johannes!",
         "subtitle": "Ben Studienkolleg St. Johann Blönried'in sohbet asistanıyım. Okulumuzla ilgili sorularınızda size yardımcı olmaktan mutluluk duyarım.",
         "help": "Şu konulardaki sorularda sana yardımcı olmaktan memnuniyet duyarım:",
         "help2": "Sadece sorunu sor!"
@@ -50,9 +50,9 @@ export const Turkish: typeof German = {
         }
     },
     "feedback": {
-        "title": "BlönBot için Geri Bildirim",
-        "description": "BlönBot ile deneyiminiz nasıldı?",
-        "messagePlaceholder": "BlönBot ile olan deneyiminizi bize anlatın...",
+        "title": "Johannes için Geri Bildirim",
+        "description": "Johannes ile deneyiminiz nasıldı?",
+        "messagePlaceholder": "Johannes ile olan deneyiminizi bize anlatın...",
         "thanks": {
             "message": "Geri bildiriminiz, Gymnasium Weingarten için daha iyi bir asistan olmama yardımcı oluyor!",
             "title": "Çok teşekkürler!"

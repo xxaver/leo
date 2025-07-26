@@ -2,7 +2,7 @@ import {German} from "@/app/languages/german";
 
 export const Serbian: typeof German = {
     "welcome": {
-        "h1": "Здраво, ја сам BlönBot!",
+        "h1": "Здраво, ја сам Johannes!",
         "subtitle": "Ја сам чет асистент Studienkolleg St. Johann Blönried. Радо ћу вам помоћи са питањима о нашој школи.",
         "help": "Радо ћу вам помоћи са питањима о:",
         "help2": "Само ми поставите питање!"

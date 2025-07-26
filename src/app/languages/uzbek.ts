@@ -2,7 +2,7 @@ import {German} from "@/app/languages/german";
 
 export const Uzbek: typeof German = {
     "welcome": {
-        "h1": "Salom, men BlönBotman!",
+        "h1": "Salom, men Johannesman!",
         "subtitle": "Men Studienkolleg St. Johann Blönriedning chat yordamchisiman. Maktabimiz haqidagi savollaringizga mamnuniyat bilan yordam beraman.",
         "help": "Men sizga quyidagi savollar bo'yicha yordam berishdan mamnunman:",
         "help2": "Shunchaki savolingizni bering!"
@@ -50,9 +50,9 @@ export const Uzbek: typeof German = {
         }
     },
     "feedback": {
-        "title": "BlönBot uchun fikr-mulohaza",
-        "description": "BlönBot bilan tajribangiz qanday bo'ldi?",
-        "messagePlaceholder": "BlönBot bilan bo'lgan tajribangiz haqida bizga gapirib bering...",
+        "title": "Johannes uchun fikr-mulohaza",
+        "description": "Johannes bilan tajribangiz qanday bo'ldi?",
+        "messagePlaceholder": "Johannes bilan bo'lgan tajribangiz haqida bizga gapirib bering...",
         "thanks": {
             "message": "Sizning fikr-mulohazangiz menga Gymnasium Weingarten uchun yaxshiroq yordamchi bo'lishga yordam beradi!",
             "title": "Katta rahmat!"

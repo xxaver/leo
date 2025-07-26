@@ -2,7 +2,7 @@ import {German} from "@/app/languages/german";
 
 export const Portuguese: typeof German = {
     "welcome": {
-        "h1": "Olá, eu sou o BlönBot!",
+        "h1": "Olá, eu sou o Johannes!",
         "subtitle": "Eu sou o assistente de chat do Studienkolleg St. Johann Blönried. Fico feliz em ajudar com suas perguntas sobre nossa escola.",
         "help": "Fico feliz em ajudar com perguntas sobre:",
         "help2": "Apenas faça sua pergunta!"
