@@ -79,14 +79,14 @@ export const German = {
         feedback: "Feedback"
     },
     feedback: {
-        title: "Feedback für Leo",
-        description: "Wie war deine Erfahrung mit Leo?",
+        title: `Feedback für ${assistantName}`,
+        description: `Wie war deine Erfahrung mit ${assistantName}?`,
         rating: "Bewertung",
         message: "Deine Nachricht",
         characterLimit: "Zeichen",
         name: "Dein Name",
         
-        messagePlaceholder: "Erzähl uns von deiner Erfahrung mit Leo...",
+        messagePlaceholder: `Erzähl uns von deiner Erfahrung mit ${assistantName}...`,
         namePlaceholder: "z.B. Max Mustermann",
         
         optional: "Optional",
