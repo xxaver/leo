@@ -52,7 +52,7 @@ export const scrapeOther = async (target: string, useCache = false) => {
                 else {
                     count++;
                     next[id] = {
-                        title: (main.querySelector("h1") || main.querySelector("h2") || main.querySelector("h3") || main.querySelector("h4"))?.textContent,
+                        title: (main.querySelector("h1") || main.querySelector("h2") || main.querySelector("h3") || main.querySelector("h4"))?.textContent?.trim(),
                         content: getInnerText(main).filter(Boolean),
                         // images: Array.from(document.querySelectorAll<HTMLImageElement>("main img:not(:is(.slick-slide img))")).map((e) => {
                         //     const src = getUrl(e.src, scrapeOrigins[0]);
