@@ -6,7 +6,7 @@ import {Tooltip, TooltipContent, TooltipTrigger} from "@/components/ui/tooltip";
 import {Bot} from "lucide-react";
 import {Chat} from "@/app/Chat";
 import {motion} from "framer-motion";
-import {assistantName} from "../../../config";
+import {assistantName, schoolName} from "../../../config";
 
 export const MiniChat = () => {
     const [loaded, setLoaded] = useState(false);
@@ -66,10 +66,10 @@ export const MiniChat = () => {
                         Hallo, Ich bin {assistantName}!
                     </div>
                     <div className="text-sm hidden md:block">
-                        Ich helfe dir gerne bei Fragen rund ums Gymnasium Weingarten
+                        Ich helfe dir gerne bei Fragen rund ums ${schoolName}
                     </div>
                     <div className="text-sm md:hidden">
-                        Ich helfe dir gerne bei Fragen rund<br/>ums Gymnasium Weingarten
+                        Ich helfe dir gerne bei Fragen rund<br/>ums ${schoolName}
                     </div>
                 </div>
             </TooltipContent>
