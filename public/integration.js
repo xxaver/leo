@@ -2,7 +2,11 @@ let isLeoSetUp = false;
 const setupLeo = () => {
     if (!isLeoSetUp) {
         const style = document.createElement('style');
-        style.textContent = `.leo {
+        style.textContent = `
+:root {
+    --leo-primary: #0095d0;
+}
+.leo {
     position: fixed;
     right: 1.25rem;
     bottom: 1.25rem;
@@ -18,7 +22,7 @@ const setupLeo = () => {
     align-items: center;
     overflow: hidden;
     background-color: white;
-    border: 1px solid #fb2c36;
+    border: 1px solid var(--leo-primary);
     transition: all .2s;
     cursor: pointer;
 }
@@ -114,7 +118,7 @@ const setupLeo = () => {
     top: 50%;
     translate: -100% -50%;
     background-color: white;
-    border: 1px solid #fb2c36;
+    border: 1px solid var(--leo-primary);
     padding: 10px;
     gap: 10px;
     border-radius: 10px;
@@ -129,8 +133,8 @@ const setupLeo = () => {
     right: 9px;
     top: 50%;
     translate: 100% -50%;
-    border-right: 1px solid #fb2c36;
-    border-top: 1px solid #fb2c36;
+    border-right: 1px solid var(--leo-primary);
+    border-top: 1px solid var(--leo-primary);
     height: 20px;
     width: 20px;
     background-color: white;
@@ -176,7 +180,7 @@ const setupLeo = () => {
     isLeoSetUp = true;
 
 
-    const origin = location.origin === "http://localhost:3000" ? "http://localhost:3000" : "https://frag-leo.vercel.app";
+    const origin = location.origin === "http://localhost:3000" ? "http://localhost:3000" : "https://bloenbot.vercel.app";
 
 
     const presentLeo = document.querySelector('.leo');
@@ -197,7 +201,8 @@ const setupLeo = () => {
         const img = document.createElement('img');
         img.width = 96;
         img.height = 96;
-        img.src = "https://www.gymnasium-weingarten.de/fileadmin/templates/gymnasium-weingarten-de/assets/img/favicon.ico";
+        img.src = "https://bloenbot.vercel.app/logo.png";
+        img.style.objectFit = "contain";
         logo.appendChild(img);
 
         tooltip.classList.add('leo-tooltip');
@@ -209,7 +214,7 @@ const setupLeo = () => {
           height="48"
           viewBox="0 0 24 24"
           fill="none"
-          stroke="#fb2c36"
+          stroke="#0095d0"
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -224,10 +229,10 @@ const setupLeo = () => {
 
     <div class="grow">
          <div class="text-lg font-medium">
-             Hallo, Ich bin Leo! 🦁
+             Hallo, Ich bin Blönbot!
          </div>
          <div class="text-sm">
-             Ich helfe dir gerne bei Fragen rund ums Gymnasium Weingarten
+             Ich helfe dir gerne bei Fragen rund ums Studienkolleg St. Johann
          </div>
     </div>
     `;
