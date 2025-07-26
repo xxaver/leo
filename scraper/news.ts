@@ -39,8 +39,8 @@ export const scrapeNews = async (target: string) => {
         next[id] = {
             type: "news",
             id,
-            name,
-            description,
+            name: name.filter(e => typeof e === "string").join(" "),
+            description: description.filter(e => typeof e === "string").join(" "),
             date: new Date(date).getTime(),
             image: new URL(image, url).href,
             link: url.href
