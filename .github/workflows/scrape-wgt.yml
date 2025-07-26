@@ -1,4 +1,4 @@
-name: Scrape
+name: Scrape (Gymnasium Weingarten)
 on:
   workflow_dispatch:
   schedule:
@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
        - uses: actions/checkout@v4
+         with:
+           ref: gym-wgt
        - uses: actions/setup-node@v4
          with:
            cache: 'npm'
