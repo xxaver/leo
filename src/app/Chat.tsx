@@ -46,7 +46,7 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
     useEffect(() => {
         if (messages.length) sessionStorage.setItem("ai-messages", JSON.stringify(messages));
         if (messages.length) {
-            const last = Array.from(document.querySelectorAll(".message-assistant")).at(-1);
+            const last = Array.from(document.querySelectorAll(".message")).at(-1);
             if (last && last.getBoundingClientRect().y - containerRef.current?.getBoundingClientRect().y! > 0) last.scrollIntoView({
                 behavior: "smooth",
                 block: "start"
