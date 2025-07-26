@@ -5,7 +5,7 @@ import {SpeedInsights} from "@vercel/speed-insights/next";
 import {Analytics} from "@vercel/analytics/next";
 import {Suspense} from "react";
 import {LanguageProvider} from "@/app/languages/LanguageProvider";
-import {assistantName, description} from "../../config";
+import {assistantName, description, schoolName} from "../../config";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -39,6 +39,18 @@ export default function RootLayout({
         </Suspense>
         <SpeedInsights/>
         <Analytics/>
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+                __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "WebSite",
+                    name: assistantName + " - Chatbot des " + schoolName,
+                    url: `https://${process.env.VERCEL_URL}`,
+                    logo: `https://${process.env.VERCEL_URL}/logo.png`,
+                }).replace(/</g, '\\u003c'),
+            }}
+        />
         </body>
         </html>
     );
