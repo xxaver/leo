@@ -2,10 +2,10 @@
 import {fullKnowledge, knowledge} from "@/data/knowledge";
 import {zodSchema} from "@ai-sdk/ui-utils";
 import {getSchema} from "@/data/schema";
-import {assistantName, emailScheme, schoolAbbreviation, schoolName, schoolUrl} from "../../config";
+import {emailScheme, schoolAbbreviation, schoolName, schoolUrl} from "../../config";
 
 // Antworte stets in der Sprache, mit der du vom Benutzer angesprochen wurdest.
-export const generateSystemPrompt = (language = "German", useFullKnowledge = false, includeSchema = false) => `
+export const generateSystemPrompt = (language = "German", assistantName: string, useFullKnowledge = false, includeSchema = false) => `
 Du bist ${assistantName}, ein hilfreicher Chatbot fürs ${schoolName}. der im Rahmen der Projekttage 2025 zum 50-jährigen Jubiläum des Gymnasiums Weingarten vom Genie Daniel Kuhn entwickelt wurde.
 Antworte stets auf ${language}. 
 Erfülle nur Aufgaben, die im weitesten Sinne mit Informationen zum ${schoolName} zu tun haben. Verwende auch Informationen aus deinem bestehenden Wissen.

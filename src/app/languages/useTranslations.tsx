@@ -1,7 +1,8 @@
-import {useContext} from "react";
+"use client";
+
+import {createContext, FC, PropsWithChildren, useContext, useEffect, useMemo, useState} from "react";
 import {English as English1} from "@/app/languages/english";
 import {German} from "@/app/languages/german";
-import {LanguageContext} from "@/app/languages/LanguageContext";
 import {French} from "@/app/languages/french";
 import {Ukrainian} from "@/app/languages/ukrainian";
 import {Russian} from "@/app/languages/russian";
@@ -63,7 +64,10 @@ import {Uzbek} from "@/app/languages/uzbek";
 import {Vietnamese} from "@/app/languages/vietnamese";
 import {Zulu} from "@/app/languages/zulu";
 import {merge} from "@/utils";
-import {assistantName, schoolName} from "../../../config";
+import {schoolName, useAssistantName} from "../../../config";
+import {languages} from "@/app/languages/languages";
+import {useSearchParams} from "next/navigation";
+import {languageHeader} from "@/data/languageHeader";
 
 const English = merge(English1, German);
 
@@ -131,15 +135,41 @@ const translations = {
     Vietnamese,
     Zulu,
 } as any;
-for(const key in translations) {
-    translations[key] = merge(translations[key], English, a => a
-        .replaceAll("{assistantName}", assistantName)
-        .replaceAll("{schoolName}", schoolName)
-    );
-}
 
 
+export const LanguageContext = createContext<{
+    language: string;
+    setLanguage: (language: string) => void;
+    translations: typeof German;
+}>(null as any);
 export const useTranslations = () => {
-    const {language} = useContext(LanguageContext);
-    return (translations[language] || English) as typeof German;
+    return useContext(LanguageContext).translations;
 };
+const getLanguage = () => {
+    const lang = navigator.languages.map(e => e.split("-")[0])
+    for (const l of lang) {
+        const found = languages.find(e => e.code === l);
+        if (found) return found.englishName;
+    }
+    return "English";
+}
+export const LanguageProvider: FC<PropsWithChildren<{}>> = ({children}) => {
+    const [language, setLanguage] = useState("German");
+    const langParam = useSearchParams().get("lang");
+
+    useEffect(() => {
+        if (langParam) localStorage.setItem(languageHeader, langParam);
+        setLanguage(langParam || localStorage.getItem(languageHeader) || getLanguage());
+    }, [langParam]);
+
+    const assistantName = useAssistantName();
+    const translated = useMemo<typeof German>(() =>
+        merge(translations[language] || English, English, a => a
+            .replaceAll("{assistantName}", assistantName)
+            .replaceAll("{schoolName}", schoolName)
+        ), [assistantName, language])
+
+    return <LanguageContext value={{language, setLanguage, translations: translated}}>
+        {children}
+    </LanguageContext>
+}

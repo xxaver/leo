@@ -9,11 +9,12 @@ import {ChatContext, ShowImage} from "@/app/ChatContext";
 import {ChatDropdownMenu} from "@/app/ChatDropdownMenu";
 import {AlertCircle, ArrowUpRight, X} from "lucide-react";
 import {Button} from "@/components/ui/button";
-import {customHeader, languageHeader} from "@/data/languageHeader";
+import {customHeader, languageHeader, nameHeader} from "@/data/languageHeader";
 import {Footer} from "@/app/Footer";
 import {Header} from "@/app/Header";
-import {LanguageContext} from "@/app/languages/LanguageContext";
 import {LanguagePicker} from "@/LanguagePicker";
+import {LanguageContext} from "@/app/languages/useTranslations";
+import {useAssistantName} from "../../config";
 
 export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
     const {language} = useContext(LanguageContext);
@@ -23,10 +24,12 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
         setCustom(localStorage.getItem(customHeader));
     }, []);
 
+    const assistantName = useAssistantName();
     const chat = useChat({
         headers: {
             [languageHeader]: language,
-            [customHeader]: custom!
+            [customHeader]: custom!,
+            [nameHeader]: assistantName.match(/\w+/g)?.join(" ")!,
         }
     });
     const inputRef = useRef<HTMLInputElement>(null);

@@ -4,8 +4,8 @@ import "./globals.css";
 import {SpeedInsights} from "@vercel/speed-insights/next";
 import {Analytics} from "@vercel/analytics/next";
 import {Suspense} from "react";
-import {LanguageProvider} from "@/app/languages/LanguageProvider";
 import {assistantName, description, schoolName} from "../../config";
+import {LanguageProvider} from "@/app/languages/useTranslations";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",

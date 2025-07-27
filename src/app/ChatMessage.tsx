@@ -15,7 +15,7 @@ import {getUrl} from "../../scraper/utils";
 
 import {decompressUrls} from "@/data/formatUrls";
 import {ChatContext} from "@/app/ChatContext";
-import {assistantName, scrapeOrigins} from "../../config";
+import {scrapeOrigins, useAssistantName} from "../../config";
 
 export const findSuggestions = (parsed: z.infer<ReturnType<typeof getSchema>>) => {
     return parsed?.promptSuggestions || parsed?.parts?.findLast(e => e.promptSuggestions)?.promptSuggestions || [];
@@ -41,6 +41,7 @@ export const ChatMessageLogo: FC<{
 }
 export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
     const chat = useContext(ChatContext)!;
+    const assistantName = useAssistantName();
     const [complete, parsed_] = parsePartial<z.infer<ReturnType<typeof getSchema>>>(message.content);
     const parsed = (message.role === "assistant" && parsed_) || {
         parts: [{text: message.content}],

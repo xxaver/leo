@@ -1,25 +1,16 @@
 import {google} from '@ai-sdk/google';
-import {
-    convertToCoreMessages,
-    createDataStreamResponse,
-    LanguageModelV1,
-    streamObject,
-    streamText,
-    tool,
-    ToolSet
-} from 'ai';
+import {createDataStreamResponse, LanguageModelV1, streamObject, streamText, tool, ToolSet} from 'ai';
 import {generateSystemPrompt} from "@/data/systemPrompt";
 import {v4} from "uuid";
-import {writeFile} from "node:fs/promises";
-import {fullKnowledge, knowledge} from "@/data/knowledge";
 import {z} from "zod";
 import {createLiterals} from "@/data/types/createLiterals";
 import other from "@/data/other.json";
 import {formatOther} from "@/data/types/other";
 import {getSchema} from "@/data/schema";
 import {groq} from "@ai-sdk/groq";
-import {customHeader, languageHeader} from "@/data/languageHeader";
+import {customHeader, languageHeader, nameHeader} from "@/data/languageHeader";
 import {Octokit} from "octokit";
+import {assistantName, assistantNameValid} from "../../../../config";
 
 const mapName = ([k, e]: any) => e?.title || k.split("/").reverse().find(Boolean) || k;
 const available = Object.entries(other).filter(e => e[1] && !e[0].includes("archiv")).map(mapName);
@@ -41,7 +32,7 @@ const customModels = {
     flashLite2: google('gemini-2.0-flash-lite', {
         object: true
     }),
-    
+
     k2: groq("moonshotai/kimi-k2-instruct", {schema: true})
 } as any;
 
@@ -92,10 +83,10 @@ export async function POST(req: Request) {
     const customModelChoice = req.headers.get(customHeader);
     console.log(customModelChoice, customModels[customModelChoice!])
 
-    if(customModels[customModelChoice!]) return await doRequest(customModels[customModelChoice!], messages, req);
+    if (customModels[customModelChoice!]) return await doRequest(customModels[customModelChoice!], messages, req);
     for (const model of models) {
         const request = await doRequest(model, messages, req);
-        if(request) return request;
+        if (request) return request;
     }
 }
 
@@ -139,7 +130,12 @@ export const doRequest = async (model: LanguageModelV1 | "github-workflow", mess
                         onFinish: () => {
                             console.log("FINISH", model)
                         },
-                        system: generateSystemPrompt(req.headers.get(languageHeader) || "Deutsch", object, model.settings?.schema),
+                        system: generateSystemPrompt(
+                            req.headers.get(languageHeader) || "Deutsch",
+                            assistantNameValid(req.headers.get(nameHeader)) ? req.headers.get(nameHeader) : assistantName,
+                            object,
+                            model.settings?.schema
+                        ),
                         schema: getSchema(),
                         providerOptions: {
                             groq: {
