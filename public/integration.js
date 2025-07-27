@@ -1,5 +1,9 @@
 let isLeoSetUp = false;
 const setupLeo = () => {
+    let name = sessionStorage.getItem('leo-name');
+    if(!name) sessionStorage.setItem('leo-name', Math.random() > .5 ? "Johannes" : "Johanna");
+    name = sessionStorage.getItem('leo-name');
+    
     if (!isLeoSetUp) {
         const style = document.createElement('style');
         style.textContent = `
@@ -180,7 +184,9 @@ const setupLeo = () => {
     isLeoSetUp = true;
 
 
-    const origin = location.origin === "http://localhost:3000" ? "http://localhost:3000" : "https://bloenbot.vercel.app";
+    const origin = 
+        // location.origin === "http://localhost:3000" ? "http://localhost:3000" :
+            `https://frag-${name.toLowerCase()}.vercel.app?name=${name.toLowerCase()}`;
 
 
     const presentLeo = document.querySelector('.leo');
@@ -201,7 +207,7 @@ const setupLeo = () => {
         const img = document.createElement('img');
         img.width = 96;
         img.height = 96;
-        img.src = "https://bloenbot.vercel.app/logo.png";
+        img.src = "https://frag-johannes.vercel.app/logo.png";
         img.style.objectFit = "contain";
         logo.appendChild(img);
 
@@ -229,7 +235,7 @@ const setupLeo = () => {
 
     <div class="grow">
          <div class="text-lg font-medium">
-             Hallo, Ich bin Johannes!
+             Hallo, Ich bin ${name}!
          </div>
          <div class="text-sm">
              Ich helfe dir gerne bei Fragen rund ums Studienkolleg St. Johann
