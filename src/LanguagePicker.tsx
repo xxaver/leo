@@ -5,7 +5,8 @@ import {FC, useContext} from "react";
 import {languageHeader} from "@/data/languageHeader";
 import {Select, SelectContent, SelectItem, SelectTrigger} from "@/components/ui/select";
 import {languages} from "@/app/languages/languages";
-import {LanguageContext} from "@/app/languages/LanguageContext";
+
+import {LanguageContext} from "@/app/languages/useTranslations";
 
 export const LanguagePicker: FC = () => {
     const {language, setLanguage} = useContext(LanguageContext);

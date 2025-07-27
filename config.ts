@@ -1,4 +1,6 @@
-export const assistantName = "Leo 🦁";
+export const useAssistantName = () => "Leo 🦁";
+export const assistantName = "Leo 🦁"
+export const assistantNameValid = (n: string) =>  n === assistantName
 export const description = "Ich bin der Chat-Assistent des Gymnasium Weingartens, der während der Projekttage 2025 zum 50-jährigen Jubiläum des Gymnasiums Weingarten entwickelt wurde.";
 export const schoolName = "Gymnasium Weingarten";
 export const schoolAbbreviation = 'Kürze "Gymnasium Weingarten" niemals ab, auch nicht mit "GWG".'
