@@ -1,3 +1,103 @@
 import {German} from "@/app/languages/german";
 
-export const Chinese: typeof German = {"cancel":"取消","close":"关闭","reset":{"restart":"重新开始","reset":"重置","description":"您真的要重置聊天记录吗？","newChat":"新聊天"},"input":{"warning":"人工智能会犯错。请核对重要信息。不要提供个人数据。","placeholder":"👋 我能为您做些什么？","send":"发送"},"welcome":{"h1":"你好，我是 Leo！🦁","subtitle":"我是魏恩加滕文理中学的聊天助手，是在2025年项目日期间为庆祝魏恩加滕文理中学成立50周年而开发的。","help":"我很乐意帮助您解决以下问题：","help2":"请尽管向我提问！"},"promptSuggestions":{"schoolFestivalSchedule":{"prompt":"学校节的日程安排是怎样的？","text":"学校节 - 活动安排"},"schoolFestivalProjects":{"prompt":"今天学校节上有什么项目可以看？","text":"学校节 - 项目"},"schoolFestivalFood":{"prompt":"今天学校节上有什么美食？","text":"学校节 - 餐饮"},"nonGerman":{"prompt":"为非德语人士提供的机会？","text":"有为非德语人士提供的机会吗？"},"general":{"prompt":"告诉我更多关于魏恩加滕文理中学的信息","text":"一般信息"},"apology":{"prompt":"我生病了，明天不能上学。我父母需要做什么？","text":"请假政策"},"timetable":{"prompt":"典型的课程表是什么样的？","text":"典型课程表"},"events":{"prompt":"最近有什么活动？","text":"活动"},"news":{"prompt":"有什么新鲜事？","text":"新闻"},"signup":{"prompt":"我如何为我的孩子报名？","text":"孩子报名"}},"entityTable":{"startDate":"时间？","place":"地点？","phone":"电话：","email":"电子邮件：","fax":"传真：","price":"门票：","targetGroup":"对象？"},"footer":{"madeBy":"开发者","source":"源代码","privacyPolicy":"隐私政策","feedback":"反馈"},"feedback":{"title":"给 Leo 的反馈","description":"您与 Leo 的体验如何？","rating":"评分","message":"您的留言","characterLimit":"字符","name":"您的姓名","messagePlaceholder":"告诉我们您与 Leo 的体验...","namePlaceholder":"例如：张三","optional":"可选","sending":"正在发送","send":"发送反馈","errors":{"message":"请输入留言","rating":"请提供评分","network":"发送错误","unknown":"发生了一个错误"},"thanks":{"title":"非常感谢！","message":"您的反馈将帮助我成为魏恩加滕文理中学更好的助手！"}}};
+export const Chinese: typeof German = {
+    "promptSuggestions": {
+        "general": {
+            "prompt": "告诉我更多关于{schoolName}的信息",
+            "text": "一般信息"
+        },
+        "schoolFestivalSchedule": {
+            "prompt": "学校节的日程安排是怎样的？",
+            "text": "学校节 - 活动安排"
+        },
+        "schoolFestivalProjects": {
+            "prompt": "今天学校节上有什么项目可以看？",
+            "text": "学校节 - 项目"
+        },
+        "schoolFestivalFood": {
+            "prompt": "今天学校节上有什么美食？",
+            "text": "学校节 - 餐饮"
+        },
+        "nonGerman": {
+            "prompt": "为非德语人士提供的机会？",
+            "text": "有为非德语人士提供的机会吗？"
+        },
+        "apology": {
+            "prompt": "我生病了，明天不能上学。我父母需要做什么？",
+            "text": "请假政策"
+        },
+        "timetable": {
+            "prompt": "典型的课程表是什么样的？",
+            "text": "典型课程表"
+        },
+        "events": {
+            "prompt": "最近有什么活动？",
+            "text": "活动"
+        },
+        "news": {
+            "prompt": "有什么新鲜事？",
+            "text": "新闻"
+        },
+        "signup": {
+            "prompt": "我如何为我的孩子报名？",
+            "text": "孩子报名"
+        }
+    },
+    "feedback": {
+        "thanks": {
+            "message": "您的反馈有助于我成为{schoolName}更好的助手！",
+            "title": "非常感谢！"
+        },
+        "title": "对{assistantName}的反馈",
+        "description": "您与{assistantName}的体验如何？",
+        "messagePlaceholder": "告诉我们您与{assistantName}的体验...",
+        "rating": "评分",
+        "message": "您的留言",
+        "characterLimit": "字符",
+        "name": "您的姓名",
+        "namePlaceholder": "例如：张三",
+        "optional": "可选",
+        "sending": "正在发送",
+        "send": "发送反馈",
+        "errors": {
+            "message": "请输入留言",
+            "rating": "请提供评分",
+            "network": "发送错误",
+            "unknown": "发生了一个错误"
+        }
+    },
+    "welcome": {
+        "h1": "你好，我是{assistantName}！",
+        "subtitle": "我是魏恩加滕文理中学的聊天助手，是在2025年项目日期间为庆祝魏恩加滕文理中学成立50周年而开发的。",
+        "help": "我很乐意帮助您解决以下问题：",
+        "help2": "请尽管向我提问！"
+    },
+    "cancel": "取消",
+    "close": "关闭",
+    "reset": {
+        "restart": "重新开始",
+        "reset": "重置",
+        "description": "您真的要重置聊天记录吗？",
+        "newChat": "新聊天"
+    },
+    "input": {
+        "warning": "人工智能会犯错。请核对重要信息。不要提供个人数据。",
+        "placeholder": "👋 我能为您做些什么？",
+        "send": "发送"
+    },
+    "entityTable": {
+        "startDate": "时间？",
+        "place": "地点？",
+        "phone": "电话：",
+        "email": "电子邮件：",
+        "fax": "传真：",
+        "price": "门票：",
+        "targetGroup": "对象？"
+    },
+    "footer": {
+        "madeBy": "开发者",
+        "source": "源代码",
+        "privacyPolicy": "隐私政策",
+        "feedback": "反馈"
+    }
+};

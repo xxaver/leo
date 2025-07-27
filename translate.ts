@@ -3,11 +3,10 @@ import {generateObject} from "ai";
 import {z} from "zod";
 import {German} from "@/app/languages/german";
 import {readFile, writeFile} from "node:fs/promises";
-import {languages as languages1} from "@/app/languages/languages";
 import {merge} from "@/utils";
+import {languages as languages1} from "@/app/languages/languages";
 
 const languages = languages1.filter(e => e.englishName !== "German").map(e => e.englishName.toLowerCase());
-
 const translate = async (languages: string[], toTranslate: typeof German) => {
     console.log("Translating", languages.join(", "))
 
@@ -17,7 +16,9 @@ const translate = async (languages: string[], toTranslate: typeof German) => {
         schema: z.object({
             translations: z.object(Object.fromEntries(languages.map(l => [l, z.string().describe(`${l} translation`)])))
         }),
-        system: "Translate all values of the json object given by the user to every of the given languages. Return the JSON objects with the same structure as the one entered by the user, but with the values translated to the specific language.",
+        system: "Translate all values of the json object given by the user to every of the given languages. " +
+            "Return the JSON objects with the same structure as the one entered by the user, but with the values translated to the specific language. " +
+            "The strings wrapped in {} are placeholders and must not be translated. ",
         messages: [{
             role: "user",
             content: JSON.stringify(toTranslate)
@@ -26,7 +27,7 @@ const translate = async (languages: string[], toTranslate: typeof German) => {
 
     console.log(result)
     await writeFile("translate-result.json", JSON.stringify(result.object, null, 4), "utf-8")
-    languages.forEach(async l => {
+    const r = await Promise.all(languages.map(async l => {
         const upper = l[0].toUpperCase() + l.slice(1)
         let last = {};
         try {
@@ -41,11 +42,12 @@ import {German} from "@/app/languages/german";
 
 export const ${upper}: typeof German = ${merged};
 `, "utf-8");
+            return true;
         } catch {
-            console.log("ERROR");
+            console.log("ERROR", l, result.object.translations[l]);
         }
-    })
-
+    }))
+    return !r.some(e => !e);
 }
 
 
@@ -75,7 +77,11 @@ const main = async () => {
     const toTranslate = step(cached, German);
     console.log(toTranslate, newOnes)
     if (toTranslate) for (const group of grouped) {
-        if (group.length) await translate(group, toTranslate);
+        if(!group.length) continue;
+        let isOk = false;
+        while (!isOk) {
+            isOk = await translate(group, toTranslate);
+        }
     }
     if (newOnes.length) await translate(newOnes, German);
     await writeFile("translate-cache.json", JSON.stringify(German, null, 2), "utf-8")

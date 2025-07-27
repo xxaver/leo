@@ -63,6 +63,7 @@ import {Uzbek} from "@/app/languages/uzbek";
 import {Vietnamese} from "@/app/languages/vietnamese";
 import {Zulu} from "@/app/languages/zulu";
 import {merge} from "@/utils";
+import {assistantName, schoolName} from "../../../config";
 
 const English = merge(English1, German);
 
@@ -131,7 +132,10 @@ const translations = {
     Zulu,
 } as any;
 for(const key in translations) {
-    translations[key] = merge(translations[key], English);
+    translations[key] = merge(translations[key], English, a => a
+        .replaceAll("{assistantName}", assistantName)
+        .replaceAll("{schoolName}", schoolName)
+    );
 }
 
 
