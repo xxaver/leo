@@ -7,18 +7,28 @@ import {merge} from "@/utils";
 import {languages as languages1} from "@/app/languages/languages";
 
 const languages = languages1.filter(e => e.englishName !== "German").map(e => e.englishName.toLowerCase());
+
+const getSchema = (obj: any) => {
+    if(typeof obj === "string") return z.string();
+    if(typeof obj === "number") return z.number();
+    if(typeof obj === "boolean") return z.boolean();
+    if(Array.isArray(obj)) return z.array(getSchema(obj[0]));
+    if(typeof obj === "object") return z.object(Object.fromEntries(Object.entries(obj).map(([k, v]) => [k, getSchema(v)])))
+    return z.unknown();
+}
 const translate = async (languages: string[], toTranslate: typeof German) => {
     console.log("Translating", languages.join(", "))
 
-    const model = google("gemini-2.5-pro");
+    const model = google("gemini-2.5-flash");
     const result = await generateObject({
         model,
         schema: z.object({
-            translations: z.object(Object.fromEntries(languages.map(l => [l, z.string().describe(`${l} translation`)])))
+            translations: z.object(Object.fromEntries(languages.map(l => [l, getSchema(toTranslate).describe(`${l} translation`)])))
         }),
         system: "Translate all values of the json object given by the user to every of the given languages. " +
             "Return the JSON objects with the same structure as the one entered by the user, but with the values translated to the specific language. " +
-            "The strings wrapped in {} are placeholders and must not be translated. ",
+            "The strings wrapped in {} are placeholders and must not be translated. " +
+            "It is extremely important that you return a json object that matches the structure of the input object. ",
         messages: [{
             role: "user",
             content: JSON.stringify(toTranslate)
@@ -36,7 +46,7 @@ const translate = async (languages: string[], toTranslate: typeof German) => {
         }
 
         try {
-            const merged = JSON.stringify(merge(JSON.parse(result.object.translations[l]), last), null, 4);
+            const merged = JSON.stringify(merge(result.object.translations[l], last), null, 4);
             writeFile("src/app/languages/" + l + ".ts", `
 import {German} from "@/app/languages/german";
 
@@ -64,7 +74,7 @@ const main = async () => {
         return Object.keys(result).length ? result : null;
     }
 
-    const groups = 5;
+    const groups = 10;
     const grouped = new Array(groups).fill(0).map((_) => []);
     const newOnes: string[] = [];
     let i = 0;
