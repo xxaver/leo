@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Zulu: typeof German = {
-    "welcome": {
-        "h1": "Sawubona, nginguJohannes!",
-        "subtitle": "Ngingumsizi wengxoxo we-Studienkolleg St. Johann Blönried. Ngiyajabula ukukusiza ngemibuzo yakho mayelana nesikole sethu.",
-        "help": "Ngiyajabula ukukusiza ngemibuzo mayelana:",
-        "help2": "Vele ungibuze umbuzo wakho!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Ngitshele kabanzi nge-Studienkolleg St. Johann Blönried",
+            "prompt": "Ngitshele kabanzi mayelana ne-{schoolName}",
             "text": "Ulwazi Olujwayelekile"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Zulu: typeof German = {
         }
     },
     "feedback": {
-        "title": "Impendulo ye-BlönBot",
-        "description": "Belunjani ulwazi lwakho nge-BlönBot?",
-        "messagePlaceholder": "Sitshele ngolwazi lwakho nge-BlönBot...",
         "thanks": {
-            "message": "Impendulo yakho ingisiza ukuba ngibe umsizi ongcono we-Gymnasium Weingarten!",
+            "message": "Impendulo yakho ingisiza ukuba ngibe umsizi ongcono we-{schoolName}!",
             "title": "Ngiyabonga kakhulu!"
         },
+        "title": "Impendulo ye-{assistantName}",
+        "description": "Belunjani ulwazi lwakho nge-{assistantName}?",
+        "messagePlaceholder": "Sitshele ngolwazi lwakho nge-{assistantName}...",
         "rating": "Isilinganiso",
         "message": "Umlayezo wakho",
         "characterLimit": "Izinhlamvu",
@@ -71,6 +65,12 @@ export const Zulu: typeof German = {
             "network": "Iphutha lokuthumela",
             "unknown": "Kwenzeke iphutha"
         }
+    },
+    "welcome": {
+        "h1": "Sawubona, ngingu-{assistantName}!",
+        "subtitle": "Ngingumsizi wengxoxo we-Gymnasium Weingarten, owakhiwe ngezinsuku zephrojekthi zango-2025 zokugubha iminyaka engu-50 ye-Gymnasium Weingarten.",
+        "help": "Ngiyajabula ukukusiza ngemibuzo mayelana:",
+        "help2": "Vele ungibuze umbuzo wakho!"
     },
     "cancel": "Khansela",
     "close": "Vala",

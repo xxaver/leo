@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Kazakh: typeof German = {
-    "welcome": {
-        "h1": "Сәлем, мен BlönBot!",
-        "subtitle": "Мен Studienkolleg St. Johann Blönried чат-ассистентімін. Мектебіміз туралы сұрақтарыңызға қуана көмектесемін.",
-        "help": "Мен сізге келесі сұрақтар бойынша көмектесуге қуаныштымын:",
-        "help2": "Сұрағыңызды қойыңыз!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Studienkolleg St. Johann Blönried туралы көбірек айтып беріңіз",
+            "prompt": "{schoolName} туралы көбірек айтып беріңіз",
             "text": "Жалпы ақпарат"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Kazakh: typeof German = {
         }
     },
     "feedback": {
-        "title": "BlönBot үшін пікір",
-        "description": "BlönBot-пен тәжірибеңіз қандай болды?",
-        "messagePlaceholder": "BlönBot-пен болған тәжірибеңіз туралы айтып беріңіз...",
         "thanks": {
-            "message": "Сіздің пікіріңіз маған Studienkolleg St. Johann Blönried үшін жақсырақ көмекші болуға көмектеседі!",
+            "message": "Сіздің пікіріңіз маған {schoolName} үшін жақсырақ көмекші болуға көмектеседі!",
             "title": "Көп рақмет!"
         },
+        "title": "{assistantName} туралы пікір",
+        "description": "{assistantName} қолданғандағы тәжірибеңіз қандай болды?",
+        "messagePlaceholder": "{assistantName} қолданғандағы тәжірибеңіз туралы айтып беріңіз...",
         "rating": "Бағалау",
         "message": "Сіздің хабарламаңыз",
         "characterLimit": "Таңба",
@@ -71,6 +65,12 @@ export const Kazakh: typeof German = {
             "network": "Жіберу кезінде қате",
             "unknown": "Қате пайда болды"
         }
+    },
+    "welcome": {
+        "h1": "Сәлем, мен {assistantName}!",
+        "subtitle": "Мен Вайнгартен гимназиясының 50 жылдық мерейтойына орай 2025 жылғы жоба күндері кезінде әзірленген Вайнгартен гимназиясының чат-ассистентімін.",
+        "help": "Мен сізге келесі сұрақтар бойынша көмектесуге қуаныштымын:",
+        "help2": "Сұрағыңызды қойыңыз!"
     },
     "cancel": "Болдырмау",
     "close": "Жабу",

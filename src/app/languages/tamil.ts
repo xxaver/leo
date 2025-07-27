@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Tamil: typeof German = {
-    "welcome": {
-        "h1": "வணக்கம், நான் Johannes!",
-        "subtitle": "நான் Studienkolleg St. Johann Blönried-இன் அரட்டை உதவியாளர். எங்கள் பள்ளியைப் பற்றிய உங்கள் கேள்விகளுக்கு உதவ நான் மகிழ்ச்சியடைகிறேன்.",
-        "help": "பற்றிய கேள்விகளுக்கு உங்களுக்கு உதவ நான் மகிழ்ச்சியடைகிறேன்:",
-        "help2": "உங்கள் கேள்வியை என்னிடம் கேளுங்கள்!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Studienkolleg St. Johann Blönried பற்றி மேலும் சொல்லுங்கள்",
+            "prompt": "{schoolName} பற்றி மேலும் சொல்லுங்கள்",
             "text": "பொதுவான தகவல்"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Tamil: typeof German = {
         }
     },
     "feedback": {
-        "title": "BlönBot-க்கான கருத்து",
-        "description": "BlönBot உடனான உங்கள் அனுபவம் எப்படி இருந்தது?",
-        "messagePlaceholder": "BlönBot உடனான உங்கள் அனுபவத்தைப் பற்றி எங்களிடம் கூறுங்கள்...",
         "thanks": {
-            "message": "உங்கள் கருத்து Gymnasium Weingarten-க்கு ஒரு சிறந்த உதவியாளராக மாற எனக்கு உதவுகிறது!",
+            "message": "உங்கள் கருத்து, {schoolName}க்கு ஒரு சிறந்த உதவியாளராக மாற எனக்கு உதவுகிறது!",
             "title": "மிக்க நன்றி!"
         },
+        "title": "{assistantName}க்கான கருத்து",
+        "description": "{assistantName} உடனான உங்கள் அனுபவம் எப்படி இருந்தது?",
+        "messagePlaceholder": "{assistantName} உடனான உங்கள் அனுபவத்தைப் பற்றி எங்களிடம் கூறுங்கள்...",
         "rating": "மதிப்பீடு",
         "message": "உங்கள் செய்தி",
         "characterLimit": "எழுத்துக்கள்",
@@ -71,6 +65,12 @@ export const Tamil: typeof German = {
             "network": "அனுப்புவதில் பிழை",
             "unknown": "ஒரு பிழை ஏற்பட்டது"
         }
+    },
+    "welcome": {
+        "h1": "வணக்கம், நான் {assistantName}!",
+        "subtitle": "நான் ஜிம்னாசியம் வெய்ன்கார்டனின் அரட்டை உதவியாளர், ஜிம்னாசியம் வெய்ன்கார்டனின் 50வது ஆண்டு விழாவிற்காக 2025 திட்ட நாட்களில் உருவாக்கப்பட்டேன்.",
+        "help": "பற்றிய கேள்விகளுக்கு உங்களுக்கு உதவ நான் மகிழ்ச்சியடைகிறேன்:",
+        "help2": "உங்கள் கேள்வியை என்னிடம் கேளுங்கள்!"
     },
     "cancel": "ரத்துசெய்",
     "close": "மூடு",

@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Norwegian: typeof German = {
-    "welcome": {
-        "h1": "Hallo, jeg er BlönBot!",
-        "subtitle": "Jeg er chat-assistenten for Studienkolleg St. Johann Blönried. Jeg hjelper deg gjerne med spørsmål om skolen vår.",
-        "help": "Jeg hjelper deg gjerne med spørsmål om:",
-        "help2": "Bare still meg spørsmålet ditt!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Fortell meg mer om Studienkolleg St. Johann Blönried",
+            "prompt": "Fortell meg mer om {schoolName}",
             "text": "Generell informasjon"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Norwegian: typeof German = {
         }
     },
     "feedback": {
-        "title": "Tilbakemelding for BlönBot",
-        "description": "Hvordan var din erfaring med BlönBot?",
-        "messagePlaceholder": "Fortell oss om din erfaring med BlönBot...",
         "thanks": {
-            "message": "Din tilbakemelding hjelper meg med å bli en bedre assistent for Studienkolleg St. Johann Blönried!",
+            "message": "Tilbakemeldingen din hjelper meg med å bli en bedre assistent for {schoolName}!",
             "title": "Tusen takk!"
         },
+        "title": "Tilbakemelding for {assistantName}",
+        "description": "Hvordan var din opplevelse med {assistantName}?",
+        "messagePlaceholder": "Fortell oss om din opplevelse med {assistantName} ...",
         "rating": "Vurdering",
         "message": "Din melding",
         "characterLimit": "Tegn",
@@ -71,6 +65,12 @@ export const Norwegian: typeof German = {
             "network": "Feil ved sending",
             "unknown": "En feil har oppstått"
         }
+    },
+    "welcome": {
+        "h1": "Hei, jeg er {assistantName}!",
+        "subtitle": "Jeg er chat-assistenten til Weingarten Gymnasium, utviklet under prosjektdagene i 2025 for 50-årsjubileet til Weingarten Gymnasium.",
+        "help": "Jeg hjelper deg gjerne med spørsmål om:",
+        "help2": "Bare still meg spørsmålet ditt!"
     },
     "cancel": "Avbryt",
     "close": "Lukk",

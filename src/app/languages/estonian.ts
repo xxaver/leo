@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Estonian: typeof German = {
-    "welcome": {
-        "h1": "Tere, mina olen BlönBot!",
-        "subtitle": "Olen Studienkolleg St. Johann Blönriedi vestlusassistent. Aitan teid hea meelega meie kooli puudutavate küsimustega.",
-        "help": "Aitan teid hea meelega küsimustes, mis puudutavad:",
-        "help2": "Lihtsalt esitage oma küsimus!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Räägi mulle rohkem Studienkolleg St. Johann Blönriedist",
+            "prompt": "Räägi mulle {schoolName} kohta rohkem",
             "text": "Üldine teave"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Estonian: typeof German = {
         }
     },
     "feedback": {
-        "title": "Tagasiside BlönBotile",
-        "description": "Kuidas oli teie kogemus BlönBotiga?",
-        "messagePlaceholder": "Rääkige meile oma kogemusest BlönBotiga...",
         "thanks": {
-            "message": "Teie tagasiside aitab mul saada Gymnasium Weingarteni jaoks paremaks assistendiks!",
+            "message": "Teie tagasiside aitab mul saada paremaks assistendiks {schoolName} jaoks!",
             "title": "Tänan teid väga!"
         },
+        "title": "Tagasiside {assistantName} kohta",
+        "description": "Kuidas oli teie kogemus {assistantName}-ga?",
+        "messagePlaceholder": "Rääkige meile oma kogemusest {assistantName}-ga...",
         "rating": "Hinnang",
         "message": "Teie sõnum",
         "characterLimit": "Märgid",
@@ -71,6 +65,12 @@ export const Estonian: typeof German = {
             "network": "Saatmisel ilmnes viga",
             "unknown": "Ilmnes viga"
         }
+    },
+    "welcome": {
+        "h1": "Tere, mina olen {assistantName}!",
+        "subtitle": "Olen Gymnasium Weingarteni vestlusabiline, mis on välja töötatud 2025. aasta projektipäevade ajal Gymnasium Weingarteni 50. aastapäevaks.",
+        "help": "Aitan teid hea meelega küsimustes, mis puudutavad:",
+        "help2": "Lihtsalt esitage oma küsimus!"
     },
     "cancel": "Tühista",
     "close": "Sule",

@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Croatian: typeof German = {
-    "welcome": {
-        "h1": "Zdravo, ja sam BlönBot!",
-        "subtitle": "Ja sam asistent za chat Studienkolleg St. Johann Blönried. Rado ću vam pomoći s vašim pitanjima o našoj školi.",
-        "help": "Rado ću vam pomoći s pitanjima o:",
-        "help2": "Samo mi postavite svoje pitanje!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Reci mi više o Studienkolleg St. Johann Blönried",
+            "prompt": "Reci mi više o {schoolName}",
             "text": "Opće informacije"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Croatian: typeof German = {
         }
     },
     "feedback": {
-        "title": "Povratne informacije za BlönBot",
-        "description": "Kakvo je bilo vaše iskustvo s BlönBotom?",
-        "messagePlaceholder": "Recite nam o svom iskustvu s BlönBotom...",
         "thanks": {
-            "message": "Vaše povratne informacije pomažu mi da postanem bolji asistent za Gymnasium Weingarten!",
+            "message": "Vaše povratne informacije pomažu mi da postanem bolji asistent za {schoolName}!",
             "title": "Hvala vam puno!"
         },
+        "title": "Povratne informacije za {assistantName}",
+        "description": "Kakvo je vaše iskustvo s {assistantName}?",
+        "messagePlaceholder": "Recite nam o svom iskustvu s {assistantName}...",
         "rating": "Ocjena",
         "message": "Vaša poruka",
         "characterLimit": "Znakova",
@@ -71,6 +65,12 @@ export const Croatian: typeof German = {
             "network": "Greška pri slanju",
             "unknown": "Došlo je do pogreške"
         }
+    },
+    "welcome": {
+        "h1": "Zdravo, ja sam {assistantName}!",
+        "subtitle": "Ja sam asistent za razgovor Gimnazije Weingarten, razvijen tijekom projektnih dana 2025. za 50. obljetnicu Gimnazije Weingarten.",
+        "help": "Rado ću vam pomoći s pitanjima o:",
+        "help2": "Samo mi postavite svoje pitanje!"
     },
     "cancel": "Odustani",
     "close": "Zatvori",

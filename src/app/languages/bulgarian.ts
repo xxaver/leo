@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Bulgarian: typeof German = {
-    "welcome": {
-        "h1": "Здравейте, аз съм Johannes!",
-        "subtitle": "Аз съм чат асистентът на Studienkolleg St. Johann Blönried. С удоволствие ще ви помогна с въпросите ви за нашето училище.",
-        "help": "С удоволствие ще ви помогна с въпроси относно:",
-        "help2": "Просто ми задайте въпроса си!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Разкажете ми повече за Studienkolleg St. Johann Blönried",
+            "prompt": "Разкажете ми повече за {schoolName}",
             "text": "Обща информация"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Bulgarian: typeof German = {
         }
     },
     "feedback": {
-        "title": "Обратна връзка за Johannes",
-        "description": "Какъв беше опитът ви с Johannes?",
-        "messagePlaceholder": "Разкажете ни за опита си с Johannes...",
         "thanks": {
-            "message": "Вашата обратна връзка ми помага да стана по-добър асистент за Gymnasium Weingarten!",
+            "message": "Вашата обратна връзка ми помага да стана по-добър асистент за {schoolName}!",
             "title": "Благодаря ви много!"
         },
+        "title": "Обратна връзка за {assistantName}",
+        "description": "Какъв беше опитът ви с {assistantName}?",
+        "messagePlaceholder": "Разкажете ни за опита си с {assistantName}...",
         "rating": "Оценка",
         "message": "Вашето съобщение",
         "characterLimit": "знаци",
@@ -71,6 +65,12 @@ export const Bulgarian: typeof German = {
             "network": "Грешка при изпращане",
             "unknown": "Възникна грешка"
         }
+    },
+    "welcome": {
+        "h1": "Здравейте, аз съм {assistantName}!",
+        "subtitle": "Аз съм чат асистентът на гимназия Вайнгартен, разработен по време на проектните дни през 2025 г. за 50-годишнината на гимназия Вайнгартен.",
+        "help": "С удоволствие ще ви помогна с въпроси относно:",
+        "help2": "Просто ми задайте въпроса си!"
     },
     "cancel": "Отказ",
     "close": "Затвори",

@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Japanese: typeof German = {
-    "welcome": {
-        "h1": "こんにちは、私はBlönBotです！",
-        "subtitle": "私はStudienkolleg St. Johann Blönriedのチャットアシスタントです。私たちの学校に関するご質問にお答えします。",
-        "help": "以下の質問について喜んでお手伝いします：",
-        "help2": "質問をどうぞ！"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Studienkolleg St. Johann Blönriedについてもっと教えてください",
+            "prompt": "{schoolName}についてもっと教えてください",
             "text": "一般情報"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Japanese: typeof German = {
         }
     },
     "feedback": {
-        "title": "BlönBotへのフィードバック",
-        "description": "BlönBotでの体験はいかがでしたか？",
-        "messagePlaceholder": "BlönBotでの体験についてお聞かせください...",
         "thanks": {
-            "message": "あなたのフィードバックは、私がGymnasium Weingartenにとってより良いアシスタントになるのに役立ちます！",
+            "message": "あなたのフィードバックは、私が{schoolName}のより良いアシスタントになるのに役立ちます！",
             "title": "ありがとうございました！"
         },
+        "title": "{assistantName}へのフィードバック",
+        "description": "{assistantName}との体験はいかがでしたか？",
+        "messagePlaceholder": "{assistantName}との体験についてお聞かせください...",
         "rating": "評価",
         "message": "あなたのメッセージ",
         "characterLimit": "文字",
@@ -71,6 +65,12 @@ export const Japanese: typeof German = {
             "network": "送信エラー",
             "unknown": "エラーが発生しました"
         }
+    },
+    "welcome": {
+        "h1": "こんにちは、私は{assistantName}です！",
+        "subtitle": "私はヴァインガルテン・ギムナジウムのチャットアシスタントで、ヴァインガルテン・ギムナジウム創立50周年を記念した2025年のプロジェクトデーの期間中に開発されました。",
+        "help": "以下の質問について喜んでお手伝いします：",
+        "help2": "質問をどうぞ！"
     },
     "cancel": "キャンセル",
     "close": "閉じる",

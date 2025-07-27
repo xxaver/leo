@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Greek: typeof German = {
-    "welcome": {
-        "h1": "Γεια σας, είμαι ο Johannes!",
-        "subtitle": "Είμαι ο βοηθός συνομιλίας του Studienkolleg St. Johann Blönried. Θα χαρώ να σας βοηθήσω με τις ερωτήσεις σας σχετικά με το σχολείο μας.",
-        "help": "Θα χαρώ να σας βοηθήσω με ερωτήσεις σχετικά με:",
-        "help2": "Απλώς κάντε μου την ερώτησή σας!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Πείτε μου περισσότερα για το Studienkolleg St. Johann Blönried",
+            "prompt": "Πείτε μου περισσότερα για το {schoolName}",
             "text": "Γενικές πληροφορίες"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Greek: typeof German = {
         }
     },
     "feedback": {
-        "title": "Σχόλια για το Johannes",
-        "description": "Πώς ήταν η εμπειρία σας με το BlönBot;",
-        "messagePlaceholder": "Πείτε μας για την εμπειρία σας με το BlönBot...",
         "thanks": {
-            "message": "Τα σχόλιά σας με βοηθούν να γίνω καλύτερος βοηθός για το Gymnasium Weingarten!",
+            "message": "Τα σχόλιά σας με βοηθούν να γίνω καλύτερος βοηθός για το {schoolName}!",
             "title": "Ευχαριστώ πολύ!"
         },
+        "title": "Σχόλια για {assistantName}",
+        "description": "Πώς ήταν η εμπειρία σας με {assistantName};",
+        "messagePlaceholder": "Πείτε μας για την εμπειρία σας με {assistantName}...",
         "rating": "Βαθμολογία",
         "message": "Το μήνυμά σας",
         "characterLimit": "χαρακτήρες",
@@ -71,6 +65,12 @@ export const Greek: typeof German = {
             "network": "Σφάλμα κατά την αποστολή",
             "unknown": "Παρουσιάστηκε σφάλμα"
         }
+    },
+    "welcome": {
+        "h1": "Γεια σας, είμαι {assistantName}!",
+        "subtitle": "Είμαι ο βοηθός συνομιλίας του Γυμνασίου Weingarten, που αναπτύχθηκε κατά τη διάρκεια των ημερών έργου 2025 για την 50ή επέτειο του Γυμνασίου Weingarten.",
+        "help": "Θα χαρώ να σας βοηθήσω με ερωτήσεις σχετικά με:",
+        "help2": "Απλώς κάντε μου την ερώτησή σας!"
     },
     "cancel": "Ακύρωση",
     "close": "Κλείσιμο",

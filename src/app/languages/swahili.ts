@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Swahili: typeof German = {
-    "welcome": {
-        "h1": "Hujambo, mimi ni BlönBot!",
-        "subtitle": "Mimi ni msaidizi wa gumzo wa Studienkolleg St. Johann Blönried. Nitafurahi kukusaidia na maswali yako kuhusu shule yetu.",
-        "help": "Nitafurahi kukusaidia na maswali kuhusu:",
-        "help2": "Niulize tu swali lako!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Niambie zaidi kuhusu Studienkolleg St. Johann Blönried",
+            "prompt": "Niambie zaidi kuhusu {schoolName}",
             "text": "Taarifa za jumla"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Swahili: typeof German = {
         }
     },
     "feedback": {
-        "title": "Maoni kwa BlönBot",
-        "description": "Uzoefu wako na BlönBot ulikuwaje?",
-        "messagePlaceholder": "Tuambie kuhusu uzoefu wako na BlönBot...",
         "thanks": {
-            "message": "Maoni yako yananisaidia kuwa msaidizi bora wa Gymnasium Weingarten!",
+            "message": "Maoni yako yananisaidia kuwa msaidizi bora wa {schoolName}!",
             "title": "Asante sana!"
         },
+        "title": "Maoni kwa {assistantName}",
+        "description": "Uzoefu wako ulikuwaje na {assistantName}?",
+        "messagePlaceholder": "Tuambie kuhusu uzoefu wako na {assistantName}...",
         "rating": "Ukadiriaji",
         "message": "Ujumbe wako",
         "characterLimit": "herufi",
@@ -71,6 +65,12 @@ export const Swahili: typeof German = {
             "network": "Hitilafu wakati wa kutuma",
             "unknown": "Hitilafu imetokea"
         }
+    },
+    "welcome": {
+        "h1": "Hujambo, mimi ni {assistantName}!",
+        "subtitle": "Mimi ni msaidizi wa gumzo wa Gymnasium Weingarten, niliyeundwa wakati wa siku za mradi za 2025 kwa ajili ya maadhimisho ya miaka 50 ya Gymnasium Weingarten.",
+        "help": "Nitafurahi kukusaidia na maswali kuhusu:",
+        "help2": "Niulize tu swali lako!"
     },
     "cancel": "Ghairi",
     "close": "Funga",

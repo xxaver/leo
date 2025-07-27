@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Vietnamese: typeof German = {
-    "welcome": {
-        "h1": "Xin chào, tôi là BlönBot!",
-        "subtitle": "Tôi là trợ lý trò chuyện của Studienkolleg St. Johann Blönried. Tôi rất sẵn lòng giúp bạn giải đáp các thắc mắc về trường của chúng tôi.",
-        "help": "Tôi rất sẵn lòng giúp bạn với các câu hỏi về:",
-        "help2": "Chỉ cần đặt câu hỏi của bạn cho tôi!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Hãy cho tôi biết thêm về Studienkolleg St. Johann Blönried",
+            "prompt": "Hãy cho tôi biết thêm về {schoolName}",
             "text": "Thông tin chung"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Vietnamese: typeof German = {
         }
     },
     "feedback": {
-        "title": "Phản hồi cho BlönBot",
-        "description": "Trải nghiệm của bạn với BlönBot như thế nào?",
-        "messagePlaceholder": "Hãy cho chúng tôi biết về trải nghiệm của bạn với BlönBot...",
         "thanks": {
-            "message": "Phản hồi của bạn giúp tôi trở thành một trợ lý tốt hơn cho Gymnasium Weingarten!",
+            "message": "Phản hồi của bạn giúp tôi trở thành một trợ lý tốt hơn cho {schoolName}!",
             "title": "Cảm ơn bạn rất nhiều!"
         },
+        "title": "Phản hồi cho {assistantName}",
+        "description": "Trải nghiệm của bạn với {assistantName} như thế nào?",
+        "messagePlaceholder": "Hãy cho chúng tôi biết về trải nghiệm của bạn với {assistantName}...",
         "rating": "Đánh giá",
         "message": "Tin nhắn của bạn",
         "characterLimit": "ký tự",
@@ -71,6 +65,12 @@ export const Vietnamese: typeof German = {
             "network": "Lỗi khi gửi",
             "unknown": "Đã xảy ra lỗi"
         }
+    },
+    "welcome": {
+        "h1": "Xin chào, tôi là {assistantName}!",
+        "subtitle": "Tôi là trợ lý trò chuyện của Trường Gymnasium Weingarten, được phát triển trong những ngày dự án năm 2025 nhân kỷ niệm 50 năm thành lập Trường Gymnasium Weingarten.",
+        "help": "Tôi rất sẵn lòng giúp bạn với các câu hỏi về:",
+        "help2": "Chỉ cần đặt câu hỏi của bạn cho tôi!"
     },
     "cancel": "Hủy",
     "close": "Đóng",

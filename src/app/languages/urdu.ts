@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Urdu: typeof German = {
-    "welcome": {
-        "h1": "ہیلو، میں Johannes ہوں!",
-        "subtitle": "میں Studienkolleg St. Johann Blönried کا چیٹ اسسٹنٹ ہوں۔ مجھے ہمارے اسکول کے بارے میں آپ کے سوالات میں آپ کی مدد کرنے میں خوشی ہوگی۔",
-        "help": "میں آپ کو ان سوالات میں مدد کرنے میں خوشی محسوس کروں گا:",
-        "help2": "بس اپنا سوال پوچھیں!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "مجھے Studienkolleg St. Johann Blönried کے بارے میں مزید بتائیں",
+            "prompt": "{schoolName} کے بارے میں مجھے مزید بتائیں",
             "text": "عمومی معلومات"
         },
         "schoolFestivalSchedule": {
@@ -50,17 +44,17 @@ export const Urdu: typeof German = {
         }
     },
     "feedback": {
-        "title": "Johannes کے لیے تاثرات",
-        "description": "Johannes کے ساتھ آپ کا تجربہ کیسا رہا؟",
-        "messagePlaceholder": "ہمیں Johannes کے ساتھ اپنے تجربے کے بارے میں بتائیں...",
         "thanks": {
-            "message": "آپ کے تاثرات مجھے Gymnasium Weingarten کے لیے ایک بہتر اسسٹنٹ بننے میں مدد کرتے ہیں!",
+            "message": "آپ کی رائے مجھے {schoolName} کے لیے ایک بہتر اسسٹنٹ بننے میں مدد دیتی ہے!",
             "title": "بہت بہت شکریہ!"
         },
+        "title": "لیو کے لیے تاثرات",
+        "description": "لیو کے ساتھ آپ کا تجربہ کیسا رہا؟",
         "rating": "درجہ بندی",
         "message": "آپ کا پیغام",
         "characterLimit": "حروف",
         "name": "آپ کا نام",
+        "messagePlaceholder": "ہمیں لیو کے ساتھ اپنے تجربے کے بارے میں بتائیں...",
         "namePlaceholder": "مثال کے طور پر میکس مسٹرمین",
         "optional": "اختیاری",
         "sending": "بھیجا جا رہا ہے",
@@ -84,6 +78,12 @@ export const Urdu: typeof German = {
         "warning": "AI غلطیاں کرتا ہے۔ اہم معلومات کی تصدیق کریں۔ ذاتی ڈیٹا فراہم نہ کریں۔",
         "placeholder": "👋 میں آپ کی کیا مدد کر سکتا ہوں؟",
         "send": "بھیجیں"
+    },
+    "welcome": {
+        "h1": "ہیلو، میں لیو ہوں! 🦁",
+        "subtitle": "میں Gymnasium Weingarten کا چیٹ اسسٹنٹ ہوں، جسے Gymnasium Weingarten کی 50 ویں سالگرہ کے موقع پر 2025 کے پروجیکٹ دنوں کے دوران تیار کیا گیا تھا۔",
+        "help": "میں آپ کو ان سوالات میں مدد کرنے میں خوشی محسوس کروں گا:",
+        "help2": "بس اپنا سوال پوچھیں!"
     },
     "entityTable": {
         "startDate": "کب؟",

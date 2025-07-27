@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Persian: typeof German = {
-    "welcome": {
-        "h1": "سلام، من بلون‌بات هستم!",
-        "subtitle": "من دستیار چت Studienkolleg St. Johann Blönried هستم. خوشحال می‌شوم به شما در مورد سوالاتتان در مورد مدرسه ما کمک کنم.",
-        "help": "خوشحال می‌شوم در مورد سوالات شما در زمینه‌های زیر کمک کنم:",
-        "help2": "فقط سوال خود را بپرسید!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "اطلاعات بیشتری در مورد Studienkolleg St. Johann Blönried به من بدهید",
+            "prompt": "درباره {schoolName} بیشتر به من بگو",
             "text": "اطلاعات عمومی"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Persian: typeof German = {
         }
     },
     "feedback": {
-        "title": "بازخورد برای بلون‌بات",
-        "description": "تجربه شما با بلون‌بات چگونه بود؟",
-        "messagePlaceholder": "تجربه خود را با بلون‌بات برای ما بگویید...",
         "thanks": {
-            "message": "بازخورد شما به من کمک می‌کند تا دستیار بهتری برای Gymnasium Weingarten شوم!",
+            "message": "بازخورد شما به من کمک می‌کند تا دستیار بهتری برای {schoolName} شوم!",
             "title": "بسیار سپاسگزارم!"
         },
+        "title": "بازخورد برای {assistantName}",
+        "description": "تجربه شما با {assistantName} چگونه بود؟",
+        "messagePlaceholder": "از تجربه خود با {assistantName} برایمان بگویید...",
         "rating": "امتیاز",
         "message": "پیام شما",
         "characterLimit": "کاراکتر",
@@ -71,6 +65,12 @@ export const Persian: typeof German = {
             "network": "خطا در ارسال",
             "unknown": "خطایی روی داد"
         }
+    },
+    "welcome": {
+        "h1": "سلام، من {assistantName} هستم!",
+        "subtitle": "من دستیار چت دبیرستان واینگارتن هستم که در طول روزهای پروژه ۲۰۲۵ برای پنجاهمین سالگرد دبیرستان واینگارتن توسعه داده شده‌ام.",
+        "help": "خوشحال می‌شوم در مورد سوالات شما در زمینه‌های زیر کمک کنم:",
+        "help2": "فقط سوال خود را بپرسید!"
     },
     "cancel": "لغو",
     "close": "بستن",

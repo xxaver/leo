@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Thai: typeof German = {
-    "welcome": {
-        "h1": "สวัสดี ฉันคือเบลินบอท!",
-        "subtitle": "ฉันเป็นผู้ช่วยแชทของ Studienkolleg St. Johann Blönried ฉันยินดีที่จะช่วยเหลือคุณเกี่ยวกับคำถามเกี่ยวกับโรงเรียนของเรา",
-        "help": "ผมยินดีช่วยตอบคำถามเกี่ยวกับ:",
-        "help2": "ถามคำถามของคุณมาได้เลย!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "บอกฉันเพิ่มเติมเกี่ยวกับ Studienkolleg St. Johann Blönried",
+            "prompt": "บอกฉันเพิ่มเติมเกี่ยวกับ {schoolName}",
             "text": "ข้อมูลทั่วไป"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Thai: typeof German = {
         }
     },
     "feedback": {
-        "title": "คำติชมสำหรับเบลินบอท",
-        "description": "ประสบการณ์ของคุณกับเบลินบอทเป็นอย่างไรบ้าง",
-        "messagePlaceholder": "บอกเล่าประสบการณ์ของคุณกับเบลินบอทให้เราฟัง...",
         "thanks": {
-            "message": "ความคิดเห็นของคุณช่วยให้ฉันเป็นผู้ช่วยที่ดีขึ้นสำหรับ Studienkolleg St. Johann Blönried!",
+            "message": "ความคิดเห็นของคุณช่วยให้ฉันเป็นผู้ช่วยที่ดีขึ้นสำหรับ {schoolName}!",
             "title": "ขอบคุณมาก!"
         },
+        "title": "ความคิดเห็นสำหรับ {assistantName}",
+        "description": "ประสบการณ์ของคุณกับ {assistantName} เป็นอย่างไรบ้าง",
+        "messagePlaceholder": "บอกเล่าประสบการณ์ของคุณกับ {assistantName} ให้เราฟัง...",
         "rating": "คะแนน",
         "message": "ข้อความของคุณ",
         "characterLimit": "ตัวอักษร",
@@ -71,6 +65,12 @@ export const Thai: typeof German = {
             "network": "เกิดข้อผิดพลาดในการส่ง",
             "unknown": "เกิดข้อผิดพลาด"
         }
+    },
+    "welcome": {
+        "h1": "สวัสดี ฉันคือ {assistantName}!",
+        "subtitle": "ผมเป็นผู้ช่วยแชทของโรงเรียน Gymnasium Weingarten ซึ่งพัฒนาขึ้นในช่วงวันโครงงานปี 2025 เพื่อฉลองครบรอบ 50 ปีของโรงเรียน Gymnasium Weingarten",
+        "help": "ผมยินดีช่วยตอบคำถามเกี่ยวกับ:",
+        "help2": "ถามคำถามของคุณมาได้เลย!"
     },
     "cancel": "ยกเลิก",
     "close": "ปิด",

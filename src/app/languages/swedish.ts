@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Swedish: typeof German = {
-    "welcome": {
-        "h1": "Hej, jag är BlönBot!",
-        "subtitle": "Jag är chattassistenten för Studienkolleg St. Johann Blönried. Jag hjälper dig gärna med dina frågor om vår skola.",
-        "help": "Jag hjälper dig gärna med frågor om:",
-        "help2": "Ställ bara din fråga!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Berätta mer om Studienkolleg St. Johann Blönried",
+            "prompt": "Berätta mer om {schoolName}",
             "text": "Allmän information"
         },
         "schoolFestivalSchedule": {
@@ -50,17 +44,17 @@ export const Swedish: typeof German = {
         }
     },
     "feedback": {
-        "title": "Feedback för BlönBot",
-        "description": "Hur var din upplevelse med BlönBot?",
-        "messagePlaceholder": "Berätta om din upplevelse med BlönBot...",
         "thanks": {
-            "message": "Din feedback hjälper mig att bli en bättre assistent för Gymnasium Weingarten!",
+            "message": "Din feedback hjälper mig att bli en bättre assistent för {schoolName}!",
             "title": "Tack så mycket!"
         },
+        "title": "Feedback för Leo",
+        "description": "Hur var din upplevelse med Leo?",
         "rating": "Betyg",
         "message": "Ditt meddelande",
         "characterLimit": "Tecken",
         "name": "Ditt namn",
+        "messagePlaceholder": "Berätta om din upplevelse med Leo...",
         "namePlaceholder": "t.ex. Max Mustermann",
         "optional": "Valfritt",
         "sending": "Skickar",
@@ -84,6 +78,12 @@ export const Swedish: typeof German = {
         "warning": "AI gör misstag. Kontrollera viktig information. Ange inga personliga uppgifter.",
         "placeholder": "👋 Hur kan jag hjälpa dig?",
         "send": "Skicka"
+    },
+    "welcome": {
+        "h1": "Hej, jag är Leo! 🦁",
+        "subtitle": "Jag är chattassistenten för Gymnasium Weingarten, utvecklad under projektdagarna 2025 för Gymnasium Weingartens 50-årsjubileum.",
+        "help": "Jag hjälper dig gärna med frågor om:",
+        "help2": "Ställ bara din fråga!"
     },
     "entityTable": {
         "startDate": "När?",

@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Belarusian: typeof German = {
-    "welcome": {
-        "h1": "Прывітанне, я Johannes!",
-        "subtitle": "Я чат-асістэнт Studienkolleg St. Johann Blönried. Я з радасцю дапамагу вам з пытаннямі пра нашу школу.",
-        "help": "Я з радасцю дапамагу вам з пытаннямі пра:",
-        "help2": "Проста задайце мне сваё пытанне!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Раскажыце мне больш пра Studienkolleg St. Johann Blönried",
+            "prompt": "Раскажыце мне больш пра {schoolName}",
             "text": "Агульная інфармацыя"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Belarusian: typeof German = {
         }
     },
     "feedback": {
-        "title": "Водгук для BlönBot",
-        "description": "Які ваш досвед працы з BlönBot?",
-        "messagePlaceholder": "Раскажыце нам пра свой досвед працы з BlönBot...",
         "thanks": {
-            "message": "Ваш водгук дапамагае мне стаць лепшым памочнікам для Studienkolleg St. Johann Blönried!",
+            "message": "Ваш водгук дапамагае мне стаць лепшым памочнікам для {schoolName}!",
             "title": "Вялікі дзякуй!"
         },
+        "title": "Водгук для {assistantName}",
+        "description": "Які ваш досвед працы з {assistantName}?",
+        "messagePlaceholder": "Раскажыце нам пра свой досвед працы з {assistantName}...",
         "rating": "Ацэнка",
         "message": "Ваша паведамленне",
         "characterLimit": "Сімвалы",
@@ -71,6 +65,12 @@ export const Belarusian: typeof German = {
             "network": "Памылка адпраўкі",
             "unknown": "Адбылася памылка"
         }
+    },
+    "welcome": {
+        "h1": "Прывітанне, я {assistantName}!",
+        "subtitle": "Я чат-асістэнт гімназіі Вайнгартэн, распрацаваны падчас праектных дзён 2025 года да 50-годдзя гімназіі Вайнгартэн.",
+        "help": "Я з радасцю дапамагу вам з пытаннямі пра:",
+        "help2": "Проста задайце мне сваё пытанне!"
     },
     "cancel": "Скасаваць",
     "close": "Закрыць",

@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const French: typeof German = {
-    "welcome": {
-        "h1": "Bonjour, je suis Johannes !",
-        "subtitle": "Je suis l'assistant de chat du Studienkolleg St. Johann Blönried. Je serai heureux de vous aider à répondre à vos questions sur notre école.",
-        "help": "Je serai heureux de vous aider avec des questions sur :",
-        "help2": "Posez-moi simplement votre question !"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Parlez-moi davantage du Studienkolleg St. Johann Blönried",
+            "prompt": "Parlez-moi de {schoolName}",
             "text": "Informations générales"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const French: typeof German = {
         }
     },
     "feedback": {
-        "title": "Commentaires sur Johannes",
-        "description": "Quelle a été votre expérience avec Johannes ?",
-        "messagePlaceholder": "Parlez-nous de votre expérience avec Johannes...",
         "thanks": {
-            "message": "Vos commentaires m'aident à devenir un meilleur assistant pour le Gymnasium Weingarten !",
+            "message": "Vos commentaires m'aident à devenir un meilleur assistant pour {schoolName} !",
             "title": "Merci beaucoup !"
         },
+        "title": "Commentaires sur {assistantName}",
+        "description": "Quelle a été votre expérience avec {assistantName} ?",
+        "messagePlaceholder": "Parlez-nous de votre expérience avec {assistantName}...",
         "rating": "Évaluation",
         "message": "Votre message",
         "characterLimit": "caractères",
@@ -71,6 +65,12 @@ export const French: typeof German = {
             "network": "Erreur lors de l'envoi",
             "unknown": "Une erreur s'est produite"
         }
+    },
+    "welcome": {
+        "h1": "Bonjour, je suis {assistantName} !",
+        "subtitle": "Je suis l'assistant de chat du Gymnasium Weingarten, développé lors des journées de projet 2025 pour le 50e anniversaire du Gymnasium Weingarten.",
+        "help": "Je serai heureux de vous aider avec des questions sur :",
+        "help2": "Posez-moi simplement votre question !"
     },
     "cancel": "Annuler",
     "close": "Fermer",

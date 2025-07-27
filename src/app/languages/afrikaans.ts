@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Afrikaans: typeof German = {
-    "welcome": {
-        "h1": "Hallo, ek is Johannes!",
-        "subtitle": "Ek is die kletsassistent van die Studienkolleg St. Johann Blönried. Ek help jou graag met jou vrae oor ons skool.",
-        "help": "Ek help jou graag met vrae oor:",
-        "help2": "Vra my net jou vraag!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Vertel my meer oor die Studienkolleg St. Johann Blönried",
+            "prompt": "Vertel my meer oor {schoolName}",
             "text": "Algemene Inligting"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Afrikaans: typeof German = {
         }
     },
     "feedback": {
-        "title": "Terugvoer vir Johannes",
-        "description": "Hoe was jou ervaring met Johannes?",
-        "messagePlaceholder": "Vertel ons van jou ervaring met Johannes...",
         "thanks": {
-            "message": "Jou terugvoer help my om 'n beter assistent vir die Gymnasium Weingarten te word!",
+            "message": "Jou terugvoer help my om 'n beter assistent vir {schoolName} te word!",
             "title": "Baie dankie!"
         },
+        "title": "Terugvoer vir {assistantName}",
+        "description": "Hoe was jou ervaring met {assistantName}?",
+        "messagePlaceholder": "Vertel ons van jou ervaring met {assistantName}...",
         "rating": "Gradering",
         "message": "Jou Boodskap",
         "characterLimit": "Karakters",
@@ -71,6 +65,12 @@ export const Afrikaans: typeof German = {
             "network": "Fout met stuur",
             "unknown": "Daar het 'n fout voorgekom"
         }
+    },
+    "welcome": {
+        "h1": "Hallo, ek is {assistantName}!",
+        "subtitle": "Ek is die kletsassistent van die Gymnasium Weingarten, ontwikkel tydens die 2025-projekdae vir die 50ste herdenking van die Gymnasium Weingarten.",
+        "help": "Ek help jou graag met vrae oor:",
+        "help2": "Vra my net jou vraag!"
     },
     "cancel": "Kanselleer",
     "close": "Maak toe",

@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Gujarati: typeof German = {
-    "welcome": {
-        "h1": "નમસ્તે, હું BlönBot છું!",
-        "subtitle": "હું સ્ટુડિયનકોલેગ સેન્ટ જોહાન બ્લોનરીડનો ચેટ આસિસ્ટન્ટ છું. હું તમને અમારી શાળા વિશેના તમારા પ્રશ્નોમાં મદદ કરવામાં ખુશ થઈશ.",
-        "help": "મને આ વિશેના પ્રશ્નોમાં તમને મદદ કરવામાં આનંદ થશે:",
-        "help2": "બસ મને તમારો પ્રશ્ન પૂછો!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "મને સ્ટુડિયનકોલેગ સેન્ટ જોહાન બ્લોનરીડ વિશે વધુ કહો",
+            "prompt": "મને {schoolName} વિશે વધુ કહો",
             "text": "સામાન્ય માહિતી"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Gujarati: typeof German = {
         }
     },
     "feedback": {
-        "title": "BlönBot માટે પ્રતિસાદ",
-        "description": "BlönBot સાથે તમારો અનુભવ કેવો રહ્યો?",
-        "messagePlaceholder": "BlönBot સાથેના તમારા અનુભવ વિશે અમને કહો...",
         "thanks": {
-            "message": "તમારો પ્રતિસાદ મને જિમ્નેશિયમ વેઇનગાર્ટન માટે વધુ સારો સહાયક બનવામાં મદદ કરે છે!",
+            "message": "તમારો પ્રતિસાદ મને {schoolName} માટે વધુ સારો સહાયક બનવામાં મદદ કરે છે!",
             "title": "ખૂબ ખૂબ આભાર!"
         },
+        "title": "{assistantName} માટે પ્રતિસાદ",
+        "description": "{assistantName} સાથે તમારો અનુભવ કેવો રહ્યો?",
+        "messagePlaceholder": "{assistantName} સાથેના તમારા અનુભવ વિશે અમને જણાવો...",
         "rating": "રેટિંગ",
         "message": "તમારો સંદેશ",
         "characterLimit": "અક્ષરો",
@@ -71,6 +65,12 @@ export const Gujarati: typeof German = {
             "network": "મોકલવામાં ભૂલ",
             "unknown": "એક ભૂલ આવી છે"
         }
+    },
+    "welcome": {
+        "h1": "નમસ્તે, હું {assistantName} છું!",
+        "subtitle": "હું જિમ્નેશિયમ વાઇનગાર્ટનના 50મા વર્ષગાંઠ નિમિત્તે પ્રોજેક્ટ દિવસો 2025 દરમિયાન વિકસાવવામાં આવેલ જિમ્નેશિયમ વાઇનગાર્ટનનો ચેટ સહાયક છું.",
+        "help": "મને આ વિશેના પ્રશ્નોમાં તમને મદદ કરવામાં આનંદ થશે:",
+        "help2": "બસ મને તમારો પ્રશ્ન પૂછો!"
     },
     "cancel": "રદ કરો",
     "close": "બંધ કરો",

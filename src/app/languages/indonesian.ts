@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Indonesian: typeof German = {
-    "welcome": {
-        "h1": "Halo, saya BlönBot!",
-        "subtitle": "Saya adalah asisten obrolan dari Studienkolleg St. Johann Blönried. Saya dengan senang hati akan membantu Anda dengan pertanyaan Anda tentang sekolah kami.",
-        "help": "Saya senang membantu Anda dengan pertanyaan tentang:",
-        "help2": "Ajukan saja pertanyaan Anda!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Ceritakan lebih banyak tentang Studienkolleg St. Johann Blönried",
+            "prompt": "Beri tahu saya lebih banyak tentang {schoolName}",
             "text": "Informasi Umum"
         },
         "schoolFestivalSchedule": {
@@ -50,17 +44,17 @@ export const Indonesian: typeof German = {
         }
     },
     "feedback": {
-        "title": "Umpan balik untuk BlönBot",
-        "description": "Bagaimana pengalaman Anda dengan BlönBot?",
-        "messagePlaceholder": "Ceritakan tentang pengalaman Anda dengan BlönBot...",
         "thanks": {
-            "message": "Umpan balik Anda membantu saya menjadi asisten yang lebih baik untuk Gymnasium Weingarten!",
+            "message": "Masukan Anda membantu saya menjadi asisten yang lebih baik untuk {schoolName}!",
             "title": "Terima kasih banyak!"
         },
+        "title": "Umpan Balik untuk Leo",
+        "description": "Bagaimana pengalaman Anda dengan Leo?",
         "rating": "Peringkat",
         "message": "Pesan Anda",
         "characterLimit": "Karakter",
         "name": "Nama Anda",
+        "messagePlaceholder": "Ceritakan pengalaman Anda dengan Leo...",
         "namePlaceholder": "misalnya Budi Santoso",
         "optional": "Opsional",
         "sending": "Mengirim",
@@ -84,6 +78,12 @@ export const Indonesian: typeof German = {
         "warning": "AI bisa membuat kesalahan. Periksa informasi penting. Jangan berikan data pribadi.",
         "placeholder": "👋 Ada yang bisa saya bantu?",
         "send": "Kirim"
+    },
+    "welcome": {
+        "h1": "Halo, saya Leo! 🦁",
+        "subtitle": "Saya adalah asisten obrolan Gymnasium Weingarten, yang dikembangkan selama hari proyek 2025 untuk ulang tahun ke-50 Gymnasium Weingarten.",
+        "help": "Saya senang membantu Anda dengan pertanyaan tentang:",
+        "help2": "Ajukan saja pertanyaan Anda!"
     },
     "entityTable": {
         "startDate": "Kapan?",

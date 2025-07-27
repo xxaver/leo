@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Hungarian: typeof German = {
-    "welcome": {
-        "h1": "Szia, BlönBot vagyok!",
-        "subtitle": "A Studienkolleg St. Johann Blönried csevegőasszisztense vagyok. Szívesen segítek az iskolánkkal kapcsolatos kérdéseiben.",
-        "help": "Szívesen segítek a következő kérdésekben:",
-        "help2": "Csak tedd fel a kérdésed!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Meséljen többet a Studienkolleg St. Johann Blönriedről",
+            "prompt": "Meséljen többet a(z) {schoolName} intézményről",
             "text": "Általános információk"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Hungarian: typeof German = {
         }
     },
     "feedback": {
-        "title": "Visszajelzés a BlönBot számára",
-        "description": "Milyen tapasztalatai voltak a BlönBottal?",
-        "messagePlaceholder": "Meséljen nekünk a BlönBottal szerzett tapasztalatairól...",
         "thanks": {
-            "message": "Visszajelzése segít, hogy jobb asszisztenssé váljak a Studienkolleg St. Johann Blönried számára!",
+            "message": "Visszajelzése segít, hogy jobb asszisztens lehessek a(z) {schoolName} számára!",
             "title": "Köszönjük szépen!"
         },
+        "title": "Visszajelzés a következőhöz: {assistantName}",
+        "description": "Milyen tapasztalatai voltak a(z) {assistantName} használatával?",
+        "messagePlaceholder": "Mondja el nekünk a(z) {assistantName} használatával kapcsolatos tapasztalatait...",
         "rating": "Értékelés",
         "message": "Az Ön üzenete",
         "characterLimit": "Karakter",
@@ -71,6 +65,12 @@ export const Hungarian: typeof German = {
             "network": "Hiba a küldés során",
             "unknown": "Hiba történt"
         }
+    },
+    "welcome": {
+        "h1": "Szia, {assistantName} vagyok!",
+        "subtitle": "Én vagyok a Weingarteni Gimnázium chat-asszisztense, amelyet a 2025-ös projektnapok során fejlesztettek ki a Weingarteni Gimnázium 50. évfordulójára.",
+        "help": "Szívesen segítek a következő kérdésekben:",
+        "help2": "Csak tedd fel a kérdésed!"
     },
     "cancel": "Mégse",
     "close": "Bezárás",

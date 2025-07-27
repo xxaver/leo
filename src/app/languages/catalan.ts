@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Catalan: typeof German = {
-    "welcome": {
-        "h1": "Hola, sóc Johannes!",
-        "subtitle": "Sóc l'assistent de xat de l'Studienkolleg St. Johann Blönried. Estaré encantat d'ajudar-te amb les teves preguntes sobre la nostra escola.",
-        "help": "T'ajudo amb preguntes sobre:",
-        "help2": "Fes-me la teva pregunta!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Explica'm més sobre l'Studienkolleg St. Johann Blönried",
+            "prompt": "Explica'm més coses sobre {schoolName}",
             "text": "Informació general"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Catalan: typeof German = {
         }
     },
     "feedback": {
-        "title": "Comentaris per a Johannes",
-        "description": "Com ha estat la teva experiència amb Johannes?",
-        "messagePlaceholder": "Explica'ns la teva experiència amb Johannes...",
         "thanks": {
-            "message": "Els teus comentaris m'ajuden a ser un millor assistent per al Gymnasium Weingarten!",
+            "message": "Els teus comentaris m'ajuden a ser un millor assistent per a {schoolName}.",
             "title": "Moltes gràcies!"
         },
+        "title": "Comentaris per a {assistantName}",
+        "description": "Com ha estat la teva experiència amb {assistantName}?",
+        "messagePlaceholder": "Explica'ns la teva experiència amb {assistantName}...",
         "rating": "Valoració",
         "message": "El teu missatge",
         "characterLimit": "Caràcters",
@@ -71,6 +65,12 @@ export const Catalan: typeof German = {
             "network": "Error en l'enviament",
             "unknown": "S'ha produït un error"
         }
+    },
+    "welcome": {
+        "h1": "Hola, soc {assistantName}!",
+        "subtitle": "Sóc l'assistent de xat del Gymnasium Weingarten, desenvolupat durant els dies de projectes del 2025 per al 50è aniversari del Gymnasium Weingarten.",
+        "help": "T'ajudo amb preguntes sobre:",
+        "help2": "Fes-me la teva pregunta!"
     },
     "cancel": "Cancel·lar",
     "close": "Tancar",

@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Khmer: typeof German = {
-    "welcome": {
-        "h1": "សួស្តី ខ្ញុំគឺ BlönBot!",
-        "subtitle": "ខ្ញុំជាជំនួយការជជែករបស់ Studienkolleg St. Johann Blönried។ ខ្ញុំរីករាយនឹងជួយអ្នកជាមួយនឹងសំណួររបស់អ្នកអំពីសាលារបស់យើង។",
-        "help": "ខ្ញុំរីករាយនឹងជួយអ្នកជាមួយនឹងសំណួរអំពី៖",
-        "help2": "សូមសួរសំណួររបស់អ្នកមក!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "ប្រាប់ខ្ញុំបន្ថែមអំពី Studienkolleg St. Johann Blönried",
+            "prompt": "ប្រាប់ខ្ញុំបន្ថែមអំពី {schoolName}",
             "text": "ព័ត៌មានទូទៅ"
         },
         "schoolFestivalSchedule": {
@@ -50,17 +44,17 @@ export const Khmer: typeof German = {
         }
     },
     "feedback": {
-        "title": "មតិកែលម្អសម្រាប់ BlönBot",
-        "description": "តើបទពិសោធន៍របស់អ្នកជាមួយ BlönBot យ៉ាងម៉េចដែរ?",
-        "messagePlaceholder": "ប្រាប់យើងអំពីបទពិសោធន៍របស់អ្នកជាមួយ BlönBot...",
         "thanks": {
-            "message": "មតិកែលម្អរបស់អ្នកជួយខ្ញុំឱ្យក្លាយជាជំនួយការកាន់តែប្រសើរសម្រាប់ Gymnasium Weingarten!",
+            "message": "មតិកែលម្អរបស់អ្នកជួយខ្ញុំឱ្យក្លាយជាជំនួយការកាន់តែប្រសើរសម្រាប់ {schoolName}!",
             "title": "សូមអរគុណច្រើន!"
         },
+        "title": "មតិកែលម្អសម្រាប់ Leo",
+        "description": "តើបទពិសោធន៍របស់អ្នកជាមួយ Leo យ៉ាងម៉េចដែរ?",
         "rating": "ការវាយតម្លៃ",
         "message": "សារ​របស់​អ្នក",
         "characterLimit": "តួអក្សរ",
         "name": "ឈ្មោះ​របស់​អ្នក",
+        "messagePlaceholder": "ប្រាប់យើងអំពីបទពិសោធន៍របស់អ្នកជាមួយ Leo...",
         "namePlaceholder": "ឧ. Max Mustermann",
         "optional": "ស្រេចចិត្ត",
         "sending": "កំពុង​ផ្ញើ",
@@ -84,6 +78,12 @@ export const Khmer: typeof German = {
         "warning": "AI អាចមានកំហុស។ សូមពិនិត្យមើលព័ត៌មានសំខាន់ៗ។ កុំផ្តល់ទិន្នន័យផ្ទាល់ខ្លួន។",
         "placeholder": "👋 តើខ្ញុំអាចជួយអ្នកដោយរបៀបណា?",
         "send": "ផ្ញើ"
+    },
+    "welcome": {
+        "h1": "សួស្តី ខ្ញុំគឺ Leo! 🦁",
+        "subtitle": "ខ្ញុំគឺជាជំនួយការជជែករបស់ Gymnasium Weingarten ដែលត្រូវបានបង្កើតឡើងក្នុងអំឡុងពេលថ្ងៃគម្រោងឆ្នាំ 2025 សម្រាប់ខួបលើកទី 50 របស់ Gymnasium Weingarten ។",
+        "help": "ខ្ញុំរីករាយនឹងជួយអ្នកជាមួយនឹងសំណួរអំពី៖",
+        "help2": "សូមសួរសំណួររបស់អ្នកមក!"
     },
     "entityTable": {
         "startDate": "ពេលណា?",

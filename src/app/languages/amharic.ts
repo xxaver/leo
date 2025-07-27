@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Amharic: typeof German = {
-    "welcome": {
-        "h1": "ሰላም፣ እኔ ብሎንቦት ነኝ!",
-        "subtitle": "እኔ የStudienkolleg St. Johann Blönried የውይይት ረዳት ነኝ። ስለ ትምህርት ቤታችን ጥያቄዎችዎን ለመመለስ ደስተኛ ነኝ።",
-        "help": "በሚከተሉት ጥያቄዎች ላይ በደስታ እረዳሃለሁ፦",
-        "help2": "ጥያቄህን ብቻ ጠይቀኝ!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "ስለ Studienkolleg St. Johann Blönried የበለጠ ንገረኝ",
+            "prompt": "ስለ {schoolName} የበለጠ ንገረኝ",
             "text": "አጠቃላይ መረጃ"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Amharic: typeof German = {
         }
     },
     "feedback": {
-        "title": "ለብሎንቦት አስተያየት",
-        "description": "ከብሎንቦት ጋር ያለዎት ተሞክሮ ምን ይመስል ነበር?",
-        "messagePlaceholder": "ከብሎንቦት ጋር ስላሎት ተሞክሮ ይንገሩን...",
         "thanks": {
-            "message": "የእርስዎ አስተያየት ለጂምናዚየም ዌይንጋርተን የተሻለ ረዳት እንድሆን ይረዳኛል!",
+            "message": "የእርስዎ አስተያየት ለ{schoolName} የተሻለ ረዳት እንድሆን ይረዳኛል!",
             "title": "በጣም አመሰግናለሁ!"
         },
+        "title": "ለ{assistantName} የቀረበ አስተያየት",
+        "description": "ከ{assistantName} ጋር የነበረዎት ተሞክሮ ምን ይመስል ነበር?",
+        "messagePlaceholder": "ከ{assistantName} ጋር ስለነበረዎት ተሞክሮ ይንገሩን...",
         "rating": "ደረጃ",
         "message": "የእርስዎ መልዕክት",
         "characterLimit": "ቁምፊዎች",
@@ -71,6 +65,12 @@ export const Amharic: typeof German = {
             "network": "በመላክ ላይ ስህተት",
             "unknown": "ስህተት ተከስቷል"
         }
+    },
+    "welcome": {
+        "h1": "ሰላም፣ እኔ {assistantName} ነኝ!",
+        "subtitle": "እኔ የጂምናዚየም ዌይንጋርተን የውይይት ረዳት ነኝ፣ በ2025 የፕሮጀክት ቀናት ለጂምናዚየም ዌይንጋርተን 50ኛ ዓመት በዓል የተሰራሁ።",
+        "help": "በሚከተሉት ጥያቄዎች ላይ በደስታ እረዳሃለሁ፦",
+        "help2": "ጥያቄህን ብቻ ጠይቀኝ!"
     },
     "cancel": "ሰርዝ",
     "close": "ዝጋ",

@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Polish: typeof German = {
-    "welcome": {
-        "h1": "Cześć, jestem Johannes!",
-        "subtitle": "Jestem asystentem czatu Studienkolleg St. Johann Blönried. Chętnie pomogę Ci w odpowiedzi na pytania dotyczące naszej szkoły.",
-        "help": "Chętnie pomogę w pytaniach dotyczących:",
-        "help2": "Po prostu zadaj mi pytanie!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Opowiedz mi więcej o Studienkolleg St. Johann Blönried",
+            "prompt": "Opowiedz mi więcej o {schoolName}",
             "text": "Informacje ogólne"
         },
         "schoolFestivalSchedule": {
@@ -50,17 +44,17 @@ export const Polish: typeof German = {
         }
     },
     "feedback": {
-        "title": "Opinia o Johannes",
-        "description": "Jakie były Twoje doświadczenia z Johannes?",
-        "messagePlaceholder": "Opowiedz nam o swoich doświadczeniach z Johannes...",
         "thanks": {
-            "message": "Twoja opinia pomoże mi stać się lepszym asystentem dla Gymnasium Weingarten!",
+            "message": "Twoja opinia pomoże mi stać się lepszym asystentem dla {schoolName}!",
             "title": "Dziękujemy bardzo!"
         },
+        "title": "Opinia o Leo",
+        "description": "Jakie były Twoje doświadczenia z Leo?",
         "rating": "Ocena",
         "message": "Twoja wiadomość",
         "characterLimit": "Znaków",
         "name": "Twoje imię",
+        "messagePlaceholder": "Opowiedz nam o swoich doświadczeniach z Leo...",
         "namePlaceholder": "np. Jan Kowalski",
         "optional": "Opcjonalnie",
         "sending": "Wysyłanie",
@@ -84,6 +78,12 @@ export const Polish: typeof German = {
         "warning": "AI popełnia błędy. Sprawdzaj ważne informacje. Nie podawaj danych osobowych.",
         "placeholder": "👋 W czym mogę pomóc?",
         "send": "Wyślij"
+    },
+    "welcome": {
+        "h1": "Cześć, jestem Leo! 🦁",
+        "subtitle": "Jestem asystentem czatu Gimnazjum Weingarten, opracowanym podczas dni projektowych 2025 z okazji 50-lecia Gimnazjum Weingarten.",
+        "help": "Chętnie pomogę w pytaniach dotyczących:",
+        "help2": "Po prostu zadaj mi pytanie!"
     },
     "entityTable": {
         "startDate": "Kiedy?",

@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Finnish: typeof German = {
-    "welcome": {
-        "h1": "Hei, olen BlönBot!",
-        "subtitle": "Olen Studienkolleg St. Johann Blönriedin chat-avustaja. Autan sinua mielelläni koulua koskevissa kysymyksissäsi.",
-        "help": "Autan mielelläni kysymyksissä, jotka koskevat:",
-        "help2": "Esitä vain kysymyksesi!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Kerro minulle lisää Studienkolleg St. Johann Blönriedistä",
+            "prompt": "Kerro minulle lisää kohteesta {schoolName}",
             "text": "Yleistä tietoa"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Finnish: typeof German = {
         }
     },
     "feedback": {
-        "title": "Palaute BlönBotille",
-        "description": "Millainen oli kokemuksesi BlönBotin kanssa?",
-        "messagePlaceholder": "Kerro meille kokemuksestasi BlönBotin kanssa...",
         "thanks": {
-            "message": "Palautteesi auttaa minua tulemaan paremmaksi avustajaksi Studienkolleg St. Johann Blönriedille!",
+            "message": "Palautteesi auttaa minua tulemaan paremmaksi avustajaksi kohteelle {schoolName}!",
             "title": "Kiitos paljon!"
         },
+        "title": "Palaute: {assistantName}",
+        "description": "Millainen kokemuksesi oli {assistantName}:n kanssa?",
+        "messagePlaceholder": "Kerro meille kokemuksestasi {assistantName}:n kanssa...",
         "rating": "Arviointi",
         "message": "Viestisi",
         "characterLimit": "Merkkiä",
@@ -71,6 +65,12 @@ export const Finnish: typeof German = {
             "network": "Virhe lähetyksessä",
             "unknown": "Tapahtui virhe"
         }
+    },
+    "welcome": {
+        "h1": "Hei, olen {assistantName}!",
+        "subtitle": "Olen Weingartenin lukion chat-avustaja, joka kehitettiin projektipäivien 2025 aikana Weingartenin lukion 50-vuotisjuhlan kunniaksi.",
+        "help": "Autan mielelläni kysymyksissä, jotka koskevat:",
+        "help2": "Esitä vain kysymyksesi!"
     },
     "cancel": "Peruuta",
     "close": "Sulje",

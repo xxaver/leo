@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Georgian: typeof German = {
-    "welcome": {
-        "h1": "გამარჯობა, მე ვარ Johannes!",
-        "subtitle": "მე ვარ Studienkolleg St. Johann Blönried-ის ჩატის ასისტენტი. სიამოვნებით დაგეხმარებით ჩვენი სკოლის შესახებ თქვენს შეკითხვებში.",
-        "help": "სიამოვნებით დაგეხმარებით კითხვებზე:",
-        "help2": "უბრალოდ დამისვით თქვენი შეკითხვა!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "მომიყევი მეტი Studienkolleg St. Johann Blönried-ის შესახებ",
+            "prompt": "მომიყევი მეტი {schoolName}-ის შესახებ",
             "text": "ზოგადი ინფორმაცია"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Georgian: typeof German = {
         }
     },
     "feedback": {
-        "title": "გამოხმაურება Johannes-ისთვის",
-        "description": "როგორი იყო თქვენი გამოცდილება Johannes-თან?",
-        "messagePlaceholder": "გვიამბეთ თქვენი გამოცდილების შესახებ Johannes-თან...",
         "thanks": {
-            "message": "თქვენი გამოხმაურება მეხმარება გავხდე უკეთესი ასისტენტი Gymnasium Weingarten-ისთვის!",
+            "message": "თქვენი გამოხმაურება მეხმარება გავხდე უკეთესი ასისტენტი {schoolName}-ისთვის!",
             "title": "დიდი მადლობა!"
         },
+        "title": "გამოხმაურება {assistantName}-სთვის",
+        "description": "როგორი იყო თქვენი გამოცდილება {assistantName}-თან?",
+        "messagePlaceholder": "მოგვიყევით თქვენი გამოცდილების შესახებ {assistantName}-თან...",
         "rating": "შეფასება",
         "message": "თქვენი შეტყობინება",
         "characterLimit": "სიმბოლო",
@@ -71,6 +65,12 @@ export const Georgian: typeof German = {
             "network": "გაგზავნის შეცდომა",
             "unknown": "მოხდა შეცდომა"
         }
+    },
+    "welcome": {
+        "h1": "გამარჯობა, მე ვარ {assistantName}!",
+        "subtitle": "მე ვარ ვაინგარტენის გიმნაზიის ჩატ-ასისტენტი, რომელიც შეიქმნა 2025 წლის პროექტის დღეების განმავლობაში ვაინგარტენის გიმნაზიის 50 წლის იუბილეს აღსანიშნავად.",
+        "help": "სიამოვნებით დაგეხმარებით კითხვებზე:",
+        "help2": "უბრალოდ დამისვით თქვენი შეკითხვა!"
     },
     "cancel": "გაუქმება",
     "close": "დახურვა",

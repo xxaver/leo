@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Marathi: typeof German = {
-    "welcome": {
-        "h1": "नमस्कार, मी Johannes आहे!",
-        "subtitle": "मी Studienkolleg St. Johann Blönried चा चॅट असिस्टंट आहे. मला आमच्या शाळेबद्दलच्या तुमच्या प्रश्नांची उत्तरे देण्यात मदत करायला आवडेल.",
-        "help": "मी तुम्हाला याबद्दलच्या प्रश्नांमध्ये मदत करण्यास उत्सुक आहे:",
-        "help2": "फक्त तुमचा प्रश्न विचारा!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "मला Studienkolleg St. Johann Blönried बद्दल अधिक सांगा",
+            "prompt": "मला {schoolName} बद्दल अधिक सांगा",
             "text": "सामान्य माहिती"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Marathi: typeof German = {
         }
     },
     "feedback": {
-        "title": "Johannes साठी अभिप्राय",
-        "description": "Johannes सोबत तुमचा अनुभव कसा होता?",
-        "messagePlaceholder": "आम्हाला Johannes सोबतच्या तुमच्या अनुभवाबद्दल सांगा...",
         "thanks": {
-            "message": "तुमचा अभिप्राय मला Gymnasium Weingarten साठी एक चांगला सहाय्यक बनण्यास मदत करतो!",
+            "message": "तुमचा अभिप्राय मला {schoolName} साठी एक चांगला सहाय्यक बनण्यास मदत करतो!",
             "title": "खूप खूप धन्यवाद!"
         },
+        "title": "{assistantName} साठी अभिप्राय",
+        "description": "{assistantName} सोबत तुमचा अनुभव कसा होता?",
+        "messagePlaceholder": "{assistantName} सोबतच्या तुमच्या अनुभवाबद्दल आम्हाला सांगा...",
         "rating": "रेटिंग",
         "message": "तुमचा संदेश",
         "characterLimit": "अक्षरे",
@@ -71,6 +65,12 @@ export const Marathi: typeof German = {
             "network": "पाठवताना त्रुटी",
             "unknown": "एक त्रुटी आली"
         }
+    },
+    "welcome": {
+        "h1": "नमस्कार, मी {assistantName} आहे!",
+        "subtitle": "मी जिमनेशियम वाईनगार्टनचा चॅट सहाय्यक आहे, जो जिमनेशियम वाईनगार्टनच्या ५० व्या वर्धापन दिनानिमित्त २०२५ च्या प्रकल्प दिवसांमध्ये विकसित केला गेला आहे.",
+        "help": "मी तुम्हाला याबद्दलच्या प्रश्नांमध्ये मदत करण्यास उत्सुक आहे:",
+        "help2": "फक्त तुमचा प्रश्न विचारा!"
     },
     "cancel": "रद्द करा",
     "close": "बंद करा",

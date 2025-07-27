@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Filipino: typeof German = {
-    "welcome": {
-        "h1": "Hello, ako si BlönBot!",
-        "subtitle": "Ako ang chat assistant ng Studienkolleg St. Johann Blönried. Masaya akong tulungan ka sa iyong mga tanong tungkol sa aming paaralan.",
-        "help": "Masaya akong tulungan ka sa mga tanong tungkol sa:",
-        "help2": "Itanong mo lang sa akin ang iyong tanong!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Sabihin mo sa akin ang higit pa tungkol sa Studienkolleg St. Johann Blönried",
+            "prompt": "Sabihin pa sa akin ang tungkol sa {schoolName}",
             "text": "Pangkalahatang Impormasyon"
         },
         "schoolFestivalSchedule": {
@@ -50,17 +44,17 @@ export const Filipino: typeof German = {
         }
     },
     "feedback": {
-        "title": "Feedback para sa BlönBot",
-        "description": "Kumusta ang iyong karanasan sa BlönBot?",
-        "messagePlaceholder": "Sabihin sa amin ang tungkol sa iyong karanasan sa BlönBot...",
         "thanks": {
-            "message": "Ang iyong feedback ay tumutulong sa akin na maging isang mas mahusay na katulong para sa Gymnasium Weingarten!",
+            "message": "Nakatutulong ang iyong feedback para maging mas mahusay akong assistant para sa {schoolName}!",
             "title": "Maraming salamat!"
         },
+        "title": "Feedback para kay Leo",
+        "description": "Kumusta ang iyong karanasan kay Leo?",
         "rating": "Rating",
         "message": "Ang iyong mensahe",
         "characterLimit": "Mga karakter",
         "name": "Ang iyong pangalan",
+        "messagePlaceholder": "Sabihin sa amin ang tungkol sa iyong karanasan kay Leo...",
         "namePlaceholder": "hal. Max Mustermann",
         "optional": "Opsyonal",
         "sending": "Nagpapadala",
@@ -84,6 +78,12 @@ export const Filipino: typeof German = {
         "warning": "Nagkakamali ang AI. Suriin ang mahalagang impormasyon. Huwag magbigay ng personal na data.",
         "placeholder": "👋 Paano kita matutulungan?",
         "send": "Ipadala"
+    },
+    "welcome": {
+        "h1": "Hello, ako si Leo! 🦁",
+        "subtitle": "Ako ang chat assistant ng Gymnasium Weingarten, na binuo sa panahon ng mga araw ng proyekto ng 2025 para sa ika-50 anibersaryo ng Gymnasium Weingarten.",
+        "help": "Masaya akong tulungan ka sa mga tanong tungkol sa:",
+        "help2": "Itanong mo lang sa akin ang iyong tanong!"
     },
     "entityTable": {
         "startDate": "Kailan?",

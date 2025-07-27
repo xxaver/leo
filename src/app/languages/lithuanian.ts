@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Lithuanian: typeof German = {
-    "welcome": {
-        "h1": "Sveiki, aš esu BlönBot!",
-        "subtitle": "Aš esu Studienkolleg St. Johann Blönried pokalbių asistentas. Mielai padėsiu jums atsakyti į klausimus apie mūsų mokyklą.",
-        "help": "Mielai padėsiu jums klausimais apie:",
-        "help2": "Tiesiog užduokite man savo klausimą!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Papasakok man daugiau apie Studienkolleg St. Johann Blönried",
+            "prompt": "Papasakok man daugiau apie {schoolName}",
             "text": "Bendra informacija"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Lithuanian: typeof German = {
         }
     },
     "feedback": {
-        "title": "Atsiliepimai apie BlönBot",
-        "description": "Kokia jūsų patirtis su BlönBot?",
-        "messagePlaceholder": "Papasakokite mums apie savo patirtį su BlönBot...",
         "thanks": {
-            "message": "Jūsų atsiliepimai padeda man tapti geresniu asistentu Weingarten gimnazijai!",
+            "message": "Jūsų atsiliepimai padeda man tapti geresniu {schoolName} asistentu!",
             "title": "Labai ačiū!"
         },
+        "title": "Atsiliepimai apie {assistantName}",
+        "description": "Kokia jūsų patirtis su {assistantName}?",
+        "messagePlaceholder": "Papasakokite mums apie savo patirtį su {assistantName}...",
         "rating": "Įvertinimas",
         "message": "Jūsų žinutė",
         "characterLimit": "Simboliai",
@@ -71,6 +65,12 @@ export const Lithuanian: typeof German = {
             "network": "Siuntimo klaida",
             "unknown": "Įvyko klaida"
         }
+    },
+    "welcome": {
+        "h1": "Sveiki, aš esu {assistantName}!",
+        "subtitle": "Aš esu „Gymnasium Weingarten“ pokalbių asistentas, sukurtas per 2025 m. projektų dienas, skirtas „Gymnasium Weingarten“ 50-mečiui.",
+        "help": "Mielai padėsiu jums klausimais apie:",
+        "help2": "Tiesiog užduokite man savo klausimą!"
     },
     "cancel": "Atšaukti",
     "close": "Uždaryti",

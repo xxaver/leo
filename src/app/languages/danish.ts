@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Danish: typeof German = {
-    "welcome": {
-        "h1": "Hej, jeg er BlönBot!",
-        "subtitle": "Jeg er chat-assistenten for Studienkolleg St. Johann Blönried. Jeg hjælper dig gerne med dine spørgsmål om vores skole.",
-        "help": "Jeg hjælper dig gerne med spørgsmål om:",
-        "help2": "Stil mig bare dit spørgsmål!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Fortæl mig mere om Studienkolleg St. Johann Blönried",
+            "prompt": "Fortæl mig mere om {schoolName}",
             "text": "Generelle oplysninger"
         },
         "schoolFestivalSchedule": {
@@ -50,17 +44,17 @@ export const Danish: typeof German = {
         }
     },
     "feedback": {
-        "title": "Feedback til BlönBot",
-        "description": "Hvordan var din oplevelse med BlönBot?",
-        "messagePlaceholder": "Fortæl os om din oplevelse med BlönBot...",
         "thanks": {
-            "message": "Din feedback hjælper mig med at blive en bedre assistent for Gymnasium Weingarten!",
+            "message": "Din feedback hjælper mig med at blive en bedre assistent for {schoolName}!",
             "title": "Mange tak!"
         },
+        "title": "Feedback til Leo",
+        "description": "Hvordan var din oplevelse med Leo?",
         "rating": "Bedømmelse",
         "message": "Din besked",
         "characterLimit": "Tegn",
         "name": "Dit navn",
+        "messagePlaceholder": "Fortæl os om din oplevelse med Leo...",
         "namePlaceholder": "f.eks. Max Mustermann",
         "optional": "Valgfri",
         "sending": "Sender",
@@ -84,6 +78,12 @@ export const Danish: typeof German = {
         "warning": "AI begår fejl. Tjek vigtige oplysninger. Del ikke personlige data.",
         "placeholder": "👋 Hvordan kan jeg hjælpe dig?",
         "send": "Send"
+    },
+    "welcome": {
+        "h1": "Hej, jeg er Leo! 🦁",
+        "subtitle": "Jeg er chat-assistenten for Gymnasium Weingarten, udviklet under projektdagene i 2025 for at fejre Gymnasium Weingartens 50-års jubilæum.",
+        "help": "Jeg hjælper dig gerne med spørgsmål om:",
+        "help2": "Stil mig bare dit spørgsmål!"
     },
     "entityTable": {
         "startDate": "Hvornår?",

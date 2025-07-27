@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Russian: typeof German = {
-    "welcome": {
-        "h1": "Привет, я Johannes!",
-        "subtitle": "Я чат-ассистент Studienkolleg St. Johann Blönried. Я буду рад помочь вам с вопросами о нашей школе.",
-        "help": "Я с радостью помогу вам с вопросами о:",
-        "help2": "Просто задайте мне свой вопрос!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Расскажи мне больше о Studienkolleg St. Johann Blönried",
+            "prompt": "Расскажите мне больше о {schoolName}",
             "text": "Общая информация"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Russian: typeof German = {
         }
     },
     "feedback": {
-        "title": "Отзыв о Johannes",
-        "description": "Как вам понравилось работать с Johannes?",
-        "messagePlaceholder": "Расскажите нам о своем опыте работы с Johannes...",
         "thanks": {
-            "message": "Ваш отзыв поможет мне стать лучшим ассистентом для гимназии Вайнгартен!",
+            "message": "Ваш отзыв поможет мне стать лучшим ассистентом для {schoolName}!",
             "title": "Большое спасибо!"
         },
+        "title": "Отзыв о {assistantName}",
+        "description": "Как вам работа с {assistantName}?",
+        "messagePlaceholder": "Расскажите нам о своем опыте работы с {assistantName}...",
         "rating": "Оценка",
         "message": "Ваше сообщение",
         "characterLimit": "Символов",
@@ -71,6 +65,12 @@ export const Russian: typeof German = {
             "network": "Ошибка при отправке",
             "unknown": "Произошла ошибка"
         }
+    },
+    "welcome": {
+        "h1": "Здравствуйте, я {assistantName}!",
+        "subtitle": "Я чат-ассистент Гимназии Вайнгартен, разработанный во время проектных дней 2025 года к 50-летию Гимназии Вайнгартен.",
+        "help": "Я с радостью помогу вам с вопросами о:",
+        "help2": "Просто задайте мне свой вопрос!"
     },
     "cancel": "Отмена",
     "close": "Закрыть",

@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Arabic: typeof German = {
-    "welcome": {
-        "h1": "مرحباً، أنا بلون بوت!",
-        "subtitle": "أنا مساعد الدردشة في Studienkolleg St. Johann Blönried. يسعدني مساعدتك في الإجابة على أسئلتك حول مدرستنا.",
-        "help": "يسعدني مساعدتك في الأسئلة المتعلقة بـ:",
-        "help2": "فقط اطرح سؤالك!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "أخبرني المزيد عن Studienkolleg St. Johann Blönried",
+            "prompt": "أخبرني المزيد عن {schoolName}",
             "text": "معلومات عامة"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Arabic: typeof German = {
         }
     },
     "feedback": {
-        "title": "ملاحظات لـ Johannes",
-        "description": "كيف كانت تجربتك مع Johannes؟",
-        "messagePlaceholder": "أخبرنا عن تجربتك مع Johannes...",
         "thanks": {
-            "message": "تساعدني ملاحظاتك على أن أصبح مساعدًا أفضل لـ Studienkolleg St. Johann Blönried!",
+            "message": "تساعدني ملاحظاتك على أن أصبح مساعدًا أفضل لـ {schoolName}!",
             "title": "شكراً جزيلاً!"
         },
+        "title": "ملاحظات حول {assistantName}",
+        "description": "كيف كانت تجربتك مع {assistantName}؟",
+        "messagePlaceholder": "أخبرنا عن تجربتك مع {assistantName}...",
         "rating": "تقييم",
         "message": "رسالتك",
         "characterLimit": "حرف",
@@ -71,6 +65,12 @@ export const Arabic: typeof German = {
             "network": "خطأ في الإرسال",
             "unknown": "حدث خطأ"
         }
+    },
+    "welcome": {
+        "h1": "مرحبًا، أنا {assistantName}!",
+        "subtitle": "أنا مساعد الدردشة لمدرسة فاينغارتن الثانوية، تم تطويري خلال أيام المشروع لعام 2025 بمناسبة الذكرى الخمسين لمدرسة فاينغارتن الثانوية.",
+        "help": "يسعدني مساعدتك في الأسئلة المتعلقة بـ:",
+        "help2": "فقط اطرح سؤالك!"
     },
     "cancel": "إلغاء",
     "close": "إغلاق",

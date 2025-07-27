@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Portuguese: typeof German = {
-    "welcome": {
-        "h1": "Olá, eu sou o Johannes!",
-        "subtitle": "Eu sou o assistente de chat do Studienkolleg St. Johann Blönried. Fico feliz em ajudar com suas perguntas sobre nossa escola.",
-        "help": "Fico feliz em ajudar com perguntas sobre:",
-        "help2": "Apenas faça sua pergunta!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Conte-me mais sobre o Studienkolleg St. Johann Blönried",
+            "prompt": "Conte-me mais sobre a {schoolName}",
             "text": "Informações gerais"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Portuguese: typeof German = {
         }
     },
     "feedback": {
-        "title": "Feedback para o BlönBot",
-        "description": "Como foi sua experiência com o BlönBot?",
-        "messagePlaceholder": "Conte-nos sobre sua experiência com o BlönBot...",
         "thanks": {
-            "message": "Seu feedback me ajuda a me tornar um assistente melhor para o Gymnasium Weingarten!",
+            "message": "Seu feedback me ajuda a me tornar um assistente melhor para a {schoolName}!",
             "title": "Muito obrigado!"
         },
+        "title": "Feedback para {assistantName}",
+        "description": "Como foi sua experiência com {assistantName}?",
+        "messagePlaceholder": "Conte-nos sobre sua experiência com {assistantName}...",
         "rating": "Avaliação",
         "message": "Sua mensagem",
         "characterLimit": "Caracteres",
@@ -71,6 +65,12 @@ export const Portuguese: typeof German = {
             "network": "Erro ao enviar",
             "unknown": "Ocorreu um erro"
         }
+    },
+    "welcome": {
+        "h1": "Olá, eu sou {assistantName}!",
+        "subtitle": "Eu sou o assistente de chat do Gymnasium Weingarten, desenvolvido durante os dias de projeto de 2025 para o 50º aniversário do Gymnasium Weingarten.",
+        "help": "Fico feliz em ajudar com perguntas sobre:",
+        "help2": "Apenas faça sua pergunta!"
     },
     "cancel": "Cancelar",
     "close": "Fechar",

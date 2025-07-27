@@ -7,22 +7,28 @@ import {sourceUrl} from "../../config";
 export const Footer: FC = () => {
     const translations = useTranslations();
     const {language} = useContext(LanguageContext);
-    
+
     return <div className='text-center text-muted-foreground flex items-center gap-2 justify-center flex-wrap text-xs'>
         <div>
             {translations.footer.madeBy} <span className="text-foreground">Daniel Kuhn</span>
         </div>
+        {sourceUrl && <>
+            <div>•</div>
+            <a target='_blank'
+               className='transition !text-muted-foreground hover:!text-foreground flex items-center gap-1.5 not-hover:!no-underline'
+               href={sourceUrl}>
+                <Github/>
+                {translations.footer.source}
+                <ArrowUpRight/>
+            </a>
+        </>}
         <div>•</div>
-        <a target='_blank' className='transition !text-muted-foreground hover:!text-foreground flex items-center gap-1.5 not-hover:!no-underline' href={sourceUrl}>
-            <Github />
-            {translations.footer.source}
-            <ArrowUpRight />
-        </a>
-        <div>•</div>
-        <a target='_blank' className='transition !text-muted-foreground hover:!text-foreground flex items-center gap-1.5 not-hover:!no-underline' href={`/feedback?lang=${language}`}>
-            <MessageCircle />
+        <a target='_blank'
+           className='transition !text-muted-foreground hover:!text-foreground flex items-center gap-1.5 not-hover:!no-underline'
+           href={`/feedback?lang=${language}`}>
+            <MessageCircle/>
             {translations.footer.feedback}
-            <ArrowUpRight />
+            <ArrowUpRight/>
         </a>
         {/*<div>•</div>*/}
         {/*<a target='_blank' className='transition !text-muted-foreground hover:!text-foreground flex items-center gap-1.5 not-hover:!no-underline' href="/privacy">*/}

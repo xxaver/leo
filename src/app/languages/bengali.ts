@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Bengali: typeof German = {
-    "welcome": {
-        "h1": "হ্যালো, আমি Johannes!",
-        "subtitle": "আমি Studienkolleg St. Johann Blönried-এর চ্যাট অ্যাসিস্ট্যান্ট। আমি আমাদের স্কুল সম্পর্কে আপনার প্রশ্নের উত্তর দিতে সাহায্য করতে পেরে খুশি হব।",
-        "help": "আমি আপনাকে এই বিষয়ে প্রশ্ন করতে সাহায্য করতে পেরে খুশি:",
-        "help2": "শুধু আপনার প্রশ্ন জিজ্ঞাসা করুন!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "আমাকে Studienkolleg St. Johann Blönried সম্পর্কে আরও বলুন",
+            "prompt": "আমাকে {schoolName} সম্পর্কে আরও বলুন",
             "text": "সাধারণ তথ্য"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Bengali: typeof German = {
         }
     },
     "feedback": {
-        "title": "Johannes-এর জন্য মতামত",
-        "description": "BlönBot-এর সাথে আপনার অভিজ্ঞতা কেমন ছিল?",
-        "messagePlaceholder": "BlönBot-এর সাথে আপনার অভিজ্ঞতা সম্পর্কে আমাদের বলুন...",
         "thanks": {
-            "message": "আপনার মতামত আমাকে Gymnasium Weingarten-এর জন্য আরও ভালো সহকারী হতে সাহায্য করে!",
+            "message": "আপনার মতামত আমাকে {schoolName}-এর জন্য আরও ভালো সহকারী হতে সাহায্য করে!",
             "title": "আপনাকে অনেক ধন্যবাদ!"
         },
+        "title": "{assistantName} এর জন্য প্রতিক্রিয়া",
+        "description": "{assistantName} এর সাথে আপনার অভিজ্ঞতা কেমন ছিল?",
+        "messagePlaceholder": "{assistantName} এর সাথে আপনার অভিজ্ঞতা সম্পর্কে আমাদের বলুন...",
         "rating": "রেটিং",
         "message": "আপনার বার্তা",
         "characterLimit": "অক্ষর",
@@ -71,6 +65,12 @@ export const Bengali: typeof German = {
             "network": "পাঠাতে ত্রুটি",
             "unknown": "একটি ত্রুটি ঘটেছে"
         }
+    },
+    "welcome": {
+        "h1": "হ্যালো, আমি {assistantName}!",
+        "subtitle": "আমি জিমনেসিয়াম ভাইনগার্টেনের চ্যাট সহকারী, যা জিমনেসিয়াম ভাইনগার্টেনের ৫০তম বার্ষিকী উপলক্ষে ২০২৫ সালের প্রকল্প দিবসের সময় তৈরি করা হয়েছে।",
+        "help": "আমি আপনাকে এই বিষয়ে প্রশ্ন করতে সাহায্য করতে পেরে খুশি:",
+        "help2": "শুধু আপনার প্রশ্ন জিজ্ঞাসা করুন!"
     },
     "cancel": "বাতিল করুন",
     "close": "বন্ধ করুন",

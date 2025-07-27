@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Malay: typeof German = {
-    "welcome": {
-        "h1": "Helo, saya BlönBot!",
-        "subtitle": "Saya adalah pembantu sembang Studienkolleg St. Johann Blönried. Saya gembira untuk membantu anda dengan soalan anda tentang sekolah kami.",
-        "help": "Saya sedia membantu anda dengan soalan mengenai:",
-        "help2": "Hanya ajukan soalan anda kepada saya!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Beritahu saya lebih lanjut mengenai Studienkolleg St. Johann Blönried",
+            "prompt": "Beritahu saya lebih lanjut tentang {schoolName}",
             "text": "Maklumat Am"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Malay: typeof German = {
         }
     },
     "feedback": {
-        "title": "Maklum balas untuk BlönBot",
-        "description": "Bagaimanakah pengalaman anda dengan BlönBot?",
-        "messagePlaceholder": "Beritahu kami tentang pengalaman anda dengan BlönBot...",
         "thanks": {
-            "message": "Maklum balas anda membantu saya menjadi pembantu yang lebih baik untuk Gymnasium Weingarten!",
+            "message": "Maklum balas anda membantu saya menjadi pembantu yang lebih baik untuk {schoolName}!",
             "title": "Terima kasih banyak!"
         },
+        "title": "Maklum balas untuk {assistantName}",
+        "description": "Apakah pengalaman anda dengan {assistantName}?",
+        "messagePlaceholder": "Beritahu kami tentang pengalaman anda dengan {assistantName}...",
         "rating": "Penilaian",
         "message": "Mesej anda",
         "characterLimit": "Aksara",
@@ -71,6 +65,12 @@ export const Malay: typeof German = {
             "network": "Ralat semasa menghantar",
             "unknown": "Satu ralat telah berlaku"
         }
+    },
+    "welcome": {
+        "h1": "Helo, saya {assistantName}!",
+        "subtitle": "Saya adalah pembantu sembang Gymnasium Weingarten, yang dibangunkan semasa hari projek 2025 untuk ulang tahun ke-50 Gymnasium Weingarten.",
+        "help": "Saya sedia membantu anda dengan soalan mengenai:",
+        "help2": "Hanya ajukan soalan anda kepada saya!"
     },
     "cancel": "Batal",
     "close": "Tutup",

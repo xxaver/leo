@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Dutch: typeof German = {
-    "welcome": {
-        "h1": "Hallo, ik ben BlönBot!",
-        "subtitle": "Ik ben de chat-assistent van het Studienkolleg St. Johann Blönried. Ik help je graag met je vragen over onze school.",
-        "help": "Ik help je graag met vragen over:",
-        "help2": "Stel me gewoon je vraag!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Vertel me meer over het Studienkolleg St. Johann Blönried",
+            "prompt": "Vertel me meer over {schoolName}",
             "text": "Algemene informatie"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Dutch: typeof German = {
         }
     },
     "feedback": {
-        "title": "Feedback voor BlönBot",
-        "description": "Wat was je ervaring met BlönBot?",
-        "messagePlaceholder": "Vertel ons over je ervaring met BlönBot...",
         "thanks": {
-            "message": "Jouw feedback helpt me een betere assistent te worden voor het Gymnasium Weingarten!",
+            "message": "Je feedback helpt me een betere assistent voor {schoolName} te worden!",
             "title": "Hartelijk dank!"
         },
+        "title": "Feedback voor {assistantName}",
+        "description": "Hoe was je ervaring met {assistantName}?",
+        "messagePlaceholder": "Vertel ons over je ervaring met {assistantName}...",
         "rating": "Beoordeling",
         "message": "Jouw bericht",
         "characterLimit": "tekens",
@@ -71,6 +65,12 @@ export const Dutch: typeof German = {
             "network": "Fout bij verzenden",
             "unknown": "Er is een fout opgetreden"
         }
+    },
+    "welcome": {
+        "h1": "Hallo, ik ben {assistantName}!",
+        "subtitle": "Ik ben de chat-assistent van het Gymnasium Weingarten, ontwikkeld tijdens de projectdagen van 2025 voor het 50-jarig jubileum van het Gymnasium Weingarten.",
+        "help": "Ik help je graag met vragen over:",
+        "help2": "Stel me gewoon je vraag!"
     },
     "cancel": "Annuleren",
     "close": "Sluiten",

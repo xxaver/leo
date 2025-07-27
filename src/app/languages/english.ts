@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const English: typeof German = {
-    "welcome": {
-        "h1": "Hello, I am Johannes!",
-        "subtitle": "I am the chat assistant for the Studienkolleg St. Johann Blönried. I am happy to help you with your questions about our school.",
-        "help": "I'm happy to help you with questions about:",
-        "help2": "Just ask me your question!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Tell me more about the Studienkolleg St. Johann Blönried",
+            "prompt": "Tell me more about {schoolName}",
             "text": "General Information"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const English: typeof German = {
         }
     },
     "feedback": {
-        "title": "Feedback for Johannes",
-        "description": "How was your experience with Johannes?",
-        "messagePlaceholder": "Tell us about your experience with Johannes...",
         "thanks": {
-            "message": "Your feedback helps me become a better assistant for the Gymnasium Weingarten!",
+            "message": "Your feedback helps me become a better assistant for {schoolName}!",
             "title": "Thank you very much!"
         },
+        "title": "Feedback for {assistantName}",
+        "description": "How was your experience with {assistantName}?",
+        "messagePlaceholder": "Tell us about your experience with {assistantName}...",
         "rating": "Rating",
         "message": "Your Message",
         "characterLimit": "Characters",
@@ -71,6 +65,12 @@ export const English: typeof German = {
             "network": "Error sending",
             "unknown": "An error occurred"
         }
+    },
+    "welcome": {
+        "h1": "Hello, I am {assistantName}!",
+        "subtitle": "I am the chat assistant of the Gymnasium Weingarten, developed during the 2025 project days for the 50th anniversary of the Gymnasium Weingarten.",
+        "help": "I'm happy to help you with questions about:",
+        "help2": "Just ask me your question!"
     },
     "cancel": "Cancel",
     "close": "Close",

@@ -13,8 +13,8 @@
     "send": "Senden"
   },
   "welcome": {
-    "h1": "Hallo, Ich bin BlönBot!",
-    "subtitle": "Ich bin der Chat-Assistent des Studienkolleg St. Johann Blönried. Ich helfe dir gerne bei deinen Fragen rund um unsere Schule.",
+    "h1": "Hallo, Ich bin {assistantName}!",
+    "subtitle": "Ich bin der Chat-Assistent des Gymnasium Weingartens, der während der Projekttage 2025 zum 50-jährigen Jubiläum des Gymnasiums Weingarten entwickelt wurde.",
     "help": "Ich helfe dir gerne bei Fragen zu:",
     "help2": "Stell mir einfach deine Frage!"
   },
@@ -36,7 +36,7 @@
       "text": "Gibt es Möglichkeiten für Nicht-Deutschsprachige?"
     },
     "general": {
-      "prompt": "Erzähle mir mehr über das Studienkolleg St. Johann Blönried",
+      "prompt": "Erzähle mir mehr über das {schoolName}",
       "text": "Generelle Informationen"
     },
     "apology": {
@@ -76,13 +76,13 @@
     "feedback": "Feedback"
   },
   "feedback": {
-    "title": "Feedback für BlönBot",
-    "description": "Wie war deine Erfahrung mit BlönBot?",
+    "title": "Feedback für {assistantName}",
+    "description": "Wie war deine Erfahrung mit {assistantName}?",
     "rating": "Bewertung",
     "message": "Deine Nachricht",
     "characterLimit": "Zeichen",
     "name": "Dein Name",
-    "messagePlaceholder": "Erzähl uns von deiner Erfahrung mit BlönBot...",
+    "messagePlaceholder": "Erzähl uns von deiner Erfahrung mit {assistantName}...",
     "namePlaceholder": "z.B. Max Mustermann",
     "optional": "Optional",
     "sending": "Wird gesendet",
@@ -95,7 +95,7 @@
     },
     "thanks": {
       "title": "Vielen Dank!",
-      "message": "Dein Feedback hilft mir dabei, ein besserer Assistent für das Gymnasium Weingarten zu werden!"
+      "message": "Dein Feedback hilft mir dabei, ein besserer Assistent für das {schoolName} zu werden!"
     }
   }
 }

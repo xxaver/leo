@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Uzbek: typeof German = {
-    "welcome": {
-        "h1": "Salom, men Johannesman!",
-        "subtitle": "Men Studienkolleg St. Johann Blönriedning chat yordamchisiman. Maktabimiz haqidagi savollaringizga mamnuniyat bilan yordam beraman.",
-        "help": "Men sizga quyidagi savollar bo'yicha yordam berishdan mamnunman:",
-        "help2": "Shunchaki savolingizni bering!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Menga Studienkolleg St. Johann Blönried haqida ko'proq ma'lumot bering",
+            "prompt": "{schoolName} haqida koʻproq maʼlumot bering",
             "text": "Umumiy ma'lumot"
         },
         "schoolFestivalSchedule": {
@@ -50,17 +44,17 @@ export const Uzbek: typeof German = {
         }
     },
     "feedback": {
-        "title": "Johannes uchun fikr-mulohaza",
-        "description": "Johannes bilan tajribangiz qanday bo'ldi?",
-        "messagePlaceholder": "Johannes bilan bo'lgan tajribangiz haqida bizga gapirib bering...",
         "thanks": {
-            "message": "Sizning fikr-mulohazangiz menga Gymnasium Weingarten uchun yaxshiroq yordamchi bo'lishga yordam beradi!",
+            "message": "Sizning fikr-mulohazalaringiz menga {schoolName} uchun yaxshiroq yordamchi boʻlishimga yordam beradi!",
             "title": "Katta rahmat!"
         },
+        "title": "Leo uchun fikr-mulohaza",
+        "description": "Leo bilan tajribangiz qanday bo'ldi?",
         "rating": "Baholash",
         "message": "Sizning xabaringiz",
         "characterLimit": "Belgilar",
         "name": "Sizning ismingiz",
+        "messagePlaceholder": "Leo bilan bo'lgan tajribangiz haqida bizga ayting...",
         "namePlaceholder": "masalan, Max Mustermann",
         "optional": "Ixtiyoriy",
         "sending": "Yuborilmoqda",
@@ -84,6 +78,12 @@ export const Uzbek: typeof German = {
         "warning": "AI xato qiladi. Muhim ma'lumotlarni tekshiring. Shaxsiy ma'lumotlarni kiritmang.",
         "placeholder": "👋 Sizga qanday yordam bera olaman?",
         "send": "Yuborish"
+    },
+    "welcome": {
+        "h1": "Salom, men Leo! 🦁",
+        "subtitle": "Men Gymnasium Weingartenning chat yordamchisiman, u 2025 yilgi loyiha kunlarida Gymnasium Weingartenning 50 yilligi munosabati bilan ishlab chiqilgan.",
+        "help": "Men sizga quyidagi savollar bo'yicha yordam berishdan mamnunman:",
+        "help2": "Shunchaki savolingizni bering!"
     },
     "entityTable": {
         "startDate": "Qachon?",

@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Italian: typeof German = {
-    "welcome": {
-        "h1": "Ciao, sono BlönBot!",
-        "subtitle": "Sono l'assistente chat dello Studienkolleg St. Johann Blönried. Sarò felice di aiutarti con le tue domande sulla nostra scuola.",
-        "help": "Sono felice di aiutarti con domande su:",
-        "help2": "Fai pure la tua domanda!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Dimmi di più sullo Studienkolleg St. Johann Blönried",
+            "prompt": "Dimmi di più su {schoolName}",
             "text": "Informazioni generali"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Italian: typeof German = {
         }
     },
     "feedback": {
-        "title": "Feedback per BlönBot",
-        "description": "Com'è stata la tua esperienza con BlönBot?",
-        "messagePlaceholder": "Raccontaci la tua esperienza con BlönBot...",
         "thanks": {
-            "message": "Il tuo feedback mi aiuta a diventare un assistente migliore per il Gymnasium Weingarten!",
+            "message": "Il tuo feedback mi aiuta a diventare un assistente migliore per {schoolName}!",
             "title": "Grazie mille!"
         },
+        "title": "Feedback per {assistantName}",
+        "description": "Com'è stata la tua esperienza con {assistantName}?",
+        "messagePlaceholder": "Raccontaci la tua esperienza con {assistantName}...",
         "rating": "Valutazione",
         "message": "Il tuo messaggio",
         "characterLimit": "caratteri",
@@ -71,6 +65,12 @@ export const Italian: typeof German = {
             "network": "Errore durante l'invio",
             "unknown": "Si è verificato un errore"
         }
+    },
+    "welcome": {
+        "h1": "Ciao, sono {assistantName}!",
+        "subtitle": "Sono l'assistente chat del Gymnasium Weingarten, sviluppato durante i giorni di progetto 2025 per il 50° anniversario del Gymnasium Weingarten.",
+        "help": "Sono felice di aiutarti con domande su:",
+        "help2": "Fai pure la tua domanda!"
     },
     "cancel": "Annulla",
     "close": "Chiudi",

@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Slovenian: typeof German = {
-    "welcome": {
-        "h1": "Pozdravljeni, sem Johannes!",
-        "subtitle": "Sem klepetalni asistent Studienkolleg St. Johann Blönried. Z veseljem vam pomagam pri vprašanjih o naši šoli.",
-        "help": "Z veseljem vam pomagam pri vprašanjih o:",
-        "help2": "Samo zastavite mi vprašanje!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Povej mi več o Studienkolleg St. Johann Blönried",
+            "prompt": "Povej mi več o {schoolName}",
             "text": "Splošne informacije"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Slovenian: typeof German = {
         }
     },
     "feedback": {
-        "title": "Povratne informacije za BlönBot",
-        "description": "Kakšna je bila vaša izkušnja z BlönBotom?",
-        "messagePlaceholder": "Povejte nam o svoji izkušnji z BlönBotom...",
         "thanks": {
-            "message": "Vaše povratne informacije mi pomagajo postati boljši asistent za Gymnasium Weingarten!",
+            "message": "Vaše povratne informacije mi pomagajo postati boljši pomočnik za {schoolName}!",
             "title": "Najlepša hvala!"
         },
+        "title": "Povratne informacije za {assistantName}",
+        "description": "Kakšna je bila vaša izkušnja z {assistantName}?",
+        "messagePlaceholder": "Povejte nam o svoji izkušnji z {assistantName}...",
         "rating": "Ocena",
         "message": "Vaše sporočilo",
         "characterLimit": "Znaki",
@@ -71,6 +65,12 @@ export const Slovenian: typeof German = {
             "network": "Napaka pri pošiljanju",
             "unknown": "Prišlo je do napake"
         }
+    },
+    "welcome": {
+        "h1": "Pozdravljeni, jaz sem {assistantName}!",
+        "subtitle": "Sem klepetalni asistent Gimnazije Weingarten, razvit med projektnimi dnevi 2025 ob 50. obletnici Gimnazije Weingarten.",
+        "help": "Z veseljem vam pomagam pri vprašanjih o:",
+        "help2": "Samo zastavite mi vprašanje!"
     },
     "cancel": "Prekliči",
     "close": "Zapri",

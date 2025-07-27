@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Korean: typeof German = {
-    "welcome": {
-        "h1": "안녕하세요, 저는 Johannes입니다!",
-        "subtitle": "저는 Studienkolleg St. Johann Blönried의 채팅 도우미입니다. 저희 학교에 대한 질문에 기꺼이 도와드리겠습니다.",
-        "help": "다음과 같은 질문에 대해 기꺼이 도와드리겠습니다:",
-        "help2": "질문을 하세요!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Studienkolleg St. Johann Blönried에 대해 더 자세히 알려주세요",
+            "prompt": "{schoolName}에 대해 더 자세히 알려주세요",
             "text": "일반 정보"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Korean: typeof German = {
         }
     },
     "feedback": {
-        "title": "Johannes에 대한 피드백",
-        "description": "Johannes 사용 경험은 어떠셨나요?",
-        "messagePlaceholder": "Johannes 사용 경험에 대해 알려주세요...",
         "thanks": {
-            "message": "귀하의 피드백은 제가 Gymnasium Weingarten을 위한 더 나은 조수가 되는 데 도움이 됩니다!",
+            "message": "여러분의 의견은 제가 {schoolName}을(를) 위한 더 나은 어시스턴트가 되는 데 도움이 됩니다!",
             "title": "감사합니다!"
         },
+        "title": "{assistantName}에 대한 피드백",
+        "description": "{assistantName}에 대한 경험은 어떠셨나요?",
+        "messagePlaceholder": "{assistantName}에 대한 경험을 알려주세요...",
         "rating": "평가",
         "message": "메시지",
         "characterLimit": "자",
@@ -71,6 +65,12 @@ export const Korean: typeof German = {
             "network": "전송 오류",
             "unknown": "오류가 발생했습니다"
         }
+    },
+    "welcome": {
+        "h1": "안녕하세요, 저는 {assistantName}입니다!",
+        "subtitle": "저는 바인가르텐 김나지움의 50주년을 기념하여 2025년 프로젝트 기간 동안 개발된 바인가르텐 김나지움의 채팅 도우미입니다.",
+        "help": "다음과 같은 질문에 대해 기꺼이 도와드리겠습니다:",
+        "help2": "질문을 하세요!"
     },
     "cancel": "취소",
     "close": "닫기",

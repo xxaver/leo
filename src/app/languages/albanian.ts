@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Albanian: typeof German = {
-    "welcome": {
-        "h1": "Përshëndetje, unë jam BlönBot!",
-        "subtitle": "Unë jam asistenti i bisedës i Studienkolleg St. Johann Blönried. Jam i lumtur t'ju ndihmoj me pyetjet tuaja rreth shkollës sonë.",
-        "help": "Unë do t'ju ndihmoj me kënaqësi me pyetje rreth:",
-        "help2": "Thjesht më bëj pyetjen tënde!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Më trego më shumë për Studienkolleg St. Johann Blönried",
+            "prompt": "Më trego më shumë rreth {schoolName}",
             "text": "Informacione të përgjithshme"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Albanian: typeof German = {
         }
     },
     "feedback": {
-        "title": "Reagime për BlönBot",
-        "description": "Si ishte përvoja juaj me BlönBot?",
-        "messagePlaceholder": "Na tregoni për përvojën tuaj me BlönBot...",
         "thanks": {
-            "message": "Reagimet tuaja më ndihmojnë të bëhem një asistent më i mirë për Gymnasium Weingarten!",
+            "message": "Reagimi juaj më ndihmon të bëhem një asistent më i mirë për {schoolName}!",
             "title": "Shumë faleminderit!"
         },
+        "title": "Vlerësim për {assistantName}",
+        "description": "Cila ishte përvoja jote me {assistantName}?",
+        "messagePlaceholder": "Na tregoni për përvojën tuaj me {assistantName}...",
         "rating": "Vlerësimi",
         "message": "Mesazhi yt",
         "characterLimit": "Karaktere",
@@ -71,6 +65,12 @@ export const Albanian: typeof German = {
             "network": "Gabim gjatë dërgimit",
             "unknown": "Ndodhi një gabim"
         }
+    },
+    "welcome": {
+        "h1": "Përshëndetje, unë jam {assistantName}!",
+        "subtitle": "Unë jam asistenti i bisedës i Gjimnazit Weingarten, i zhvilluar gjatë ditëve të projektit 2025 për 50-vjetorin e Gjimnazit Weingarten.",
+        "help": "Unë do t'ju ndihmoj me kënaqësi me pyetje rreth:",
+        "help2": "Thjesht më bëj pyetjen tënde!"
     },
     "cancel": "Anulo",
     "close": "Mbyll",

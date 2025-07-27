@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Lao: typeof German = {
-    "welcome": {
-        "h1": "ສະບາຍດີ, ຂ້ອຍແມ່ນ Johannes!",
-        "subtitle": "ຂ້ອຍເປັນຜູ້ຊ່ວຍສົນທະນາຂອງ Studienkolleg St. Johann Blönried. ຂ້ອຍຍິນດີຊ່ວຍເຈົ້າຕອບຄຳຖາມກ່ຽວກັບໂຮງຮຽນຂອງພວກເຮົາ.",
-        "help": "ຂ້ອຍຍິນດີຊ່ວຍເຈົ້າຕອບຄຳຖາມກ່ຽວກັບ:",
-        "help2": "ພຽງແຕ່ຖາມຄຳຖາມຂອງເຈົ້າ!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "ບອກຂ້ອຍເພີ່ມເຕີມກ່ຽວກັບ Studienkolleg St. Johann Blönried",
+            "prompt": "ບອກຂ້ອຍເພີ່ມເຕີມກ່ຽວກັບ {schoolName}",
             "text": "ຂໍ້ມູນທົ່ວໄປ"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Lao: typeof German = {
         }
     },
     "feedback": {
-        "title": "ຄຳຕິຊົມສຳລັບ Johannes",
-        "description": "ປະສົບການຂອງທ່ານກັບ Johannes ເປັນແນວໃດ?",
-        "messagePlaceholder": "ບອກພວກເຮົາກ່ຽວກັບປະສົບການຂອງທ່ານກັບ Johannes...",
         "thanks": {
-            "message": "ຄຳຕິຊົມຂອງທ່ານຊ່ວຍໃຫ້ຂ້ອຍກາຍເປັນຜູ້ຊ່ວຍທີ່ດີຂຶ້ນສຳລັບ Gymnasium Weingarten!",
+            "message": "ຄຳຕິຊົມຂອງທ່ານຊ່ວຍໃຫ້ຂ້ອຍກາຍເປັນຜູ້ຊ່ວຍທີ່ດີຂຶ້ນສຳລັບ {schoolName}!",
             "title": "ຂອບໃຈຫຼາຍໆ!"
         },
+        "title": "ຄຳຕິຊົມສຳລັບ {assistantName}",
+        "description": "ປະສົບການຂອງທ່ານກັບ {assistantName} ເປັນແນວໃດ?",
+        "messagePlaceholder": "ບອກພວກເຮົາກ່ຽວກັບປະສົບການຂອງທ່ານກັບ {assistantName}...",
         "rating": "ການໃຫ້ຄະແນນ",
         "message": "ຂໍ້ຄວາມຂອງເຈົ້າ",
         "characterLimit": "ຕົວອັກສອນ",
@@ -71,6 +65,12 @@ export const Lao: typeof German = {
             "network": "ການສົ່ງຜິດພາດ",
             "unknown": "ເກີດຂໍ້ຜິດພາດ"
         }
+    },
+    "welcome": {
+        "h1": "ສະບາຍດີ, ຂ້ອຍແມ່ນ {assistantName}!",
+        "subtitle": "ຂ້ອຍເປັນຜູ້ຊ່ວຍສົນທະນາຂອງ Gymnasium Weingarten, ຖືກພັດທະນາໃນຊ່ວງວັນໂຄງການປີ 2025 ເພື່ອສະເຫຼີມສະຫຼອງຄົບຮອບ 50 ປີຂອງ Gymnasium Weingarten.",
+        "help": "ຂ້ອຍຍິນດີຊ່ວຍເຈົ້າຕອບຄຳຖາມກ່ຽວກັບ:",
+        "help2": "ພຽງແຕ່ຖາມຄຳຖາມຂອງເຈົ້າ!"
     },
     "cancel": "ຍົກເລີກ",
     "close": "ປິດ",

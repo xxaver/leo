@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Turkish: typeof German = {
-    "welcome": {
-        "h1": "Merhaba, ben Johannes!",
-        "subtitle": "Ben Studienkolleg St. Johann Blönried'in sohbet asistanıyım. Okulumuzla ilgili sorularınızda size yardımcı olmaktan mutluluk duyarım.",
-        "help": "Şu konulardaki sorularda sana yardımcı olmaktan memnuniyet duyarım:",
-        "help2": "Sadece sorunu sor!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Bana Studienkolleg St. Johann Blönried hakkında daha fazla bilgi ver",
+            "prompt": "{schoolName} hakkında bana daha fazla bilgi ver",
             "text": "Genel Bilgiler"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Turkish: typeof German = {
         }
     },
     "feedback": {
-        "title": "Johannes için Geri Bildirim",
-        "description": "Johannes ile deneyiminiz nasıldı?",
-        "messagePlaceholder": "Johannes ile olan deneyiminizi bize anlatın...",
         "thanks": {
-            "message": "Geri bildiriminiz, Gymnasium Weingarten için daha iyi bir asistan olmama yardımcı oluyor!",
+            "message": "Geri bildiriminiz, {schoolName} için daha iyi bir asistan olmama yardımcı oluyor!",
             "title": "Çok teşekkürler!"
         },
+        "title": "{assistantName} için geri bildirim",
+        "description": "{assistantName} ile deneyiminiz nasıldı?",
+        "messagePlaceholder": "{assistantName} ile ilgili deneyimini bize anlat...",
         "rating": "Değerlendirme",
         "message": "Mesajınız",
         "characterLimit": "Karakter",
@@ -71,6 +65,12 @@ export const Turkish: typeof German = {
             "network": "Gönderim hatası",
             "unknown": "Bir hata oluştu"
         }
+    },
+    "welcome": {
+        "h1": "Merhaba, ben {assistantName}!",
+        "subtitle": "Ben, Gymnasium Weingarten'in 50. yıl dönümü için 2025 proje günleri sırasında geliştirilen sohbet asistanıyım.",
+        "help": "Şu konulardaki sorularda sana yardımcı olmaktan memnuniyet duyarım:",
+        "help2": "Sadece sorunu sor!"
     },
     "cancel": "İptal",
     "close": "Kapat",

@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Punjabi: typeof German = {
-    "welcome": {
-        "h1": "ਸਤ ਸ੍ਰੀ ਅਕਾਲ, ਮੈਂ Johannes ਹਾਂ!",
-        "subtitle": "ਮੈਂ Studienkolleg St. Johann Blönried ਦਾ ਚੈਟ ਸਹਾਇਕ ਹਾਂ। ਮੈਨੂੰ ਸਾਡੇ ਸਕੂਲ ਬਾਰੇ ਤੁਹਾਡੇ ਸਵਾਲਾਂ ਵਿੱਚ ਤੁਹਾਡੀ ਮਦਦ ਕਰਨ ਵਿੱਚ ਖੁਸ਼ੀ ਹੋਵੇਗੀ।",
-        "help": "ਮੈਂ ਇਹਨਾਂ ਬਾਰੇ ਸਵਾਲਾਂ ਵਿੱਚ ਤੁਹਾਡੀ ਮਦਦ ਕਰਕੇ ਖੁਸ਼ ਹਾਂ:",
-        "help2": "ਬੱਸ ਮੈਨੂੰ ਆਪਣਾ ਸਵਾਲ ਪੁੱਛੋ!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "ਮੈਨੂੰ Studienkolleg St. Johann Blönried ਬਾਰੇ ਹੋਰ ਦੱਸੋ",
+            "prompt": "ਮੈਨੂੰ {schoolName} ਬਾਰੇ ਹੋਰ ਦੱਸੋ",
             "text": "ਆਮ ਜਾਣਕਾਰੀ"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Punjabi: typeof German = {
         }
     },
     "feedback": {
-        "title": "Johannes ਲਈ ਫੀਡਬੈਕ",
-        "description": "Johannes ਨਾਲ ਤੁਹਾਡਾ ਅਨੁਭਵ ਕਿਹੋ ਜਿਹਾ ਸੀ?",
-        "messagePlaceholder": "ਸਾਨੂੰ Johannes ਨਾਲ ਆਪਣੇ ਅਨੁਭਵ ਬਾਰੇ ਦੱਸੋ...",
         "thanks": {
-            "message": "ਤੁਹਾਡਾ ਫੀਡਬੈਕ ਮੈਨੂੰ Gymnasium Weingarten ਲਈ ਇੱਕ ਬਿਹਤਰ ਸਹਾਇਕ ਬਣਨ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ!",
+            "message": "ਤੁਹਾਡਾ ਫੀਡਬੈਕ ਮੈਨੂੰ {schoolName} ਲਈ ਇੱਕ ਬਿਹਤਰ ਸਹਾਇਕ ਬਣਨ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ!",
             "title": "ਤੁਹਾਡਾ ਬਹੁਤ ਧੰਨਵਾਦ!"
         },
+        "title": "{assistantName} ਲਈ ਫੀਡਬੈਕ",
+        "description": "{assistantName} ਨਾਲ ਤੁਹਾਡਾ ਅਨੁਭਵ ਕਿਹੋ ਜਿਹਾ ਰਿਹਾ?",
+        "messagePlaceholder": "{assistantName} ਨਾਲ ਆਪਣੇ ਅਨੁਭਵ ਬਾਰੇ ਸਾਨੂੰ ਦੱਸੋ...",
         "rating": "ਰੇਟਿੰਗ",
         "message": "ਤੁਹਾਡਾ ਸੁਨੇਹਾ",
         "characterLimit": "ਅੱਖਰ",
@@ -71,6 +65,12 @@ export const Punjabi: typeof German = {
             "network": "ਭੇਜਣ ਵਿੱਚ ਗਲਤੀ",
             "unknown": "ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ"
         }
+    },
+    "welcome": {
+        "h1": "ਸਤ ਸ੍ਰੀ ਅਕਾਲ, ਮੈਂ {assistantName} ਹਾਂ!",
+        "subtitle": "ਮੈਂ ਜਿਮਨੇਜ਼ੀਅਮ ਵਾਈਨਗਾਰਟਨ ਦਾ ਚੈਟ ਸਹਾਇਕ ਹਾਂ, ਜੋ ਜਿਮਨੇਜ਼ੀਅਮ ਵਾਈਨਗਾਰਟਨ ਦੀ 50ਵੀਂ ਵਰ੍ਹੇਗੰਢ ਲਈ 2025 ਦੇ ਪ੍ਰੋਜੈਕਟ ਦਿਨਾਂ ਦੌਰਾਨ ਵਿਕਸਤ ਕੀਤਾ ਗਿਆ ਹੈ।",
+        "help": "ਮੈਂ ਇਹਨਾਂ ਬਾਰੇ ਸਵਾਲਾਂ ਵਿੱਚ ਤੁਹਾਡੀ ਮਦਦ ਕਰਕੇ ਖੁਸ਼ ਹਾਂ:",
+        "help2": "ਬੱਸ ਮੈਨੂੰ ਆਪਣਾ ਸਵਾਲ ਪੁੱਛੋ!"
     },
     "cancel": "ਰੱਦ ਕਰੋ",
     "close": "ਬੰਦ ਕਰੋ",

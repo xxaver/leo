@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Ukrainian: typeof German = {
-    "welcome": {
-        "h1": "Привіт, я Johannes!",
-        "subtitle": "Я чат-асистент Studienkolleg St. Johann Blönried. Я з радістю допоможу вам із запитаннями про нашу школу.",
-        "help": "Я з радістю допоможу вам із запитаннями щодо:",
-        "help2": "Просто поставте мені своє запитання!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Розкажіть мені більше про Studienkolleg St. Johann Blönried",
+            "prompt": "Розкажіть мені більше про {schoolName}",
             "text": "Загальна інформація"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Ukrainian: typeof German = {
         }
     },
     "feedback": {
-        "title": "Відгук для BlönBot",
-        "description": "Який ваш досвід роботи з BlönBot?",
-        "messagePlaceholder": "Розкажіть нам про свій досвід роботи з BlönBot...",
         "thanks": {
-            "message": "Ваш відгук допомагає мені стати кращим асистентом для Studienkolleg St. Johann Blönried!",
+            "message": "Ваш відгук допомагає мені стати кращим помічником для {schoolName}!",
             "title": "Дуже дякую!"
         },
+        "title": "Відгук про {assistantName}",
+        "description": "Який ваш досвід роботи з {assistantName}?",
+        "messagePlaceholder": "Розкажіть нам про свій досвід роботи з {assistantName}...",
         "rating": "Оцінка",
         "message": "Ваше повідомлення",
         "characterLimit": "Символи",
@@ -71,6 +65,12 @@ export const Ukrainian: typeof German = {
             "network": "Помилка надсилання",
             "unknown": "Сталася помилка"
         }
+    },
+    "welcome": {
+        "h1": "Привіт, я {assistantName}!",
+        "subtitle": "Я чат-асистент гімназії Вайнгартен, розроблений під час проектних днів 2025 року до 50-річчя гімназії Вайнгартен.",
+        "help": "Я з радістю допоможу вам із запитаннями щодо:",
+        "help2": "Просто поставте мені своє запитання!"
     },
     "cancel": "Скасувати",
     "close": "Закрити",

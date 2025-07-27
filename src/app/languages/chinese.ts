@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Chinese: typeof German = {
-    "welcome": {
-        "h1": "你好，我是 BlönBot！",
-        "subtitle": "我是 Studienkolleg St. Johann Blönried 的聊天助理。我很乐意帮助您解答关于我们学校的问题。",
-        "help": "我很乐意帮助您解决以下问题：",
-        "help2": "请尽管向我提问！"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "告诉我更多关于 Studienkolleg St. Johann Blönried 的信息",
+            "prompt": "告诉我更多关于{schoolName}的信息",
             "text": "一般信息"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Chinese: typeof German = {
         }
     },
     "feedback": {
-        "title": "对 BlönBot 的反馈",
-        "description": "您对 BlönBot 的体验如何？",
-        "messagePlaceholder": "告诉我们您对 BlönBot 的体验...",
         "thanks": {
-            "message": "您的反馈帮助我成为 Gymnasium Weingarten 更好的助理！",
+            "message": "您的反馈有助于我成为{schoolName}更好的助手！",
             "title": "非常感谢！"
         },
+        "title": "对{assistantName}的反馈",
+        "description": "您与{assistantName}的体验如何？",
+        "messagePlaceholder": "告诉我们您与{assistantName}的体验...",
         "rating": "评分",
         "message": "您的留言",
         "characterLimit": "字符",
@@ -71,6 +65,12 @@ export const Chinese: typeof German = {
             "network": "发送错误",
             "unknown": "发生了一个错误"
         }
+    },
+    "welcome": {
+        "h1": "你好，我是{assistantName}！",
+        "subtitle": "我是魏恩加滕文理中学的聊天助手，是在2025年项目日期间为庆祝魏恩加滕文理中学成立50周年而开发的。",
+        "help": "我很乐意帮助您解决以下问题：",
+        "help2": "请尽管向我提问！"
     },
     "cancel": "取消",
     "close": "关闭",

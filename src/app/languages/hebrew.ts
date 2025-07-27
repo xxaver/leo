@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Hebrew: typeof German = {
-    "welcome": {
-        "h1": "שלום, אני BlönBot!",
-        "subtitle": "אני עוזר הצ'אט של Studienkolleg St. Johann Blönried. אשמח לעזור לך בשאלותיך על בית הספר שלנו.",
-        "help": "אשמח לעזור לך בשאלות על:",
-        "help2": "פשוט שאל אותי את שאלתך!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "ספר לי עוד על Studienkolleg St. Johann Blönried",
+            "prompt": "ספר לי עוד על {schoolName}",
             "text": "מידע כללי"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Hebrew: typeof German = {
         }
     },
     "feedback": {
-        "title": "משוב עבור BlönBot",
-        "description": "איך הייתה החוויה שלך עם BlönBot?",
-        "messagePlaceholder": "ספר לנו על החוויה שלך עם BlönBot...",
         "thanks": {
-            "message": "המשוב שלך עוזר לי להפוך לעוזר טוב יותר עבור Gymnasium Weingarten!",
+            "message": "המשוב שלך עוזר לי להפוך לעוזר טוב יותר עבור {schoolName}!",
             "title": "תודה רבה!"
         },
+        "title": "משוב עבור {assistantName}",
+        "description": "איך הייתה החוויה שלך עם {assistantName}?",
+        "messagePlaceholder": "ספר לנו על החוויה שלך עם {assistantName}...",
         "rating": "דירוג",
         "message": "ההודעה שלך",
         "characterLimit": "תווים",
@@ -71,6 +65,12 @@ export const Hebrew: typeof German = {
             "network": "שגיאה בשליחה",
             "unknown": "אירעה שגיאה"
         }
+    },
+    "welcome": {
+        "h1": "שלום, אני {assistantName}!",
+        "subtitle": "אני עוזר הצ'אט של גימנסיה ויינגרטן, שפותח במהלך ימי הפרויקט של 2025 לרגל חגיגות ה-50 לגימנסיה ויינגרטן.",
+        "help": "אשמח לעזור לך בשאלות על:",
+        "help2": "פשוט שאל אותי את שאלתך!"
     },
     "cancel": "ביטול",
     "close": "סגירה",

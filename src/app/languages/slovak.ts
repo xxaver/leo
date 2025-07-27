@@ -1,15 +1,9 @@
 import {German} from "@/app/languages/german";
 
 export const Slovak: typeof German = {
-    "welcome": {
-        "h1": "Ahoj, ja som Johannes!",
-        "subtitle": "Som chatový asistent Studienkolleg St. Johann Blönried. Rád vám pomôžem s vašimi otázkami o našej škole.",
-        "help": "Rád vám pomôžem s otázkami týkajúcimi sa:",
-        "help2": "Jednoducho mi položte svoju otázku!"
-    },
     "promptSuggestions": {
         "general": {
-            "prompt": "Povedzte mi viac o Studienkolleg St. Johann Blönried",
+            "prompt": "Povedzte mi viac o {schoolName}",
             "text": "Všeobecné informácie"
         },
         "schoolFestivalSchedule": {
@@ -50,13 +44,13 @@ export const Slovak: typeof German = {
         }
     },
     "feedback": {
-        "title": "Spätná väzba pre BlönBot",
-        "description": "Aká bola vaša skúsenosť s BlönBot?",
-        "messagePlaceholder": "Povedzte nám o svojej skúsenosti s BlönBot...",
         "thanks": {
-            "message": "Vaša spätná väzba mi pomáha stať sa lepším asistentom pre Gymnázium Weingarten!",
+            "message": "Vaša spätná väzba mi pomáha stať sa lepším asistentom pre {schoolName}!",
             "title": "Ďakujem veľmi pekne!"
         },
+        "title": "Spätná väzba pre {assistantName}",
+        "description": "Aká bola vaša skúsenosť s {assistantName}?",
+        "messagePlaceholder": "Povedzte nám o svojej skúsenosti s {assistantName}...",
         "rating": "Hodnotenie",
         "message": "Vaša správa",
         "characterLimit": "znakov",
@@ -71,6 +65,12 @@ export const Slovak: typeof German = {
             "network": "Chyba pri odosielaní",
             "unknown": "Vyskytla sa chyba"
         }
+    },
+    "welcome": {
+        "h1": "Dobrý deň, som {assistantName}!",
+        "subtitle": "Som chatovací asistent Gymnázia Weingarten, vyvinutý počas projektových dní 2025 k 50. výročiu Gymnázia Weingarten.",
+        "help": "Rád vám pomôžem s otázkami týkajúcimi sa:",
+        "help2": "Jednoducho mi položte svoju otázku!"
     },
     "cancel": "Zrušiť",
     "close": "Zavrieť",
