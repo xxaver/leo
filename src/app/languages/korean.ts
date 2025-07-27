@@ -1,49 +1,11 @@
 import {German} from "@/app/languages/german";
 
 export const Korean: typeof German = {
-    "welcome": {
-        "h1": "안녕하세요, 저는 {assistantName}입니다!",
-        "subtitle": "저는 바인가르텐 김나지움의 50주년을 기념하여 2025년 프로젝트 기간 동안 개발된 바인가르텐 김나지움의 채팅 도우미입니다.",
-        "help": "다음과 같은 질문에 대해 기꺼이 도와드리겠습니다:",
-        "help2": "질문을 하세요!"
-    },
-    "feedback": {
-        "title": "{assistantName}에 대한 피드백",
-        "description": "{assistantName}에 대한 경험은 어떠셨나요?",
-        "messagePlaceholder": "{assistantName}에 대한 경험을 알려주세요...",
-        "rating": "평가",
-        "message": "메시지",
-        "characterLimit": "자",
-        "name": "이름",
-        "namePlaceholder": "예: 홍길동",
-        "optional": "선택 사항",
-        "sending": "전송 중",
-        "send": "피드백 보내기",
-        "errors": {
-            "message": "메시지를 작성해주세요",
-            "rating": "평점을 남겨주세요",
-            "network": "전송 오류",
-            "unknown": "오류가 발생했습니다"
-        },
-        "thanks": {
-            "title": "감사합니다!",
-            "message": "여러분의 피드백은 제가 바인가르텐 김나지움을 위한 더 나은 도우미가 되는 데 도움이 됩니다!"
-        }
-    },
-    "cancel": "취소",
-    "close": "닫기",
-    "reset": {
-        "restart": "새로 시작",
-        "reset": "초기화",
-        "description": "채팅 기록을 정말로 초기화하시겠습니까?",
-        "newChat": "새 채팅"
-    },
-    "input": {
-        "warning": "AI는 실수를 할 수 있습니다. 중요한 정보는 확인하세요. 개인 정보를 제공하지 마세요.",
-        "placeholder": "👋 무엇을 도와드릴까요?",
-        "send": "보내기"
-    },
     "promptSuggestions": {
+        "general": {
+            "prompt": "{schoolName}에 대해 더 자세히 알려주세요",
+            "text": "일반 정보"
+        },
         "schoolFestivalSchedule": {
             "prompt": "학교 축제 일정은 어떻게 되나요?",
             "text": "학교 축제 - 프로그램"
@@ -59,10 +21,6 @@ export const Korean: typeof German = {
         "nonGerman": {
             "prompt": "독일어를 못하는 사람들을 위한 옵션이 있나요?",
             "text": "독일어를 못하는 사람들을 위한 옵션이 있나요?"
-        },
-        "general": {
-            "prompt": "바인가르텐 김나지움에 대해 더 알려주세요",
-            "text": "일반 정보"
         },
         "apology": {
             "prompt": "제가 아파서 내일 학교에 갈 수 없습니다. 부모님은 어떻게 해야 하나요?",
@@ -84,6 +42,48 @@ export const Korean: typeof German = {
             "prompt": "자녀를 어떻게 등록하나요?",
             "text": "자녀 등록"
         }
+    },
+    "feedback": {
+        "thanks": {
+            "message": "여러분의 의견은 제가 {schoolName}을(를) 위한 더 나은 어시스턴트가 되는 데 도움이 됩니다!",
+            "title": "감사합니다!"
+        },
+        "title": "{assistantName}에 대한 피드백",
+        "description": "{assistantName}에 대한 경험은 어떠셨나요?",
+        "messagePlaceholder": "{assistantName}에 대한 경험을 알려주세요...",
+        "rating": "평가",
+        "message": "메시지",
+        "characterLimit": "자",
+        "name": "이름",
+        "namePlaceholder": "예: 홍길동",
+        "optional": "선택 사항",
+        "sending": "전송 중",
+        "send": "피드백 보내기",
+        "errors": {
+            "message": "메시지를 작성해주세요",
+            "rating": "평점을 남겨주세요",
+            "network": "전송 오류",
+            "unknown": "오류가 발생했습니다"
+        }
+    },
+    "welcome": {
+        "h1": "안녕하세요, 저는 {assistantName}입니다!",
+        "subtitle": "저는 바인가르텐 김나지움의 50주년을 기념하여 2025년 프로젝트 기간 동안 개발된 바인가르텐 김나지움의 채팅 도우미입니다.",
+        "help": "다음과 같은 질문에 대해 기꺼이 도와드리겠습니다:",
+        "help2": "질문을 하세요!"
+    },
+    "cancel": "취소",
+    "close": "닫기",
+    "reset": {
+        "restart": "새로 시작",
+        "reset": "초기화",
+        "description": "채팅 기록을 정말로 초기화하시겠습니까?",
+        "newChat": "새 채팅"
+    },
+    "input": {
+        "warning": "AI는 실수를 할 수 있습니다. 중요한 정보는 확인하세요. 개인 정보를 제공하지 마세요.",
+        "placeholder": "👋 무엇을 도와드릴까요?",
+        "send": "보내기"
     },
     "entityTable": {
         "startDate": "언제?",

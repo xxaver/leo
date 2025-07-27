@@ -1,49 +1,11 @@
 import {German} from "@/app/languages/german";
 
 export const Zulu: typeof German = {
-    "welcome": {
-        "h1": "Sawubona, ngingu-{assistantName}!",
-        "subtitle": "Ngingumsizi wengxoxo we-Gymnasium Weingarten, owakhiwe ngezinsuku zephrojekthi zango-2025 zokugubha iminyaka engu-50 ye-Gymnasium Weingarten.",
-        "help": "Ngiyajabula ukukusiza ngemibuzo mayelana:",
-        "help2": "Vele ungibuze umbuzo wakho!"
-    },
-    "feedback": {
-        "title": "Impendulo ye-{assistantName}",
-        "description": "Belunjani ulwazi lwakho nge-{assistantName}?",
-        "messagePlaceholder": "Sitshele ngolwazi lwakho nge-{assistantName}...",
-        "rating": "Isilinganiso",
-        "message": "Umlayezo wakho",
-        "characterLimit": "Izinhlamvu",
-        "name": "Igama lakho",
-        "namePlaceholder": "isb. Max Mustermann",
-        "optional": "Okuzikhethela",
-        "sending": "Iyathumela",
-        "send": "Thumela Impendulo",
-        "errors": {
-            "message": "Sicela ubhale umlayezo",
-            "rating": "Sicela unikeze isilinganiso",
-            "network": "Iphutha lokuthumela",
-            "unknown": "Kwenzeke iphutha"
-        },
-        "thanks": {
-            "title": "Ngiyabonga kakhulu!",
-            "message": "Impendulo yakho ingisiza ukuba ngibe umsizi ongcono we-Gymnasium Weingarten!"
-        }
-    },
-    "cancel": "Khansela",
-    "close": "Vala",
-    "reset": {
-        "restart": "Qala kabusha",
-        "reset": "Setha kabusha",
-        "description": "Unesiqiniseko sokuthi ufuna ukusetha kabusha umlando wengxoxo?",
-        "newChat": "Ingxoxo Entsha"
-    },
-    "input": {
-        "warning": "I-AI yenza amaphutha. Hlola ulwazi olubalulekile. Unganikezi idatha yomuntu siqu.",
-        "placeholder": "👋 Ngingakusiza kanjani?",
-        "send": "Thumela"
-    },
     "promptSuggestions": {
+        "general": {
+            "prompt": "Ngitshele kabanzi mayelana ne-{schoolName}",
+            "text": "Ulwazi Olujwayelekile"
+        },
         "schoolFestivalSchedule": {
             "prompt": "Lunjani uhlelo lwesikhathi lomkhosi wesikole?",
             "text": "Umkhosi Wesikole - Uhlelo"
@@ -59,10 +21,6 @@ export const Zulu: typeof German = {
         "nonGerman": {
             "prompt": "Amathuba ezikhulumi ezingezona isiJalimane?",
             "text": "Ngabe kukhona amathuba ezikhulumi ezingezona isiJalimane?"
-        },
-        "general": {
-            "prompt": "Ngitshele kabanzi nge-Gymnasium Weingarten",
-            "text": "Ulwazi Olujwayelekile"
         },
         "apology": {
             "prompt": "Ngiyagula futhi ngeke ngikwazi ukuya esikoleni kusasa. Kufanele benzeni abazali bami?",
@@ -84,6 +42,48 @@ export const Zulu: typeof German = {
             "prompt": "Ngimngena kanjani umntwana wami?",
             "text": "Bhalisa Ingane"
         }
+    },
+    "feedback": {
+        "thanks": {
+            "message": "Impendulo yakho ingisiza ukuba ngibe umsizi ongcono we-{schoolName}!",
+            "title": "Ngiyabonga kakhulu!"
+        },
+        "title": "Impendulo ye-{assistantName}",
+        "description": "Belunjani ulwazi lwakho nge-{assistantName}?",
+        "messagePlaceholder": "Sitshele ngolwazi lwakho nge-{assistantName}...",
+        "rating": "Isilinganiso",
+        "message": "Umlayezo wakho",
+        "characterLimit": "Izinhlamvu",
+        "name": "Igama lakho",
+        "namePlaceholder": "isb. Max Mustermann",
+        "optional": "Okuzikhethela",
+        "sending": "Iyathumela",
+        "send": "Thumela Impendulo",
+        "errors": {
+            "message": "Sicela ubhale umlayezo",
+            "rating": "Sicela unikeze isilinganiso",
+            "network": "Iphutha lokuthumela",
+            "unknown": "Kwenzeke iphutha"
+        }
+    },
+    "welcome": {
+        "h1": "Sawubona, ngingu-{assistantName}!",
+        "subtitle": "Ngingumsizi wengxoxo we-Gymnasium Weingarten, owakhiwe ngezinsuku zephrojekthi zango-2025 zokugubha iminyaka engu-50 ye-Gymnasium Weingarten.",
+        "help": "Ngiyajabula ukukusiza ngemibuzo mayelana:",
+        "help2": "Vele ungibuze umbuzo wakho!"
+    },
+    "cancel": "Khansela",
+    "close": "Vala",
+    "reset": {
+        "restart": "Qala kabusha",
+        "reset": "Setha kabusha",
+        "description": "Unesiqiniseko sokuthi ufuna ukusetha kabusha umlando wengxoxo?",
+        "newChat": "Ingxoxo Entsha"
+    },
+    "input": {
+        "warning": "I-AI yenza amaphutha. Hlola ulwazi olubalulekile. Unganikezi idatha yomuntu siqu.",
+        "placeholder": "👋 Ngingakusiza kanjani?",
+        "send": "Thumela"
     },
     "entityTable": {
         "startDate": "Nini?",

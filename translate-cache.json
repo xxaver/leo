@@ -36,7 +36,7 @@
       "text": "Gibt es Möglichkeiten für Nicht-Deutschsprachige?"
     },
     "general": {
-      "prompt": "Erzähle mir mehr über das Gymnasium Weingarten",
+      "prompt": "Erzähle mir mehr über das {schoolName}",
       "text": "Generelle Informationen"
     },
     "apology": {
@@ -95,7 +95,7 @@
     },
     "thanks": {
       "title": "Vielen Dank!",
-      "message": "Dein Feedback hilft mir dabei, ein besserer Assistent für das Gymnasium Weingarten zu werden!"
+      "message": "Dein Feedback hilft mir dabei, ein besserer Assistent für das {schoolName} zu werden!"
     }
   }
 }

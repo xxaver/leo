@@ -1,49 +1,11 @@
 import {German} from "@/app/languages/german";
 
 export const Afrikaans: typeof German = {
-    "welcome": {
-        "h1": "Hallo, ek is {assistantName}!",
-        "subtitle": "Ek is die kletsassistent van die Gymnasium Weingarten, ontwikkel tydens die 2025-projekdae vir die 50ste herdenking van die Gymnasium Weingarten.",
-        "help": "Ek help jou graag met vrae oor:",
-        "help2": "Vra my net jou vraag!"
-    },
-    "feedback": {
-        "title": "Terugvoer vir {assistantName}",
-        "description": "Hoe was jou ervaring met {assistantName}?",
-        "messagePlaceholder": "Vertel ons van jou ervaring met {assistantName}...",
-        "rating": "Gradering",
-        "message": "Jou Boodskap",
-        "characterLimit": "Karakters",
-        "name": "Jou Naam",
-        "namePlaceholder": "bv. Jan Alleman",
-        "optional": "Opsioneel",
-        "sending": "Stuur tans",
-        "send": "Stuur Terugvoer",
-        "errors": {
-            "message": "Skryf asseblief 'n boodskap",
-            "rating": "Gee asseblief 'n gradering",
-            "network": "Fout met stuur",
-            "unknown": "Daar het 'n fout voorgekom"
-        },
-        "thanks": {
-            "title": "Baie dankie!",
-            "message": "Jou terugvoer help my om 'n beter assistent vir die Gymnasium Weingarten te word!"
-        }
-    },
-    "cancel": "Kanselleer",
-    "close": "Maak toe",
-    "reset": {
-        "restart": "Begin oor",
-        "reset": "Herstel",
-        "description": "Wil jy regtig die kletsgeskiedenis herstel?",
-        "newChat": "Nuwe Klets"
-    },
-    "input": {
-        "warning": "KI maak foute. Gaan belangrike inligting na. Moenie persoonlike data verskaf nie.",
-        "placeholder": "👋 Hoe kan ek jou help?",
-        "send": "Stuur"
-    },
     "promptSuggestions": {
+        "general": {
+            "prompt": "Vertel my meer oor {schoolName}",
+            "text": "Algemene Inligting"
+        },
         "schoolFestivalSchedule": {
             "prompt": "Wat is die skedule vir die skoolfees?",
             "text": "Skoolfees - Program"
@@ -59,10 +21,6 @@ export const Afrikaans: typeof German = {
         "nonGerman": {
             "prompt": "Geleenthede vir nie-Duitssprekendes?",
             "text": "Is daar geleenthede vir nie-Duitssprekendes?"
-        },
-        "general": {
-            "prompt": "Vertel my meer oor die Gymnasium Weingarten",
-            "text": "Algemene Inligting"
         },
         "apology": {
             "prompt": "Ek is siek en kan môre nie skool toe kom nie. Wat moet my ouers doen?",
@@ -84,6 +42,48 @@ export const Afrikaans: typeof German = {
             "prompt": "Hoe registreer ek my kind?",
             "text": "Registreer Kind"
         }
+    },
+    "feedback": {
+        "thanks": {
+            "message": "Jou terugvoer help my om 'n beter assistent vir {schoolName} te word!",
+            "title": "Baie dankie!"
+        },
+        "title": "Terugvoer vir {assistantName}",
+        "description": "Hoe was jou ervaring met {assistantName}?",
+        "messagePlaceholder": "Vertel ons van jou ervaring met {assistantName}...",
+        "rating": "Gradering",
+        "message": "Jou Boodskap",
+        "characterLimit": "Karakters",
+        "name": "Jou Naam",
+        "namePlaceholder": "bv. Jan Alleman",
+        "optional": "Opsioneel",
+        "sending": "Stuur tans",
+        "send": "Stuur Terugvoer",
+        "errors": {
+            "message": "Skryf asseblief 'n boodskap",
+            "rating": "Gee asseblief 'n gradering",
+            "network": "Fout met stuur",
+            "unknown": "Daar het 'n fout voorgekom"
+        }
+    },
+    "welcome": {
+        "h1": "Hallo, ek is {assistantName}!",
+        "subtitle": "Ek is die kletsassistent van die Gymnasium Weingarten, ontwikkel tydens die 2025-projekdae vir die 50ste herdenking van die Gymnasium Weingarten.",
+        "help": "Ek help jou graag met vrae oor:",
+        "help2": "Vra my net jou vraag!"
+    },
+    "cancel": "Kanselleer",
+    "close": "Maak toe",
+    "reset": {
+        "restart": "Begin oor",
+        "reset": "Herstel",
+        "description": "Wil jy regtig die kletsgeskiedenis herstel?",
+        "newChat": "Nuwe Klets"
+    },
+    "input": {
+        "warning": "KI maak foute. Gaan belangrike inligting na. Moenie persoonlike data verskaf nie.",
+        "placeholder": "👋 Hoe kan ek jou help?",
+        "send": "Stuur"
     },
     "entityTable": {
         "startDate": "Wanneer?",

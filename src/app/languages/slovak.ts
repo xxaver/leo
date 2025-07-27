@@ -1,49 +1,11 @@
 import {German} from "@/app/languages/german";
 
 export const Slovak: typeof German = {
-    "welcome": {
-        "h1": "Dobrý deň, som {assistantName}!",
-        "subtitle": "Som chatovací asistent Gymnázia Weingarten, vyvinutý počas projektových dní 2025 k 50. výročiu Gymnázia Weingarten.",
-        "help": "Rád vám pomôžem s otázkami týkajúcimi sa:",
-        "help2": "Jednoducho mi položte svoju otázku!"
-    },
-    "feedback": {
-        "title": "Spätná väzba pre {assistantName}",
-        "description": "Aká bola vaša skúsenosť s {assistantName}?",
-        "messagePlaceholder": "Povedzte nám o svojej skúsenosti s {assistantName}...",
-        "rating": "Hodnotenie",
-        "message": "Vaša správa",
-        "characterLimit": "znakov",
-        "name": "Vaše meno",
-        "namePlaceholder": "napr. Ján Vzorový",
-        "optional": "Voliteľné",
-        "sending": "Odosiela sa",
-        "send": "Odoslať spätnú väzbu",
-        "errors": {
-            "message": "Prosím, napíšte správu",
-            "rating": "Prosím, zadajte hodnotenie",
-            "network": "Chyba pri odosielaní",
-            "unknown": "Vyskytla sa chyba"
-        },
-        "thanks": {
-            "title": "Ďakujem veľmi pekne!",
-            "message": "Vaša spätná väzba mi pomáha stať sa lepším asistentom pre Gymnázium Weingarten!"
-        }
-    },
-    "cancel": "Zrušiť",
-    "close": "Zavrieť",
-    "reset": {
-        "restart": "Začať odznova",
-        "reset": "Resetovať",
-        "description": "Naozaj chcete resetovať históriu chatu?",
-        "newChat": "Nový chat"
-    },
-    "input": {
-        "warning": "AI robí chyby. Skontrolujte dôležité informácie. Neposkytujte osobné údaje.",
-        "placeholder": "👋 Ako vám môžem pomôcť?",
-        "send": "Odoslať"
-    },
     "promptSuggestions": {
+        "general": {
+            "prompt": "Povedzte mi viac o {schoolName}",
+            "text": "Všeobecné informácie"
+        },
         "schoolFestivalSchedule": {
             "prompt": "Aký je časový harmonogram školského festivalu?",
             "text": "Školský festival - Program"
@@ -59,10 +21,6 @@ export const Slovak: typeof German = {
         "nonGerman": {
             "prompt": "Možnosti pre nehovoriacich po nemecky?",
             "text": "Existujú možnosti pre nehovoriacich po nemecky?"
-        },
-        "general": {
-            "prompt": "Povedz mi viac o Gymnáziu Weingarten",
-            "text": "Všeobecné informácie"
         },
         "apology": {
             "prompt": "Som chorý a zajtra nemôžem prísť do školy. Čo musia urobiť moji rodičia?",
@@ -84,6 +42,48 @@ export const Slovak: typeof German = {
             "prompt": "Ako prihlásim svoje dieťa?",
             "text": "Prihlásenie dieťaťa"
         }
+    },
+    "feedback": {
+        "thanks": {
+            "message": "Vaša spätná väzba mi pomáha stať sa lepším asistentom pre {schoolName}!",
+            "title": "Ďakujem veľmi pekne!"
+        },
+        "title": "Spätná väzba pre {assistantName}",
+        "description": "Aká bola vaša skúsenosť s {assistantName}?",
+        "messagePlaceholder": "Povedzte nám o svojej skúsenosti s {assistantName}...",
+        "rating": "Hodnotenie",
+        "message": "Vaša správa",
+        "characterLimit": "znakov",
+        "name": "Vaše meno",
+        "namePlaceholder": "napr. Ján Vzorový",
+        "optional": "Voliteľné",
+        "sending": "Odosiela sa",
+        "send": "Odoslať spätnú väzbu",
+        "errors": {
+            "message": "Prosím, napíšte správu",
+            "rating": "Prosím, zadajte hodnotenie",
+            "network": "Chyba pri odosielaní",
+            "unknown": "Vyskytla sa chyba"
+        }
+    },
+    "welcome": {
+        "h1": "Dobrý deň, som {assistantName}!",
+        "subtitle": "Som chatovací asistent Gymnázia Weingarten, vyvinutý počas projektových dní 2025 k 50. výročiu Gymnázia Weingarten.",
+        "help": "Rád vám pomôžem s otázkami týkajúcimi sa:",
+        "help2": "Jednoducho mi položte svoju otázku!"
+    },
+    "cancel": "Zrušiť",
+    "close": "Zavrieť",
+    "reset": {
+        "restart": "Začať odznova",
+        "reset": "Resetovať",
+        "description": "Naozaj chcete resetovať históriu chatu?",
+        "newChat": "Nový chat"
+    },
+    "input": {
+        "warning": "AI robí chyby. Skontrolujte dôležité informácie. Neposkytujte osobné údaje.",
+        "placeholder": "👋 Ako vám môžem pomôcť?",
+        "send": "Odoslať"
     },
     "entityTable": {
         "startDate": "Kedy?",

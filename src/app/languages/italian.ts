@@ -1,49 +1,11 @@
 import {German} from "@/app/languages/german";
 
 export const Italian: typeof German = {
-    "welcome": {
-        "h1": "Ciao, sono {assistantName}!",
-        "subtitle": "Sono l'assistente chat del Gymnasium Weingarten, sviluppato durante i giorni di progetto 2025 per il 50° anniversario del Gymnasium Weingarten.",
-        "help": "Sono felice di aiutarti con domande su:",
-        "help2": "Fai pure la tua domanda!"
-    },
-    "feedback": {
-        "title": "Feedback per {assistantName}",
-        "description": "Com'è stata la tua esperienza con {assistantName}?",
-        "messagePlaceholder": "Raccontaci la tua esperienza con {assistantName}...",
-        "rating": "Valutazione",
-        "message": "Il tuo messaggio",
-        "characterLimit": "caratteri",
-        "name": "Il tuo nome",
-        "namePlaceholder": "es. Mario Rossi",
-        "optional": "Opzionale",
-        "sending": "Invio in corso",
-        "send": "Invia feedback",
-        "errors": {
-            "message": "Per favore, scrivi un messaggio",
-            "rating": "Per favore, lascia una valutazione",
-            "network": "Errore durante l'invio",
-            "unknown": "Si è verificato un errore"
-        },
-        "thanks": {
-            "title": "Grazie mille!",
-            "message": "Il tuo feedback mi aiuta a diventare un assistente migliore per il Gymnasium Weingarten!"
-        }
-    },
-    "cancel": "Annulla",
-    "close": "Chiudi",
-    "reset": {
-        "restart": "Ricomincia",
-        "reset": "Reimposta",
-        "description": "Vuoi davvero reimpostare la cronologia della chat?",
-        "newChat": "Nuova chat"
-    },
-    "input": {
-        "warning": "L'IA commette errori. Verifica le informazioni importanti. Non fornire dati personali.",
-        "placeholder": "👋 Come posso aiutarti?",
-        "send": "Invia"
-    },
     "promptSuggestions": {
+        "general": {
+            "prompt": "Dimmi di più su {schoolName}",
+            "text": "Informazioni generali"
+        },
         "schoolFestivalSchedule": {
             "prompt": "Qual è il programma della festa della scuola?",
             "text": "Festa della scuola - Programma"
@@ -59,10 +21,6 @@ export const Italian: typeof German = {
         "nonGerman": {
             "prompt": "Opportunità per chi non parla tedesco?",
             "text": "Ci sono opportunità per chi non parla tedesco?"
-        },
-        "general": {
-            "prompt": "Dimmi di più sul Gymnasium Weingarten",
-            "text": "Informazioni generali"
         },
         "apology": {
             "prompt": "Sono malato e non posso venire a scuola domani. Cosa devono fare i miei genitori?",
@@ -84,6 +42,48 @@ export const Italian: typeof German = {
             "prompt": "Come iscrivo mio figlio?",
             "text": "Iscrivere un figlio"
         }
+    },
+    "feedback": {
+        "thanks": {
+            "message": "Il tuo feedback mi aiuta a diventare un assistente migliore per {schoolName}!",
+            "title": "Grazie mille!"
+        },
+        "title": "Feedback per {assistantName}",
+        "description": "Com'è stata la tua esperienza con {assistantName}?",
+        "messagePlaceholder": "Raccontaci la tua esperienza con {assistantName}...",
+        "rating": "Valutazione",
+        "message": "Il tuo messaggio",
+        "characterLimit": "caratteri",
+        "name": "Il tuo nome",
+        "namePlaceholder": "es. Mario Rossi",
+        "optional": "Opzionale",
+        "sending": "Invio in corso",
+        "send": "Invia feedback",
+        "errors": {
+            "message": "Per favore, scrivi un messaggio",
+            "rating": "Per favore, lascia una valutazione",
+            "network": "Errore durante l'invio",
+            "unknown": "Si è verificato un errore"
+        }
+    },
+    "welcome": {
+        "h1": "Ciao, sono {assistantName}!",
+        "subtitle": "Sono l'assistente chat del Gymnasium Weingarten, sviluppato durante i giorni di progetto 2025 per il 50° anniversario del Gymnasium Weingarten.",
+        "help": "Sono felice di aiutarti con domande su:",
+        "help2": "Fai pure la tua domanda!"
+    },
+    "cancel": "Annulla",
+    "close": "Chiudi",
+    "reset": {
+        "restart": "Ricomincia",
+        "reset": "Reimposta",
+        "description": "Vuoi davvero reimpostare la cronologia della chat?",
+        "newChat": "Nuova chat"
+    },
+    "input": {
+        "warning": "L'IA commette errori. Verifica le informazioni importanti. Non fornire dati personali.",
+        "placeholder": "👋 Come posso aiutarti?",
+        "send": "Invia"
     },
     "entityTable": {
         "startDate": "Quando?",

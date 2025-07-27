@@ -1,49 +1,11 @@
 import {German} from "@/app/languages/german";
 
 export const Malay: typeof German = {
-    "welcome": {
-        "h1": "Helo, saya {assistantName}!",
-        "subtitle": "Saya adalah pembantu sembang Gymnasium Weingarten, yang dibangunkan semasa hari projek 2025 untuk ulang tahun ke-50 Gymnasium Weingarten.",
-        "help": "Saya sedia membantu anda dengan soalan mengenai:",
-        "help2": "Hanya ajukan soalan anda kepada saya!"
-    },
-    "feedback": {
-        "title": "Maklum balas untuk {assistantName}",
-        "description": "Apakah pengalaman anda dengan {assistantName}?",
-        "messagePlaceholder": "Beritahu kami tentang pengalaman anda dengan {assistantName}...",
-        "rating": "Penilaian",
-        "message": "Mesej anda",
-        "characterLimit": "Aksara",
-        "name": "Nama anda",
-        "namePlaceholder": "cth. Ali bin Abu",
-        "optional": "Pilihan",
-        "sending": "Menghantar",
-        "send": "Hantar Maklum Balas",
-        "errors": {
-            "message": "Sila tulis mesej",
-            "rating": "Sila berikan penilaian",
-            "network": "Ralat semasa menghantar",
-            "unknown": "Satu ralat telah berlaku"
-        },
-        "thanks": {
-            "title": "Terima kasih banyak!",
-            "message": "Maklum balas anda membantu saya menjadi pembantu yang lebih baik untuk Gymnasium Weingarten!"
-        }
-    },
-    "cancel": "Batal",
-    "close": "Tutup",
-    "reset": {
-        "restart": "Mula semula",
-        "reset": "Set semula",
-        "description": "Adakah anda pasti mahu menetapkan semula sejarah sembang?",
-        "newChat": "Sembang Baru"
-    },
-    "input": {
-        "warning": "AI membuat kesilapan. Sahkan maklumat penting. Jangan berikan data peribadi.",
-        "placeholder": "👋 Bagaimana saya boleh bantu anda?",
-        "send": "Hantar"
-    },
     "promptSuggestions": {
+        "general": {
+            "prompt": "Beritahu saya lebih lanjut tentang {schoolName}",
+            "text": "Maklumat Am"
+        },
         "schoolFestivalSchedule": {
             "prompt": "Apakah jadual untuk pesta sekolah?",
             "text": "Pesta Sekolah - Atur Cara"
@@ -59,10 +21,6 @@ export const Malay: typeof German = {
         "nonGerman": {
             "prompt": "Pilihan untuk penutur bukan Jerman?",
             "text": "Adakah pilihan untuk penutur bukan Jerman?"
-        },
-        "general": {
-            "prompt": "Beritahu saya lebih lanjut tentang Gymnasium Weingarten",
-            "text": "Maklumat Am"
         },
         "apology": {
             "prompt": "Saya sakit dan tidak dapat hadir ke sekolah esok. Apa yang perlu ibu bapa saya lakukan?",
@@ -84,6 +42,48 @@ export const Malay: typeof German = {
             "prompt": "Bagaimana cara mendaftarkan anak saya?",
             "text": "Pendaftaran Anak"
         }
+    },
+    "feedback": {
+        "thanks": {
+            "message": "Maklum balas anda membantu saya menjadi pembantu yang lebih baik untuk {schoolName}!",
+            "title": "Terima kasih banyak!"
+        },
+        "title": "Maklum balas untuk {assistantName}",
+        "description": "Apakah pengalaman anda dengan {assistantName}?",
+        "messagePlaceholder": "Beritahu kami tentang pengalaman anda dengan {assistantName}...",
+        "rating": "Penilaian",
+        "message": "Mesej anda",
+        "characterLimit": "Aksara",
+        "name": "Nama anda",
+        "namePlaceholder": "cth. Ali bin Abu",
+        "optional": "Pilihan",
+        "sending": "Menghantar",
+        "send": "Hantar Maklum Balas",
+        "errors": {
+            "message": "Sila tulis mesej",
+            "rating": "Sila berikan penilaian",
+            "network": "Ralat semasa menghantar",
+            "unknown": "Satu ralat telah berlaku"
+        }
+    },
+    "welcome": {
+        "h1": "Helo, saya {assistantName}!",
+        "subtitle": "Saya adalah pembantu sembang Gymnasium Weingarten, yang dibangunkan semasa hari projek 2025 untuk ulang tahun ke-50 Gymnasium Weingarten.",
+        "help": "Saya sedia membantu anda dengan soalan mengenai:",
+        "help2": "Hanya ajukan soalan anda kepada saya!"
+    },
+    "cancel": "Batal",
+    "close": "Tutup",
+    "reset": {
+        "restart": "Mula semula",
+        "reset": "Set semula",
+        "description": "Adakah anda pasti mahu menetapkan semula sejarah sembang?",
+        "newChat": "Sembang Baru"
+    },
+    "input": {
+        "warning": "AI membuat kesilapan. Sahkan maklumat penting. Jangan berikan data peribadi.",
+        "placeholder": "👋 Bagaimana saya boleh bantu anda?",
+        "send": "Hantar"
     },
     "entityTable": {
         "startDate": "Bila?",

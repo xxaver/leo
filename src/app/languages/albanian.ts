@@ -1,49 +1,11 @@
 import {German} from "@/app/languages/german";
 
 export const Albanian: typeof German = {
-    "welcome": {
-        "h1": "Përshëndetje, unë jam {assistantName}!",
-        "subtitle": "Unë jam asistenti i bisedës i Gjimnazit Weingarten, i zhvilluar gjatë ditëve të projektit 2025 për 50-vjetorin e Gjimnazit Weingarten.",
-        "help": "Unë do t'ju ndihmoj me kënaqësi me pyetje rreth:",
-        "help2": "Thjesht më bëj pyetjen tënde!"
-    },
-    "feedback": {
-        "title": "Vlerësim për {assistantName}",
-        "description": "Cila ishte përvoja jote me {assistantName}?",
-        "messagePlaceholder": "Na tregoni për përvojën tuaj me {assistantName}...",
-        "rating": "Vlerësimi",
-        "message": "Mesazhi yt",
-        "characterLimit": "Karaktere",
-        "name": "Emri yt",
-        "namePlaceholder": "p.sh. Gjon Gjoni",
-        "optional": "Opsionale",
-        "sending": "Po dërgohet",
-        "send": "Dërgo feedback",
-        "errors": {
-            "message": "Ju lutem shkruani një mesazh",
-            "rating": "Ju lutem jepni një vlerësim",
-            "network": "Gabim gjatë dërgimit",
-            "unknown": "Ndodhi një gabim"
-        },
-        "thanks": {
-            "title": "Shumë faleminderit!",
-            "message": "Feedback-u yt më ndihmon të bëhem një asistent më i mirë për Gjimnazin Weingarten!"
-        }
-    },
-    "cancel": "Anulo",
-    "close": "Mbyll",
-    "reset": {
-        "restart": "Fillo nga e para",
-        "reset": "Rivendos",
-        "description": "A dëshiron vërtet ta rivendosësh historikun e bisedës?",
-        "newChat": "Bisedë e re"
-    },
-    "input": {
-        "warning": "AI bën gabime. Kontrollo informacionet e rëndësishme. Mos jep të dhëna personale.",
-        "placeholder": "👋 Si mund t'ju ndihmoj?",
-        "send": "Dërgo"
-    },
     "promptSuggestions": {
+        "general": {
+            "prompt": "Më trego më shumë rreth {schoolName}",
+            "text": "Informacione të përgjithshme"
+        },
         "schoolFestivalSchedule": {
             "prompt": "Cili është orari i festës së shkollës?",
             "text": "Festa e shkollës - Programi"
@@ -59,10 +21,6 @@ export const Albanian: typeof German = {
         "nonGerman": {
             "prompt": "Mundësi për ata që nuk flasin gjermanisht?",
             "text": "A ka mundësi për ata që nuk flasin gjermanisht?"
-        },
-        "general": {
-            "prompt": "Më trego më shumë për Gjimnazin Weingarten",
-            "text": "Informacione të përgjithshme"
         },
         "apology": {
             "prompt": "Jam i sëmurë dhe nuk mund të vij nesër në shkollë. Çfarë duhet të bëjnë prindërit e mi?",
@@ -84,6 +42,48 @@ export const Albanian: typeof German = {
             "prompt": "Si ta regjistroj fëmijën tim?",
             "text": "Regjistro fëmijën"
         }
+    },
+    "feedback": {
+        "thanks": {
+            "message": "Reagimi juaj më ndihmon të bëhem një asistent më i mirë për {schoolName}!",
+            "title": "Shumë faleminderit!"
+        },
+        "title": "Vlerësim për {assistantName}",
+        "description": "Cila ishte përvoja jote me {assistantName}?",
+        "messagePlaceholder": "Na tregoni për përvojën tuaj me {assistantName}...",
+        "rating": "Vlerësimi",
+        "message": "Mesazhi yt",
+        "characterLimit": "Karaktere",
+        "name": "Emri yt",
+        "namePlaceholder": "p.sh. Gjon Gjoni",
+        "optional": "Opsionale",
+        "sending": "Po dërgohet",
+        "send": "Dërgo feedback",
+        "errors": {
+            "message": "Ju lutem shkruani një mesazh",
+            "rating": "Ju lutem jepni një vlerësim",
+            "network": "Gabim gjatë dërgimit",
+            "unknown": "Ndodhi një gabim"
+        }
+    },
+    "welcome": {
+        "h1": "Përshëndetje, unë jam {assistantName}!",
+        "subtitle": "Unë jam asistenti i bisedës i Gjimnazit Weingarten, i zhvilluar gjatë ditëve të projektit 2025 për 50-vjetorin e Gjimnazit Weingarten.",
+        "help": "Unë do t'ju ndihmoj me kënaqësi me pyetje rreth:",
+        "help2": "Thjesht më bëj pyetjen tënde!"
+    },
+    "cancel": "Anulo",
+    "close": "Mbyll",
+    "reset": {
+        "restart": "Fillo nga e para",
+        "reset": "Rivendos",
+        "description": "A dëshiron vërtet ta rivendosësh historikun e bisedës?",
+        "newChat": "Bisedë e re"
+    },
+    "input": {
+        "warning": "AI bën gabime. Kontrollo informacionet e rëndësishme. Mos jep të dhëna personale.",
+        "placeholder": "👋 Si mund t'ju ndihmoj?",
+        "send": "Dërgo"
     },
     "entityTable": {
         "startDate": "Kur?",

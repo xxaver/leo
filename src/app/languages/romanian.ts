@@ -1,49 +1,11 @@
 import {German} from "@/app/languages/german";
 
 export const Romanian: typeof German = {
-    "welcome": {
-        "h1": "Bună, sunt {assistantName}!",
-        "subtitle": "Sunt asistentul de chat al Gimnaziului Weingarten, dezvoltat în timpul zilelor de proiect 2025 pentru a 50-a aniversare a Gimnaziului Weingarten.",
-        "help": "Vă ajut cu plăcere la întrebări despre:",
-        "help2": "Puneți-mi pur și simplu întrebarea!"
-    },
-    "feedback": {
-        "title": "Feedback pentru {assistantName}",
-        "description": "Cum a fost experiența ta cu {assistantName}?",
-        "messagePlaceholder": "Spune-ne despre experiența ta cu {assistantName}...",
-        "rating": "Evaluare",
-        "message": "Mesajul tău",
-        "characterLimit": "Caractere",
-        "name": "Numele tău",
-        "namePlaceholder": "ex. Ion Popescu",
-        "optional": "Opțional",
-        "sending": "Se trimite",
-        "send": "Trimite feedback",
-        "errors": {
-            "message": "Vă rugăm să scrieți un mesaj",
-            "rating": "Vă rugăm să oferiți o evaluare",
-            "network": "Eroare la trimitere",
-            "unknown": "A apărut o eroare"
-        },
-        "thanks": {
-            "title": "Mulțumesc mult!",
-            "message": "Feedback-ul tău mă ajută să devin un asistent mai bun pentru Gimnaziul Weingarten!"
-        }
-    },
-    "cancel": "Anulare",
-    "close": "Închide",
-    "reset": {
-        "restart": "Începe din nou",
-        "reset": "Resetare",
-        "description": "Doriți cu adevărat să resetați istoricul chat-ului?",
-        "newChat": "Chat nou"
-    },
-    "input": {
-        "warning": "IA face greșeli. Verificați informațiile importante. Nu furnizați date personale.",
-        "placeholder": "👋 Cum vă pot ajuta?",
-        "send": "Trimite"
-    },
     "promptSuggestions": {
+        "general": {
+            "prompt": "Spune-mi mai multe despre {schoolName}",
+            "text": "Informații generale"
+        },
         "schoolFestivalSchedule": {
             "prompt": "Care este programul festivalului școlar?",
             "text": "Festival școlar - Program"
@@ -59,10 +21,6 @@ export const Romanian: typeof German = {
         "nonGerman": {
             "prompt": "Posibilități pentru vorbitorii de altă limbă decât germana?",
             "text": "Există posibilități pentru cei care nu vorbesc limba germană?"
-        },
-        "general": {
-            "prompt": "Spune-mi mai multe despre Gimnaziul Weingarten",
-            "text": "Informații generale"
         },
         "apology": {
             "prompt": "Sunt bolnav și nu pot veni mâine la școală. Ce trebuie să facă părinții mei?",
@@ -84,6 +42,48 @@ export const Romanian: typeof German = {
             "prompt": "Cum îmi înscriu copilul?",
             "text": "Înscriere copil"
         }
+    },
+    "feedback": {
+        "thanks": {
+            "message": "Feedbackul tău mă ajută să devin un asistent mai bun pentru {schoolName}!",
+            "title": "Mulțumesc mult!"
+        },
+        "title": "Feedback pentru {assistantName}",
+        "description": "Cum a fost experiența ta cu {assistantName}?",
+        "messagePlaceholder": "Spune-ne despre experiența ta cu {assistantName}...",
+        "rating": "Evaluare",
+        "message": "Mesajul tău",
+        "characterLimit": "Caractere",
+        "name": "Numele tău",
+        "namePlaceholder": "ex. Ion Popescu",
+        "optional": "Opțional",
+        "sending": "Se trimite",
+        "send": "Trimite feedback",
+        "errors": {
+            "message": "Vă rugăm să scrieți un mesaj",
+            "rating": "Vă rugăm să oferiți o evaluare",
+            "network": "Eroare la trimitere",
+            "unknown": "A apărut o eroare"
+        }
+    },
+    "welcome": {
+        "h1": "Bună, sunt {assistantName}!",
+        "subtitle": "Sunt asistentul de chat al Gimnaziului Weingarten, dezvoltat în timpul zilelor de proiect 2025 pentru a 50-a aniversare a Gimnaziului Weingarten.",
+        "help": "Vă ajut cu plăcere la întrebări despre:",
+        "help2": "Puneți-mi pur și simplu întrebarea!"
+    },
+    "cancel": "Anulare",
+    "close": "Închide",
+    "reset": {
+        "restart": "Începe din nou",
+        "reset": "Resetare",
+        "description": "Doriți cu adevărat să resetați istoricul chat-ului?",
+        "newChat": "Chat nou"
+    },
+    "input": {
+        "warning": "IA face greșeli. Verificați informațiile importante. Nu furnizați date personale.",
+        "placeholder": "👋 Cum vă pot ajuta?",
+        "send": "Trimite"
     },
     "entityTable": {
         "startDate": "Când?",

@@ -1,49 +1,11 @@
 import {German} from "@/app/languages/german";
 
 export const Swahili: typeof German = {
-    "welcome": {
-        "h1": "Hujambo, mimi ni {assistantName}!",
-        "subtitle": "Mimi ni msaidizi wa gumzo wa Gymnasium Weingarten, niliyeundwa wakati wa siku za mradi za 2025 kwa ajili ya maadhimisho ya miaka 50 ya Gymnasium Weingarten.",
-        "help": "Nitafurahi kukusaidia na maswali kuhusu:",
-        "help2": "Niulize tu swali lako!"
-    },
-    "feedback": {
-        "title": "Maoni kwa {assistantName}",
-        "description": "Uzoefu wako ulikuwaje na {assistantName}?",
-        "messagePlaceholder": "Tuambie kuhusu uzoefu wako na {assistantName}...",
-        "rating": "Ukadiriaji",
-        "message": "Ujumbe wako",
-        "characterLimit": "herufi",
-        "name": "Jina lako",
-        "namePlaceholder": "k.m. Juma Mfano",
-        "optional": "Hiari",
-        "sending": "Inatuma",
-        "send": "Tuma maoni",
-        "errors": {
-            "message": "Tafadhali andika ujumbe",
-            "rating": "Tafadhali toa ukadiriaji",
-            "network": "Hitilafu wakati wa kutuma",
-            "unknown": "Hitilafu imetokea"
-        },
-        "thanks": {
-            "title": "Asante sana!",
-            "message": "Maoni yako yananisaidia kuwa msaidizi bora kwa Gymnasium Weingarten!"
-        }
-    },
-    "cancel": "Ghairi",
-    "close": "Funga",
-    "reset": {
-        "restart": "Anza upya",
-        "reset": "Weka upya",
-        "description": "Je, una uhakika unataka kuweka upya historia ya gumzo?",
-        "newChat": "Gumzo jipya"
-    },
-    "input": {
-        "warning": "AI hufanya makosa. Thibitisha taarifa muhimu. Usitoe data za kibinafsi.",
-        "placeholder": "👋 Ninawezaje kukusaidia?",
-        "send": "Tuma"
-    },
     "promptSuggestions": {
+        "general": {
+            "prompt": "Niambie zaidi kuhusu {schoolName}",
+            "text": "Taarifa za jumla"
+        },
         "schoolFestivalSchedule": {
             "prompt": "Ratiba ya tamasha la shule ikoje?",
             "text": "Tamasha la shule - Programu"
@@ -59,10 +21,6 @@ export const Swahili: typeof German = {
         "nonGerman": {
             "prompt": "Fursa kwa wasiozungumza Kijerumani?",
             "text": "Je, kuna fursa kwa wasiozungumza Kijerumani?"
-        },
-        "general": {
-            "prompt": "Niambie zaidi kuhusu Gymnasium Weingarten",
-            "text": "Taarifa za jumla"
         },
         "apology": {
             "prompt": "Mimi ni mgonjwa na siwezi kuja shuleni kesho. Wazazi wangu wanapaswa kufanya nini?",
@@ -84,6 +42,48 @@ export const Swahili: typeof German = {
             "prompt": "Ninamwandikishaje mtoto wangu?",
             "text": "Mwandikishe mtoto"
         }
+    },
+    "feedback": {
+        "thanks": {
+            "message": "Maoni yako yananisaidia kuwa msaidizi bora wa {schoolName}!",
+            "title": "Asante sana!"
+        },
+        "title": "Maoni kwa {assistantName}",
+        "description": "Uzoefu wako ulikuwaje na {assistantName}?",
+        "messagePlaceholder": "Tuambie kuhusu uzoefu wako na {assistantName}...",
+        "rating": "Ukadiriaji",
+        "message": "Ujumbe wako",
+        "characterLimit": "herufi",
+        "name": "Jina lako",
+        "namePlaceholder": "k.m. Juma Mfano",
+        "optional": "Hiari",
+        "sending": "Inatuma",
+        "send": "Tuma maoni",
+        "errors": {
+            "message": "Tafadhali andika ujumbe",
+            "rating": "Tafadhali toa ukadiriaji",
+            "network": "Hitilafu wakati wa kutuma",
+            "unknown": "Hitilafu imetokea"
+        }
+    },
+    "welcome": {
+        "h1": "Hujambo, mimi ni {assistantName}!",
+        "subtitle": "Mimi ni msaidizi wa gumzo wa Gymnasium Weingarten, niliyeundwa wakati wa siku za mradi za 2025 kwa ajili ya maadhimisho ya miaka 50 ya Gymnasium Weingarten.",
+        "help": "Nitafurahi kukusaidia na maswali kuhusu:",
+        "help2": "Niulize tu swali lako!"
+    },
+    "cancel": "Ghairi",
+    "close": "Funga",
+    "reset": {
+        "restart": "Anza upya",
+        "reset": "Weka upya",
+        "description": "Je, una uhakika unataka kuweka upya historia ya gumzo?",
+        "newChat": "Gumzo jipya"
+    },
+    "input": {
+        "warning": "AI hufanya makosa. Thibitisha taarifa muhimu. Usitoe data za kibinafsi.",
+        "placeholder": "👋 Ninawezaje kukusaidia?",
+        "send": "Tuma"
     },
     "entityTable": {
         "startDate": "Lini?",

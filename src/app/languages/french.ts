@@ -1,49 +1,11 @@
 import {German} from "@/app/languages/german";
 
 export const French: typeof German = {
-    "welcome": {
-        "h1": "Bonjour, je suis {assistantName} !",
-        "subtitle": "Je suis l'assistant de chat du Gymnasium Weingarten, développé lors des journées de projet 2025 pour le 50e anniversaire du Gymnasium Weingarten.",
-        "help": "Je serai heureux de vous aider avec des questions sur :",
-        "help2": "Posez-moi simplement votre question !"
-    },
-    "feedback": {
-        "title": "Commentaires sur {assistantName}",
-        "description": "Quelle a été votre expérience avec {assistantName} ?",
-        "messagePlaceholder": "Parlez-nous de votre expérience avec {assistantName}...",
-        "rating": "Évaluation",
-        "message": "Votre message",
-        "characterLimit": "caractères",
-        "name": "Votre nom",
-        "namePlaceholder": "par ex. Jean Dupont",
-        "optional": "Facultatif",
-        "sending": "Envoi en cours",
-        "send": "Envoyer les commentaires",
-        "errors": {
-            "message": "Veuillez écrire un message",
-            "rating": "Veuillez donner une évaluation",
-            "network": "Erreur lors de l'envoi",
-            "unknown": "Une erreur s'est produite"
-        },
-        "thanks": {
-            "title": "Merci beaucoup !",
-            "message": "Vos commentaires m'aident à devenir un meilleur assistant pour le Gymnasium Weingarten !"
-        }
-    },
-    "cancel": "Annuler",
-    "close": "Fermer",
-    "reset": {
-        "restart": "Recommencer",
-        "reset": "Réinitialiser",
-        "description": "Voulez-vous vraiment réinitialiser l'historique du chat ?",
-        "newChat": "Nouveau chat"
-    },
-    "input": {
-        "warning": "L'IA fait des erreurs. Vérifiez les informations importantes. Ne fournissez pas de données personnelles.",
-        "placeholder": "👋 Comment puis-je vous aider ?",
-        "send": "Envoyer"
-    },
     "promptSuggestions": {
+        "general": {
+            "prompt": "Parlez-moi de {schoolName}",
+            "text": "Informations générales"
+        },
         "schoolFestivalSchedule": {
             "prompt": "Quel est le programme de la fête de l'école ?",
             "text": "Fête de l'école - Programme"
@@ -59,10 +21,6 @@ export const French: typeof German = {
         "nonGerman": {
             "prompt": "Possibilités pour les non-germanophones ?",
             "text": "Existe-t-il des possibilités pour les non-germanophones ?"
-        },
-        "general": {
-            "prompt": "Parlez-moi davantage du Gymnasium Weingarten",
-            "text": "Informations générales"
         },
         "apology": {
             "prompt": "Je suis malade et ne peux pas venir à l'école demain. Que doivent faire mes parents ?",
@@ -84,6 +42,48 @@ export const French: typeof German = {
             "prompt": "Comment inscrire mon enfant ?",
             "text": "Inscrire un enfant"
         }
+    },
+    "feedback": {
+        "thanks": {
+            "message": "Vos commentaires m'aident à devenir un meilleur assistant pour {schoolName} !",
+            "title": "Merci beaucoup !"
+        },
+        "title": "Commentaires sur {assistantName}",
+        "description": "Quelle a été votre expérience avec {assistantName} ?",
+        "messagePlaceholder": "Parlez-nous de votre expérience avec {assistantName}...",
+        "rating": "Évaluation",
+        "message": "Votre message",
+        "characterLimit": "caractères",
+        "name": "Votre nom",
+        "namePlaceholder": "par ex. Jean Dupont",
+        "optional": "Facultatif",
+        "sending": "Envoi en cours",
+        "send": "Envoyer les commentaires",
+        "errors": {
+            "message": "Veuillez écrire un message",
+            "rating": "Veuillez donner une évaluation",
+            "network": "Erreur lors de l'envoi",
+            "unknown": "Une erreur s'est produite"
+        }
+    },
+    "welcome": {
+        "h1": "Bonjour, je suis {assistantName} !",
+        "subtitle": "Je suis l'assistant de chat du Gymnasium Weingarten, développé lors des journées de projet 2025 pour le 50e anniversaire du Gymnasium Weingarten.",
+        "help": "Je serai heureux de vous aider avec des questions sur :",
+        "help2": "Posez-moi simplement votre question !"
+    },
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "reset": {
+        "restart": "Recommencer",
+        "reset": "Réinitialiser",
+        "description": "Voulez-vous vraiment réinitialiser l'historique du chat ?",
+        "newChat": "Nouveau chat"
+    },
+    "input": {
+        "warning": "L'IA fait des erreurs. Vérifiez les informations importantes. Ne fournissez pas de données personnelles.",
+        "placeholder": "👋 Comment puis-je vous aider ?",
+        "send": "Envoyer"
     },
     "entityTable": {
         "startDate": "Quand ?",

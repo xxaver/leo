@@ -1,49 +1,11 @@
 import {German} from "@/app/languages/german";
 
 export const English: typeof German = {
-    "welcome": {
-        "h1": "Hello, I am {assistantName}!",
-        "subtitle": "I am the chat assistant of the Gymnasium Weingarten, developed during the 2025 project days for the 50th anniversary of the Gymnasium Weingarten.",
-        "help": "I'm happy to help you with questions about:",
-        "help2": "Just ask me your question!"
-    },
-    "feedback": {
-        "title": "Feedback for {assistantName}",
-        "description": "How was your experience with {assistantName}?",
-        "messagePlaceholder": "Tell us about your experience with {assistantName}...",
-        "rating": "Rating",
-        "message": "Your Message",
-        "characterLimit": "Characters",
-        "name": "Your Name",
-        "namePlaceholder": "e.g. John Doe",
-        "optional": "Optional",
-        "sending": "Sending",
-        "send": "Send Feedback",
-        "errors": {
-            "message": "Please write a message",
-            "rating": "Please provide a rating",
-            "network": "Error sending",
-            "unknown": "An error occurred"
-        },
-        "thanks": {
-            "title": "Thank you very much!",
-            "message": "Your feedback helps me become a better assistant for the Gymnasium Weingarten!"
-        }
-    },
-    "cancel": "Cancel",
-    "close": "Close",
-    "reset": {
-        "restart": "Start over",
-        "reset": "Reset",
-        "description": "Do you really want to reset the chat history?",
-        "newChat": "New Chat"
-    },
-    "input": {
-        "warning": "AI makes mistakes. Check important information. Do not provide personal data.",
-        "placeholder": "👋 How can I help you?",
-        "send": "Send"
-    },
     "promptSuggestions": {
+        "general": {
+            "prompt": "Tell me more about {schoolName}",
+            "text": "General Information"
+        },
         "schoolFestivalSchedule": {
             "prompt": "What is the schedule for the school festival?",
             "text": "School Festival - Program"
@@ -59,10 +21,6 @@ export const English: typeof German = {
         "nonGerman": {
             "prompt": "Opportunities for non-German speakers?",
             "text": "Are there opportunities for non-German speakers?"
-        },
-        "general": {
-            "prompt": "Tell me more about the Gymnasium Weingarten",
-            "text": "General Information"
         },
         "apology": {
             "prompt": "I am sick and cannot come to school tomorrow. What do my parents need to do?",
@@ -84,6 +42,48 @@ export const English: typeof German = {
             "prompt": "How do I register my child?",
             "text": "Register Child"
         }
+    },
+    "feedback": {
+        "thanks": {
+            "message": "Your feedback helps me become a better assistant for {schoolName}!",
+            "title": "Thank you very much!"
+        },
+        "title": "Feedback for {assistantName}",
+        "description": "How was your experience with {assistantName}?",
+        "messagePlaceholder": "Tell us about your experience with {assistantName}...",
+        "rating": "Rating",
+        "message": "Your Message",
+        "characterLimit": "Characters",
+        "name": "Your Name",
+        "namePlaceholder": "e.g. John Doe",
+        "optional": "Optional",
+        "sending": "Sending",
+        "send": "Send Feedback",
+        "errors": {
+            "message": "Please write a message",
+            "rating": "Please provide a rating",
+            "network": "Error sending",
+            "unknown": "An error occurred"
+        }
+    },
+    "welcome": {
+        "h1": "Hello, I am {assistantName}!",
+        "subtitle": "I am the chat assistant of the Gymnasium Weingarten, developed during the 2025 project days for the 50th anniversary of the Gymnasium Weingarten.",
+        "help": "I'm happy to help you with questions about:",
+        "help2": "Just ask me your question!"
+    },
+    "cancel": "Cancel",
+    "close": "Close",
+    "reset": {
+        "restart": "Start over",
+        "reset": "Reset",
+        "description": "Do you really want to reset the chat history?",
+        "newChat": "New Chat"
+    },
+    "input": {
+        "warning": "AI makes mistakes. Check important information. Do not provide personal data.",
+        "placeholder": "👋 How can I help you?",
+        "send": "Send"
     },
     "entityTable": {
         "startDate": "When?",
