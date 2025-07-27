@@ -18,4 +18,4 @@ export const robotics: Ag = {
     ],
     link: "https://robotics.gymnasium-weingarten.de/"
 }
-export const ags = [robotics]
+export const ags = []

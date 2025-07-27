@@ -4,7 +4,8 @@ import {FC, PropsWithChildren, ReactNode} from "react";
 import {ChatMessageLogo} from "@/app/ChatMessage";
 import Link from "next/link";
 import {usePathname} from "next/navigation";
-import {useAssistantName} from "../../config";
+
+import {useAssistantName} from "../../useAssistantName";
 
 export const Header: FC<PropsWithChildren & {
     items?: ReactNode

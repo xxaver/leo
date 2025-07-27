@@ -15,7 +15,8 @@ import {getUrl} from "../../scraper/utils";
 
 import {decompressUrls} from "@/data/formatUrls";
 import {ChatContext} from "@/app/ChatContext";
-import {scrapeOrigins, useAssistantName} from "../../config";
+import {scrapeOrigins} from "../../config";
+import {useAssistantName} from "../../useAssistantName";
 
 export const findSuggestions = (parsed: z.infer<ReturnType<typeof getSchema>>) => {
     return parsed?.promptSuggestions || parsed?.parts?.findLast(e => e.promptSuggestions)?.promptSuggestions || [];

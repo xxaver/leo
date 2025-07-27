@@ -6,7 +6,8 @@ import {Tooltip, TooltipContent, TooltipTrigger} from "@/components/ui/tooltip";
 import {Bot} from "lucide-react";
 import {Chat} from "@/app/Chat";
 import {motion} from "framer-motion";
-import {useAssistantName, schoolName} from "../../../config";
+import {schoolName} from "../../../config";
+import {useAssistantName} from "../../../useAssistantName";
 
 export const MiniChat = () => {
     const [loaded, setLoaded] = useState(false);

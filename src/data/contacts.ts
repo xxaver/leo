@@ -16,4 +16,4 @@ export const rothmaier =  {
     name: "Herr Rothmaier",
     // description: "Leiter der Robotics-AG"
 }
-export const contacts = [sekretariat];
+export const contacts = [];

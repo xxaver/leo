@@ -64,10 +64,11 @@ import {Uzbek} from "@/app/languages/uzbek";
 import {Vietnamese} from "@/app/languages/vietnamese";
 import {Zulu} from "@/app/languages/zulu";
 import {merge} from "@/utils";
-import {schoolName, useAssistantName} from "../../../config";
+import {schoolName} from "../../../config";
 import {languages} from "@/app/languages/languages";
 import {useSearchParams} from "next/navigation";
 import {languageHeader} from "@/data/languageHeader";
+import {useAssistantName} from "../../../useAssistantName";
 
 const English = merge(English1, German);
 

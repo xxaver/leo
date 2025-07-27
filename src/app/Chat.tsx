@@ -14,7 +14,8 @@ import {Footer} from "@/app/Footer";
 import {Header} from "@/app/Header";
 import {LanguagePicker} from "@/LanguagePicker";
 import {LanguageContext} from "@/app/languages/useTranslations";
-import {useAssistantName} from "../../config";
+
+import {useAssistantName} from "../../useAssistantName";
 
 export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
     const {language} = useContext(LanguageContext);

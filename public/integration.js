@@ -185,8 +185,8 @@ const setupLeo = () => {
 
 
     const origin = 
-        // location.origin === "http://localhost:3000" ? "http://localhost:3000" :
-            `https://frag-${name.toLowerCase()}.vercel.app?name=${name.toLowerCase()}`;
+        location.origin === "http://localhost:3000" ? "http://localhost:3000" :
+            `https://frag-${name.toLowerCase()}.vercel.app`;
 
 
     const presentLeo = document.querySelector('.leo');
@@ -257,7 +257,7 @@ const setupLeo = () => {
     const loadIframe = () => {
         loaded = true;
         const iframe = document.createElement('iframe');
-        iframe.src = origin + '/?embedded=true';
+        iframe.src = origin + `/?embedded=true&name=${name}`;
         chat.appendChild(iframe);
         iframe.addEventListener("load", () => {
             chat.childNodes.forEach(e => e.nodeName.toLowerCase() === "#text" && e.remove())
