@@ -3,11 +3,10 @@ import {generateObject} from "ai";
 import {z} from "zod";
 import {German} from "@/app/languages/german";
 import {readFile, writeFile} from "node:fs/promises";
-import {languages as languages1} from "@/app/languages/languages";
 import {merge} from "@/utils";
 
-const languages = languages1.filter(e => e.englishName !== "German").map(e => e.englishName.toLowerCase());
-
+// const languages = languages1.filter(e => e.englishName !== "German").map(e => e.englishName.toLowerCase());
+const languages = "french, hindi, bulgarian, greek, gujarati, italian, korean, mongolian, dutch, slovak, swahili, vietnamese".split(", ");
 const translate = async (languages: string[], toTranslate: typeof German) => {
     console.log("Translating", languages.join(", "))
 
@@ -17,7 +16,9 @@ const translate = async (languages: string[], toTranslate: typeof German) => {
         schema: z.object({
             translations: z.object(Object.fromEntries(languages.map(l => [l, z.string().describe(`${l} translation`)])))
         }),
-        system: "Translate all values of the json object given by the user to every of the given languages. Return the JSON objects with the same structure as the one entered by the user, but with the values translated to the specific language.",
+        system: "Translate all values of the json object given by the user to every of the given languages. " +
+            "Return the JSON objects with the same structure as the one entered by the user, but with the values translated to the specific language. " +
+            "The strings wrapped in {} are placeholders and must not be translated. ",
         messages: [{
             role: "user",
             content: JSON.stringify(toTranslate)
@@ -42,7 +43,7 @@ import {German} from "@/app/languages/german";
 export const ${upper}: typeof German = ${merged};
 `, "utf-8");
         } catch {
-            console.log("ERROR");
+            console.log("ERROR", l, result.object.translations[l]);
         }
     })
 
@@ -62,7 +63,7 @@ const main = async () => {
         return Object.keys(result).length ? result : null;
     }
 
-    const groups = 5;
+    const groups = 1;
     const grouped = new Array(groups).fill(0).map((_) => []);
     const newOnes: string[] = [];
     let i = 0;

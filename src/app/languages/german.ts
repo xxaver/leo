@@ -1,4 +1,4 @@
-import {assistantName, description} from "../../../config";
+import {description} from "../../../config";
 
 export const German = {
     cancel: "Abbrechen",
@@ -15,7 +15,7 @@ export const German = {
         send: "Senden"
     },
     welcome: {
-        h1: `Hallo, Ich bin ${assistantName}!`,
+        h1: `Hallo, Ich bin {assistantName}!`,
         subtitle: description,
         help: "Ich helfe dir gerne bei Fragen zu:",
         help2: "Stell mir einfach deine Frage!"
@@ -79,14 +79,14 @@ export const German = {
         feedback: "Feedback"
     },
     feedback: {
-        title: `Feedback für ${assistantName}`,
-        description: `Wie war deine Erfahrung mit ${assistantName}?`,
+        title: `Feedback für {assistantName}`,
+        description: `Wie war deine Erfahrung mit {assistantName}?`,
         rating: "Bewertung",
         message: "Deine Nachricht",
         characterLimit: "Zeichen",
         name: "Dein Name",
         
-        messagePlaceholder: `Erzähl uns von deiner Erfahrung mit ${assistantName}...`,
+        messagePlaceholder: `Erzähl uns von deiner Erfahrung mit {assistantName}...`,
         namePlaceholder: "z.B. Max Mustermann",
         
         optional: "Optional",

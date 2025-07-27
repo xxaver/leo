@@ -13,7 +13,7 @@
     "send": "Senden"
   },
   "welcome": {
-    "h1": "Hallo, Ich bin Leo 🦁!",
+    "h1": "Hallo, Ich bin {assistantName}!",
     "subtitle": "Ich bin der Chat-Assistent des Gymnasium Weingartens, der während der Projekttage 2025 zum 50-jährigen Jubiläum des Gymnasiums Weingarten entwickelt wurde.",
     "help": "Ich helfe dir gerne bei Fragen zu:",
     "help2": "Stell mir einfach deine Frage!"
@@ -76,13 +76,13 @@
     "feedback": "Feedback"
   },
   "feedback": {
-    "title": "Feedback für Leo 🦁",
-    "description": "Wie war deine Erfahrung mit Leo 🦁?",
+    "title": "Feedback für {assistantName}",
+    "description": "Wie war deine Erfahrung mit {assistantName}?",
     "rating": "Bewertung",
     "message": "Deine Nachricht",
     "characterLimit": "Zeichen",
     "name": "Dein Name",
-    "messagePlaceholder": "Erzähl uns von deiner Erfahrung mit Leo 🦁...",
+    "messagePlaceholder": "Erzähl uns von deiner Erfahrung mit {assistantName}...",
     "namePlaceholder": "z.B. Max Mustermann",
     "optional": "Optional",
     "sending": "Wird gesendet",
