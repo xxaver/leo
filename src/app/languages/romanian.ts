@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Romanian: typeof German = {
+    "welcome": {
+        "subtitle": "Sunt asistentul de chat al Studienkolleg St. Johann Blönried. Vă voi ajuta cu plăcere cu întrebările dumneavoastră despre școala noastră.",
+        "h1": "Bună, sunt {assistantName}!",
+        "help": "Vă ajut cu plăcere la întrebări despre:",
+        "help2": "Puneți-mi pur și simplu întrebarea!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Spune-mi mai multe despre {schoolName}",
@@ -65,12 +71,6 @@ export const Romanian: typeof German = {
             "network": "Eroare la trimitere",
             "unknown": "A apărut o eroare"
         }
-    },
-    "welcome": {
-        "h1": "Bună, sunt {assistantName}!",
-        "subtitle": "Sunt asistentul de chat al Gimnaziului Weingarten, dezvoltat în timpul zilelor de proiect 2025 pentru a 50-a aniversare a Gimnaziului Weingarten.",
-        "help": "Vă ajut cu plăcere la întrebări despre:",
-        "help2": "Puneți-mi pur și simplu întrebarea!"
     },
     "cancel": "Anulare",
     "close": "Închide",

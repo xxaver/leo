@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Filipino: typeof German = {
+    "welcome": {
+        "subtitle": "Ako ang chat assistant ng Studienkolleg St. Johann Blönried. Masaya akong tutulong sa iyo sa iyong mga tanong tungkol sa aming paaralan.",
+        "h1": "Hello, ako si Leo! 🦁",
+        "help": "Masaya akong tulungan ka sa mga tanong tungkol sa:",
+        "help2": "Itanong mo lang sa akin ang iyong tanong!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Sabihin pa sa akin ang tungkol sa {schoolName}",
@@ -78,12 +84,6 @@ export const Filipino: typeof German = {
         "warning": "Nagkakamali ang AI. Suriin ang mahalagang impormasyon. Huwag magbigay ng personal na data.",
         "placeholder": "👋 Paano kita matutulungan?",
         "send": "Ipadala"
-    },
-    "welcome": {
-        "h1": "Hello, ako si Leo! 🦁",
-        "subtitle": "Ako ang chat assistant ng Gymnasium Weingarten, na binuo sa panahon ng mga araw ng proyekto ng 2025 para sa ika-50 anibersaryo ng Gymnasium Weingarten.",
-        "help": "Masaya akong tulungan ka sa mga tanong tungkol sa:",
-        "help2": "Itanong mo lang sa akin ang iyong tanong!"
     },
     "entityTable": {
         "startDate": "Kailan?",

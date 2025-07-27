@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Kazakh: typeof German = {
+    "welcome": {
+        "subtitle": "Мен Studienkolleg St. Johann Blönried чат-көмекшісімін. Мектебіміз туралы сұрақтарыңызға қуана жауап беремін.",
+        "h1": "Сәлем, мен {assistantName}!",
+        "help": "Мен сізге келесі сұрақтар бойынша көмектесуге қуаныштымын:",
+        "help2": "Сұрағыңызды қойыңыз!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "{schoolName} туралы көбірек айтып беріңіз",
@@ -65,12 +71,6 @@ export const Kazakh: typeof German = {
             "network": "Жіберу кезінде қате",
             "unknown": "Қате пайда болды"
         }
-    },
-    "welcome": {
-        "h1": "Сәлем, мен {assistantName}!",
-        "subtitle": "Мен Вайнгартен гимназиясының 50 жылдық мерейтойына орай 2025 жылғы жоба күндері кезінде әзірленген Вайнгартен гимназиясының чат-ассистентімін.",
-        "help": "Мен сізге келесі сұрақтар бойынша көмектесуге қуаныштымын:",
-        "help2": "Сұрағыңызды қойыңыз!"
     },
     "cancel": "Болдырмау",
     "close": "Жабу",

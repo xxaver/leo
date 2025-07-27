@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Khmer: typeof German = {
+    "welcome": {
+        "subtitle": "ខ្ញុំជាជំនួយការជជែកនៃ Studienkolleg St. Johann Blönried។ ខ្ញុំរីករាយនឹងជួយអ្នកជាមួយនឹងសំណួររបស់អ្នកអំពីសាលារបស់យើង។",
+        "h1": "សួស្តី ខ្ញុំគឺ Leo! 🦁",
+        "help": "ខ្ញុំរីករាយនឹងជួយអ្នកជាមួយនឹងសំណួរអំពី៖",
+        "help2": "សូមសួរសំណួររបស់អ្នកមក!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "ប្រាប់ខ្ញុំបន្ថែមអំពី {schoolName}",
@@ -78,12 +84,6 @@ export const Khmer: typeof German = {
         "warning": "AI អាចមានកំហុស។ សូមពិនិត្យមើលព័ត៌មានសំខាន់ៗ។ កុំផ្តល់ទិន្នន័យផ្ទាល់ខ្លួន។",
         "placeholder": "👋 តើខ្ញុំអាចជួយអ្នកដោយរបៀបណា?",
         "send": "ផ្ញើ"
-    },
-    "welcome": {
-        "h1": "សួស្តី ខ្ញុំគឺ Leo! 🦁",
-        "subtitle": "ខ្ញុំគឺជាជំនួយការជជែករបស់ Gymnasium Weingarten ដែលត្រូវបានបង្កើតឡើងក្នុងអំឡុងពេលថ្ងៃគម្រោងឆ្នាំ 2025 សម្រាប់ខួបលើកទី 50 របស់ Gymnasium Weingarten ។",
-        "help": "ខ្ញុំរីករាយនឹងជួយអ្នកជាមួយនឹងសំណួរអំពី៖",
-        "help2": "សូមសួរសំណួររបស់អ្នកមក!"
     },
     "entityTable": {
         "startDate": "ពេលណា?",

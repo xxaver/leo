@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Estonian: typeof German = {
+    "welcome": {
+        "subtitle": "Olen Studienkolleg St. Johann Blönriedi vestlusassistent. Aitan teid hea meelega meie kooli puudutavate küsimustega.",
+        "h1": "Tere, mina olen {assistantName}!",
+        "help": "Aitan teid hea meelega küsimustes, mis puudutavad:",
+        "help2": "Lihtsalt esitage oma küsimus!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Räägi mulle {schoolName} kohta rohkem",
@@ -65,12 +71,6 @@ export const Estonian: typeof German = {
             "network": "Saatmisel ilmnes viga",
             "unknown": "Ilmnes viga"
         }
-    },
-    "welcome": {
-        "h1": "Tere, mina olen {assistantName}!",
-        "subtitle": "Olen Gymnasium Weingarteni vestlusabiline, mis on välja töötatud 2025. aasta projektipäevade ajal Gymnasium Weingarteni 50. aastapäevaks.",
-        "help": "Aitan teid hea meelega küsimustes, mis puudutavad:",
-        "help2": "Lihtsalt esitage oma küsimus!"
     },
     "cancel": "Tühista",
     "close": "Sule",

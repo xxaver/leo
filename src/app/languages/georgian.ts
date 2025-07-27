@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Georgian: typeof German = {
+    "welcome": {
+        "subtitle": "მე ვარ Studienkolleg St. Johann Blönried-ის ჩატის ასისტენტი. მოხარული ვარ, დაგეხმაროთ ჩვენი სკოლის შესახებ თქვენს შეკითხვებში.",
+        "h1": "გამარჯობა, მე ვარ {assistantName}!",
+        "help": "სიამოვნებით დაგეხმარებით კითხვებზე:",
+        "help2": "უბრალოდ დამისვით თქვენი შეკითხვა!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "მომიყევი მეტი {schoolName}-ის შესახებ",
@@ -65,12 +71,6 @@ export const Georgian: typeof German = {
             "network": "გაგზავნის შეცდომა",
             "unknown": "მოხდა შეცდომა"
         }
-    },
-    "welcome": {
-        "h1": "გამარჯობა, მე ვარ {assistantName}!",
-        "subtitle": "მე ვარ ვაინგარტენის გიმნაზიის ჩატ-ასისტენტი, რომელიც შეიქმნა 2025 წლის პროექტის დღეების განმავლობაში ვაინგარტენის გიმნაზიის 50 წლის იუბილეს აღსანიშნავად.",
-        "help": "სიამოვნებით დაგეხმარებით კითხვებზე:",
-        "help2": "უბრალოდ დამისვით თქვენი შეკითხვა!"
     },
     "cancel": "გაუქმება",
     "close": "დახურვა",

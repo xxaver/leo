@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Korean: typeof German = {
+    "welcome": {
+        "subtitle": "저는 Studienkolleg St. Johann Blönried의 채팅 어시스턴트입니다. 저희 학교에 대한 질문에 기꺼이 도와드리겠습니다.",
+        "h1": "안녕하세요, 저는 {assistantName}입니다!",
+        "help": "다음과 같은 질문에 대해 기꺼이 도와드리겠습니다:",
+        "help2": "질문을 하세요!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "{schoolName}에 대해 더 자세히 알려주세요",
@@ -65,12 +71,6 @@ export const Korean: typeof German = {
             "network": "전송 오류",
             "unknown": "오류가 발생했습니다"
         }
-    },
-    "welcome": {
-        "h1": "안녕하세요, 저는 {assistantName}입니다!",
-        "subtitle": "저는 바인가르텐 김나지움의 50주년을 기념하여 2025년 프로젝트 기간 동안 개발된 바인가르텐 김나지움의 채팅 도우미입니다.",
-        "help": "다음과 같은 질문에 대해 기꺼이 도와드리겠습니다:",
-        "help2": "질문을 하세요!"
     },
     "cancel": "취소",
     "close": "닫기",

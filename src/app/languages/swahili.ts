@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Swahili: typeof German = {
+    "welcome": {
+        "subtitle": "Mimi ni msaidizi wa gumzo wa Studienkolleg St. Johann Blönried. Nitafurahi kukusaidia na maswali yako kuhusu shule yetu.",
+        "h1": "Hujambo, mimi ni {assistantName}!",
+        "help": "Nitafurahi kukusaidia na maswali kuhusu:",
+        "help2": "Niulize tu swali lako!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Niambie zaidi kuhusu {schoolName}",
@@ -65,12 +71,6 @@ export const Swahili: typeof German = {
             "network": "Hitilafu wakati wa kutuma",
             "unknown": "Hitilafu imetokea"
         }
-    },
-    "welcome": {
-        "h1": "Hujambo, mimi ni {assistantName}!",
-        "subtitle": "Mimi ni msaidizi wa gumzo wa Gymnasium Weingarten, niliyeundwa wakati wa siku za mradi za 2025 kwa ajili ya maadhimisho ya miaka 50 ya Gymnasium Weingarten.",
-        "help": "Nitafurahi kukusaidia na maswali kuhusu:",
-        "help2": "Niulize tu swali lako!"
     },
     "cancel": "Ghairi",
     "close": "Funga",

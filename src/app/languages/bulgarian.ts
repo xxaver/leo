@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Bulgarian: typeof German = {
+    "welcome": {
+        "subtitle": "Аз съм чат асистентът на Studienkolleg St. Johann Blönried. Ще се радвам да ти помогна с въпросите ти относно нашето училище.",
+        "h1": "Здравейте, аз съм {assistantName}!",
+        "help": "С удоволствие ще ви помогна с въпроси относно:",
+        "help2": "Просто ми задайте въпроса си!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Разкажете ми повече за {schoolName}",
@@ -65,12 +71,6 @@ export const Bulgarian: typeof German = {
             "network": "Грешка при изпращане",
             "unknown": "Възникна грешка"
         }
-    },
-    "welcome": {
-        "h1": "Здравейте, аз съм {assistantName}!",
-        "subtitle": "Аз съм чат асистентът на гимназия Вайнгартен, разработен по време на проектните дни през 2025 г. за 50-годишнината на гимназия Вайнгартен.",
-        "help": "С удоволствие ще ви помогна с въпроси относно:",
-        "help2": "Просто ми задайте въпроса си!"
     },
     "cancel": "Отказ",
     "close": "Затвори",

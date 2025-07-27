@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Turkish: typeof German = {
+    "welcome": {
+        "subtitle": "Ben Studienkolleg St. Johann Blönried'in sohbet asistanıyım. Okulumuzla ilgili sorularınızda size yardımcı olmaktan mutluluk duyarım.",
+        "h1": "Merhaba, ben {assistantName}!",
+        "help": "Şu konulardaki sorularda sana yardımcı olmaktan memnuniyet duyarım:",
+        "help2": "Sadece sorunu sor!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "{schoolName} hakkında bana daha fazla bilgi ver",
@@ -65,12 +71,6 @@ export const Turkish: typeof German = {
             "network": "Gönderim hatası",
             "unknown": "Bir hata oluştu"
         }
-    },
-    "welcome": {
-        "h1": "Merhaba, ben {assistantName}!",
-        "subtitle": "Ben, Gymnasium Weingarten'in 50. yıl dönümü için 2025 proje günleri sırasında geliştirilen sohbet asistanıyım.",
-        "help": "Şu konulardaki sorularda sana yardımcı olmaktan memnuniyet duyarım:",
-        "help2": "Sadece sorunu sor!"
     },
     "cancel": "İptal",
     "close": "Kapat",

@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Slovak: typeof German = {
+    "welcome": {
+        "subtitle": "Som chatový asistent Studienkolleg St. Johann Blönried. Rád vám pomôžem s vašimi otázkami týkajúcimi sa našej školy.",
+        "h1": "Dobrý deň, som {assistantName}!",
+        "help": "Rád vám pomôžem s otázkami týkajúcimi sa:",
+        "help2": "Jednoducho mi položte svoju otázku!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Povedzte mi viac o {schoolName}",
@@ -65,12 +71,6 @@ export const Slovak: typeof German = {
             "network": "Chyba pri odosielaní",
             "unknown": "Vyskytla sa chyba"
         }
-    },
-    "welcome": {
-        "h1": "Dobrý deň, som {assistantName}!",
-        "subtitle": "Som chatovací asistent Gymnázia Weingarten, vyvinutý počas projektových dní 2025 k 50. výročiu Gymnázia Weingarten.",
-        "help": "Rád vám pomôžem s otázkami týkajúcimi sa:",
-        "help2": "Jednoducho mi položte svoju otázku!"
     },
     "cancel": "Zrušiť",
     "close": "Zavrieť",

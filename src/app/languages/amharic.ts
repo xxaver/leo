@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Amharic: typeof German = {
+    "welcome": {
+        "subtitle": "እኔ የ Studienkolleg St. Johann Blönried የውይይት ረዳት ነኝ። ስለ ትምህርት ቤታችን ጥያቄዎችዎን ለመርዳት ደስተኛ ነኝ።",
+        "h1": "ሰላም፣ እኔ {assistantName} ነኝ!",
+        "help": "በሚከተሉት ጥያቄዎች ላይ በደስታ እረዳሃለሁ፦",
+        "help2": "ጥያቄህን ብቻ ጠይቀኝ!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "ስለ {schoolName} የበለጠ ንገረኝ",
@@ -65,12 +71,6 @@ export const Amharic: typeof German = {
             "network": "በመላክ ላይ ስህተት",
             "unknown": "ስህተት ተከስቷል"
         }
-    },
-    "welcome": {
-        "h1": "ሰላም፣ እኔ {assistantName} ነኝ!",
-        "subtitle": "እኔ የጂምናዚየም ዌይንጋርተን የውይይት ረዳት ነኝ፣ በ2025 የፕሮጀክት ቀናት ለጂምናዚየም ዌይንጋርተን 50ኛ ዓመት በዓል የተሰራሁ።",
-        "help": "በሚከተሉት ጥያቄዎች ላይ በደስታ እረዳሃለሁ፦",
-        "help2": "ጥያቄህን ብቻ ጠይቀኝ!"
     },
     "cancel": "ሰርዝ",
     "close": "ዝጋ",

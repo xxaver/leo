@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Uzbek: typeof German = {
+    "welcome": {
+        "subtitle": "Men Studienkolleg St. Johann Blönriedning chat yordamchisiman. Maktabimiz haqidagi savollaringizga yordam berishdan mamnunman.",
+        "h1": "Salom, men Leo! 🦁",
+        "help": "Men sizga quyidagi savollar bo'yicha yordam berishdan mamnunman:",
+        "help2": "Shunchaki savolingizni bering!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "{schoolName} haqida koʻproq maʼlumot bering",
@@ -78,12 +84,6 @@ export const Uzbek: typeof German = {
         "warning": "AI xato qiladi. Muhim ma'lumotlarni tekshiring. Shaxsiy ma'lumotlarni kiritmang.",
         "placeholder": "👋 Sizga qanday yordam bera olaman?",
         "send": "Yuborish"
-    },
-    "welcome": {
-        "h1": "Salom, men Leo! 🦁",
-        "subtitle": "Men Gymnasium Weingartenning chat yordamchisiman, u 2025 yilgi loyiha kunlarida Gymnasium Weingartenning 50 yilligi munosabati bilan ishlab chiqilgan.",
-        "help": "Men sizga quyidagi savollar bo'yicha yordam berishdan mamnunman:",
-        "help2": "Shunchaki savolingizni bering!"
     },
     "entityTable": {
         "startDate": "Qachon?",

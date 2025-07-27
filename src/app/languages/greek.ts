@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Greek: typeof German = {
+    "welcome": {
+        "subtitle": "Είμαι ο βοηθός συνομιλίας του Studienkolleg St. Johann Blönried. Θα χαρώ να σε βοηθήσω με τις ερωτήσεις σου σχετικά με το σχολείο μας.",
+        "h1": "Γεια σας, είμαι {assistantName}!",
+        "help": "Θα χαρώ να σας βοηθήσω με ερωτήσεις σχετικά με:",
+        "help2": "Απλώς κάντε μου την ερώτησή σας!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Πείτε μου περισσότερα για το {schoolName}",
@@ -65,12 +71,6 @@ export const Greek: typeof German = {
             "network": "Σφάλμα κατά την αποστολή",
             "unknown": "Παρουσιάστηκε σφάλμα"
         }
-    },
-    "welcome": {
-        "h1": "Γεια σας, είμαι {assistantName}!",
-        "subtitle": "Είμαι ο βοηθός συνομιλίας του Γυμνασίου Weingarten, που αναπτύχθηκε κατά τη διάρκεια των ημερών έργου 2025 για την 50ή επέτειο του Γυμνασίου Weingarten.",
-        "help": "Θα χαρώ να σας βοηθήσω με ερωτήσεις σχετικά με:",
-        "help2": "Απλώς κάντε μου την ερώτησή σας!"
     },
     "cancel": "Ακύρωση",
     "close": "Κλείσιμο",

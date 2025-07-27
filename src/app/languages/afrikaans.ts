@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Afrikaans: typeof German = {
+    "welcome": {
+        "subtitle": "Ek is die kletsassistent van Studienkolleg St. Johann Blönried. Ek help jou graag met jou vrae oor ons skool.",
+        "h1": "Hallo, ek is {assistantName}!",
+        "help": "Ek help jou graag met vrae oor:",
+        "help2": "Vra my net jou vraag!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Vertel my meer oor {schoolName}",
@@ -65,12 +71,6 @@ export const Afrikaans: typeof German = {
             "network": "Fout met stuur",
             "unknown": "Daar het 'n fout voorgekom"
         }
-    },
-    "welcome": {
-        "h1": "Hallo, ek is {assistantName}!",
-        "subtitle": "Ek is die kletsassistent van die Gymnasium Weingarten, ontwikkel tydens die 2025-projekdae vir die 50ste herdenking van die Gymnasium Weingarten.",
-        "help": "Ek help jou graag met vrae oor:",
-        "help2": "Vra my net jou vraag!"
     },
     "cancel": "Kanselleer",
     "close": "Maak toe",

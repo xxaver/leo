@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Vietnamese: typeof German = {
+    "welcome": {
+        "subtitle": "Tôi là trợ lý trò chuyện của Studienkolleg St. Johann Blönried. Tôi rất sẵn lòng giúp bạn giải đáp các câu hỏi về trường của chúng tôi.",
+        "h1": "Xin chào, tôi là {assistantName}!",
+        "help": "Tôi rất sẵn lòng giúp bạn với các câu hỏi về:",
+        "help2": "Chỉ cần đặt câu hỏi của bạn cho tôi!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Hãy cho tôi biết thêm về {schoolName}",
@@ -65,12 +71,6 @@ export const Vietnamese: typeof German = {
             "network": "Lỗi khi gửi",
             "unknown": "Đã xảy ra lỗi"
         }
-    },
-    "welcome": {
-        "h1": "Xin chào, tôi là {assistantName}!",
-        "subtitle": "Tôi là trợ lý trò chuyện của Trường Gymnasium Weingarten, được phát triển trong những ngày dự án năm 2025 nhân kỷ niệm 50 năm thành lập Trường Gymnasium Weingarten.",
-        "help": "Tôi rất sẵn lòng giúp bạn với các câu hỏi về:",
-        "help2": "Chỉ cần đặt câu hỏi của bạn cho tôi!"
     },
     "cancel": "Hủy",
     "close": "Đóng",

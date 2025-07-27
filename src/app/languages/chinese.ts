@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Chinese: typeof German = {
+    "welcome": {
+        "subtitle": "我是圣约翰布隆里德预科学校的聊天助手。我很乐意帮助您解答有关我们学校的问题。",
+        "h1": "你好，我是{assistantName}！",
+        "help": "我很乐意帮助您解决以下问题：",
+        "help2": "请尽管向我提问！"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "告诉我更多关于{schoolName}的信息",
@@ -65,12 +71,6 @@ export const Chinese: typeof German = {
             "network": "发送错误",
             "unknown": "发生了一个错误"
         }
-    },
-    "welcome": {
-        "h1": "你好，我是{assistantName}！",
-        "subtitle": "我是魏恩加滕文理中学的聊天助手，是在2025年项目日期间为庆祝魏恩加滕文理中学成立50周年而开发的。",
-        "help": "我很乐意帮助您解决以下问题：",
-        "help2": "请尽管向我提问！"
     },
     "cancel": "取消",
     "close": "关闭",

@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Danish: typeof German = {
+    "welcome": {
+        "subtitle": "Jeg er chatassistenten for Studienkolleg St. Johann Blönried. Jeg hjælper dig gerne med dine spørgsmål om vores skole.",
+        "h1": "Hej, jeg er Leo! 🦁",
+        "help": "Jeg hjælper dig gerne med spørgsmål om:",
+        "help2": "Stil mig bare dit spørgsmål!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Fortæl mig mere om {schoolName}",
@@ -78,12 +84,6 @@ export const Danish: typeof German = {
         "warning": "AI begår fejl. Tjek vigtige oplysninger. Del ikke personlige data.",
         "placeholder": "👋 Hvordan kan jeg hjælpe dig?",
         "send": "Send"
-    },
-    "welcome": {
-        "h1": "Hej, jeg er Leo! 🦁",
-        "subtitle": "Jeg er chat-assistenten for Gymnasium Weingarten, udviklet under projektdagene i 2025 for at fejre Gymnasium Weingartens 50-års jubilæum.",
-        "help": "Jeg hjælper dig gerne med spørgsmål om:",
-        "help2": "Stil mig bare dit spørgsmål!"
     },
     "entityTable": {
         "startDate": "Hvornår?",

@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Azerbaijani: typeof German = {
+    "welcome": {
+        "subtitle": "Mən Studienkolleg St. Johann Blönried-in çat köməkçisiyəm. Məktəbimizlə bağlı suallarınızda sizə məmnuniyyətlə kömək edərəm.",
+        "h1": "Salam, mən Leo! 🦁",
+        "help": "Sizə bu mövzularda suallarınıza məmnuniyyətlə kömək edərəm:",
+        "help2": "Sadəcə sualınızı verin!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "{schoolName} haqqında mənə daha çox məlumat verin",
@@ -78,12 +84,6 @@ export const Azerbaijani: typeof German = {
         "warning": "Süni intellekt səhv edə bilər. Vacib məlumatları yoxlayın. Şəxsi məlumatları daxil etməyin.",
         "placeholder": "👋 Sizə necə kömək edə bilərəm?",
         "send": "Göndər"
-    },
-    "welcome": {
-        "h1": "Salam, mən Leo! 🦁",
-        "subtitle": "Mən Weingarten Gimnaziyasının 50 illik yubileyi münasibətilə 2025-ci il layihə günləri çərçivəsində hazırlanmış söhbət köməkçisiyəm.",
-        "help": "Sizə bu mövzularda suallarınıza məmnuniyyətlə kömək edərəm:",
-        "help2": "Sadəcə sualınızı verin!"
     },
     "entityTable": {
         "startDate": "Nə vaxt?",

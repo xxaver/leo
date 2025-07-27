@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Catalan: typeof German = {
+    "welcome": {
+        "subtitle": "Sóc l'assistent de xat del Studienkolleg St. Johann Blönried. Estaré encantat d'ajudar-te amb les teves preguntes sobre la nostra escola.",
+        "h1": "Hola, soc {assistantName}!",
+        "help": "T'ajudo amb preguntes sobre:",
+        "help2": "Fes-me la teva pregunta!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Explica'm més coses sobre {schoolName}",
@@ -65,12 +71,6 @@ export const Catalan: typeof German = {
             "network": "Error en l'enviament",
             "unknown": "S'ha produït un error"
         }
-    },
-    "welcome": {
-        "h1": "Hola, soc {assistantName}!",
-        "subtitle": "Sóc l'assistent de xat del Gymnasium Weingarten, desenvolupat durant els dies de projectes del 2025 per al 50è aniversari del Gymnasium Weingarten.",
-        "help": "T'ajudo amb preguntes sobre:",
-        "help2": "Fes-me la teva pregunta!"
     },
     "cancel": "Cancel·lar",
     "close": "Tancar",

@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Croatian: typeof German = {
+    "welcome": {
+        "subtitle": "Ja sam chat asistent Studienkolleg St. Johann Blönried. Rado ću vam pomoći s vašim pitanjima o našoj školi.",
+        "h1": "Zdravo, ja sam {assistantName}!",
+        "help": "Rado ću vam pomoći s pitanjima o:",
+        "help2": "Samo mi postavite svoje pitanje!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Reci mi više o {schoolName}",
@@ -65,12 +71,6 @@ export const Croatian: typeof German = {
             "network": "Greška pri slanju",
             "unknown": "Došlo je do pogreške"
         }
-    },
-    "welcome": {
-        "h1": "Zdravo, ja sam {assistantName}!",
-        "subtitle": "Ja sam asistent za razgovor Gimnazije Weingarten, razvijen tijekom projektnih dana 2025. za 50. obljetnicu Gimnazije Weingarten.",
-        "help": "Rado ću vam pomoći s pitanjima o:",
-        "help2": "Samo mi postavite svoje pitanje!"
     },
     "cancel": "Odustani",
     "close": "Zatvori",

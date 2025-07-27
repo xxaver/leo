@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Hebrew: typeof German = {
+    "welcome": {
+        "subtitle": "אני עוזר הצ'אט של שטודינקולג סנט יוהאן בלונריד. אשמח לעזור לך בשאלותיך לגבי בית הספר שלנו.",
+        "h1": "שלום, אני {assistantName}!",
+        "help": "אשמח לעזור לך בשאלות על:",
+        "help2": "פשוט שאל אותי את שאלתך!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "ספר לי עוד על {schoolName}",
@@ -65,12 +71,6 @@ export const Hebrew: typeof German = {
             "network": "שגיאה בשליחה",
             "unknown": "אירעה שגיאה"
         }
-    },
-    "welcome": {
-        "h1": "שלום, אני {assistantName}!",
-        "subtitle": "אני עוזר הצ'אט של גימנסיה ויינגרטן, שפותח במהלך ימי הפרויקט של 2025 לרגל חגיגות ה-50 לגימנסיה ויינגרטן.",
-        "help": "אשמח לעזור לך בשאלות על:",
-        "help2": "פשוט שאל אותי את שאלתך!"
     },
     "cancel": "ביטול",
     "close": "סגירה",

@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Persian: typeof German = {
+    "welcome": {
+        "subtitle": "من دستیار چت Studienkolleg St. Johann Blönried هستم. خوشحال می شوم در مورد سوالات شما در مورد مدرسه ما به شما کمک کنم.",
+        "h1": "سلام، من {assistantName} هستم!",
+        "help": "خوشحال می‌شوم در مورد سوالات شما در زمینه‌های زیر کمک کنم:",
+        "help2": "فقط سوال خود را بپرسید!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "درباره {schoolName} بیشتر به من بگو",
@@ -65,12 +71,6 @@ export const Persian: typeof German = {
             "network": "خطا در ارسال",
             "unknown": "خطایی روی داد"
         }
-    },
-    "welcome": {
-        "h1": "سلام، من {assistantName} هستم!",
-        "subtitle": "من دستیار چت دبیرستان واینگارتن هستم که در طول روزهای پروژه ۲۰۲۵ برای پنجاهمین سالگرد دبیرستان واینگارتن توسعه داده شده‌ام.",
-        "help": "خوشحال می‌شوم در مورد سوالات شما در زمینه‌های زیر کمک کنم:",
-        "help2": "فقط سوال خود را بپرسید!"
     },
     "cancel": "لغو",
     "close": "بستن",

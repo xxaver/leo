@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Belarusian: typeof German = {
+    "welcome": {
+        "subtitle": "Я чат-памочнік Studienkolleg St. Johann Blönried. Я з задавальненнем дапамагу вам з вашымі пытаннямі аб нашай школе.",
+        "h1": "Прывітанне, я {assistantName}!",
+        "help": "Я з радасцю дапамагу вам з пытаннямі пра:",
+        "help2": "Проста задайце мне сваё пытанне!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Раскажыце мне больш пра {schoolName}",
@@ -65,12 +71,6 @@ export const Belarusian: typeof German = {
             "network": "Памылка адпраўкі",
             "unknown": "Адбылася памылка"
         }
-    },
-    "welcome": {
-        "h1": "Прывітанне, я {assistantName}!",
-        "subtitle": "Я чат-асістэнт гімназіі Вайнгартэн, распрацаваны падчас праектных дзён 2025 года да 50-годдзя гімназіі Вайнгартэн.",
-        "help": "Я з радасцю дапамагу вам з пытаннямі пра:",
-        "help2": "Проста задайце мне сваё пытанне!"
     },
     "cancel": "Скасаваць",
     "close": "Закрыць",

@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Finnish: typeof German = {
+    "welcome": {
+        "subtitle": "Olen Studienkolleg St. Johann Blönriedin chat-avustaja. Autan sinua mielelläni kysymyksissäsi koulustamme.",
+        "h1": "Hei, olen {assistantName}!",
+        "help": "Autan mielelläni kysymyksissä, jotka koskevat:",
+        "help2": "Esitä vain kysymyksesi!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Kerro minulle lisää kohteesta {schoolName}",
@@ -65,12 +71,6 @@ export const Finnish: typeof German = {
             "network": "Virhe lähetyksessä",
             "unknown": "Tapahtui virhe"
         }
-    },
-    "welcome": {
-        "h1": "Hei, olen {assistantName}!",
-        "subtitle": "Olen Weingartenin lukion chat-avustaja, joka kehitettiin projektipäivien 2025 aikana Weingartenin lukion 50-vuotisjuhlan kunniaksi.",
-        "help": "Autan mielelläni kysymyksissä, jotka koskevat:",
-        "help2": "Esitä vain kysymyksesi!"
     },
     "cancel": "Peruuta",
     "close": "Sulje",

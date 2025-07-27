@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Albanian: typeof German = {
+    "welcome": {
+        "subtitle": "Unë jam asistenti i bisedës i Studienkolleg St. Johann Blönried. Me kënaqësi do t'ju ndihmoj me pyetjet tuaja rreth shkollës sonë.",
+        "h1": "Përshëndetje, unë jam {assistantName}!",
+        "help": "Unë do t'ju ndihmoj me kënaqësi me pyetje rreth:",
+        "help2": "Thjesht më bëj pyetjen tënde!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Më trego më shumë rreth {schoolName}",
@@ -65,12 +71,6 @@ export const Albanian: typeof German = {
             "network": "Gabim gjatë dërgimit",
             "unknown": "Ndodhi një gabim"
         }
-    },
-    "welcome": {
-        "h1": "Përshëndetje, unë jam {assistantName}!",
-        "subtitle": "Unë jam asistenti i bisedës i Gjimnazit Weingarten, i zhvilluar gjatë ditëve të projektit 2025 për 50-vjetorin e Gjimnazit Weingarten.",
-        "help": "Unë do t'ju ndihmoj me kënaqësi me pyetje rreth:",
-        "help2": "Thjesht më bëj pyetjen tënde!"
     },
     "cancel": "Anulo",
     "close": "Mbyll",

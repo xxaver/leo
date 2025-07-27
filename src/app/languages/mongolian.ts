@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Mongolian: typeof German = {
+    "welcome": {
+        "subtitle": "Би Studienkolleg St. Johann Blönried-ийн чат туслах юм. Манай сургуулийн талаарх асуултуудад тань туслахад таатай байх болно.",
+        "h1": "Сайн уу, намайг {assistantName} гэдэг!",
+        "help": "Би танд дараах асуултуудад туслахдаа баяртай байх болно:",
+        "help2": "Надаас асуултаа асуугаарай!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "{schoolName}-ийн талаар надад дэлгэрэнгүй хэлээч",
@@ -65,12 +71,6 @@ export const Mongolian: typeof German = {
             "network": "Илгээхэд алдаа гарлаа",
             "unknown": "Алдаа гарлаа"
         }
-    },
-    "welcome": {
-        "h1": "Сайн уу, намайг {assistantName} гэдэг!",
-        "subtitle": "Би бол Вайнгартен гимназийн 50 жилийн ойд зориулсан 2025 оны төслийн өдрүүдэд бүтээгдсэн Вайнгартен гимназийн чат туслах юм.",
-        "help": "Би танд дараах асуултуудад туслахдаа баяртай байх болно:",
-        "help2": "Надаас асуултаа асуугаарай!"
     },
     "cancel": "Цуцлах",
     "close": "Хаах",

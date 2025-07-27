@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Hindi: typeof German = {
+    "welcome": {
+        "subtitle": "मैं Studienkolleg St. Johann Blönried का चैट असिस्टेंट हूँ। मुझे आपके स्कूल से संबंधित प्रश्नों में आपकी सहायता करने में खुशी होगी।",
+        "h1": "नमस्ते, मैं {assistantName} हूँ!",
+        "help": "मुझे इन सवालों में आपकी मदद करने में खुशी होगी:",
+        "help2": "बस मुझसे अपना सवाल पूछें!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "मुझे {schoolName} के बारे में और बताएं",
@@ -65,12 +71,6 @@ export const Hindi: typeof German = {
             "network": "भेजने में त्रुटि",
             "unknown": "एक त्रुटि हुई"
         }
-    },
-    "welcome": {
-        "h1": "नमस्ते, मैं {assistantName} हूँ!",
-        "subtitle": "मैं जिमनैजियम वाइनगार्टन का चैट असिस्टेंट हूँ, जिसे जिमनैजियम वाइनगार्टन की 50वीं वर्षगांठ के लिए प्रोजेक्ट डेज़ 2025 के दौरान विकसित किया गया था।",
-        "help": "मुझे इन सवालों में आपकी मदद करने में खुशी होगी:",
-        "help2": "बस मुझसे अपना सवाल पूछें!"
     },
     "cancel": "रद्द करें",
     "close": "बंद करें",

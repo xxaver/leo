@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Thai: typeof German = {
+    "welcome": {
+        "subtitle": "ฉันคือผู้ช่วยแชทของ Studienkolleg St. Johann Blönried ฉันยินดีที่จะช่วยคุณตอบคำถามเกี่ยวกับโรงเรียนของเรา",
+        "h1": "สวัสดี ฉันคือ {assistantName}!",
+        "help": "ผมยินดีช่วยตอบคำถามเกี่ยวกับ:",
+        "help2": "ถามคำถามของคุณมาได้เลย!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "บอกฉันเพิ่มเติมเกี่ยวกับ {schoolName}",
@@ -65,12 +71,6 @@ export const Thai: typeof German = {
             "network": "เกิดข้อผิดพลาดในการส่ง",
             "unknown": "เกิดข้อผิดพลาด"
         }
-    },
-    "welcome": {
-        "h1": "สวัสดี ฉันคือ {assistantName}!",
-        "subtitle": "ผมเป็นผู้ช่วยแชทของโรงเรียน Gymnasium Weingarten ซึ่งพัฒนาขึ้นในช่วงวันโครงงานปี 2025 เพื่อฉลองครบรอบ 50 ปีของโรงเรียน Gymnasium Weingarten",
-        "help": "ผมยินดีช่วยตอบคำถามเกี่ยวกับ:",
-        "help2": "ถามคำถามของคุณมาได้เลย!"
     },
     "cancel": "ยกเลิก",
     "close": "ปิด",

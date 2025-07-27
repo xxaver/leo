@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Zulu: typeof German = {
+    "welcome": {
+        "subtitle": "Ngingumsizi wengxoxo weStudienkolleg St. Johann Blönried. Ngijabule ukukusiza ngemibuzo yakho mayelana nesikole sethu.",
+        "h1": "Sawubona, ngingu-{assistantName}!",
+        "help": "Ngiyajabula ukukusiza ngemibuzo mayelana:",
+        "help2": "Vele ungibuze umbuzo wakho!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Ngitshele kabanzi mayelana ne-{schoolName}",
@@ -65,12 +71,6 @@ export const Zulu: typeof German = {
             "network": "Iphutha lokuthumela",
             "unknown": "Kwenzeke iphutha"
         }
-    },
-    "welcome": {
-        "h1": "Sawubona, ngingu-{assistantName}!",
-        "subtitle": "Ngingumsizi wengxoxo we-Gymnasium Weingarten, owakhiwe ngezinsuku zephrojekthi zango-2025 zokugubha iminyaka engu-50 ye-Gymnasium Weingarten.",
-        "help": "Ngiyajabula ukukusiza ngemibuzo mayelana:",
-        "help2": "Vele ungibuze umbuzo wakho!"
     },
     "cancel": "Khansela",
     "close": "Vala",

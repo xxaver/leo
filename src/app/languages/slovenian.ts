@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Slovenian: typeof German = {
+    "welcome": {
+        "subtitle": "Sem klepetalni pomočnik Studienkolleg St. Johann Blönried. Z veseljem vam bom pomagal pri vprašanjih o naši šoli.",
+        "h1": "Pozdravljeni, jaz sem {assistantName}!",
+        "help": "Z veseljem vam pomagam pri vprašanjih o:",
+        "help2": "Samo zastavite mi vprašanje!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Povej mi več o {schoolName}",
@@ -65,12 +71,6 @@ export const Slovenian: typeof German = {
             "network": "Napaka pri pošiljanju",
             "unknown": "Prišlo je do napake"
         }
-    },
-    "welcome": {
-        "h1": "Pozdravljeni, jaz sem {assistantName}!",
-        "subtitle": "Sem klepetalni asistent Gimnazije Weingarten, razvit med projektnimi dnevi 2025 ob 50. obletnici Gimnazije Weingarten.",
-        "help": "Z veseljem vam pomagam pri vprašanjih o:",
-        "help2": "Samo zastavite mi vprašanje!"
     },
     "cancel": "Prekliči",
     "close": "Zapri",

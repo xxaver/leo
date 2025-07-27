@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Dutch: typeof German = {
+    "welcome": {
+        "subtitle": "Ik ben de chatassistent van Studienkolleg St. Johann Blönried. Ik help je graag met je vragen over onze school.",
+        "h1": "Hallo, ik ben {assistantName}!",
+        "help": "Ik help je graag met vragen over:",
+        "help2": "Stel me gewoon je vraag!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Vertel me meer over {schoolName}",
@@ -65,12 +71,6 @@ export const Dutch: typeof German = {
             "network": "Fout bij verzenden",
             "unknown": "Er is een fout opgetreden"
         }
-    },
-    "welcome": {
-        "h1": "Hallo, ik ben {assistantName}!",
-        "subtitle": "Ik ben de chat-assistent van het Gymnasium Weingarten, ontwikkeld tijdens de projectdagen van 2025 voor het 50-jarig jubileum van het Gymnasium Weingarten.",
-        "help": "Ik help je graag met vragen over:",
-        "help2": "Stel me gewoon je vraag!"
     },
     "cancel": "Annuleren",
     "close": "Sluiten",

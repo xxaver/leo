@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Japanese: typeof German = {
+    "welcome": {
+        "subtitle": "私はシュトゥーディエンコレーク・ザンクト・ヨハン・ブロンリートのチャットアシスタントです。当校に関するご質問にお答えします。",
+        "h1": "こんにちは、私は{assistantName}です！",
+        "help": "以下の質問について喜んでお手伝いします：",
+        "help2": "質問をどうぞ！"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "{schoolName}についてもっと教えてください",
@@ -65,12 +71,6 @@ export const Japanese: typeof German = {
             "network": "送信エラー",
             "unknown": "エラーが発生しました"
         }
-    },
-    "welcome": {
-        "h1": "こんにちは、私は{assistantName}です！",
-        "subtitle": "私はヴァインガルテン・ギムナジウムのチャットアシスタントで、ヴァインガルテン・ギムナジウム創立50周年を記念した2025年のプロジェクトデーの期間中に開発されました。",
-        "help": "以下の質問について喜んでお手伝いします：",
-        "help2": "質問をどうぞ！"
     },
     "cancel": "キャンセル",
     "close": "閉じる",

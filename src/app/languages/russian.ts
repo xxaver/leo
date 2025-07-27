@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Russian: typeof German = {
+    "welcome": {
+        "subtitle": "Я чат-ассистент Studienkolleg St. Johann Blönried. Я с радостью помогу вам с вопросами о нашей школе.",
+        "h1": "Здравствуйте, я {assistantName}!",
+        "help": "Я с радостью помогу вам с вопросами о:",
+        "help2": "Просто задайте мне свой вопрос!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Расскажите мне больше о {schoolName}",
@@ -65,12 +71,6 @@ export const Russian: typeof German = {
             "network": "Ошибка при отправке",
             "unknown": "Произошла ошибка"
         }
-    },
-    "welcome": {
-        "h1": "Здравствуйте, я {assistantName}!",
-        "subtitle": "Я чат-ассистент Гимназии Вайнгартен, разработанный во время проектных дней 2025 года к 50-летию Гимназии Вайнгартен.",
-        "help": "Я с радостью помогу вам с вопросами о:",
-        "help2": "Просто задайте мне свой вопрос!"
     },
     "cancel": "Отмена",
     "close": "Закрыть",

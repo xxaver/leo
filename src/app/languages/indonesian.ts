@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Indonesian: typeof German = {
+    "welcome": {
+        "subtitle": "Saya adalah asisten obrolan Studienkolleg St. Johann Blönried. Saya dengan senang hati akan membantu Anda dengan pertanyaan Anda tentang sekolah kami.",
+        "h1": "Halo, saya Leo! 🦁",
+        "help": "Saya senang membantu Anda dengan pertanyaan tentang:",
+        "help2": "Ajukan saja pertanyaan Anda!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Beri tahu saya lebih banyak tentang {schoolName}",
@@ -78,12 +84,6 @@ export const Indonesian: typeof German = {
         "warning": "AI bisa membuat kesalahan. Periksa informasi penting. Jangan berikan data pribadi.",
         "placeholder": "👋 Ada yang bisa saya bantu?",
         "send": "Kirim"
-    },
-    "welcome": {
-        "h1": "Halo, saya Leo! 🦁",
-        "subtitle": "Saya adalah asisten obrolan Gymnasium Weingarten, yang dikembangkan selama hari proyek 2025 untuk ulang tahun ke-50 Gymnasium Weingarten.",
-        "help": "Saya senang membantu Anda dengan pertanyaan tentang:",
-        "help2": "Ajukan saja pertanyaan Anda!"
     },
     "entityTable": {
         "startDate": "Kapan?",

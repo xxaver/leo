@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Norwegian: typeof German = {
+    "welcome": {
+        "subtitle": "Jeg er chat-assistenten til Studienkolleg St. Johann Blönried. Jeg hjelper deg gjerne med spørsmålene dine om skolen vår.",
+        "h1": "Hei, jeg er {assistantName}!",
+        "help": "Jeg hjelper deg gjerne med spørsmål om:",
+        "help2": "Bare still meg spørsmålet ditt!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Fortell meg mer om {schoolName}",
@@ -65,12 +71,6 @@ export const Norwegian: typeof German = {
             "network": "Feil ved sending",
             "unknown": "En feil har oppstått"
         }
-    },
-    "welcome": {
-        "h1": "Hei, jeg er {assistantName}!",
-        "subtitle": "Jeg er chat-assistenten til Weingarten Gymnasium, utviklet under prosjektdagene i 2025 for 50-årsjubileet til Weingarten Gymnasium.",
-        "help": "Jeg hjelper deg gjerne med spørsmål om:",
-        "help2": "Bare still meg spørsmålet ditt!"
     },
     "cancel": "Avbryt",
     "close": "Lukk",

@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Lithuanian: typeof German = {
+    "welcome": {
+        "subtitle": "Aš esu Studienkolleg St. Johann Blönried pokalbių asistentas. Mielai padėsiu jums atsakyti į klausimus apie mūsų mokyklą.",
+        "h1": "Sveiki, aš esu {assistantName}!",
+        "help": "Mielai padėsiu jums klausimais apie:",
+        "help2": "Tiesiog užduokite man savo klausimą!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Papasakok man daugiau apie {schoolName}",
@@ -65,12 +71,6 @@ export const Lithuanian: typeof German = {
             "network": "Siuntimo klaida",
             "unknown": "Įvyko klaida"
         }
-    },
-    "welcome": {
-        "h1": "Sveiki, aš esu {assistantName}!",
-        "subtitle": "Aš esu „Gymnasium Weingarten“ pokalbių asistentas, sukurtas per 2025 m. projektų dienas, skirtas „Gymnasium Weingarten“ 50-mečiui.",
-        "help": "Mielai padėsiu jums klausimais apie:",
-        "help2": "Tiesiog užduokite man savo klausimą!"
     },
     "cancel": "Atšaukti",
     "close": "Uždaryti",

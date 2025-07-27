@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Arabic: typeof German = {
+    "welcome": {
+        "subtitle": "أنا مساعد الدردشة في Studienkolleg St. Johann Blönried. يسعدني مساعدتك في أسئلتك حول مدرستنا.",
+        "h1": "مرحبًا، أنا {assistantName}!",
+        "help": "يسعدني مساعدتك في الأسئلة المتعلقة بـ:",
+        "help2": "فقط اطرح سؤالك!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "أخبرني المزيد عن {schoolName}",
@@ -65,12 +71,6 @@ export const Arabic: typeof German = {
             "network": "خطأ في الإرسال",
             "unknown": "حدث خطأ"
         }
-    },
-    "welcome": {
-        "h1": "مرحبًا، أنا {assistantName}!",
-        "subtitle": "أنا مساعد الدردشة لمدرسة فاينغارتن الثانوية، تم تطويري خلال أيام المشروع لعام 2025 بمناسبة الذكرى الخمسين لمدرسة فاينغارتن الثانوية.",
-        "help": "يسعدني مساعدتك في الأسئلة المتعلقة بـ:",
-        "help2": "فقط اطرح سؤالك!"
     },
     "cancel": "إلغاء",
     "close": "إغلاق",

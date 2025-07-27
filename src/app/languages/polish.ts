@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Polish: typeof German = {
+    "welcome": {
+        "subtitle": "Jestem asystentem czatu Studienkolleg St. Johann Blönried. Chętnie pomogę Ci w pytaniach dotyczących naszej szkoły.",
+        "h1": "Cześć, jestem Leo! 🦁",
+        "help": "Chętnie pomogę w pytaniach dotyczących:",
+        "help2": "Po prostu zadaj mi pytanie!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Opowiedz mi więcej o {schoolName}",
@@ -78,12 +84,6 @@ export const Polish: typeof German = {
         "warning": "AI popełnia błędy. Sprawdzaj ważne informacje. Nie podawaj danych osobowych.",
         "placeholder": "👋 W czym mogę pomóc?",
         "send": "Wyślij"
-    },
-    "welcome": {
-        "h1": "Cześć, jestem Leo! 🦁",
-        "subtitle": "Jestem asystentem czatu Gimnazjum Weingarten, opracowanym podczas dni projektowych 2025 z okazji 50-lecia Gimnazjum Weingarten.",
-        "help": "Chętnie pomogę w pytaniach dotyczących:",
-        "help2": "Po prostu zadaj mi pytanie!"
     },
     "entityTable": {
         "startDate": "Kiedy?",

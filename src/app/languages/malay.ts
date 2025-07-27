@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Malay: typeof German = {
+    "welcome": {
+        "subtitle": "Saya adalah pembantu sembang Studienkolleg St. Johann Blönried. Saya gembira untuk membantu anda dengan soalan anda tentang sekolah kami.",
+        "h1": "Helo, saya {assistantName}!",
+        "help": "Saya sedia membantu anda dengan soalan mengenai:",
+        "help2": "Hanya ajukan soalan anda kepada saya!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Beritahu saya lebih lanjut tentang {schoolName}",
@@ -65,12 +71,6 @@ export const Malay: typeof German = {
             "network": "Ralat semasa menghantar",
             "unknown": "Satu ralat telah berlaku"
         }
-    },
-    "welcome": {
-        "h1": "Helo, saya {assistantName}!",
-        "subtitle": "Saya adalah pembantu sembang Gymnasium Weingarten, yang dibangunkan semasa hari projek 2025 untuk ulang tahun ke-50 Gymnasium Weingarten.",
-        "help": "Saya sedia membantu anda dengan soalan mengenai:",
-        "help2": "Hanya ajukan soalan anda kepada saya!"
     },
     "cancel": "Batal",
     "close": "Tutup",

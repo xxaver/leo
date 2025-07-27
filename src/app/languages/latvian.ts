@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Latvian: typeof German = {
+    "welcome": {
+        "subtitle": "Esmu Studienkolleg St. Johann Blönried tērzēšanas asistents. Es labprāt jums palīdzēšu ar jautājumiem par mūsu skolu.",
+        "h1": "Sveiki, es esmu {assistantName}!",
+        "help": "Es labprāt palīdzēšu ar jautājumiem par:",
+        "help2": "Vienkārši uzdodiet man savu jautājumu!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Pastāstiet man vairāk par {schoolName}",
@@ -65,12 +71,6 @@ export const Latvian: typeof German = {
             "network": "Kļūda sūtīšanas laikā",
             "unknown": "Ir radusies kļūda"
         }
-    },
-    "welcome": {
-        "h1": "Sveiki, es esmu {assistantName}!",
-        "subtitle": "Esmu Veingartenas ģimnāzijas tērzēšanas asistents, kas izstrādāts 2025. gada projektu dienu laikā par godu Veingartenas ģimnāzijas 50 gadu jubilejai.",
-        "help": "Es labprāt palīdzēšu ar jautājumiem par:",
-        "help2": "Vienkārši uzdodiet man savu jautājumu!"
     },
     "cancel": "Atcelt",
     "close": "Aizvērt",

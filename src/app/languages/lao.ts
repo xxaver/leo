@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Lao: typeof German = {
+    "welcome": {
+        "subtitle": "ຂ້ອຍແມ່ນຜູ້ຊ່ວຍສົນທະນາຂອງ Studienkolleg St. Johann Blönried. ຂ້ອຍຍິນດີທີ່ຈະຊ່ວຍເຈົ້າໃນຄໍາຖາມຂອງເຈົ້າກ່ຽວກັບໂຮງຮຽນຂອງພວກເຮົາ.",
+        "h1": "ສະບາຍດີ, ຂ້ອຍແມ່ນ {assistantName}!",
+        "help": "ຂ້ອຍຍິນດີຊ່ວຍເຈົ້າຕອບຄຳຖາມກ່ຽວກັບ:",
+        "help2": "ພຽງແຕ່ຖາມຄຳຖາມຂອງເຈົ້າ!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "ບອກຂ້ອຍເພີ່ມເຕີມກ່ຽວກັບ {schoolName}",
@@ -65,12 +71,6 @@ export const Lao: typeof German = {
             "network": "ການສົ່ງຜິດພາດ",
             "unknown": "ເກີດຂໍ້ຜິດພາດ"
         }
-    },
-    "welcome": {
-        "h1": "ສະບາຍດີ, ຂ້ອຍແມ່ນ {assistantName}!",
-        "subtitle": "ຂ້ອຍເປັນຜູ້ຊ່ວຍສົນທະນາຂອງ Gymnasium Weingarten, ຖືກພັດທະນາໃນຊ່ວງວັນໂຄງການປີ 2025 ເພື່ອສະເຫຼີມສະຫຼອງຄົບຮອບ 50 ປີຂອງ Gymnasium Weingarten.",
-        "help": "ຂ້ອຍຍິນດີຊ່ວຍເຈົ້າຕອບຄຳຖາມກ່ຽວກັບ:",
-        "help2": "ພຽງແຕ່ຖາມຄຳຖາມຂອງເຈົ້າ!"
     },
     "cancel": "ຍົກເລີກ",
     "close": "ປິດ",

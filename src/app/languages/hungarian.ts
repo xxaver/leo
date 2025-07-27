@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Hungarian: typeof German = {
+    "welcome": {
+        "subtitle": "Én vagyok a Studienkolleg St. Johann Blönried chat asszisztense. Szívesen segítek Önnek az iskolánkkal kapcsolatos kérdéseiben.",
+        "h1": "Szia, {assistantName} vagyok!",
+        "help": "Szívesen segítek a következő kérdésekben:",
+        "help2": "Csak tedd fel a kérdésed!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Meséljen többet a(z) {schoolName} intézményről",
@@ -65,12 +71,6 @@ export const Hungarian: typeof German = {
             "network": "Hiba a küldés során",
             "unknown": "Hiba történt"
         }
-    },
-    "welcome": {
-        "h1": "Szia, {assistantName} vagyok!",
-        "subtitle": "Én vagyok a Weingarteni Gimnázium chat-asszisztense, amelyet a 2025-ös projektnapok során fejlesztettek ki a Weingarteni Gimnázium 50. évfordulójára.",
-        "help": "Szívesen segítek a következő kérdésekben:",
-        "help2": "Csak tedd fel a kérdésed!"
     },
     "cancel": "Mégse",
     "close": "Bezárás",

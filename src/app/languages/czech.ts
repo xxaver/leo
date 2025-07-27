@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Czech: typeof German = {
+    "welcome": {
+        "subtitle": "Jsem chatovací asistent Studienkolleg St. Johann Blönried. Rád vám pomohu s vašimi dotazy ohledně naší školy.",
+        "h1": "Dobrý den, já jsem {assistantName}!",
+        "help": "Rád vám pomohu s otázkami ohledně:",
+        "help2": "Prostě mi položte svou otázku!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Řekněte mi více o {schoolName}",
@@ -65,12 +71,6 @@ export const Czech: typeof German = {
             "network": "Chyba při odesílání",
             "unknown": "Vyskytla se chyba"
         }
-    },
-    "welcome": {
-        "h1": "Dobrý den, já jsem {assistantName}!",
-        "subtitle": "Jsem chatovací asistent Gymnázia Weingarten, vyvinutý během projektových dnů 2025 k 50. výročí Gymnázia Weingarten.",
-        "help": "Rád vám pomohu s otázkami ohledně:",
-        "help2": "Prostě mi položte svou otázku!"
     },
     "cancel": "Zrušit",
     "close": "Zavřít",

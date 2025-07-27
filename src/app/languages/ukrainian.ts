@@ -1,6 +1,12 @@
 import {German} from "@/app/languages/german";
 
 export const Ukrainian: typeof German = {
+    "welcome": {
+        "subtitle": "Я чат-асистент Studienkolleg St. Johann Blönried. Я з радістю допоможу вам з питаннями щодо нашої школи.",
+        "h1": "Привіт, я {assistantName}!",
+        "help": "Я з радістю допоможу вам із запитаннями щодо:",
+        "help2": "Просто поставте мені своє запитання!"
+    },
     "promptSuggestions": {
         "general": {
             "prompt": "Розкажіть мені більше про {schoolName}",
@@ -65,12 +71,6 @@ export const Ukrainian: typeof German = {
             "network": "Помилка надсилання",
             "unknown": "Сталася помилка"
         }
-    },
-    "welcome": {
-        "h1": "Привіт, я {assistantName}!",
-        "subtitle": "Я чат-асистент гімназії Вайнгартен, розроблений під час проектних днів 2025 року до 50-річчя гімназії Вайнгартен.",
-        "help": "Я з радістю допоможу вам із запитаннями щодо:",
-        "help2": "Просто поставте мені своє запитання!"
     },
     "cancel": "Скасувати",
     "close": "Закрити",
