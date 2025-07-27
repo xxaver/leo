@@ -1,7 +1,6 @@
 import {FC, useContext} from "react";
-import {useTranslations} from "@/app/languages/useTranslations";
+import {LanguageContext, useTranslations} from "@/app/languages/useTranslations";
 import {ArrowUpRight, Github, MessageCircle} from "lucide-react";
-import {LanguageContext} from "@/app/languages/LanguageContext";
 import {sourceUrl} from "../../config";
 
 export const Footer: FC = () => {

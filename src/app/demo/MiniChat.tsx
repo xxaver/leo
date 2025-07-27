@@ -6,13 +6,14 @@ import {Tooltip, TooltipContent, TooltipTrigger} from "@/components/ui/tooltip";
 import {Bot} from "lucide-react";
 import {Chat} from "@/app/Chat";
 import {motion} from "framer-motion";
-import {assistantName, schoolName} from "../../../config";
+import {useAssistantName, schoolName} from "../../../config";
 
 export const MiniChat = () => {
     const [loaded, setLoaded] = useState(false);
     const [open, setOpen_] = useState(false);
     const [showHintStart, setShowHintStart] = useState(false);
     const [showHint, setShowHint] = useState(false);
+    const assistantName = useAssistantName();
     const setOpen = (o: boolean) => {
         setOpen_(o);
         sessionStorage.setItem("ai-open", o ? "true" : "");

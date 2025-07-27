@@ -3,9 +3,8 @@ import {ChatContext} from "@/app/ChatContext";
 import {PromptSuggestion} from "@/app/PromptSuggestion";
 import {Bed, CalendarClock, FileUser, Info, Languages, Newspaper, PartyPopper} from "lucide-react";
 import {Separator} from "@/components/ui/separator";
-import {useTranslations} from "@/app/languages/useTranslations";
+import {LanguageContext, useTranslations} from "@/app/languages/useTranslations";
 import {findSuggestions} from "@/app/ChatMessage";
-import {LanguageContext} from "@/app/languages/LanguageContext";
 
 export const PromptSuggestions: FC = () => {
     const translations = useTranslations();

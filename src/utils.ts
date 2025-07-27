@@ -7,6 +7,5 @@ export const merge = (p: any, c: any, modifier = (a: string) => a) => {
     for (const key in newObj) {
         if(typeof newObj[key] === "string") newObj[key] = modifier(newObj[key])
     }
-    console.log(newObj)
     return newObj;
 }
