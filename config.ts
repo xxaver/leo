@@ -1,4 +1,5 @@
-export const assistantName = "Johannes";
+const capitalize = (str: string) => str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+export const assistantName = location.origin.includes("vercel.app") ? capitalize(location.origin.split("-")[1].split(".")[0]) : "Johannes";
 export const description = "Ich bin der Chat-Assistent des Studienkolleg St. Johann Blönried. Ich helfe dir gerne bei deinen Fragen rund um unsere Schule.";
 export const schoolName = "Studienkolleg St. Johann Blönried";
 export const schoolAbbreviation = 'Du darfst den Namen der Schule mit SJB abkürzen.'
