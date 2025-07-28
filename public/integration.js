@@ -207,8 +207,8 @@ const setupLeo = () => {
         const img = document.createElement('img');
         img.width = 96;
         img.height = 96;
-        img.src = "https://frag-johannes.vercel.app/logo.png";
-        img.style.objectFit = "contain";
+        img.src = "https://studienkolleg-st-johann.de/fileadmin/_processed_/4/4/csm_Logo_24_18_Endversion_4b2f65e2d4.gif";
+        img.style.objectFit = "cover";
         logo.appendChild(img);
 
         tooltip.classList.add('leo-tooltip');
