@@ -1,6 +1,6 @@
 export default function Page() {
     return <>
 
-        <script src='/integration.js'/>
+        <script src='/chatbot-integration.js'/>
     </>
 }
