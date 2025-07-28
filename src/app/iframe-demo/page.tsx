@@ -30,6 +30,6 @@ export default function Page() {
             </div>
         </div>
 
-        <script src='/integration.js'/>
+        <script src='/chatbot-integration.js'/>
     </>
 }
