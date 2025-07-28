@@ -259,10 +259,10 @@ const setupLeo = () => {
         const iframe = document.createElement('iframe');
         iframe.src = origin + `/?embedded=true&name=${name}`;
         chat.appendChild(iframe);
-        iframe.addEventListener("load", () => {
+        // iframe.addEventListener("load", () => {
             chat.childNodes.forEach(e => e.nodeName.toLowerCase() === "#text" && e.remove())
             iframe.classList.add('leo-loaded');
-        })
+        // })
     }
     // loadIframe();
 
