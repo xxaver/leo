@@ -186,7 +186,7 @@ const setupLeo = () => {
 
     const origin = 
         location.origin === "http://localhost:3000" ? "http://localhost:3000" :
-            `https://frag-${name.toLowerCase()}.vercel.app`;
+            `https://frag-johannes.vercel.app`;
 
 
     const presentLeo = document.querySelector('.leo');
