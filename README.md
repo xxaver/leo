@@ -1,10 +1,10 @@
-![Gymnasium Weingarten](https://www.gymnasium-weingarten.de/fileadmin/templates/gymnasium-weingarten-de/assets/img/favicon.ico "Gymnasium Weingarten")
-# Leo 🦁
-Ich bin der Chat-Assistent des Gymnasium Weingartens, der während der Projekttage 2025 zum 50-jährigen Jubiläum des Gymnasiums Weingarten entwickelt wurde.
+![SJB](https://frag-johannes.vercel.app/logo.png)
+# Johannes
+Ich bin der Chat-Assistent des Studienkolleg St. Johann.
 
 ## Integration
-* Wenn Content-Security-Policy aktiviert ist: frame-src https://frag-leo.vercel.app erlauben
-* https://frag-leo.vercel.app/chatbot-integration.js herunterladen und auf der Website einbinden (egal ob im head oder im body)
+* Wenn Content-Security-Policy aktiviert ist: frame-src https://frag-johannes.vercel.app erlauben
+* https://frag-johannes.vercel.app/chatbot-integration.js herunterladen und auf der Website einbinden (egal ob im head oder im body)
 
 ### Typo3
 * In Dateien am besten den Ordner mit anderen js-Dateien suchen (z.B. jquery.min.js) und dort chatbot-integration.js hochladen
