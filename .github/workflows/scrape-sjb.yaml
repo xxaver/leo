@@ -1,0 +1,26 @@
+name: Scrape (SJB)
+on:
+  workflow_dispatch:
+  schedule:
+     - cron: '0 0,12 * * *'
+
+jobs:
+  scrape:
+    permissions:
+       contents: write
+    runs-on: ubuntu-latest
+    steps:
+       - uses: actions/checkout@v4
+         with:
+           ref: sjb
+       - uses: actions/setup-node@v4
+         with:
+           cache: 'npm'
+       - run: npm ci
+       - run: npm run scrape
+       - name: Commit Changes
+         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Automated: Update knowledge"
+          git push
