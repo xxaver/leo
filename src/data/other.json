@@ -2199,7 +2199,7 @@
   },
   "https://studienkolleg-st-johann.de/service-1/kalender": {
     "content": [
-      "Service Kalender Listenansicht Kalenderansicht Kalender wählen Alle Lehrkräfte Juli 2025 Di 1 Mi 2 Do 3 Fr 4 Sa 5 So 6 Mo 7 Di 8 Mi 9 Do 10 Fr 11 Sa 12 So 13 Mo 14 Di 15 Mi 16 Do 17 Fr 18 Sa 19 So 20 Mo 21 Di 22 Mi 23 Do 24 Fr 25 Sa 26 So 27 Mo 28 Di 29 Mi 30 Do 31 29.07.25 Wandertag 30.07.25 Letzter Schultag, Zeugnisausgabe 30.07.25, 10:00 Uhr Sommerferienaktion Ferienzeiträume 24/25",
+      "Service Kalender Listenansicht Kalenderansicht Kalender wählen Alle Lehrkräfte Juli 2025 Di 1 Mi 2 Do 3 Fr 4 Sa 5 So 6 Mo 7 Di 8 Mi 9 Do 10 Fr 11 Sa 12 So 13 Mo 14 Di 15 Mi 16 Do 17 Fr 18 Sa 19 So 20 Mo 21 Di 22 Mi 23 Do 24 Fr 25 Sa 26 So 27 Mo 28 Di 29 Mi 30 Do 31 30.07.25 Letzter Schultag, Zeugnisausgabe 30.07.25, 10:00 Uhr Sommerferienaktion Ferienzeiträume 24/25",
       {
         "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/02_Downloads/Ferienplan_2425.pdf"
       }
@@ -2236,9 +2236,9 @@
     "content": [
       "Herzlich willkommen auf unserer Homepage! Schön, dass Sie und Ihr da seid. Hier gibt es aktuelle Nachrichten, Informationen und Servicebereiche für unsere Schülerinnen und Schüler, Eltern und Lehrerinnen und Lehrer. Wenn Sie unsere Schule neu kennenlernen möchten, finden Sie viele interessante Texte und Bilder – schauen Sie sich um! weiterlesen » Ankündigungen",
       {
-        "image": "/fileadmin/_processed_/a/1/csm_IMG_0031_67fba15daf.jpeg"
+        "image": "/fileadmin/_processed_/f/e/csm_Sommerferiengruss_a95ea80fed.png"
       },
-      "Stadtradeln – wir sind wieder am Start! Auch in diesem Schuljahr nimmt das Studienkolleg St. Johann wieder an der Aktion „Stadtradeln/Schulradeln“ teil. weiterlesen »",
+      "Ferien Wir wünschen allen schöne und erholsame Sommerferien und hoffen, dass wir uns bald gesund und munter in St. Johann wiedersehen! weiterlesen »",
       {
         "image": "/fileadmin/_processed_/b/8/csm_Thumbnail_Film_2025_225b94f8ae.jpg"
       },
@@ -2266,7 +2266,7 @@
       {
         "image": "/fileadmin/_processed_/1/6/csm_Entlassfeier113_6998e66ee4.jpg"
       },
-      "15.07.2025 Entlassfeier der Abiturienten des Studienkollegs St. Johann Der Abiturjahrgang 2025 hat sich mit einer stimmungsvollen Entlassfeier von Blönried verabschiedet. weiterlesen » Im Archiv finden Sie die Berichte vergangener Veranstaltungen. Unsere Termine und Veranstaltungen Listenansicht Kalenderansicht Kalender wählen Alle Lehrkräfte Juli 2025 Di 1 Mi 2 Do 3 Fr 4 Sa 5 So 6 Mo 7 Di 8 Mi 9 Do 10 Fr 11 Sa 12 So 13 Mo 14 Di 15 Mi 16 Do 17 Fr 18 Sa 19 So 20 Mo 21 Di 22 Mi 23 Do 24 Fr 25 Sa 26 So 27 Mo 28 Di 29 Mi 30 Do 31 29.07.25 Wandertag 30.07.25 Letzter Schultag, Zeugnisausgabe 30.07.25, 10:00 Uhr Sommerferienaktion",
+      "15.07.2025 Entlassfeier der Abiturienten des Studienkollegs St. Johann Der Abiturjahrgang 2025 hat sich mit einer stimmungsvollen Entlassfeier von Blönried verabschiedet. weiterlesen » Im Archiv finden Sie die Berichte vergangener Veranstaltungen. Unsere Termine und Veranstaltungen Listenansicht Kalenderansicht Kalender wählen Alle Lehrkräfte Juli 2025 Di 1 Mi 2 Do 3 Fr 4 Sa 5 So 6 Mo 7 Di 8 Mi 9 Do 10 Fr 11 Sa 12 So 13 Mo 14 Di 15 Mi 16 Do 17 Fr 18 Sa 19 So 20 Mo 21 Di 22 Mi 23 Do 24 Fr 25 Sa 26 So 27 Mo 28 Di 29 Mi 30 Do 31 30.07.25 Letzter Schultag, Zeugnisausgabe 30.07.25, 10:00 Uhr Sommerferienaktion",
       {
         "image": "/fileadmin/_processed_/3/0/csm_Siegel_Gesunde_schule_bce77c56a0.png"
       },
@@ -3952,6 +3952,12 @@
       {
         "image": "/fileadmin/_processed_/e/6/csm_Digi_121_3e5e618c2c.jpg"
       }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/schoene-sommerferien": {
+    "title": "Ferien",
+    "content": [
+      "Schöne Sommerferien Ferien"
     ]
   }
 }
