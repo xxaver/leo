@@ -14,10 +14,12 @@ import {Footer} from "@/app/Footer";
 import {Header} from "@/app/Header";
 import {LanguagePicker} from "@/LanguagePicker";
 import {LanguageContext} from "@/app/languages/useTranslations";
-
 import {useAssistantName} from "../../useAssistantName";
+import {useSearchParams} from "next/navigation";
 
 export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
+    const params = useSearchParams();
+    
     const {language} = useContext(LanguageContext);
     const [showImage, setShowImage] = useState<null | ShowImage>(null);
     const [custom, setCustom] = useState(null as null | string);
@@ -82,7 +84,7 @@ export const Chat: FC<{ onClose?: () => void }> = ({onClose}) => {
             <ChatDropdownMenu/>
             {onClose && <>
                 <Button asChild variant="ghost" size="icon" className="shrink-0 cursor-pointer">
-                    <a href={`/?lang=${language}`} target="_blank" className="!text-foreground">
+                    <a href={`/?lang=${language}&name=${params.get("name")}`} target="_blank" className="!text-foreground">
                         <ArrowUpRight/>
                     </a>
                 </Button>

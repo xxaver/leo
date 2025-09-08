@@ -1,4 +1,4 @@
-name: Scrape (Gymnasium Weingarten)
+name: Scrape (SJB)
 on:
   workflow_dispatch:
   schedule:
@@ -12,7 +12,7 @@ jobs:
     steps:
        - uses: actions/checkout@v4
          with:
-           ref: gym-wgt
+           ref: sjb
        - uses: actions/setup-node@v4
          with:
            cache: 'npm'
