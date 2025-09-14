@@ -29,9 +29,6 @@ ${
 
 export const fullKnowledge = compressUrls(`Wichtige Links:
 Website: ${schoolUrl}
-Infos zum Schulfest:
-${schulfest}
-
 
 Zusammenfassung der Website inklusive Links:
 ${

@@ -4,7 +4,13 @@ export const description = "Ich bin der Chat-Assistent des Studienkolleg St. Joh
 export const schoolName = "Studienkolleg St. Johann Blönried";
 export const schoolAbbreviation = 'Du darfst den Namen der Schule mit SJB abkürzen.'
 export const schoolUrl = "https://studienkolleg-st-johann.de/";
-export const emailScheme = "(<erster buchstabe vorname>.<nachname>)@sksjb.de"
+export const emailScheme = `(<erster buchstabe vorname>.<nachname>)@sksjb.de
+Ausnahmen:
+Mark Grünbaum: schulleitung@sksjb.de
+Thomas Unglert: stellvertretung@sksjb.de
+Herr Pauer: j.pauer1@sksjb.de (Frau Pauer ganz normal)
+Frau Dressel: a.dressel1@sksjb.de (Herr Dressel normal)
+`
 export const sourceUrl = "https://github.com/xxaver/leo/tree/sjb"
 export const primaryColor = "#0095d0";
 export const scrapeStart = ["https://studienkolleg-st-johann.de/"];

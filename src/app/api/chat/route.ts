@@ -177,6 +177,7 @@ export const doRequest = async (model: LanguageModelV1 | "github-workflow", mess
                     dataStream.write(`e:${JSON.stringify(json)}\n`);
                     delete json.isContinued;
                     dataStream.write(`d:${JSON.stringify(json)}\n`);
+                    console.log("USAGE", json.usage)
                 } catch (e) {
                     console.error(e)
                     resolve(null)
