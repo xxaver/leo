@@ -2212,9 +2212,9 @@
     "content": [
       "Herzlich willkommen auf unserer Homepage! Schön, dass Sie und Ihr da seid. Hier gibt es aktuelle Nachrichten, Informationen und Servicebereiche für unsere Schülerinnen und Schüler, Eltern und Lehrerinnen und Lehrer. Wenn Sie unsere Schule neu kennenlernen möchten, finden Sie viele interessante Texte und Bilder – schauen Sie sich um! weiterlesen » Ankündigungen",
       {
-        "image": "/fileadmin/_processed_/f/e/csm_Sommerferiengruss_a95ea80fed.png"
+        "image": "/fileadmin/_processed_/1/6/csm_Bild_Willkommen_zurueck_5b7ca335ad.png"
       },
-      "Ferien Wir wünschen allen schöne und erholsame Sommerferien und hoffen, dass wir uns bald gesund und munter in St. Johann wiedersehen! weiterlesen »",
+      "Willkommen zurück! Mit unserer Broschüre heißen wir euch und Sie im neuen Schuljahr herzlich willkommen! weiterlesen »",
       {
         "image": "/fileadmin/_processed_/b/8/csm_Thumbnail_Film_2025_225b94f8ae.jpg"
       },
@@ -4032,6 +4032,16 @@
       {
         "image": "/fileadmin/_processed_/f/1/csm_GrosserSpendenlauf111_e34a57c82e.jpg"
       }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/willkommen-zurueck": {
+    "title": "Willkommen zurück!",
+    "content": [
+      "Willkommen zurück! Willkommen zurück! Mit unserer Broschüre",
+      {
+        "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/02_Downloads/240904Willkommensbroschuere.pdf"
+      },
+      "heißen wir euch und Sie im neuen Schuljahr herzlich willkommen!"
     ]
   }
 }
