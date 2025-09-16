@@ -4245,5 +4245,14 @@
   "https://www.gymnasium-weingarten.de/?page=7&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=3&cHash=5cf18665449874c4b29c145a4a02cf38": null,
   "https://www.gymnasium-weingarten.de/?page=7&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=4&cHash=3a7150f0879f3c8316440fa256d15b03": null,
   "https://www.gymnasium-weingarten.de/?page=7&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=5&cHash=6f54f8ccc764f4184e0a4630e07a6bce": null,
-  "https://www.gymnasium-weingarten.de/konzepte/abenteuer-mittelstufe": null
+  "https://www.gymnasium-weingarten.de/konzepte/abenteuer-mittelstufe": null,
+  "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=598&cHash=0c656c1f2cdc9862e47751e1c5907a4d": {
+    "title": "Wir wünschen unseren Schülerinnen und Schülern und unserem Kollegium einen guten Start in das neue Schuljahr!",
+    "content": [
+      "Wir wünschen unseren Schülerinnen und Schülern und unserem Kollegium einen guten Start in das neue Schuljahr! 15.09.2025",
+      {
+        "image": "/fileadmin/user_upload/IMG_0722.jpeg"
+      }
+    ]
+  }
 }

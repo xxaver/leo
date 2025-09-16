@@ -1,4 +1,13 @@
 {
+  "news_598": {
+    "type": "news",
+    "id": "news_598",
+    "name": "Wir wünschen unseren Schülerinnen und Schülern und unserem Kollegium einen guten Start in das neue Schuljahr!",
+    "description": "",
+    "date": 1757894400000,
+    "image": "https://www.gymnasium-weingarten.de/fileadmin/user_upload/IMG_0722.jpeg",
+    "link": "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=598&cHash=0c656c1f2cdc9862e47751e1c5907a4d"
+  },
   "news_596": {
     "type": "news",
     "id": "news_596",
