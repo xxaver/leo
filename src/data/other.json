@@ -3494,107 +3494,7 @@
       "Dürfen wir uns vorstellen? Willkommen - wir freuen uns, dass Sie sich für unser Gymnasium interessieren! Bitte sehen Sie sich um und entdecken Sie das Gymnasium Weingarten in seiner bunten Vielfalt..."
     ]
   },
-  "https://www.gymnasium-weingarten.de/downloads": {
-    "title": "Formulare und Informationen",
-    "content": [
-      "Formulare und Informationen Aktuelles: Leitfaden zum Abitur 2027",
-      {
-        "document": "https://km.baden-wuerttemberg.de/fileadmin/redaktion/m-km/intern/PDF/Publikationen/Gymnasium/2025_Leitfaden_fuer_die_gymnasiale_Oberstufe_Abitur_2027.pdf"
-      },
-      "Zur GFS (Gleichwertige Leistungsfeststellung): Beschluss der GLK zur Form und zum Terminplan der GFS",
-      {
-        "document": "/fileadmin/user_upload/Downloads/GFS-Beschluss.pdf"
-      },
-      "Zur Entschuldigungspraxis: Übersicht",
-      {
-        "document": "/fileadmin/user_upload/Downloads/Entschuldigungsregelungen_Uebersicht.pdf"
-      },
-      "Entschuldigungspraxis in den Klassen 5 bis 10",
-      {
-        "document": "/fileadmin/user_upload/Downloads/Entschuldigungsregelung_5-10_23.pdf"
-      },
-      "Entschuldigungspraxis in der Kursstufe",
-      {
-        "document": "/fileadmin/user_upload/Downloads/Entschuldigungsregelung_11-12.pdf"
-      },
-      "Anmeldung am Gymnasium Weingarten Anmeldung",
-      {
-        "document": "/fileadmin/user_upload/Downloads/Anmeldeformular__2025_02_26.pdf"
-      },
-      "Schülermonatskarten",
-      {
-        "document": "/fileadmin/user_upload/Downloads/Ablauf_Schuelermonatskarten_-_Elternbrief.docx"
-      },
-      "Kontakt zum Elternhaus",
-      {
-        "document": "/fileadmin/user_upload/Downloads/Kontakt_zum_Elternhaus.pdf"
-      },
-      "Recht am Bild und Ton sowie Veröffentlichung des Namens",
-      {
-        "document": "/fileadmin/user_upload/Downloads/Einwilligung_zur_Veroeffentlichung_von_Text_und_Bild_Kenntnisnahme_Entschuldigungsregelung.pdf"
-      },
-      "Notfalldaten Schüler mit Vorerkrankungen",
-      {
-        "document": "/fileadmin/user_upload/Downloads/Notfallblatt_Schueler_mit_Vorerkrankungen.pdf"
-      },
-      "Eltern: Formular Unfallanzeige",
-      {
-        "document": "/fileadmin/user_upload/Downloads/Unfallanzeige.pdf"
-      },
-      "Abmeldung vom Gymnasium Weingarten",
-      {
-        "document": "/fileadmin/user_upload/Downloads/Abmeldeformular_Gymnasium_Weingarten.pdf"
-      },
-      "Verschiedenes: Informationen zum Sportunterricht",
-      {
-        "document": "/fileadmin/user_upload/Downloads/Infos_zum_Sportunterricht.pdf"
-      },
-      "Ferienkalender 2024-25",
-      {
-        "document": "/fileadmin/user_upload/Downloads/Ferienplan_24-25.pdf"
-      },
-      "Multimedia und Datenschutz: Nutzungsordnung für die Arbeit in Multimediaräumen",
-      {
-        "document": "/fileadmin/user_upload/Downloads/Nutzungsordnung_Multimediaraeume_GymWgt_2019-05.pdf"
-      },
-      "Hinweise zum Umgang mit Passwörtern",
-      {
-        "document": "/fileadmin/user_upload/Downloads/Hinweise_zum_Umgang_mit_Passwoertern.pdf"
-      },
-      "Betroffenrechte nach DSGVO",
-      {
-        "document": "/fileadmin/user_upload/Downloads/Betroffenenrechte_DSGVO.pdf"
-      },
-      "Datenschutzrechtliche Hinweise für Elternvertretungen",
-      {
-        "document": "/fileadmin/user_upload/Downloads/Hinweis_Datenschutz_Elternvertreter.pdf"
-      },
-      "Link des Kultusministeriums: Datenschutz an Schulen Auszüge aus der Jubiläums-Zeitschrift \"25 Jahre Gymnasium Weingarten\" von 1999: Die Anfänge",
-      {
-        "document": "/fileadmin/user_upload/Downloads/25_Jahre_Gymnasium_Weingarten_Die_Anfaenge.pdf"
-      },
-      "Es war einmal: die SMV",
-      {
-        "document": "/fileadmin/user_upload/Downloads/25_Jahre_Gymnasium_Weingarten_Die_SMV.pdf"
-      },
-      "Die Geschichte der Schülerzeitung",
-      {
-        "document": "/fileadmin/user_upload/Downloads/25_Jahre_Gymnasium_Weingarten_Die_Geschichte_der_Schuelerzeitung.pdf"
-      },
-      "Die Theater-AG",
-      {
-        "document": "/fileadmin/user_upload/Downloads/25_Jahre_Gymnasium_Weingarten_Die_Theater-AG.pdf"
-      },
-      "25 Jahre Schulsport",
-      {
-        "document": "/fileadmin/user_upload/Downloads/25_Jahre_Gymnasium_Weingarten_25_Jahre_Schulsport.pdf"
-      },
-      "25 Jahre Schülerbücherei",
-      {
-        "document": "/fileadmin/user_upload/Downloads/25_Jahre_Gymnasium_Weingarten_25_Jahre_Schuelerbuecherei.pdf"
-      }
-    ]
-  },
+  "https://www.gymnasium-weingarten.de/downloads": null,
   "https://www.gymnasium-weingarten.de/kontakt": {
     "title": "Kontakt",
     "content": [
@@ -4254,5 +4154,16 @@
         "image": "/fileadmin/user_upload/IMG_0722.jpeg"
       }
     ]
-  }
+  },
+  "https://www.gymnasium-weingarten.de/aktuelles?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=6&cHash=3bed014169af5dd56b36dc84d1603d26": null,
+  "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=599&cHash=50b403f1a7f3a5a36ae05a459a29eb81": {
+    "title": "Vollversammlung am ersten Schultag",
+    "content": [
+      "Vollversammlung am ersten Schultag 16.09.2025 Es ist mittlerweile eine schöne Tradition: am ersten Schultag versammelt sich die Schulgemeinde, die Sonne scheint und die Band \"The Lions\" sorgt für gute Stimmung. Unser Schulleiter Dr. Brand begrüßte die Schüler*innen und dankte ihnen noch einmal für ihren Einsatz rund um den Festakt zum Jubiläum. Mit Blick auf den EM-Sieg am Vorabend der Basketball-Nationalmannschaft gab er den Jugendlichen Folgenes mit: \"Im Team geht alles - außer Klassenarbeiten 😉\". Auch der Schülersprecher Christian Feit und seine Stellvertreterin Liana Walter wünschten allen einen guten Start, viele tolle Erlebnisse und riefen dazu auf, sich zu engagieren: \"Ihr habt hier so viele Möglichkeiten, mitzumachen!\" In 3 Wochen wird dann der neue Schülersprecher - oder die neue Schülersprecherin gewählt, hoffentlich gibt es viele tolle Kandidat*innen!",
+      {
+        "image": "/fileadmin/user_upload/20250916_155755.jpg"
+      }
+    ]
+  },
+  "https://www.gymnasium-weingarten.de/?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=6&cHash=32493c26ca550f0b578e316893fda35f": null
 }

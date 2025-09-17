@@ -1,4 +1,13 @@
 {
+  "news_599": {
+    "type": "news",
+    "id": "news_599",
+    "name": "Vollversammlung am ersten Schultag",
+    "description": "Es ist mittlerweile eine schöne Tradition: am ersten Schultag versammelt sich die Schulgemeinde, die Sonne scheint und die Band \"The Lions\" sorgt für gute Stimmung. Unser Schulleiter Dr. Brand begrüßte die Schüler*innen und dankte ihnen noch einmal für ihren Einsatz rund um den Festakt zum Jubiläum. Mit Blick auf den EM-Sieg am Vorabend der Basketball-Nationalmannschaft gab er den Jugendlichen Folgenes mit: \"Im Team geht alles - außer Klassenarbeiten 😉\". Auch der Schülersprecher Christian Feit und seine Stellvertreterin Liana Walter wünschten allen einen guten Start, viele tolle Erlebnisse und riefen dazu auf, sich zu engagieren: \"Ihr habt hier so viele Möglichkeiten, mitzumachen!\" In 3 Wochen wird dann der neue Schülersprecher - oder die neue Schülersprecherin gewählt, hoffentlich gibt es viele tolle Kandidat*innen!",
+    "date": 1757980800000,
+    "image": "https://www.gymnasium-weingarten.de/fileadmin/user_upload/20250916_155755.jpg",
+    "link": "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=599&cHash=50b403f1a7f3a5a36ae05a459a29eb81"
+  },
   "news_598": {
     "type": "news",
     "id": "news_598",
