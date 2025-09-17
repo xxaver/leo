@@ -3494,7 +3494,107 @@
       "Dürfen wir uns vorstellen? Willkommen - wir freuen uns, dass Sie sich für unser Gymnasium interessieren! Bitte sehen Sie sich um und entdecken Sie das Gymnasium Weingarten in seiner bunten Vielfalt..."
     ]
   },
-  "https://www.gymnasium-weingarten.de/downloads": null,
+  "https://www.gymnasium-weingarten.de/downloads": {
+    "title": "Formulare und Informationen",
+    "content": [
+      "Formulare und Informationen Aktuelles: Leitfaden zum Abitur 2027",
+      {
+        "document": "https://km.baden-wuerttemberg.de/fileadmin/redaktion/m-km/intern/PDF/Publikationen/Gymnasium/2025_Leitfaden_fuer_die_gymnasiale_Oberstufe_Abitur_2027.pdf"
+      },
+      "Zur GFS (Gleichwertige Leistungsfeststellung): Beschluss der GLK zur Form und zum Terminplan der GFS",
+      {
+        "document": "/fileadmin/user_upload/Downloads/GFS-Beschluss.pdf"
+      },
+      "Zur Entschuldigungspraxis: Übersicht",
+      {
+        "document": "/fileadmin/user_upload/Downloads/Entschuldigungsregelungen_Uebersicht.pdf"
+      },
+      "Entschuldigungspraxis in den Klassen 5 bis 10",
+      {
+        "document": "/fileadmin/user_upload/Downloads/Entschuldigungsregelung_5-10_2025_09_10.pdf"
+      },
+      "Entschuldigungspraxis in der Kursstufe",
+      {
+        "document": "/fileadmin/user_upload/Downloads/Entschuldigungsregelung_11-12.pdf"
+      },
+      "Anmeldung am Gymnasium Weingarten Anmeldung",
+      {
+        "document": "/fileadmin/user_upload/Downloads/Anmeldeformular__2025_02_26.pdf"
+      },
+      "Schülermonatskarten",
+      {
+        "document": "/fileadmin/user_upload/Downloads/Ablauf_Schuelermonatskarten_-_Elternbrief.docx"
+      },
+      "Kontakt zum Elternhaus",
+      {
+        "document": "/fileadmin/user_upload/Downloads/Kontakt_zum_Elternhaus.pdf"
+      },
+      "Recht am Bild und Ton sowie Veröffentlichung des Namens",
+      {
+        "document": "/fileadmin/user_upload/Downloads/Einwilligung_zur_Veroeffentlichung_von_Text_und_Bild_Kenntnisnahme_Entschuldigungsregelung.pdf"
+      },
+      "Notfalldaten Schüler mit Vorerkrankungen",
+      {
+        "document": "/fileadmin/user_upload/Downloads/Notfallblatt_Schueler_mit_Vorerkrankungen.pdf"
+      },
+      "Eltern: Formular Unfallanzeige",
+      {
+        "document": "/fileadmin/user_upload/Downloads/Unfallanzeige.pdf"
+      },
+      "Abmeldung vom Gymnasium Weingarten",
+      {
+        "document": "/fileadmin/user_upload/Downloads/Abmeldeformular_Gymnasium_Weingarten.pdf"
+      },
+      "Verschiedenes: Informationen zum Sportunterricht",
+      {
+        "document": "/fileadmin/user_upload/Downloads/Infos_zum_Sportunterricht.pdf"
+      },
+      "Ferienkalender 2024-25",
+      {
+        "document": "/fileadmin/user_upload/Downloads/Ferienplan_24-25.pdf"
+      },
+      "Multimedia und Datenschutz: Nutzungsordnung für die Arbeit in Multimediaräumen",
+      {
+        "document": "/fileadmin/user_upload/Downloads/Nutzungsordnung_Multimediaraeume_GymWgt_2019-05.pdf"
+      },
+      "Hinweise zum Umgang mit Passwörtern",
+      {
+        "document": "/fileadmin/user_upload/Downloads/Hinweise_zum_Umgang_mit_Passwoertern.pdf"
+      },
+      "Betroffenrechte nach DSGVO",
+      {
+        "document": "/fileadmin/user_upload/Downloads/Betroffenenrechte_DSGVO.pdf"
+      },
+      "Datenschutzrechtliche Hinweise für Elternvertretungen",
+      {
+        "document": "/fileadmin/user_upload/Downloads/Hinweis_Datenschutz_Elternvertreter.pdf"
+      },
+      "Link des Kultusministeriums: Datenschutz an Schulen Auszüge aus der Jubiläums-Zeitschrift \"25 Jahre Gymnasium Weingarten\" von 1999: Die Anfänge",
+      {
+        "document": "/fileadmin/user_upload/Downloads/25_Jahre_Gymnasium_Weingarten_Die_Anfaenge.pdf"
+      },
+      "Es war einmal: die SMV",
+      {
+        "document": "/fileadmin/user_upload/Downloads/25_Jahre_Gymnasium_Weingarten_Die_SMV.pdf"
+      },
+      "Die Geschichte der Schülerzeitung",
+      {
+        "document": "/fileadmin/user_upload/Downloads/25_Jahre_Gymnasium_Weingarten_Die_Geschichte_der_Schuelerzeitung.pdf"
+      },
+      "Die Theater-AG",
+      {
+        "document": "/fileadmin/user_upload/Downloads/25_Jahre_Gymnasium_Weingarten_Die_Theater-AG.pdf"
+      },
+      "25 Jahre Schulsport",
+      {
+        "document": "/fileadmin/user_upload/Downloads/25_Jahre_Gymnasium_Weingarten_25_Jahre_Schulsport.pdf"
+      },
+      "25 Jahre Schülerbücherei",
+      {
+        "document": "/fileadmin/user_upload/Downloads/25_Jahre_Gymnasium_Weingarten_25_Jahre_Schuelerbuecherei.pdf"
+      }
+    ]
+  },
   "https://www.gymnasium-weingarten.de/kontakt": {
     "title": "Kontakt",
     "content": [
@@ -4165,5 +4265,11 @@
       }
     ]
   },
-  "https://www.gymnasium-weingarten.de/?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=6&cHash=32493c26ca550f0b578e316893fda35f": null
+  "https://www.gymnasium-weingarten.de/?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=6&cHash=32493c26ca550f0b578e316893fda35f": null,
+  "https://www.gymnasium-weingarten.de/?school=gym-weingarten&tenant_id=4213900&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=2&cHash=cd22ea397fa60885213fef3bcf70d4ea": null,
+  "https://www.gymnasium-weingarten.de/?school=gym-weingarten&tenant_id=4213900&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=1&cHash=6b44cbf17d6ab410f8509bec43e1903b": null,
+  "https://www.gymnasium-weingarten.de/?school=gym-weingarten&tenant_id=4213900&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=3&cHash=5d2da4e70c4134f54de036b9062d0f4a": null,
+  "https://www.gymnasium-weingarten.de/?school=gym-weingarten&tenant_id=4213900&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=4&cHash=3b2a0f78b02af2287ea191c5f13f51b8": null,
+  "https://www.gymnasium-weingarten.de/?school=gym-weingarten&tenant_id=4213900&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=5&cHash=cd52ff71b15bf3870a6fc83664e6a49c": null,
+  "https://www.gymnasium-weingarten.de/?school=gym-weingarten&tenant_id=4213900&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=6&cHash=c1c6b8f8ac6b1aaf8dda198fec06a34a": null
 }
