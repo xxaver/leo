@@ -4692,5 +4692,14 @@
   "https://www.gymnasium-weingarten.de/?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=3&cHash=40d0d36f7262bfb7e5add7f4f9913142": null,
   "https://www.gymnasium-weingarten.de/?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=4&cHash=f12d9e88f1a32e6c72927af2e391bec1": null,
   "https://www.gymnasium-weingarten.de/?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=5&cHash=8c64689cf77f3386a4349bde49500a90": null,
-  "https://www.gymnasium-weingarten.de/?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=6&cHash=2c5b89f75949ddbfa91a894a94f19a7e": null
+  "https://www.gymnasium-weingarten.de/?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=6&cHash=2c5b89f75949ddbfa91a894a94f19a7e": null,
+  "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=600&cHash=c1e3073255eb73510363c3e6a440eb49": {
+    "title": "Neue Sitzmöglichkeiten im Biotop laden zum Verweilen ein",
+    "content": [
+      "Neue Sitzmöglichkeiten im Biotop laden zum Verweilen ein 21.09.2025 Im Schulbiotop wurden in den Sommerferien neue Sitzgelegenheiten geschaffen: Drei große Baumstämme am Rand des Teichs laden nun dazu ein, die Natur in Ruhe zu beobachten und zu genießen. Die Idee stammt von der Biotop- und Imkerei AG in Zusammenarbeit mit der Stadt (Bereich Klimaschutz). Die Baumstämme stammen aus dem näheren Umfeld und wurden nachhaltig beschafft – ein wichtiges Anliegen der AGs, die besonderen Wert auf Umweltbewusstsein und Ressourcenschonung legen. Die neuen Sitzplätze wurden bereits von uns erprobt. Das Biotop entwickelt sich damit weiter zu einem naturnahen Lern- und Rückzugsort, der zum Entdecken, Beobachten und Entspannen einlädt.",
+      {
+        "image": "/fileadmin/user_upload/IMG_2367.jpeg"
+      }
+    ]
+  }
 }
