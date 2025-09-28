@@ -8,8 +8,10 @@ export const emailScheme = `(<erster buchstabe vorname>.<nachname>)@sksjb.de
 Ausnahmen:
 Mark Grünbaum: schulleitung@sksjb.de
 Thomas Unglert: stellvertretung@sksjb.de
-Herr Pauer: j.pauer1@sksjb.de (Frau Pauer ganz normal)
+Herr Pauer: j.pauer1@sksjb.de
+Frau Pauer: j.pauer@sksjb.de (ganz normal)
 Frau Dressel: a.dressel1@sksjb.de (Herr Dressel normal)
+Herr Dressel: a.dressel@sksjb.de (ganz normal)
 `
 export const sourceUrl = "https://github.com/xxaver/leo/tree/sjb"
 export const primaryColor = "#0095d0";

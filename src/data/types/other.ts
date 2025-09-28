@@ -10,7 +10,7 @@ export const formatOther = (k: any) => {
         // return;
         if(e.image && imagesDone < 5) {
             imagesDone++;
-            return `BILD: ${getUrl(e.image, schoolUrl)}`
+            return ""; `BILD: ${getUrl(e.image, schoolUrl)}`
         }
         if(e.document) return `DOKUMENT: ${getUrl(e.document, schoolUrl)}`
     }).filter(Boolean).join("\n")}`
