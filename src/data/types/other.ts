@@ -8,9 +8,9 @@ export const formatOther = (k: any) => {
     return`${k}: ${other[k].content.map(e => {
         if(typeof e === "string") return e
         // return;
-        if(e.image && imagesDone < 5) {
+        if(e.image && imagesDone < 3) {
             imagesDone++;
-            return ""; `BILD: ${getUrl(e.image, schoolUrl)}`
+            return `BILD: ${getUrl(e.image, schoolUrl)}`
         }
         if(e.document) return `DOKUMENT: ${getUrl(e.document, schoolUrl)}`
     }).filter(Boolean).join("\n")}`
