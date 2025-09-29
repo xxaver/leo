@@ -8,7 +8,7 @@ const setupLeo = () => {
         const style = document.createElement('style');
         style.textContent = `
 :root {
-    --leo-primary: #0095d0;
+    --leo-primary: #7ec04a;
 }
 .leo {
     position: fixed;
@@ -38,6 +38,7 @@ const setupLeo = () => {
 .leo-logo img {
     width: 3rem;
     height: 3rem;
+    scale: 130%;
 }
 
 .leo-chat {
@@ -176,7 +177,7 @@ const setupLeo = () => {
     line-height: 1.25rem;
 }
 
-.scroll-top {
+.scroll-top, .x-scroll-top {
     translate: 0 -5rem;
 }`;
         document.head.appendChild(style);
@@ -207,7 +208,7 @@ const setupLeo = () => {
         const img = document.createElement('img');
         img.width = 96;
         img.height = 96;
-        img.src = "https://studienkolleg-st-johann.de/fileadmin/_processed_/4/4/csm_Logo_24_18_Endversion_4b2f65e2d4.gif";
+        img.src = `${origin}/logo.png`;
         img.style.objectFit = "cover";
         logo.appendChild(img);
 
@@ -220,7 +221,7 @@ const setupLeo = () => {
           height="48"
           viewBox="0 0 24 24"
           fill="none"
-          stroke="#0095d0"
+          stroke="#7ec04a"
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -238,7 +239,7 @@ const setupLeo = () => {
              Hallo, Ich bin ${name}!
          </div>
          <div class="text-sm">
-             Ich helfe dir gerne bei Fragen rund ums Studienkolleg St. Johann
+             Ich helfe dir gerne bei Fragen rund ums AEG Ravensburg
          </div>
     </div>
     `;
