@@ -30,6 +30,15 @@ ${
 export const fullKnowledge = compressUrls(`Wichtige Links:
 Website: ${schoolUrl}
 
+Tel. 0751-82342
+Fax. 0751-82116
+Poststelle-gym@aeg-rv.schule.bwl.de
+
+Albert Einstein Gymnasium
+Spohnstraße 22
+88212 Ravensburg
+
+
 Zusammenfassung der Website inklusive Links:
 ${
     articles

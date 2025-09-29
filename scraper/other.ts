@@ -19,7 +19,8 @@ export const scrapeOther = async (target: string, useCache = false) => {
 
     const previous: Record<string, string> = JSON.parse(await readFile(other, "utf-8").catch(() => "{}") || "{}")
     const next: Record<string, string> = {};
-    const visited = new Set<string>(useCache ? Object.keys(previous) : [])
+    const visited = new Set<string>()
+    // const visited = new Set<string>(useCache ? Object.keys(previous) : [])
     let count = 0;
 
     const scrapeSite = async (url: string) => {
@@ -46,7 +47,7 @@ export const scrapeOther = async (target: string, useCache = false) => {
             const links = Array.from<HTMLAnchorElement>(
                 document.querySelectorAll("a"))
             if (scrapeIncludeContent(url)) {
-                const main = document.querySelector("main")!;
+                const main = document.querySelector("main, .x-main")!;
                 const date = document.querySelector("main time")?.getAttribute("datetime");
                 if (!main || (date && new Date(date).getTime() < 1735686000000)) next[id] = null;
                 else {

@@ -50,7 +50,8 @@ body {
 }
 
 :root {
-  --primary: #0095d0;
+  --primary: #7ec04a;
+  /*--primary: #168fa7;*/
   
   
   --radius: 0.625rem;

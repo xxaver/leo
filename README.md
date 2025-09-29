@@ -1,10 +1,9 @@
-![SJB](https://frag-johannes.vercel.app/logo.png)
-# Johannes
-Ich bin der Chat-Assistent des Studienkolleg St. Johann.
+# Albert
+Ich bin der Chat-Assistent des Albert-Einstein-Gymnasiums Ravensburg.
 
 ## Integration
-* Wenn Content-Security-Policy aktiviert ist: frame-src https://frag-johannes.vercel.app erlauben
-* https://frag-johannes.vercel.app/chatbot-integration.js herunterladen und auf der Website einbinden (egal ob im head oder im body)
+* Wenn Content-Security-Policy aktiviert ist: frame-src https://frag-albert.vercel.app erlauben
+* https://frag-albert.vercel.app/chatbot-integration.js herunterladen und auf der Website einbinden (egal ob im head oder im body)
 
 ### Typo3
 * In Dateien am besten den Ordner mit anderen js-Dateien suchen (z.B. jquery.min.js) und dort chatbot-integration.js hochladen

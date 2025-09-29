@@ -34,7 +34,7 @@ export const ChatMessageLogo: FC<{
         {role === "user" ? (
             <User className={`${size || "w-5 h-5 sm:w-6"} sm:h-6 text-white`}/>
         ) : (
-            <Image className={size || "w-5 h-5 sm:w-9 sm:h-9"} src="/logo.png" alt="Leo" width={96} height={96}
+            <Image className={(size || "w-5 h-5 sm:w-9 sm:h-9") + " scale-130"} src="/logo.png" alt="Leo" width={96} height={96}
                    priority/>
         )}
     </div>

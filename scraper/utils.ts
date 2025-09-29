@@ -1,11 +1,11 @@
 import {fileadmin} from "../config";
 
-const forbidden = ["style", "script", "#comment", "noscript"];
+const forbidden = "style, script, noscript, header, .x-menu, .x-section:last-child";
 const imageExtensions = ["jpg", "jpeg", "png", "gif", "webp", "svg"];
 export const getInnerText = (e: Element) => {
     const result: (string | {image: string} | {document: string})[] = []
     const step = (e: Element) => {
-        if (e.style?.display === "none" || forbidden.includes(e.nodeName.toLowerCase()) || e.classList?.contains("slick-slide") || e.classList?.contains("slides")) return [];
+        if (e.style?.display === "none" || e.matches?.(forbidden) || e.nodeName.toLowerCase() === "#comment" || e.classList?.contains("slick-slide") || e.classList?.contains("slides")) return [];
         if (!e.childNodes.length) result.push(e.textContent!.includes("main text") ? "" : e.textContent!);
         e.childNodes.forEach(step);
         if(e.nodeName === "IMG") result.push({image: e.src!})

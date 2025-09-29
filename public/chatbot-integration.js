@@ -1,7 +1,7 @@
 let isLeoSetUp = false;
 const setupLeo = () => {
     let name = sessionStorage.getItem('leo-name');
-    if(!name) sessionStorage.setItem('leo-name', Math.random() > .5 ? "Johannes" : "Johanna");
+    if(!name) sessionStorage.setItem('leo-name', "Albert");
     name = sessionStorage.getItem('leo-name');
     
     if (!isLeoSetUp) {
@@ -186,7 +186,7 @@ const setupLeo = () => {
 
     const origin = 
         location.origin === "http://localhost:3000" ? "http://localhost:3000" :
-            `https://frag-johannes.vercel.app`;
+            `https://frag-albert.vercel.app`;
 
 
     const presentLeo = document.querySelector('.leo');
