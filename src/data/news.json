@@ -1,4 +1,13 @@
 {
+  "news_601": {
+    "type": "news",
+    "id": "news_601",
+    "name": "Mit Schwung und Sturz ins Vergnügen – Windsurfexkursion am Bodensee",
+    "description": "Die Sportprofilklasse 10 begab sich auf eine spannende Exkursion nach Wasserburg am Bodensee – und stellte sich dort dem Windsurfabenteuer. Das Wetter meinte es halbwegs gut mit uns: Zwar war es draußen recht frisch, doch der Wind blies kräftig und der See hatte noch eine angenehme Restwärme. Dank der Neoprenanzüge waren auch die vielen „ungeplanten Tauchgänge“ gut zu verkraften. Schon am ersten Tag zeigte sich: Windsurfen ist nichts für Warmduscher! Trotz kühler Temperaturen standen alle motiviert im und auf dem Wasser. Unser Coach David Jeschke, ein bekannter Windsurfprofi, war beeindruckt von unserem Durchhaltevermögen und den schnellen Fortschritten. Nach den Kursen sorgten warme Duschen im Wasserburger Freibad für Wohlbefinden, bevor es zum wohlverdienten und sehr leckeren Essen in unsere Herberge ging. Neben sportlichem Ehrgeiz spielte auch das Miteinander eine große Rolle. In unserer Unterkunft, dem Deutsch-Französischen Jugendheim direkt am See, wurde abends Tischtennis –mit allerlei kuriosen Schlägern – Volleyball und andere Spiele gespielt. Auch die Theorie kam nicht zu kurz: Die physikalischen Grundlagen des Windsurfens halfen, das Geschehen auf dem Brett besser verstehen zu können. Am Mittwoch regnete es und wir tauschten Surfbrett gegen Klettergurt. Beim Vorstiegsklettern waren Mut, Vertrauen und Teamgeist gefragt. Später ging es noch ins Hallenbad nach Friedrichshafen, wo wir beim Schwimmen, Spielen und Turmspringen jede Menge Spaß hatten. Am Ende waren sich alle einig: Die Windsurfexkursion war nicht nur sportlich, sondern auch menschlich ein voller Erfolg. Zwischen Stürzen, Lachern und kleinen Erfolgen entstanden viele schöne Erinnerungen – und vielleicht auch die Lust auf neue Abenteuer auf dem Wasser.",
+    "date": 1761091200000,
+    "image": "https://www.gymnasium-weingarten.de/fileadmin/_processed_/b/9/csm_Surfen2_d8dde0859a.png",
+    "link": "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=601&cHash=964f358915b6e027f551b5625b311dd8"
+  },
   "news_600": {
     "type": "news",
     "id": "news_600",
