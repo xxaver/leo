@@ -15,7 +15,7 @@
   "https://www.gymnasium-weingarten.de/menschen/verwaltung": {
     "title": "Sekretariat",
     "content": [
-      "Sekretariat Wenn Sie Fragen zur Schule haben, dann wenden Sie sich an unsere Sekretärinnen bzw. wunderbaren Hausengel: Frau Dietzel und Frau Stöhr Telefon: +49 751 / 561-921-50 Für alle Schüler und Lehrer ist das Sekretariat täglich geöffnet: Montag bis Freitag von 07:00 – 09:30 Uhr und von 10:30 – 13:00 Uhr Montag bis Donnerstag 14:00 – 15:30 Uhr Bitte in der Zeit von 9:30 – 10:30 Uhr nur in dringenden Fällen anklopfen! Hausmeister Die Männer, die mit Hammer und Schraubenzieher ständig beschäftigt sind, unsere Schule auf Vordermann zu bringen: Herr Dospil und Herr Dieing Telefon: +49 751 / 561921-70"
+      "Sekretariat Wenn Sie Fragen zur Schule haben, dann wenden Sie sich an unsere Sekretärinnen bzw. wunderbaren Hausengel: Frau Dietzel und Frau Stöhr Telefon: +49 751 / 561-921-50 Für alle Schüler und Lehrer ist das Sekretariat täglich geöffnet: Montag bis Freitag von 07:00 – 09:20 Uhr und von 10:20 – 13:00 Uhr Montag bis Donnerstag 14:00 – 15:30 Uhr Bitte in der Zeit von 9:20 – 10:20 Uhr nur in dringenden Fällen anklopfen! Hausmeister Die Männer, die mit Hammer und Schraubenzieher ständig beschäftigt sind, unsere Schule auf Vordermann zu bringen: Herr Dospil und Herr Dieing Telefon: +49 751 / 561921-70"
     ]
   },
   "https://www.gymnasium-weingarten.de/menschen/lehrerinnen-und-lehrer": {
@@ -4695,5 +4695,14 @@
   "https://www.gymnasium-weingarten.de/?school=gym-weingarten&tenant_id=4213900&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=3&cHash=ea0f3aed58df37593c80eaff967add11": null,
   "https://www.gymnasium-weingarten.de/?school=gym-weingarten&tenant_id=4213900&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=4&cHash=2a5ee7f957d02b2fc40e6490f9634986": null,
   "https://www.gymnasium-weingarten.de/?school=gym-weingarten&tenant_id=4213900&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=5&cHash=579ee4194abd323197fd2daff94525de": null,
-  "https://www.gymnasium-weingarten.de/?school=gym-weingarten&tenant_id=4213900&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=6&cHash=7ef0186c0e9787f73abf15743f73450a": null
+  "https://www.gymnasium-weingarten.de/?school=gym-weingarten&tenant_id=4213900&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=6&cHash=7ef0186c0e9787f73abf15743f73450a": null,
+  "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=605&cHash=3deb4561dfc78ff4e198a829d12f7768": {
+    "title": "Our class trip to Kempten - October 6th – 10th, 2025 Classes 6a and 6b",
+    "content": [
+      "Our class trip to Kempten - October 6th – 10th, 2025 Classes 6a and 6b 08.11.2025 Three weeks ago we went on our class trip to Kempten. We took the train from Ravensburg to Ulm and then from Ulm to Kempten. The journey was long, but we had fun together. When we arrived in Kempten on Monday, we went on a city rally. We had to find places and answer questions in small groups. It was really fun! In the evening, we went to the JUFA Hotel, had dinner, and played together. On Tuesday, after a delicious breakfast, we went bouldering. Climbing the walls was exciting and a bit challenging. In the afternoon we went swimming in the big water park. There were two amazing slides, and we tried them many times! In the evening, we played football, soccer, table tennis and “Werewolf” with our teachers. On Wednesday we went hiking in the mountains, for 5 hours! We used a map and a compass to find our way. The view was beautiful, and the hike was very interesting, but also exhausting. After the hike we had to solve a riddle with questions and numbers and in the end, we opened the treasure box. After dinner we had a movie night and watched Zoomania. That was cool! On Thursday we went rafting on the river Iller. We wore wetsuits and paddled together in canoes. The water was cold, but it was my favourite activity because it was so much fun! Some of us even jumped into the river. In the evening, we made a campfire and roasted marshmallows and bread on sticks. That was really cozy and tasty. On Friday it was time to go home. We packed our things and took the train back to Ravensburg. The week was full of fun, adventures, and good memories. I really enjoyed the trip! Written by the pupils of Class 6b",
+      {
+        "image": "/fileadmin/user_upload/Bild_SLH.jpg"
+      }
+    ]
+  }
 }
