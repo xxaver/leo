@@ -926,6 +926,10 @@
     "content": [
       "Schulleben Aktuelles Aktuelles",
       {
+        "image": "/fileadmin/_processed_/8/a/csm_RobotikAG112_294d1c0f90.jpg"
+      },
+      "14.11.2025 St. Johann bekommt digitale Baukästen im Rahmen des Innovationsprogramms \"Digitale Schule“ Unsere Schule nimmt als Pilotschule am Innovationsprogramm „Digitale Schule“ des Kultusministeriums teil und implementiert das Projekt „Computational Thinking“ (ComThink). weiterlesen »",
+      {
         "image": "/fileadmin/_processed_/3/5/csm_Demokratie107_92e5bc9cf5.jpg"
       },
       "11.11.2025 Demokratie-Workshop „Rich Democracy“ am Studienkolleg St. Johann Im Rahmen des Workshops \"Rich Democracy\" gingen die 10. Klassen sowie die Jahrgangsstufe 1 Fragen der Finanzpolitik nach. weiterlesen »",
@@ -952,11 +956,7 @@
       {
         "image": "/fileadmin/_processed_/6/a/csm_St.Vinzenz106_166c870756.jpg"
       },
-      "23.09.2025 Ehrenamtliches Schülerinnenengagement im Pflegeheim Mit Herz und Einsatz engagieren sich Hannah, Malin und Anja im Pflegeheim St. Vinzenz. weiterlesen »",
-      {
-        "image": "/fileadmin/_processed_/8/e/csm_Einschulung107_ea2939b3d7.jpg"
-      },
-      "22.09.2025 Neue Fünftklässler stechen am Studienkolleg St. Johann in See Zahlreiche Kinder strahlten um die Wette, als sie am ersten Dienstag des Schuljahres endlich ihren ersten Schultag in Blönried beginnen durften. weiterlesen » Siehe auch Archiv"
+      "23.09.2025 Ehrenamtliches Schülerinnenengagement im Pflegeheim Mit Herz und Einsatz engagieren sich Hannah, Malin und Anja im Pflegeheim St. Vinzenz. weiterlesen » Siehe auch Archiv"
     ]
   },
   "https://studienkolleg-st-johann.de/schulleben/theater": {
@@ -2184,7 +2184,7 @@
   },
   "https://studienkolleg-st-johann.de/service-1/kalender": {
     "content": [
-      "Service Kalender Listenansicht Kalenderansicht Kalender wählen Alle Lehrkräfte November 2025 Sa 1 So 2 Mo 3 Di 4 Mi 5 Do 6 Fr 7 Sa 8 So 9 Mo 10 Di 11 Mi 12 Do 13 Fr 14 Sa 15 So 16 Mo 17 Di 18 Mi 19 Do 20 Fr 21 Sa 22 So 23 Mo 24 Di 25 Mi 26 Do 27 Fr 28 Sa 29 So 30 14.11.25, 18:00 Uhr Theater 15.11.25, 18:00 Uhr Theater 17.11.25, 10:15 Uhr Heureka Wettbewerb Kl. 5-8 18.11.25 Elternbeiratssitzung 21.11.25 SMV Karaoke 28.11.25 Gruselnacht SMV Ferienzeiträume 25/26",
+      "Service Kalender Listenansicht Kalenderansicht Kalender wählen Alle Lehrkräfte November 2025 Sa 1 So 2 Mo 3 Di 4 Mi 5 Do 6 Fr 7 Sa 8 So 9 Mo 10 Di 11 Mi 12 Do 13 Fr 14 Sa 15 So 16 Mo 17 Di 18 Mi 19 Do 20 Fr 21 Sa 22 So 23 Mo 24 Di 25 Mi 26 Do 27 Fr 28 Sa 29 So 30 15.11.25, 18:00 Uhr Theater 17.11.25, 10:15 Uhr Heureka Wettbewerb Kl. 5-8 18.11.25 Elternbeiratssitzung 21.11.25 SMV Karaoke 28.11.25 Gruselnacht SMV Ferienzeiträume 25/26",
       {
         "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/02_Downloads/Ferienplan_2425.pdf"
       }
@@ -4524,6 +4524,73 @@
       "Wofür benötigt der Staat Geld und wohin fließt es? Welche Mythen kursieren derzeit über Finanzpolitik? Welche Rolle spielt Social Media dabei? Und was hat das alles überhaupt mit Demokratie zu tun? Diesen Fragen gingen die 10. Klassen sowie die Jahrgangsstufe 1 des Studienkollegs St. Johann im Rahmen des Workshops „Rich Democracy“ am 06. November nach. Einen Vormittag lang gaben Anna Peters und Leon Senger vom Fiscal Feminist Hub e.V. – einer Initiative, die sich für eine gerechte, partizipative und verständliche Finanz- und Haushaltspolitik einsetzt – unseren Schülerinnen und Schülern Einblicke in die Finanzpolitik. Dabei lernten sie, wie eng Staatsfinanzen mit Themen wie Demokratie, Gleichberechtigung und gesellschaftlicher Teilhabe verbunden sind. So sollten die Schüler beispielsweise selbst entscheiden, in welche Bereiche der Gesellschaft wie viel Geld investiert werden sollte, oder wie hoch die Steuern bei verschiedenen Personengruppen angesetzt werden müssten. Die Schüler erarbeiteten sich dabei die Zusammenhänge von Staat, Geld, Verantwortung und Gerechtigkeit. Demokratie lebt von der ständigen Auseinandersetzung mit ihr. Genau das haben unsere Schüler gemeinsam mit Frau Peters und Herrn Senger an diesem Workshop-Vormittag erneut unter Beweis gestellt. Ermöglicht und koordiniert wurde der Workshop vom Rotary Club Bad Waldsee-Aulendorf, insbesondere von unserem ehemaligen Schulleiter Herrn Klaus Schneiderhan.",
       {
         "image": "/fileadmin/_processed_/b/7/csm_Demokratie106_5745672686.jpg"
+      }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/schulleben/robotik-ag": {
+    "title": "Robotik-AG in St. Johann!",
+    "content": [
+      "Schulleben Robotik-AG Robotik-AG in St. Johann!",
+      {
+        "image": "/fileadmin/_processed_/d/7/csm_RobotikAG106_8c0f21c9ab.jpg"
+      },
+      "Im Rahmen des Innovationsprogramms „Digitale Schule“ des Landesmedienzentrum BW startete zu Beginn des Schuljahres 25/26 die Robotik-AG. Hierfür wurde unsere Schule mit ComThink-Sets von Fischertechnik ausgestattet. Diese Sets ermöglichen den Schülerinnen und Schülern einen spielerischen Zugang zu „Computational Thinking“. Dabei werden Lösungsstrategien für Probleme entwickelt und diese, egal ob durch den Menschen oder einen Computer, umgesetzt. Ziel am Ende eines Schuljahres ist der Bau eines Roboters, der mit Hilfe von Sensoren auf seine Umgebung reagiert. Die AG findet ab Klasse 5 immer montags und donnerstags in der 7. Stunde im NwT-Theorieraum statt. Es sind keine Vorkenntnisse nötig. Ich freue mich auf euch! Frau Nonnenmacher",
+      {
+        "image": "/fileadmin/_processed_/8/3/csm_RobotikAG107_071320b454.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/5/d/csm_RobotikAG108_3e152bed4b.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/d/1/csm_RobotikAG109_b2c2c39118.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/6/f/csm_RobotikAG110_e85b9b27cd.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/c/4/csm_RobotikAG111_a68a57dc24.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/8/a/csm_RobotikAG112_5842d4fb47.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/b/b/csm_RobotikAG113_6151671795.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/e/a/csm_RobotikAG114_4772df0d30.jpg"
+      }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/st-johann-bekommt-digitale-baukaesten-im-rahmen-des-innovationsprogramms-digitale-schule": {
+    "title": "St. Johann bekommt digitale Baukästen im Rahmen des Innovationsprogramms \"Digitale Schule“",
+    "content": [
+      "St. Johann bekommt digitale Baukästen im Rahmen des Innovationsprogramms \"Digitale Schule“ St. Johann bekommt digitale Baukästen im Rahmen des Innovationsprogramms \"Digitale Schule“",
+      {
+        "image": "/fileadmin/_processed_/8/3/csm_RobotikAG107_be95ca470c.jpg"
+      },
+      "Unsere Schule nimmt als Pilotschule am Innovationsprogramm „Digitale Schule“ des Kultusministeriums teil und implementiert das Projekt „Computational Thinking“ (ComThink), das vom Landesmedienzentrum Baden-Württemberg unterstützt wird. Durch ein umfangreiches Unterstützungspaket können wir Computational Thinking praxisnah und motivierend in unseren Unterricht einbinden. Was ist Computational Thinking?",
+      {
+        "image": "/fileadmin/_processed_/5/d/csm_RobotikAG108_8203cf3de9.jpg"
+      },
+      "Computational Thinking kann als eine „Werkzeugkiste fürs Denken“ betrachtet werden. Es ermöglicht Schülerinnen und Schülern, komplexe Probleme strukturiert und kreativ zu lösen, nicht nur in der Informatik, sondern auch in anderen Lebensbereichen. Der Ansatz beinhaltet, große Aufgaben in kleinere, handhabbare Teile zu zerlegen, Muster zu erkennen, Wesentliches von Unwichtigem zu unterscheiden und schrittweise Lösungsansätze zu entwickeln. Umsetzung an unserer Schule",
+      {
+        "image": "/fileadmin/_processed_/e/a/csm_RobotikAG114_050d8b6c92.jpg"
+      },
+      "Im Rahmen des ComThink-Programms haben wir Baukästen der Firma Fischertechnik in Klassenstärke, geeignetes Lernmaterial und Fortbildungsmöglichkeiten für unsere Lehrkräfte erhalten. Die Schülerinnen und Schüler arbeiten in Teams mit den ComThink-Sets, die Bausteine, Sensoren und weitere technische Komponenten enthalten. Dadurch entwickeln sie interaktive Modelle und erleben, wie spannend und greifbar das Lernen im MINT-Bereich sein kann. Wir setzen das Programm in zwei AG-Stunden am Montag und Donnerstag ab Klasse 5 in der Robotik-AG (Link Homepageartikel) von Frau Nonnemacher um. Die AG findet in unseren neuen NwT-Räumen statt, die neben der vorhandenen Holzwerkstattaustattung, den in NwT eingesetzten 3D-Druckern und Baukästen im Microcontrollerbereich mit den neuen Fischertechniksets eine weitere hochwertige Ausstattung und damit ein neues Angebot für die Schüler erhalten haben. Warum ist das wichtig? Die Förderung von Computational Thinking stärkt das Selbstvertrauen im Umgang mit digitalen Technologien und vermittelt zentrale Zukunftskompetenzen wie kritisches Denken, logisches Problemlösen und Teamarbeit. So werden unsere Schülerinnen und Schüler befähigt, die digitale Welt aktiv und selbstbewusst mitzugestalten.",
+      {
+        "image": "/fileadmin/_processed_/d/7/csm_RobotikAG106_8ee8b02638.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/b/b/csm_RobotikAG113_6151671795.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/d/1/csm_RobotikAG109_b2c2c39118.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/6/f/csm_RobotikAG110_e85b9b27cd.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/8/a/csm_RobotikAG112_5842d4fb47.jpg"
       }
     ]
   }
