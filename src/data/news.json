@@ -1,4 +1,13 @@
 {
+  "news_608": {
+    "type": "news",
+    "id": "news_608",
+    "name": "Am Montag, den 24.11. kommt der Vorlesefriseur Danny Beuerbach zu uns auf die Bühne im Foyer.",
+    "description": "Wer ihm vorliest, erhält einen kostenlosen Haarschnitt. Ihr werdet nicht erraten, wer sein erster Kunde ist! Die Lesescouts holen die einzelnen Stufen zum Zuschauen ab – bitte bringt alle eine Sitzunterlage mit!",
+    "date": 1763424000000,
+    "image": "https://www.gymnasium-weingarten.de/fileadmin/user_upload/Danny_Beuerbach.jpg",
+    "link": "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=608&cHash=6e89f3741dd60544541000f1d1e8151e"
+  },
   "news_607": {
     "type": "news",
     "id": "news_607",
