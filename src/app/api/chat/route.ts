@@ -62,7 +62,7 @@ const models = [
 ]
 const tools: ToolSet = {
     getInformation: tool({
-        description: `read the contents of articles from the official Gymnasium Weingarten website. use this to gather information when answering questions. use this whenever applicable.`,
+        description: `read the contents of articles from the official school website. use this to gather information when answering questions. use this whenever applicable.`,
         parameters: z.object({
             articles: z.array(createLiterals(available)).describe('the articles to read'),
         }),

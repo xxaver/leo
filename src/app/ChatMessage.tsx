@@ -9,8 +9,6 @@ import {parsePartial} from "@/app/partial";
 import {getSchema} from "@/data/schema";
 import {z} from "zod";
 import {PromptSuggestion} from "@/app/PromptSuggestion";
-import {EntityView} from "@/data/views/EntityView";
-import {all} from "@/data/all";
 import {getUrl} from "../../scraper/utils";
 
 import {decompressUrls} from "@/data/formatUrls";
@@ -122,8 +120,8 @@ export const ChatMessage: FC<{ message: UIMessage }> = ({message}) => {
                                 gridTemplateColumns: "repeat(auto-fill, minmax(min(100%, 400px), 1fr))",
                             }}>
                                 {part.showDetails.map((e, i) => {
-                                    const el = all.find(a => a.id === e.id);
-                                    return el && <EntityView key={i} entity={el} size={"small"}/>
+                                    // const el = all.find(a => a.id === e.id);
+                                    // return el && <EntityView key={i} entity={el} size={"small"}/>
                                 })}
                             </div>}
                         </Fragment>

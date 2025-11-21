@@ -21,19 +21,6 @@ export const German = {
         help2: "Stell mir einfach deine Frage!"
     },
     promptSuggestions: {
-        schoolFestivalSchedule: {
-            prompt: "Wie ist der zeitliche Ablauf des Schulfestes?",
-            text: "Schulfest - Programm"
-        },
-        schoolFestivalProjects: {
-            prompt: "Was gibt es heute beim Schulfest für Projekte zu sehen?",
-            text: "Schulfest - Projekte"
-        },
-        schoolFestivalFood: {
-            prompt: "Welche Essensangebote gibt es heute am Schulfest?",
-            text: "Schulfest - Verpflegung"
-        },
-        
         nonGerman: {
             prompt: "Möglichkeiten für Nicht-Deutschsprachige?",
             text: "Gibt es Möglichkeiten für Nicht-Deutschsprachige?"
@@ -85,15 +72,15 @@ export const German = {
         message: "Deine Nachricht",
         characterLimit: "Zeichen",
         name: "Dein Name",
-        
+
         messagePlaceholder: `Erzähl uns von deiner Erfahrung mit {assistantName}...`,
         namePlaceholder: "z.B. Max Mustermann",
-        
+
         optional: "Optional",
-        
+
         sending: "Wird gesendet",
         send: "Feedback senden",
-        
+
         errors: {
             message: "Bitte schreib eine Nachricht",
             rating: "Bitte gib eine Bewertung ab",

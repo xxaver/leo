@@ -1,4 +1,3 @@
-import schulfest from "@/data/schulfest.txt";
 import other from "@/data/other.json";
 import {compressUrls} from "@/data/formatUrls";
 import {formatOther} from "@/data/types/other";
@@ -9,16 +8,11 @@ const articles = Object.keys(other)
 
 export const knowledge = `Wichtige Links:
 Website: ${schoolUrl}
-
-Infos zum Schulfest:
-${schulfest}
 `;
 
 
 compressUrls(`Wichtige Links:
 Website: ${schoolUrl}
-Infos zum Schulfest:
-${schulfest}
 
 Zusammenfassung der Website inklusive Links:
 ${

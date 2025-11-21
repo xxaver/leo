@@ -19,7 +19,6 @@ export const Welcome: FC = () => {
                     </div>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 max-w-2xl mx-auto">
-                    {/*<p className="text-lg text-gray-700 mb-3">Willkommen beim Chat-Assistenten des Gymnasium Weingarten!</p>*/}
                     <p className="text-gray-600 mb-4">{translations.welcome.help}</p>
                     <div className="grid grid-cols-1 gap-3 text-left">
                         <PromptSuggestions/>

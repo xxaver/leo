@@ -19,18 +19,6 @@
     "help2": "Stell mir einfach deine Frage!"
   },
   "promptSuggestions": {
-    "schoolFestivalSchedule": {
-      "prompt": "Wie ist der zeitliche Ablauf des Schulfestes?",
-      "text": "Schulfest - Programm"
-    },
-    "schoolFestivalProjects": {
-      "prompt": "Was gibt es heute beim Schulfest für Projekte zu sehen?",
-      "text": "Schulfest - Projekte"
-    },
-    "schoolFestivalFood": {
-      "prompt": "Welche Essensangebote gibt es heute am Schulfest?",
-      "text": "Schulfest - Verpflegung"
-    },
     "nonGerman": {
       "prompt": "Möglichkeiten für Nicht-Deutschsprachige?",
       "text": "Gibt es Möglichkeiten für Nicht-Deutschsprachige?"

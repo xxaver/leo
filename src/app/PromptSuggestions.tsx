@@ -24,28 +24,13 @@ export const PromptSuggestions: FC = () => {
     }, [messages])
 
     const date = new Date();
-    const isSchulfest = (date.getMonth() === 6 && date.getDate() === 25 && date.getFullYear() === 2025) || process.env.NODE_ENV === "development";
 
     return <>
         {latest.map((suggestion, i) => <PromptSuggestion key={i} prompt={suggestion.full}
                                                          submit={!suggestion.editable}>{suggestion.short || suggestion.full}
         </PromptSuggestion>)}
         {latest.length > 0 && <Separator orientation="vertical" className="bg-primary/30 !h-[42px] mx-1"/>}
-        {isSchulfest && <>
-            <PromptSuggestion red submit prompt={translations.promptSuggestions.schoolFestivalSchedule.prompt}>
-                <PartyPopper/>
-                {translations.promptSuggestions.schoolFestivalSchedule.text}
-            </PromptSuggestion>
-            <PromptSuggestion red submit prompt={translations.promptSuggestions.schoolFestivalProjects.prompt}>
-                <PartyPopper/>
-                {translations.promptSuggestions.schoolFestivalProjects.text}
-            </PromptSuggestion>
-            <PromptSuggestion red submit prompt={translations.promptSuggestions.schoolFestivalFood.prompt}>
-                <PartyPopper/>
-                {translations.promptSuggestions.schoolFestivalFood.text}
-            </PromptSuggestion>
-            <div className="h-1 w-1"/>
-        </>}
+
         {language !== "German" && <PromptSuggestion submit prompt={translations.promptSuggestions.nonGerman.prompt}>
             <Languages/>
             {translations.promptSuggestions.nonGerman.text}

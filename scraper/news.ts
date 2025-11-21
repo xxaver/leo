@@ -4,11 +4,10 @@ import {News} from "@/data/types/news";
 import {getInnerText} from "./utils";
 
 export const scrapeNews = async (target: string) => {
-    target += "/news.json"
-    const previous: Record<string, News> = JSON.parse(await readFile(target, "utf-8").catch(() => "{}") || "{}")
+    const previous: Record<string, News> = JSON.parse(await readFile("./news-cache.json", "utf-8").catch(() => "{}") || "{}")
     const next: Record<string, News> = {};
 
-    const request = await fetch("https://www.gymnasium-weingarten.de/")
+    const request = await fetch(target)
     const text = await request.text()
     const jsdom = new JSDOM(text);
     const document = jsdom.window.document;
@@ -21,7 +20,7 @@ export const scrapeNews = async (target: string) => {
 
 
         // await Promise.all(links.map(async link => {
-        const url = new URL(link, "https://www.gymnasium-weingarten.de");
+        const url = new URL(link, target);
         const params = new URLSearchParams(url.search);
         const id = "news_" + params.get("tx_news_pi1[news]")
 
