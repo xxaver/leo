@@ -922,6 +922,10 @@
     "content": [
       "Schulleben Aktuelles Aktuelles",
       {
+        "image": "/fileadmin/_processed_/6/3/csm_Besinnungstage7108_1707a3b8d6.jpg"
+      },
+      "20.11.2025 Besinnungstage der 7. Klassen – Zusammenraufen statt Ausrasten Die diesjährigen Besinnungstage der 7. Klassen am St. Johann in Blönried standen ganz im Zeichen des Miteinanders. weiterlesen »",
+      {
         "image": "/fileadmin/_processed_/6/7/csm_Mentorenausbildung106_1d9ff2d433.jpg"
       },
       "20.11.2025 Schülermentoren aus St. Johann und der Eugen-Bolz-Schule ausgebildet 20 Schülerinnen und Schüler aus St. Johann und der Eugen-Bolz-Schule haben in diesem Jahr das Mentorenprogramm des Kultusministeriums absolviert weiterlesen »",
@@ -948,11 +952,7 @@
       {
         "image": "/fileadmin/_processed_/1/b/csm_GeoexkursionTag2138_6ad2dc56ee.jpg"
       },
-      "08.10.2025 Schüler des Geographie-Leistungsfachs erkunden den größten Gletscher Europas Vom 1. bis 4. Oktober 2025 brach ein Teil der Schüler des Geographie-Leistungsfachs mit Frau Pauer und Frau Kaifler zu einer vielseitigen Exkursion in die Schweiz auf, um dort die abiturrelevanten Schwerpunktthemen zu vertiefen. weiterlesen »",
-      {
-        "image": "/fileadmin/_processed_/b/9/csm_Theatherankuendigung106_f63b429dd2.jpg"
-      },
-      "02.10.2025 Theater Blönried auf Theaterhütte Mit einem Probenwochenende auf dem Höchsten begannen die Intensivprobephase für das neue Stück, das das Theater Blönried im November auf die Bühne bringen wird. weiterlesen » Siehe auch Archiv"
+      "08.10.2025 Schüler des Geographie-Leistungsfachs erkunden den größten Gletscher Europas Vom 1. bis 4. Oktober 2025 brach ein Teil der Schüler des Geographie-Leistungsfachs mit Frau Pauer und Frau Kaifler zu einer vielseitigen Exkursion in die Schweiz auf, um dort die abiturrelevanten Schwerpunktthemen zu vertiefen. weiterlesen » Siehe auch Archiv"
     ]
   },
   "https://studienkolleg-st-johann.de/schulleben/theater": {
@@ -4604,6 +4604,28 @@
         "image": "/fileadmin/_processed_/6/7/csm_Mentorenausbildung106_041a2d8d6f.jpg"
       },
       "20 Schülerinnen und Schüler aus St. Johann und der Eugen-Bolz-Schule haben in diesem Jahr in Rot an der Rot das Juniorschülermentorenprogramm des Kultusministeriums absolviert. Das Leitungsteam bestand aus Jaqueline Wagner von der Eugen-Bolz-Schule, David Bösel (Jugend- und Schulseelsorger), Silke Saile von der Arbeitsstelle Schulpastoral sowie den ehemaligen Oberministranten Niklas Genter (Umweltpädagoge )und Jonas Reinhard (Student, Abiturjahrgang St. Johann 2020). Die Stimmung während des Kurses war großartig. Die Jugendlichen stürzten sich mit Begeisterung in Themenfelder wie Gruppenrollen, Grenzen, Kinderschutz, Spielepädagogik, Projektarbeit und auch das Streitschlichten. Ein Höhepunkt war der bunte Abend, an dem die Schülerinnen und Schüler selbst erlernte Spiele moderieren und anleiten durften. Das Juniorschülermentorenprogramm befähigt junge Menschen, in Schulen und Kirchengemeinden soziale Verantwortung zu übernehmen. Nach erfolgreicher Ausbildung erhalten sie ein Zertifikat des Kultusministeriums."
+    ]
+  },
+  "https://studienkolleg-st-johann.de/besinnungstage-der-7-klassen-zusammenraufen-statt-ausrasten": {
+    "title": "Besinnungstage der 7. Klassen – Zusammenraufen statt Ausrasten",
+    "content": [
+      "Besinnungstage der 7. Klassen – Zusammenraufen statt Ausrasten Besinnungstage der 7. Klassen – Zusammenraufen statt Ausrasten",
+      {
+        "image": "/fileadmin/_processed_/6/3/csm_Besinnungstage7108_d0f7d8be8c.jpg"
+      },
+      "Die diesjährigen Besinnungstage der 7. Klassen am St. Johann in Blönried standen ganz im Zeichen des Miteinanders. Unter dem Motto „Zusammenraufen statt Ausrasten“ setzten sich die Schülerinnen und Schüler mit den Themen Gewaltprävention, Gemeinschaft und Konfliktlösung auseinander. In erlebnispädagogischen Übungen und Gruppenarbeiten wurde deutlich, wie wichtig gegenseitiger Respekt, Zuhören und Teamgeist sind. Spielerisch lernten die Jugendlichen, Konflikte frühzeitig zu erkennen und auf gute Weise zu lösen – statt in Streit und Abgrenzung zu verfallen. Auch die christliche Botschaft der Gewaltlosigkeit wurde gemeinsam diskutiert: Gewaltlosigkeit und Zivilcourage sind nichts für Feiglinge – das zeigt ein Blick auf das Leben von Jesus Christus. Geleitet wurde der Tag von Schulseelsorger David Bösl, unterstützt jeweils von drei Schülermentoren aus der 9. und 10. Jahrgangsstufe.",
+      {
+        "image": "/fileadmin/_processed_/4/5/csm_Besinnungstage7106_6969db6245.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/f/0/csm_Besinnungstage7107_eec5288f4c.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/3/b/csm_Besinnungstage7109_79c29de612.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/3/8/csm_Besinnungstage7110_ee2ef5e94b.jpg"
+      }
     ]
   }
 }
