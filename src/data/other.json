@@ -922,6 +922,10 @@
     "content": [
       "Schulleben Aktuelles Aktuelles",
       {
+        "image": "/fileadmin/_processed_/6/7/csm_Mentorenausbildung106_1d9ff2d433.jpg"
+      },
+      "20.11.2025 Schülermentoren aus St. Johann und der Eugen-Bolz-Schule ausgebildet 20 Schülerinnen und Schüler aus St. Johann und der Eugen-Bolz-Schule haben in diesem Jahr das Mentorenprogramm des Kultusministeriums absolviert weiterlesen »",
+      {
         "image": "/fileadmin/_processed_/5/f/csm_Schulbibliothek106_a3d2c2968f.jpg"
       },
       "17.11.2025 Fünftklässler erkunden die Schulbibliothek Im Rahmen des Deutschunterrichts durften die fünften Klassen mit ihren jeweiligen Deutschlehrerinnen die Schulbücherei näher kennenlernen. weiterlesen »",
@@ -948,11 +952,7 @@
       {
         "image": "/fileadmin/_processed_/b/9/csm_Theatherankuendigung106_f63b429dd2.jpg"
       },
-      "02.10.2025 Theater Blönried auf Theaterhütte Mit einem Probenwochenende auf dem Höchsten begannen die Intensivprobephase für das neue Stück, das das Theater Blönried im November auf die Bühne bringen wird. weiterlesen »",
-      {
-        "image": "/fileadmin/_processed_/1/e/csm_Anton-Todesanzeige_0b73950f4a.jpg"
-      },
-      "01.10.2025 Nachruf - Anton Rimmele Wir trauern um unseren ehemaligen Mathematik- und Sportlehrer Anton Rimmele. weiterlesen » Siehe auch Archiv"
+      "02.10.2025 Theater Blönried auf Theaterhütte Mit einem Probenwochenende auf dem Höchsten begannen die Intensivprobephase für das neue Stück, das das Theater Blönried im November auf die Bühne bringen wird. weiterlesen » Siehe auch Archiv"
     ]
   },
   "https://studienkolleg-st-johann.de/schulleben/theater": {
@@ -4594,6 +4594,16 @@
         "image": "/fileadmin/_processed_/5/f/csm_Schulbibliothek106_7a0dfc02a5.jpg"
       },
       "Wie viele Bücher gibt es in der Schulbücherei? Wie funktioniert die Ausleihe eines Buches? Was für Bücher, Medien und Spiele gibt es in der Bücherei? Diese und weitere interessante Fragen wurden bei einem Besuch der fünften Klassen in der Schulbücherei beantwortet. Im Rahmen des Deutschunterrichts durften die fünften Klassen mit ihren jeweiligen Deutschlehrerinnen die Schulbücherei näher kennenlernen. Frau Zigelli, die sich um die Bibliothek kümmert, erklärte den Schülern alles Wichtige rund um die Bücherei. Am Ende konnten die Schüler noch ein Bücherei-Quiz ausfüllen. Der Besuch der Schulbücherei soll die Schüler der fünften Klassen dazu einladen, Zeit in der Bücherei zu verbringen und die tollen Möglichkeiten der Schulbücherei zu nutzen. Mit der großen Auswahl an Büchern und vielen Neuerscheinungen ist für jeden Lesegeschmack etwas dabei, sodass hoffentlich möglichst viele Schüler zu begeisterten Lesern werden. Ein tolles Angebot in diesem Zusammenhang ist der neu gegründete Buchclub, bestehend aus Schülern der fünften Klassen, der von Frau Zigelli geleitet wird. In dem Buchclub soll gemeinsam ein Buch gelesen und über das Buch gesprochen werden."
+    ]
+  },
+  "https://studienkolleg-st-johann.de/schuelermentoren-aus-st-johann-und-der-eugen-bolz-schule-ausgebildet": {
+    "title": "Schülermentoren aus St. Johann und der Eugen-Bolz-Schule ausgebildet",
+    "content": [
+      "Schülermentoren aus St. Johann und der Eugen-Bolz-Schule ausgebildet Schülermentoren aus St. Johann und der Eugen-Bolz-Schule ausgebildet",
+      {
+        "image": "/fileadmin/_processed_/6/7/csm_Mentorenausbildung106_041a2d8d6f.jpg"
+      },
+      "20 Schülerinnen und Schüler aus St. Johann und der Eugen-Bolz-Schule haben in diesem Jahr in Rot an der Rot das Juniorschülermentorenprogramm des Kultusministeriums absolviert. Das Leitungsteam bestand aus Jaqueline Wagner von der Eugen-Bolz-Schule, David Bösel (Jugend- und Schulseelsorger), Silke Saile von der Arbeitsstelle Schulpastoral sowie den ehemaligen Oberministranten Niklas Genter (Umweltpädagoge )und Jonas Reinhard (Student, Abiturjahrgang St. Johann 2020). Die Stimmung während des Kurses war großartig. Die Jugendlichen stürzten sich mit Begeisterung in Themenfelder wie Gruppenrollen, Grenzen, Kinderschutz, Spielepädagogik, Projektarbeit und auch das Streitschlichten. Ein Höhepunkt war der bunte Abend, an dem die Schülerinnen und Schüler selbst erlernte Spiele moderieren und anleiten durften. Das Juniorschülermentorenprogramm befähigt junge Menschen, in Schulen und Kirchengemeinden soziale Verantwortung zu übernehmen. Nach erfolgreicher Ausbildung erhalten sie ein Zertifikat des Kultusministeriums."
     ]
   }
 }
