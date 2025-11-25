@@ -922,6 +922,10 @@
     "content": [
       "Schulleben Aktuelles Aktuelles",
       {
+        "image": "/fileadmin/_processed_/5/8/csm_Praktikumsboerse109_6c1a9a2ed4.jpg"
+      },
+      "20.11.2025 Praktikumsbörse Schule - und was dann? Einen ersten Schritt zur Beantwortung dieser Frage hat die Jahrgangsstufe 9 im Rahmen der erstmals stattgefundenen Praktikumsbörse unternommen. weiterlesen »",
+      {
         "image": "/fileadmin/_processed_/6/3/csm_Besinnungstage7108_1707a3b8d6.jpg"
       },
       "20.11.2025 Besinnungstage der 7. Klassen – Zusammenraufen statt Ausrasten Die diesjährigen Besinnungstage der 7. Klassen am St. Johann in Blönried standen ganz im Zeichen des Miteinanders. weiterlesen »",
@@ -948,11 +952,7 @@
       {
         "image": "/fileadmin/_processed_/a/4/csm_SMVTag110_b26d94369d.jpg"
       },
-      "20.10.2025 SMV-Tag Anfang Oktober fand an unserer Schule wieder unser alljährlicher SMV-Tag statt, der vor allem der Planung des kommenden Schuljahres diente. weiterlesen »",
-      {
-        "image": "/fileadmin/_processed_/1/b/csm_GeoexkursionTag2138_6ad2dc56ee.jpg"
-      },
-      "08.10.2025 Schüler des Geographie-Leistungsfachs erkunden den größten Gletscher Europas Vom 1. bis 4. Oktober 2025 brach ein Teil der Schüler des Geographie-Leistungsfachs mit Frau Pauer und Frau Kaifler zu einer vielseitigen Exkursion in die Schweiz auf, um dort die abiturrelevanten Schwerpunktthemen zu vertiefen. weiterlesen » Siehe auch Archiv"
+      "20.10.2025 SMV-Tag Anfang Oktober fand an unserer Schule wieder unser alljährlicher SMV-Tag statt, der vor allem der Planung des kommenden Schuljahres diente. weiterlesen » Siehe auch Archiv"
     ]
   },
   "https://studienkolleg-st-johann.de/schulleben/theater": {
@@ -4625,6 +4625,25 @@
       },
       {
         "image": "/fileadmin/_processed_/3/8/csm_Besinnungstage7110_ee2ef5e94b.jpg"
+      }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/praktikumsboerse": {
+    "title": "Praktikumsbörse",
+    "content": [
+      "Praktikumsbörse Praktikumsbörse",
+      {
+        "image": "/fileadmin/_processed_/5/8/csm_Praktikumsboerse109_b75a687124.jpg"
+      },
+      "Schule – und was dann? Vor dieser Frage steht jeder zwangsläufig einmal im Laufe der eigenen Schullaufbahn. Einen ersten Schritt zur Beantwortung dieser Frage hat die Jahrgangsstufe 9 im Rahmen der erstmals stattgefundenen Praktikumsbörse unternommen. Dabei gaben unsere diesjährigen 10. Klässlerinnen und 10. Klässler mit Hilfe eindrucksvoll gestalteter Plakate Einblicke in ihr im vergangenen Schuljahr absolviertes BOGY-Praktikum (BOGY – Berufsorientierung am Gymnasium). Den 9. Klässlerinnen und 9. Klässlern bot sich ein breites Angebot verschiedenster Praktikumsmöglichkeiten – vom Schreinerhandwerk über Maschinenbau und Verwaltung bis hin zum Praktikum im Landtag war vieles geboten. Eröffnet wurde die Börse durch Herrn Wild, unserem zuständigen Berufsberater von der Agentur für Arbeit, der über die Praktikumssuche und verschiedene Ausbildungs- und Studienmöglichkeiten informierte. Im Anschluss ergaben sich spannende Gespräche zwischen den beiden Jahrgängen, aus denen die Schüler der 9. Klassen die eine oder andere Inspiration für ein mögliches BOGY-Praktikum am Ende des Schuljahres mitnahmen.",
+      {
+        "image": "/fileadmin/_processed_/9/3/csm_Praktikumsboerse106_7265d50959.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/8/e/csm_Praktikumsboerse107_e8dbd61a02.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/f/a/csm_Praktikumsboerse108_c67deaafd5.jpg"
       }
     ]
   }
