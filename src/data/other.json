@@ -4733,5 +4733,16 @@
         "image": "/fileadmin/user_upload/Danny_Beuerbach.jpg"
       }
     ]
-  }
+  },
+  "https://www.gymnasium-weingarten.de/aktuelles?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=7&cHash=60dd9fc329d1d8d22d20e4df324e2634": null,
+  "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=609&cHash=26174ae3c509dd1eec252f27edfa29a4": {
+    "title": "Weihnachtskartenaktion der Lesescouts – macht alle mit!",
+    "content": [
+      "Weihnachtskartenaktion der Lesescouts – macht alle mit! 26.11.2025 Die Lesescouts möchten einsamen Menschen ein Lächeln ins Gesicht zaubern und beteiligen sich dieses Jahr wieder an einer Aktion der Freiwilligenagentur, die Weihnachtskarten für Menschen ohne Angehörige im Altenheim sammelt und verteilt. Hierfür brauchen wir euch! Macht mit und gestaltet eine schöne Karte, schreibt Weihnachtswünsche darauf und gebt sie bis spätestens Montag, den 8.12. bei Frau Frank und Frau Rothgangel oder bei einem Lesescout ab. Die Klasse mit den meisten Karten erhält einen Preis! Gerne dürfen auch Eltern und Geschwister, die sich angesprochen fühlen, mitmachen.",
+      {
+        "image": "/fileadmin/user_upload/Weihnachtskarten.jpg"
+      }
+    ]
+  },
+  "https://www.gymnasium-weingarten.de/?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=7&cHash=ea9014635b2c547ed99fd30969368eba": null
 }
