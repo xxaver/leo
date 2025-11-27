@@ -920,7 +920,11 @@
   "https://studienkolleg-st-johann.de/schulleben/aktuelles-1": {
     "title": "Aktuelles",
     "content": [
-      "Schulleben Aktuelles Aktuelles 24.11.2025 Das Schultheater von Blönried begeistert zahlreiche Besucher mit gelungener Neuinterpretation Mit der letzten Aufführung am 15.11. ging eine weiter erfolgreiche Theater-Saison zu Ende. Schüler und Lehrer blicken zurück. weiterlesen »",
+      "Schulleben Aktuelles Aktuelles",
+      {
+        "image": "/fileadmin/_processed_/8/8/csm_Theater2025112_07d912834a.jpg"
+      },
+      "24.11.2025 Das Schultheater von Blönried begeistert zahlreiche Besucher mit gelungener Neuinterpretation Mit der letzten Aufführung am 15.11. ging eine weiter erfolgreiche Theater-Saison zu Ende. Schüler und Lehrer blicken zurück. weiterlesen »",
       {
         "image": "/fileadmin/_processed_/5/8/csm_Praktikumsboerse109_6c1a9a2ed4.jpg"
       },
