@@ -4784,5 +4784,14 @@
       }
     ]
   },
-  "https://www.gymnasium-weingarten.de/?school=gym-weingarten&tenant_id=4213900&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=7&cHash=8e847181b5eb5c32f0f5ef066b834200": null
+  "https://www.gymnasium-weingarten.de/?school=gym-weingarten&tenant_id=4213900&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=7&cHash=8e847181b5eb5c32f0f5ef066b834200": null,
+  "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=614&cHash=98778757b4bd79168ff8fb5342b98a6c": {
+    "title": "Herzlichen Glückwunsch allen DELE-Prüflingen 2025",
+    "content": [
+      "Herzlichen Glückwunsch allen DELE-Prüflingen 2025 02.12.2025 Die Schüler und Schülerinnen haben sich im vergangenen Schuljahr intensiv auf die DELE-Prüfung (Diploma de Español como Lengua Extranjera) vorbereitet und konnten während der Sprachreise nach Málaga ihre mündlichen Kompetenzen noch einmal gezielt vertiefen. Nun dürfen sie ein lebenslang gültiges Sprachzertifikat auf dem Niveau A2/B1 entgegennehmen. Das international anerkannten DELE-Sprachdiplom gilt weltweit im universitären Bereich als offizieller Nachweis spanischer Sprachkenntnisse. Es stellt einerseits einen gelungenen Abschluss nach drei Jahren Spanischunterricht dar, andererseits ist es eine gute Grundlage für die Vertiefung der Sprache in der Kursstufe. Auch dem neuen DELE-Kurs wünschen wir eine erfolgreiche Vorbereitung und viel Erfolg für die Prüfungen im Mai.",
+      {
+        "image": "/fileadmin/user_upload/PXL_20251121_081244259.jpg"
+      }
+    ]
+  }
 }
