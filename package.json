@@ -32,7 +32,7 @@
     "jsdom": "^26.1.0",
     "lucide-react": "^0.525.0",
     "motion": "^12.23.6",
-    "next": "15.4.1",
+    "next": "15.4.8",
     "octokit": "^5.0.3",
     "ollama": "^0.5.16",
     "ollama-ai-provider": "^1.2.0",
