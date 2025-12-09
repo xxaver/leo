@@ -922,6 +922,10 @@
     "content": [
       "Schulleben Aktuelles Aktuelles",
       {
+        "image": "/fileadmin/_processed_/0/a/csm_Nikolaus2025106_da08537225.jpg"
+      },
+      "08.12.2025 Nikolaus in St. Johann Tagesheim und SMV bringen mit dem heiligen Nikolaus das Studienkolleg so richtig in Weihnachtsstimmung. weiterlesen »",
+      {
         "image": "/fileadmin/_processed_/8/8/csm_Theater2025112_07d912834a.jpg"
       },
       "24.11.2025 Das Schultheater von Blönried begeistert zahlreiche Besucher mit gelungener Neuinterpretation Mit der letzten Aufführung am 15.11. ging eine weiter erfolgreiche Theater-Saison zu Ende. Schüler und Lehrer blicken zurück. weiterlesen »",
@@ -948,11 +952,7 @@
       {
         "image": "/fileadmin/_processed_/3/5/csm_Demokratie107_92e5bc9cf5.jpg"
       },
-      "11.11.2025 Demokratie-Workshop „Rich Democracy“ am Studienkolleg St. Johann Im Rahmen des Workshops \"Rich Democracy\" gingen die 10. Klassen sowie die Jahrgangsstufe 1 Fragen der Finanzpolitik nach. weiterlesen »",
-      {
-        "image": "/fileadmin/_processed_/f/1/csm_Kenennelerntag5er110_759a810107.jpg"
-      },
-      "22.10.2025 Kennenlerntage am Studienkolleg St. Johann Blönried Zu Beginn des neuen Schuljahres hatten die Klassen 5 die Möglichkeit, sich bei den diesjährigen Kennenlerntagen intensiv miteinander vertraut zu machen. weiterlesen » Siehe auch Archiv"
+      "11.11.2025 Demokratie-Workshop „Rich Democracy“ am Studienkolleg St. Johann Im Rahmen des Workshops \"Rich Democracy\" gingen die 10. Klassen sowie die Jahrgangsstufe 1 Fragen der Finanzpolitik nach. weiterlesen » Siehe auch Archiv"
     ]
   },
   "https://studienkolleg-st-johann.de/schulleben/theater": {
@@ -4691,6 +4691,38 @@
       {
         "image": "/fileadmin/_processed_/5/f/csm_Theater2025117_3d3a554b58.jpg"
       }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/nikolaus-in-st-johan": {
+    "title": "Nikolaus in St. Johann",
+    "content": [
+      "Nikolaus in St. Johann Nikolaus in St. Johann Nikolaus-Freude für unsere Fünfer! Am Donnerstag, den 04.12, war es ein ganz besonderer Nachmittag für unsere Fünftklässler! Es gab eine wunderschöne Nikolausfeier, die das Tagesheim mit den Paten der Fünfer aus Klasse 10 veranstaltet hat. Es begann besinnlich in unserer Kirche mit einer Andacht - eine gute Gelegenheit, in der oft hektischen Vorweihnachtszeit innezuhalten und über die Bedeutung des Teilens und der Nächstenliebe nachzudenken. Unser Unterstufenchor hat die Andacht musikalisch umrahmt. Im Anschluss wurde im Speisesaal eifrig gebastelt. Ein großes Dankeschön an alle, die diesen Nachmittag so herzlich und stimmungsvoll gestaltet haben!",
+      {
+        "image": "/fileadmin/_processed_/6/5/csm_Nikolaus2025107_087683a3f4.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/c/a/csm_Nikolaus2025108_eac573fdd7.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/2/f/csm_Nikolaus2025109_8149ff8354.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/5/0/csm_Nikolaus2025110_e70b02b4ab.jpg"
+      },
+      "Besuch von Nikolaus und Knecht Ruprecht! Am Freitag, den 05.12., hatten wir einen ganz besonderen Besuch: Der Heilige Nikolaus ist mit seinem treuen Begleiter Knecht Ruprecht im Haus und verteilt im Auftrag und in Begleitung der SMV leckere Klausenmänner! Knecht Ruprecht hat – wie es sich gehört – zwar seine Rute dabei, aber am Ende gibt es vermutlich höchstens mahnende Worte. Wir danken dem Nikolaus und Knecht Ruprecht für ihren Besuch und die vorweihnachtliche Stimmung, die sie in unsere Schule bringen!",
+      {
+        "image": "/fileadmin/_processed_/0/a/csm_Nikolaus2025106_79ca390188.jpg"
+      }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/eine-stunde-im-advent": {
+    "title": "Eine Stunde im Advent",
+    "content": [
+      "Eine Stunde im Advent Eine Stunde im Advent",
+      {
+        "image": "/fileadmin/_processed_/b/e/csm_St.Johann_Adventskonzert_viel_Text__420_x_297_mm__f7974b50a3.jpg"
+      },
+      "Wir laden die gesamte Schulgemeinschaft und alle Interessierten herzlich zur traditionellen Musikalischen Adventsstunde in unserer Kirche am 18. 12. 2025, 18.00 Uhr, ein. Dieser stimmungsvolle Abend bildet den besinnlichen gemeinsamen Abschluss vor Weihnachten und stimmt auf die bevorstehenden Feiertage ein. Über 150 mitwirkende Schülerinnen und Schüler aus allen Klassenstufen haben in den vergangenen Wochen intensiv geprobt, um ein abwechslungsreiches und anspruchsvolles Programm zu präsentieren. Die musikalische Bandbreite reicht dabei von den ganz kleinen 5.-Klässlern – vertreten durch die Bläserklasse und den Unterstufenchor – bis hin zu den Großen, die bei Bläser- und Streichergruppen sowie dem Mittel- und Oberstufenchor mitwirken. Gespannt darf man auch auf die Gesangs- und Instrumentalsolisten sein. Ergänzt wird das Konzert durch besinnliche Texte zur Advents- und Weihnachtszeit. Die Kirche wird für diesen besonderen Anlass wieder im festlichen Lichterglanz erstrahlen, und wenn dann zum Abschluss die feierliche Orgel zum Mitsingen einlädt, ist das Weihnachtsfest zum Greifen nahe. Der Eintritt ist frei."
     ]
   }
 }
