@@ -922,6 +922,10 @@
     "content": [
       "Schulleben Aktuelles Aktuelles",
       {
+        "image": "/fileadmin/_processed_/f/1/csm_Gruselnacht107_c23d3f227b.jpg"
+      },
+      "15.12.2025 SMV-Gruselnacht Ende November fand an unserer Schule wieder die alljährliche Gruselnacht der SMV statt. weiterlesen »",
+      {
         "image": "/fileadmin/_processed_/f/9/csm_Tanzkraenzle107_ff7199a749.jpg"
       },
       "10.12.2025 Glanzvoller Abend: Zehner-Tanzkränzchen bis nach Mitternacht! Am letzten Wochenende fand in Weingarten das Tanzkränzchen unserer 10er statt. weiterlesen »",
@@ -948,11 +952,7 @@
       {
         "image": "/fileadmin/_processed_/5/f/csm_Schulbibliothek106_a3d2c2968f.jpg"
       },
-      "17.11.2025 Fünftklässler erkunden die Schulbibliothek Im Rahmen des Deutschunterrichts durften die fünften Klassen mit ihren jeweiligen Deutschlehrerinnen die Schulbücherei näher kennenlernen. weiterlesen »",
-      {
-        "image": "/fileadmin/_processed_/8/a/csm_RobotikAG112_294d1c0f90.jpg"
-      },
-      "14.11.2025 St. Johann bekommt digitale Baukästen im Rahmen des Innovationsprogramms \"Digitale Schule“ Unsere Schule nimmt als Pilotschule am Innovationsprogramm „Digitale Schule“ des Kultusministeriums teil und implementiert das Projekt „Computational Thinking“ (ComThink). weiterlesen » Siehe auch Archiv"
+      "17.11.2025 Fünftklässler erkunden die Schulbibliothek Im Rahmen des Deutschunterrichts durften die fünften Klassen mit ihren jeweiligen Deutschlehrerinnen die Schulbücherei näher kennenlernen. weiterlesen » Siehe auch Archiv"
     ]
   },
   "https://studienkolleg-st-johann.de/schulleben/theater": {
@@ -2180,7 +2180,7 @@
   },
   "https://studienkolleg-st-johann.de/service-1/kalender": {
     "content": [
-      "Service Kalender Listenansicht Kalenderansicht Kalender wählen Alle Lehrkräfte Dezember 2025 Mo 1 Di 2 Mi 3 Do 4 Fr 5 Sa 6 So 7 Mo 8 Di 9 Mi 10 Do 11 Fr 12 Sa 13 So 14 Mo 15 Di 16 Mi 17 Do 18 Fr 19 Sa 20 So 21 Mo 22 Di 23 Mi 24 Do 25 Fr 26 Sa 27 So 28 Mo 29 Di 30 Mi 31 15.12.25, 18:00 Uhr Elternabend Oberstufe Klasse 10 18.12.25 Adventskonzert 19.12.25, 8:25 Uhr Gottesdienste 3./4. Stunde 20.12.25 - 06.01.26 Weihnachtsferien 24.12.25 Heiligabend Ferienzeiträume 25/26",
+      "Service Kalender Listenansicht Kalenderansicht Kalender wählen Alle Lehrkräfte Dezember 2025 Mo 1 Di 2 Mi 3 Do 4 Fr 5 Sa 6 So 7 Mo 8 Di 9 Mi 10 Do 11 Fr 12 Sa 13 So 14 Mo 15 Di 16 Mi 17 Do 18 Fr 19 Sa 20 So 21 Mo 22 Di 23 Mi 24 Do 25 Fr 26 Sa 27 So 28 Mo 29 Di 30 Mi 31 18.12.25 Adventskonzert 19.12.25, 8:25 Uhr Gottesdienste 3./4. Stunde 20.12.25 - 06.01.26 Weihnachtsferien 24.12.25 Heiligabend Ferienzeiträume 25/26",
       {
         "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/02_Downloads/Ferienplan_2425.pdf"
       }
@@ -4735,6 +4735,28 @@
       "Am letzten Wochenende fand in Weingarten das Tanzkränzchen unserer 10er statt. Sie hatten sich darauf gemeinsam mit Schülerinnen und Schülern des Progymnasiums Altshausen bei Tanzlehrer Jürgen Schlegel und seinem Team von Tanzwerk in unserer Sporthalle vorbereitet. Die Schülerinnen und Schüler warfen sich in ihre elegantesten Outfits und zeigten auf der Tanzfläche, was sie gelernt hatten. Von Walzer bis Discofox – die Schritte saßen nahezu perfekt! Das Tanzwerk hat die Gäste darüber hinaus mit einem atemberaubenden Rahmenprogramm verwöhnt. Choreografien bis hin zu professionellem Niveau sorgten für staunende Gesichter und tosenden Applaus. Schön war es auch, bei den Einlagen des Tanzwerks auf ehemalige Schülerinnen und Schüler zu treffen. Darunter waren mit Laura Weizenegger und Marina Demmelmaier zwei Ehemalige St. Johannerinnen, die im Tanzwerk seit Jahren herausgehobene Positionen bekleiden. Bei der Wahl zum Tanzpaar des Abends machten Arina Haak und Paul Schmid das Rennen. Herzlichen Glückwunsch! Bis nach Mitternacht wurde getanzt, gelacht und gebührend gefeiert. Ein unvergesslicher Abend, der uns noch lange in Erinnerung bleiben wird! Vielen Dank an Jürgen Schlegel und das gesamte Tanzwerk-Team für diese gelungene Veranstaltung!",
       {
         "image": "/fileadmin/_processed_/f/9/csm_Tanzkraenzle107_2d145c2be8.jpg"
+      }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/smv-gruselnacht": {
+    "title": "SMV-Gruselnacht",
+    "content": [
+      "SMV-Gruselnacht SMV-Gruselnacht",
+      {
+        "image": "/fileadmin/_processed_/f/1/csm_Gruselnacht107_2e7d6ffad0.jpg"
+      },
+      "Ende November fand an unserer Schule wieder unsere alljährliche Gruselnacht statt. Die von der SMV organisierte Veranstaltung ist speziell für unsere Fünftklässler und zeigte ihnen unsere Schule noch einmal auf ganz andere Art und Weise. Zu Beginn wurden die Schüler durch einen selbst gedrehten Film mit der diesjährigen Storyline vertraut gemacht und schon einmal auf den folgenden Abend eingestimmt. Nach der Einteilung der Fünfer in mehrere Kleingruppen begann der eigentliche Rundgang. Gemeinsam mit jeweils einer Aufsichtsperson führte der Weg die Schüler über das gesamte Schulgelände: angefangen bei der Turnhalle durch den Innenhof bis hin zur Aula. Unterwegs lauerten verkleidete und geschminkte Schüler der oberen Jahrgänge und erschreckten die Jüngeren. Nicht wenige der Fünftklässler bekamen einen ordentlichen Schrecken, sodass auch der ein oder andere Schrei zu hören war. Das Ende bildete die Aula, in der die Schüler wieder von der Normalität empfangen wurden und sich von dem Schauer der letzten Minuten erholen konnten. Für manche war der Abend allerdings noch nicht vorbei: Für die Mutigen gab es noch eine Runde Gruselnacht-Extreme – absolut nichts für schwache Nerven. Spätestens bei dieser Runde blieb keiner der Schüler mehr unerschrocken. Alles in allem war es ein gelungener Abend und mal wieder ein absolutes Highlight für unsere Fünftklässler. Ein Dankeschön geht an alle Mitwirkenden, unter anderem an die Klassenlehrer der Unterstufe, welche als Aufsichtspersonen tätig waren und den Abend erst möglich gemacht haben.",
+      {
+        "image": "/fileadmin/_processed_/e/8/csm_Gruselnacht106_63a04842ed.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/e/e/csm_Gruselnacht108_495ed5c4fc.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/0/5/csm_Gruselnacht109_5d81b218d4.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/c/a/csm_Gruselnacht110_f6d4c22f6b.jpg"
       }
     ]
   }
