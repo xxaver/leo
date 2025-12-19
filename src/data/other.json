@@ -1988,17 +1988,21 @@
       {
         "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/01_Anmeldung/2_Schulvertrag.pdf"
       },
-      "3 Einzugsermächtigung (SEPA-Lastschriftmandat)",
+      "3 Schulgeldordnung",
       {
-        "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/01_Anmeldung/3_Sepa_Lastschriftmandat_Einzugsermaechtigung.pdf"
+        "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/03_Unsere_Schule/08_Kosten/240618Schulgeldordnung_des_Studienkolleg_St._Johann_2024.pdf"
       },
-      "4 Chipkarte-Schülerausweis",
+      "4 Einzugsermächtigung (SEPA-Lastschriftmandat)",
       {
-        "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/01_Anmeldung/4_Chipkarte_Schuelerausweis.pdf"
+        "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/01_Anmeldung/4_Sepa_Lastschriftmandat_Einzugsermaechtigung.pdf"
       },
-      "Informationsschreiben zum Datenschutz",
+      "5 Chipkarte-Schülerausweis",
       {
-        "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/01_Anmeldung/Informationsschreiben_zum_Datenschutz.pdf"
+        "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/01_Anmeldung/5_Chipkarte_Schuelerausweis.pdf"
+      },
+      "6 Informationsschreiben zum Datenschutz",
+      {
+        "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/01_Anmeldung/6_Informationsschreiben_zum_Datenschutz.pdf"
       },
       "Anmeldung zur Freizeit- und Lernbetreuung Mit diesem Formular",
       {
@@ -2024,15 +2028,15 @@
       },
       "Einzugsermächtigung",
       {
-        "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/01_Anmeldung/3_Sepa_Lastschriftmandat_Einzugsermaechtigung.pdf"
+        "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/01_Anmeldung/4_Sepa_Lastschriftmandat_Einzugsermaechtigung.pdf"
       },
       "Chipkarte-Schülerausweis",
       {
-        "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/01_Anmeldung/4_Chipkarte_Schuelerausweis.pdf"
+        "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/01_Anmeldung/5_Chipkarte_Schuelerausweis.pdf"
       },
       "Informationsschreiben zum Datenschutz",
       {
-        "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/01_Anmeldung/Informationsschreiben_zum_Datenschutz.pdf"
+        "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/01_Anmeldung/6_Informationsschreiben_zum_Datenschutz.pdf"
       },
       "Bläserklasse Informationen und Anmeldeformular zur Bläserklasse",
       {
@@ -2180,7 +2184,7 @@
   },
   "https://studienkolleg-st-johann.de/service-1/kalender": {
     "content": [
-      "Service Kalender Listenansicht Kalenderansicht Kalender wählen Alle Lehrkräfte Dezember 2025 Mo 1 Di 2 Mi 3 Do 4 Fr 5 Sa 6 So 7 Mo 8 Di 9 Mi 10 Do 11 Fr 12 Sa 13 So 14 Mo 15 Di 16 Mi 17 Do 18 Fr 19 Sa 20 So 21 Mo 22 Di 23 Mi 24 Do 25 Fr 26 Sa 27 So 28 Mo 29 Di 30 Mi 31 18.12.25 Adventskonzert 19.12.25, 8:25 Uhr Gottesdienste 3./4. Stunde 20.12.25 - 06.01.26 Weihnachtsferien 24.12.25 Heiligabend Ferienzeiträume 25/26",
+      "Service Kalender Listenansicht Kalenderansicht Kalender wählen Alle Lehrkräfte Dezember 2025 Mo 1 Di 2 Mi 3 Do 4 Fr 5 Sa 6 So 7 Mo 8 Di 9 Mi 10 Do 11 Fr 12 Sa 13 So 14 Mo 15 Di 16 Mi 17 Do 18 Fr 19 Sa 20 So 21 Mo 22 Di 23 Mi 24 Do 25 Fr 26 Sa 27 So 28 Mo 29 Di 30 Mi 31 19.12.25, 8:25 Uhr Gottesdienste 3./4. Stunde 20.12.25 - 06.01.26 Weihnachtsferien 24.12.25 Heiligabend Ferienzeiträume 25/26",
       {
         "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/02_Downloads/Ferienplan_2425.pdf"
       }
