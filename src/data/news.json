@@ -1,4 +1,31 @@
 {
+  "news_622": {
+    "type": "news",
+    "id": "news_622",
+    "name": "Wir wünschen Euch alle frohe Weihnachten und erholsame Ferien!",
+    "description": "",
+    "date": 1766188800000,
+    "image": "https://www.gymnasium-weingarten.de/fileadmin/user_upload/IMG-20251219-WA0006.jpg",
+    "link": "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=622&cHash=7872a24d44893c9ce3592f443dfd7eee"
+  },
+  "news_623": {
+    "type": "news",
+    "id": "news_623",
+    "name": "Weihnachtsaktion der Lesescouts ",
+    "description": "Vielen Dank für eure vielen und so liebevoll gestalteten Karten! Danke auch an alle Eltern, die mitgemacht haben. Wir konnten der Freiwilligenagentur insgesamt 290 Weihnachtskarten überreichen, die nun an alleinstehende Menschen verteilt werden. Den Wettbewerb für die meisten Einreichungen hat die 7a gewonnen – mit sage und schreibe 145 Karten. Die Lesescouts haben die Klasse mit einem prall gefüllten Nikolaussack überrascht. Herzlichen Glückwunsch! Frohe Weihnachten wünschen euch und euren Familien Eure Lesescouts ",
+    "date": 1766188800000,
+    "image": "https://www.gymnasium-weingarten.de/fileadmin/user_upload/Bild_1__2_.jpg",
+    "link": "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=623&cHash=d598826752c3e40dfccbfb74d5fbf9ad"
+  },
+  "news_621": {
+    "type": "news",
+    "id": "news_621",
+    "name": "Dezember-Konzert",
+    "description": "Wer sich kurz vor Ferienbeginn durch den Nebel traute, erlebte ein kleines, aber feines Konzert am Gymnasium Weingarten. Den Anfang machte der Unterstufenchor unter seinem neuen Leiter, Emanuel Rezbach. Auf dem Programm stand ein modernes \"Es ist ein Ros entsprungen\", danach wurde es international mit \"Kiss me under the mistletoe\" und \"Feliz Navidad\". Der Chor, der erst letztes Jahr wiederbelebt worden war, bewies auch dieses Jahr große Musikalität, perfekte Tempowechsel und echten Spaß am Singen. Danach gab es beim Konzert eine Premiere: zum ersten Mal spielte ein Querflötenduo. Dies bildete den Übergang zum weltlichen Teil des Konzerts: der Chor, jetzt verstärkt durch die Sängerinnen des Oberstufenchors, sang \"We are the World\". Den Abschluss machte die Band \"The Lions\". Die Jugendlichen sind mittlerweile in Klasse 8-10 und sind perfekt aufeinander eingespielt. So rockten sie den Saal. Der langanhaltende Applaus erzwang sogar eine Zugabe. Vielen Dank an Emanuel Rezbach und Robin Roth, die den Jugendlichen dieses Konzert ermöglicht haben.",
+    "date": 1766188800000,
+    "image": "https://www.gymnasium-weingarten.de/fileadmin/user_upload/20251219_112220.jpg",
+    "link": "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=621&cHash=53bbd9b84c12ba5846526501cb98458b"
+  },
   "news_620": {
     "type": "news",
     "id": "news_620",
