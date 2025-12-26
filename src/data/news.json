@@ -1,4 +1,13 @@
 {
+  "news_624": {
+    "type": "news",
+    "id": "news_624",
+    "name": "Eine frohe Botschaft soll der Engel der diesjährigen Weihnachtskarte zu Ihnen bringen",
+    "description": "Also nicht zu Maria wie es die Malerin Artemisia Gentileschi 1630 gestaltet hatte. Unsere Schülerin Friede Gutierrez Hameister suchte sich einen Ausschnitt der \"Verkündigung\" der Barockmalerin aus und interpretierte ihn in einer Pastellzeichnung, die nun unsere Weihnachtskarte zeigt. Frohe Weihnachten!",
+    "date": 1766620800000,
+    "image": "https://www.gymnasium-weingarten.de/fileadmin/_processed_/d/8/csm_2025_Voderseite_Weihnachtskarte_06f5329252.png",
+    "link": "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=624&cHash=58119212a8db5976784ddc867128b1e6"
+  },
   "news_622": {
     "type": "news",
     "id": "news_622",
