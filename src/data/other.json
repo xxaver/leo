@@ -2010,7 +2010,7 @@
       },
       "können Sie Ihr Kind jederzeit bei der Freizeit- und Lernbetreuung anmelden. Information und Anmeldung zur Bläserklasse Informationen sowie das Formular zur Anmeldung zur Bläserklasse finden Sie unter diesem Link",
       {
-        "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/01_Anmeldung/Information_und_Anmeldung_Blaeserklasse_2025.pdf"
+        "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/01_Anmeldung/Information_und_Anmeldung_Blaeserklasse.pdf"
       },
       "."
     ]
@@ -2040,7 +2040,7 @@
       },
       "Bläserklasse Informationen und Anmeldeformular zur Bläserklasse",
       {
-        "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/01_Anmeldung/Information_und_Anmeldung_Blaeserklasse_2025.pdf"
+        "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/01_Anmeldung/Information_und_Anmeldung_Blaeserklasse.pdf"
       },
       "Entschuldigung und Beurlaubung Antrag auf Beurlaubung",
       {
@@ -2068,7 +2068,7 @@
       },
       "Bläserklasse Informationen und Anmeldeformular zur Bläserklasse",
       {
-        "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/01_Anmeldung/Information_und_Anmeldung_Blaeserklasse_2025.pdf"
+        "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/01_Anmeldung/Information_und_Anmeldung_Blaeserklasse.pdf"
       },
       "Ferienzeiträume Ferienzeiträume 24/25",
       {
@@ -4802,6 +4802,16 @@
       {
         "image": "/fileadmin/_processed_/2/9/csm_StundeimAdvent118_48ed691116.jpg"
       }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/benefizkonzert-landespolizeiorchester": {
+    "title": "Benefizkonzert Landespolizeiorchester",
+    "content": [
+      "Benefizkonzert Landespolizeiorchester Benefizkonzert Landespolizeiorchester",
+      {
+        "image": "/fileadmin/_processed_/3/7/csm_251218Landespolizeiorchester2_3d7b51b858.jpg"
+      },
+      "Zu den weiteren Veranstaltungen im Jubiläumsjahr siehe auch “Wir werden 100!”."
     ]
   }
 }
