@@ -6,7 +6,7 @@ import {forms} from "@/data/forms";
 import {contacts} from "@/data/contacts";
 import {events} from "@/data/events";
 import other from "@/data/other.json";
-import entschuldigung from "@/data/entschuldigungspraxis_neu.txt";
+import entschuldigung from "@/data/entschuldigungspraxis.txt";
 import {compressUrls} from "@/data/formatUrls";
 import {formatOther} from "@/data/types/other";
 import {schoolUrl} from "../../config";
