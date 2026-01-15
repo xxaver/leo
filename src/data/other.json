@@ -2184,7 +2184,7 @@
   },
   "https://studienkolleg-st-johann.de/service-1/kalender": {
     "content": [
-      "Service Kalender Listenansicht Kalenderansicht Kalender wählen Alle Lehrkräfte Januar 2026 Do 1 Fr 2 Sa 3 So 4 Mo 5 Di 6 Mi 7 Do 8 Fr 9 Sa 10 So 11 Mo 12 Di 13 Mi 14 Do 15 Fr 16 Sa 17 So 18 Mo 19 Di 20 Mi 21 Do 22 Fr 23 Sa 24 So 25 Mo 26 Di 27 Mi 28 Do 29 Fr 30 Sa 31 14.01.26, 13:45 Uhr Schulführung 19.01.26, 7:30 Uhr Gewaltprävention Kl. 7a 20.01.26, 13:45 Uhr Schulführung 25.01.26 Benefizkonzert Polizeiorchester 27.01.26 Notenkonferenzen Kl. 5, 6, 7, keine Mittagschule, Hausaufgabenbetreuung findet statt 28.01.26 Notenkonferenzen 10-J2, keine Mittagschule, Hausaufgabenbetreuung findet statt 29.01.26, 13:45 Uhr Schulführung 30.01.26 Ausgabe Zeugnisse 3. Hj. 30.01.26 Musikalischer Abend J2 Ferienzeiträume 25/26",
+      "Service Kalender Listenansicht Kalenderansicht Kalender wählen Alle Lehrkräfte Januar 2026 Do 1 Fr 2 Sa 3 So 4 Mo 5 Di 6 Mi 7 Do 8 Fr 9 Sa 10 So 11 Mo 12 Di 13 Mi 14 Do 15 Fr 16 Sa 17 So 18 Mo 19 Di 20 Mi 21 Do 22 Fr 23 Sa 24 So 25 Mo 26 Di 27 Mi 28 Do 29 Fr 30 Sa 31 19.01.26, 7:30 Uhr Gewaltprävention Kl. 7a 20.01.26, 13:45 Uhr Schulführung 25.01.26 Benefizkonzert Polizeiorchester 27.01.26 Notenkonferenzen Kl. 5, 6, 7, keine Mittagschule, Hausaufgabenbetreuung findet statt 28.01.26 Notenkonferenzen 10-J2, keine Mittagschule, Hausaufgabenbetreuung findet statt 29.01.26, 13:45 Uhr Schulführung 30.01.26 Ausgabe Zeugnisse 3. Hj. 30.01.26 Musikalischer Abend J2 Ferienzeiträume 25/26",
       {
         "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/02_Downloads/Ferienplan_2425.pdf"
       }
@@ -4816,6 +4816,24 @@
         "image": "/fileadmin/_processed_/3/7/csm_251218Landespolizeiorchester2_3d7b51b858.jpg"
       },
       "Zu den weiteren Veranstaltungen im Jubiläumsjahr siehe auch “Wir werden 100!”."
+    ]
+  },
+  "https://studienkolleg-st-johann.de/service-1/stellenangebote": {
+    "title": "Wir stellen ein",
+    "content": [
+      "Service Stellenangebote Wir stellen ein Am Studienkolleg St. Johann Blönried ist die Stelle eines Hausmeisters (m/w/d) mit einem Beschäftigungsumfang von 100 % zu besetzen. Alle Information erhalten Sie in dieser PDF-Datei.",
+      {
+        "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/06_Stellenangebote/260114Hausmeister_Ausschreibung_St.Johann_Bloenried.pdf"
+      }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/einladung-zum-tag-er-offenen-tuer": {
+    "title": "Einladung zum Tag der offenen Tür",
+    "content": [
+      "Einladung zum Tag er offenen Tür Einladung zum Tag der offenen Tür",
+      {
+        "image": "/fileadmin/_processed_/2/2/csm__TagderoffenenTuer_Anzeige_91_5x140mm_1b2147b287.jpg"
+      }
     ]
   }
 }
