@@ -4986,5 +4986,14 @@
     ]
   },
   "https://www.gymnasium-weingarten.de/?page=25&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=2&cHash=61182a79032d5a4287504a4de078dcec": null,
-  "https://www.gymnasium-weingarten.de/?page=25&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=1&cHash=5acd0d7aa09600afbff6a0ce3a73b4a7": null
+  "https://www.gymnasium-weingarten.de/?page=25&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5BcurrentPage%5D=1&cHash=5acd0d7aa09600afbff6a0ce3a73b4a7": null,
+  "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=626&cHash=28c2710491c5477113ea7288684bfe8e": {
+    "title": "Lions als Lead Act des Neujahrsempfangs",
+    "content": [
+      "Lions als Lead Act des Neujahrsempfangs 17.01.2026 Unsere Schulband, die Lions, mit Matteo Dillmann, Lena Rauch, Sahra Kilic, Andrej Paspali und Kiara Alf hatten am Neujahrsempfang der Stadt Weingarten einen großen und zugleich großartigen Auftritt. Die Lions konnten die Bürgerinnen und Bürger der Stadt Weingarten und die zahlreichen geladenen Gäste aus Politik, Kultur und Wirtschaft mit ihren mitreißenden Interpretationen der Songs von Teddy Swims, Adele und Eminem begeistern. Auch der Bandleader, Robin Roth, war mit dem Auftritt der Band sichtlich zufrieden und voll des Lobes für die mittlerweile sehr professionell auftretenden MusikerInnen.",
+      {
+        "image": "/fileadmin/user_upload/Band.jpeg"
+      }
+    ]
+  }
 }

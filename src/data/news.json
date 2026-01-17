@@ -1,4 +1,13 @@
 {
+  "news_626": {
+    "type": "news",
+    "id": "news_626",
+    "name": "Lions als Lead Act des Neujahrsempfangs",
+    "description": "Unsere Schulband, die Lions, mit Matteo Dillmann, Lena Rauch, Sahra Kilic, Andrej Paspali und Kiara Alf hatten am Neujahrsempfang der Stadt Weingarten einen großen und zugleich großartigen Auftritt. Die Lions konnten die Bürgerinnen und Bürger der Stadt Weingarten und die zahlreichen geladenen Gäste aus Politik, Kultur und Wirtschaft mit ihren mitreißenden Interpretationen der Songs von Teddy Swims, Adele und Eminem begeistern. Auch der Bandleader, Robin Roth, war mit dem Auftritt der Band sichtlich zufrieden und voll des Lobes für die mittlerweile sehr professionell auftretenden MusikerInnen.",
+    "date": 1768608000000,
+    "image": "https://www.gymnasium-weingarten.de/fileadmin/user_upload/Band.jpeg",
+    "link": "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=626&cHash=28c2710491c5477113ea7288684bfe8e"
+  },
   "news_625": {
     "type": "news",
     "id": "news_625",
