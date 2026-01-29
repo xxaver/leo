@@ -5010,11 +5010,17 @@
     "content": [
       "Elternsprechtag am 6. Februar 2026 23.01.2026 Liebe Eltern, am Freitag, 06. Februar 2026 findet der Elternsprechtag der Klassen 5 bis 12 von 15:00 Uhr bis 19:00 Uhr statt. An diesem Tag können Sie die Lehrerinnen und Lehrer Ihres Kindes sprechen. Bitte reservieren Sie über den Link https://gymwgt.ifswangen.de/e_abend_formular.php bei dem entsprechenden Lehrer einen Termin. Eine Anmeldung ist ab Mittwoch, 28. Januar 2026 (18.00 Uhr) möglich. Am Mittwoch, 04. Februar 2026 endet um 22.00 Uhr die Anmeldemöglichkeit. Wir wünschen Ihnen gute und konstruktive Gespräche! Ihre Schulleitung",
       {
-        "image": "/fileadmin/user_upload/Information.png"
+        "image": "/fileadmin/user_upload/Info_Loewe.jpg"
       }
     ]
   },
-  "https://www.gymnasium-weingarten.de/mitteilungen": null,
+  "https://www.gymnasium-weingarten.de/mitteilungen": {
+    "content": [
+      {
+        "image": "/fileadmin/_processed_/f/8/csm_Info_Loewe_a656fc1ff4.jpg"
+      }
+    ]
+  },
   "https://www.gymnasium-weingarten.de/mitteilungen/14012026-webuntis-elternzugaenge": null,
   "https://www.gymnasium-weingarten.de/mitteilungen/15012026": null
 }
