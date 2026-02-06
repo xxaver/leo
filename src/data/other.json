@@ -3509,15 +3509,19 @@
       },
       "Entschuldigungspraxis in den Klassen 5 bis 10",
       {
-        "document": "/fileadmin/user_upload/Downloads/Entschuldigungsregelung_5-10_2025_09_10.pdf"
+        "document": "/fileadmin/user_upload/Info_Klasse_4/anmeldung/Entschuldigungsregelung_5-10.pdf"
       },
       "Entschuldigungspraxis in der Kursstufe",
       {
-        "document": "/fileadmin/user_upload/Downloads/Entschuldigungsregelung_11-12_2025_10_23.pdf"
+        "document": "/fileadmin/user_upload/Info_Klasse_4/anmeldung/Entschuldigungsregelung_Oberstufe.pdf"
       },
-      "Anmeldung am Gymnasium Weingarten Anmeldung",
+      "Anmeldung am Gymnasium Weingarten Ankommen am Gymnasium Weingarten",
       {
-        "document": "/fileadmin/user_upload/Downloads/Anmeldeformular__2025_02_26.pdf"
+        "document": "/fileadmin/user_upload/Info_Klasse_4/anmeldung/Ankommen_am_Gymnasium_Weingarten_5er.pdf"
+      },
+      "Anmeldung",
+      {
+        "document": "/fileadmin/user_upload/Info_Klasse_4/anmeldung/Anmeldeformular_2026.pdf"
       },
       "Schülermonatskarten",
       {
@@ -3529,11 +3533,31 @@
       },
       "Recht am Bild und Ton sowie Veröffentlichung des Namens",
       {
-        "document": "/fileadmin/user_upload/Downloads/Einwilligung_zur_Veroeffentlichung_von_Text_und_Bild_Kenntnisnahme_Entschuldigungsregelung.pdf"
+        "document": "/fileadmin/user_upload/Info_Klasse_4/anmeldung/Einwilligung_zur_Veroeffentlichung_von_Text_und_Bild_Kenntnisnahme_Entschuldigungsregelung.pdf"
       },
       "Notfalldaten Schüler mit Vorerkrankungen",
       {
         "document": "/fileadmin/user_upload/Downloads/Notfallblatt_Schueler_mit_Vorerkrankungen.pdf"
+      },
+      "Info Mieten Schließfach",
+      {
+        "document": "/fileadmin/user_upload/Info_Klasse_4/anmeldung/Info_Mieten_Schliessfach.pdf"
+      },
+      "Maserninformation",
+      {
+        "document": "/fileadmin/user_upload/Info_Klasse_4/anmeldung/Maserninformation.pdf"
+      },
+      "Schüler mit Vorerkrankung",
+      {
+        "document": "/fileadmin/user_upload/Info_Klasse_4/anmeldung/Schueler_mit_Vorerkrankung.pdf"
+      },
+      "Teilnahme am Schwimmunterricht",
+      {
+        "document": "/fileadmin/user_upload/Info_Klasse_4/anmeldung/Teilnahme_am_Schwimmunterricht.pdf"
+      },
+      "Mittagspause/Mensa",
+      {
+        "document": "/fileadmin/user_upload/Info_Klasse_4/anmeldung/Mittagspause_Mensa.pdf"
       },
       "Bücherzettel Klasse 5",
       {
@@ -3634,9 +3658,8 @@
   "https://www.gymnasium-weingarten.de/datenschutz/": null,
   "https://www.gymnasium-weingarten.de/impressum/": null,
   "https://www.gymnasium-weingarten.de/info-klasse-4/vorstellung/lage-und-atmosphaere": {
-    "title": "Vorstellung des Gymnasiums Weingarten",
+    "title": "Lage und Atmosphäre unseres Gymnasiums",
     "content": [
-      "Vorstellung des Gymnasiums Weingarten",
       {
         "image": "/fileadmin/_processed_/a/8/csm_2019-07-19_Schulfest_24_a3e36de9bd.jpg"
       },
@@ -5032,5 +5055,24 @@
       }
     ]
   },
-  "https://www.gymnasium-weingarten.de/mitteilungen/4022026-casting-welfentheater": null
+  "https://www.gymnasium-weingarten.de/mitteilungen/4022026-casting-welfentheater": null,
+  "https://www.gymnasium-weingarten.de/info-klasse-4/wichtige-formulare-und-informationen": {
+    "title": "Liebe Eltern,",
+    "content": [
+      "Liebe Eltern, alle wichtigen Formulare und Informationen zur Anmeldung Ihres Kindes finden Sie hier."
+    ]
+  },
+  "https://www.gymnasium-weingarten.de/info-klasse-4/bili-am-gymnasium-weingarten": {
+    "title": "Wir sind auf dem Weg zur Einrichtung eines Bili-Zuges!",
+    "content": [
+      {
+        "image": "/fileadmin/_processed_/5/1/csm_Screenshot_2026-02-06_114100_53c71a84a0.png"
+      },
+      "Wir sind auf dem Weg zur Einrichtung eines Bili-Zuges! Liebe Eltern, wir warten derzeit auf die Genehmigung des Kultusministeriums für die Einrichtung eines bilingualen Zuges ab dem Schuljahr 2026/27. Alle Anträge sind gestellt und so blicken wir zuversichtlich auf die Entscheidung für „Bili“ am Gymnasium Weingarten! Falls Sie Interesse am Bili-Zug für die kommende Klasse 5 ab September 2026 haben, möchten wir Ihnen bereits jetzt einige Informationen dazu bereitstellen. Im Bili-Zug bekommt ihr Kind in den Klassen 5 und 6 verstärkten Englischunterricht und belegt ab der 7. Klasse wechselnde Sachfächer auf Englisch (Geographie, Geschichte, Gemeinschaftskunde, Biologie). Ihre Kinder erwerben so eine weit über den normalen Fremdsprachenunterricht hinausgehende kommunikative Kompetenz. Weitere Details entnehmen Sie bitte unserem Info-Blatt.",
+      {
+        "document": "/fileadmin/user_upload/Info_Klasse_4/_Bili_Info_Flyer_final__1_.pdf"
+      },
+      "Falls Sie Interesse haben, können Sie die Anmeldung für Bili gemeinsam mit der Anmeldung für das Gymnasium Weingarten vornehmen. Bei Fragen sprechen Sie uns gerne an: Frau Mischke, Herr Lehmann und unser Schulleiter Herr Dr. Brand stehen Ihnen gerne zur Verfügung. Kontakt finden Sie über das Sekretariat: 0751/56 19 21 50 oder poststelle@gymnasium-weingarten.de."
+    ]
+  }
 }
