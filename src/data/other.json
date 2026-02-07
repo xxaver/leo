@@ -922,6 +922,10 @@
     "content": [
       "Schulleben Aktuelles Aktuelles",
       {
+        "image": "/fileadmin/_processed_/c/1/csm_Tischtennis106_4f69ca9a7b.jpg"
+      },
+      "07.02.2026 Erfolgreicher Tag für unsere U23 Mädchen Tischtennis Schulmannschaft! Dank des Sieges in Fischbach qualifizieren sich unsere Mädchen erneut für das Landesfinale am 10. März 2026 in Albstadt-Tailfingen. weiterlesen »",
+      {
         "image": "/fileadmin/_processed_/d/9/csm_image106_404ebfeb82.jpg"
       },
       "30.01.2026 Ausgezeichnet! Wir sind DELF-Schule. Seit 2015 bietet das Studienkolleg St. Johann die Möglichkeit, das französische Sprachzertifikat DELF (Diplôme d’études de la langue française) zu erwerben. weiterlesen »",
@@ -948,11 +952,7 @@
       {
         "image": "/fileadmin/_processed_/f/1/csm_Gruselnacht107_c23d3f227b.jpg"
       },
-      "15.12.2025 SMV-Gruselnacht Ende November fand an unserer Schule wieder die alljährliche Gruselnacht der SMV statt. weiterlesen »",
-      {
-        "image": "/fileadmin/_processed_/f/9/csm_Tanzkraenzle107_ff7199a749.jpg"
-      },
-      "10.12.2025 Glanzvoller Abend: Zehner-Tanzkränzchen bis nach Mitternacht! Am letzten Wochenende fand in Weingarten das Tanzkränzchen unserer 10er statt. weiterlesen » Siehe auch Archiv"
+      "15.12.2025 SMV-Gruselnacht Ende November fand an unserer Schule wieder die alljährliche Gruselnacht der SMV statt. weiterlesen » Siehe auch Archiv"
     ]
   },
   "https://studienkolleg-st-johann.de/schulleben/theater": {
@@ -4935,6 +4935,15 @@
       },
       {
         "image": "/fileadmin/_processed_/b/c/csm_TagderBerufsorientierung110_966fd31dd0.jpg"
+      }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/erfolgreicher-tag-fuer-unsere-u23-maedchen-tischtennis-schulmannschaft": {
+    "title": "Erfolgreicher Tag für unsere U23 Mädchen Tischtennis Schulmannschaft!",
+    "content": [
+      "Erfolgreicher Tag für unsere U23 Mädchen Tischtennis Schulmannschaft! Erfolgreicher Tag für unsere U23 Mädchen Tischtennis Schulmannschaft! Am 5. Februar 2026 traten unsere talentierten Spielerinnen beim Regierungspräsidiumsfinale in Fischbach gegen das Gymnasium aus Ehingen an. In einem spannenden und umkämpften Match, das fast 3 Stunden dauerte, setzten sich unsere Mädels mit 5:2 durch! Die Spielerinnen Lina, Nele, Emma und Luisa zeigten dabei eine beeindruckende Leistung. Dank dieses Sieges qualifizieren sich unsere Mädchen erneut für das Landesfinale am 10. März 2026 in Albstadt-Tailfingen. Wir sind stolz auf euch und drücken die Daumen, dass ihr euren Titel verteidigen könnt!",
+      {
+        "image": "/fileadmin/_processed_/c/1/csm_Tischtennis106_45dd7157f7.jpg"
       }
     ]
   }
