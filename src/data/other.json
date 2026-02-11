@@ -3518,15 +3518,11 @@
       },
       "Schülermonatskarten",
       {
-        "document": "/fileadmin/user_upload/Downloads/Ablauf_Schuelermonatskarten_-_Elternbrief.docx"
+        "document": "/fileadmin/user_upload/Downloads/Busfahrkarte_Beantragung_20.01.2026.pdf"
       },
-      "Kontakt zum Elternhaus",
+      "Einwilligung zur Veröffentlichung von Text und Bild",
       {
-        "document": "/fileadmin/user_upload/Downloads/Kontakt_zum_Elternhaus.pdf"
-      },
-      "Recht am Bild und Ton sowie Veröffentlichung des Namens",
-      {
-        "document": "/fileadmin/user_upload/Info_Klasse_4/anmeldung/Einwilligung_zur_Veroeffentlichung_von_Text_und_Bild_Kenntnisnahme_Entschuldigungsregelung.pdf"
+        "document": "/fileadmin/user_upload/Downloads/Einwilligung_zur_Veroeffentlichung_von_Text_und_Bild_Kenntnisnahme_Entschuldigungsregelung.pdf"
       },
       "Notfalldaten Schüler mit Vorerkrankungen",
       {
@@ -5068,5 +5064,23 @@
       "Falls Sie Interesse haben, können Sie die Anmeldung für Bili gemeinsam mit der Anmeldung für das Gymnasium Weingarten vornehmen. Bei Fragen sprechen Sie uns gerne an: Frau Mischke, Herr Lehmann und unser Schulleiter Herr Dr. Brand stehen Ihnen gerne zur Verfügung. Kontakt finden Sie über das Sekretariat: 0751/56 19 21 50 oder poststelle@gymnasium-weingarten.de."
     ]
   },
-  "https://www.gymnasium-weingarten.de/mitteilungen/09022026": null
+  "https://www.gymnasium-weingarten.de/mitteilungen/09022026": null,
+  "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=652&cHash=a9c7f9c1f90591716f0c69f90f06e127": {
+    "title": "Vorlesewettbewerb Französisch",
+    "content": [
+      "Vorlesewettbewerb Französisch 11.02.2026 Kurz nach dem deutsch-französischem Tag fand der Vorlesewettbewerb Französisch statt. Jede Lerngruppe stellte 2 Kandidat*innen. In der 7a sorgte dies kurz für Hektik, weil einer der Kandidaten dann doch krank war. Aber es fand sich schnell Ersatz. Jede*r Kandidat*in stellte sich erst auf Französisch vor und las dann einen vorbereiteten Text. In der zweiten Runde gab es einen unbekannten Text. Am Ende gab es 2 Siegerinnen: Charlotte Remsch und Alina Schlecht waren punktgleich. Aufgrund der besseren Leistung im unbekannten Text entschied sich die Jury, mit Charlotte in den Regionalwettbewerb Ende Februar zu gehen.",
+      {
+        "image": "/fileadmin/user_upload/20260123_084828.jpg"
+      }
+    ]
+  },
+  "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=651&cHash=b61f3400fc8d68e5c116816707ef2c19": {
+    "title": "Pia Kreutle, Elisa Miltner und Valerian Schulte beim Landeswettbewerb Mathematik erfolgreich",
+    "content": [
+      "Pia Kreutle, Elisa Miltner und Valerian Schulte beim Landeswettbewerb Mathematik erfolgreich 11.02.2026 Pia Kreutle und Elisa Miltner haben beim Landeswettbewerb Mathematik einen dritten Platz erreicht. Sie hatten im Rahmen des normalen Mathematik-Unterrichts die Aufgaben bekommen, als sie mit anderen Aufgaben fertig waren. Da haben die Mädchen Feuer gefangen und die Aufgaben über die Herbstferien fertig gestellt. Valerian Schulte schnitt sogar noch besser ab. Er erreichte einen zweiten Platz mit Sachpreis und Weiterleitung in die nächste Runde. Er hat sich komplett selbstständig um die Aufgaben gekümmert, seine Mathematiklehrerin hat erst durch die Preisverleihung erfahren, dass er teilgenommen hat.",
+      {
+        "image": "/fileadmin/user_upload/20260122_091320.jpg"
+      }
+    ]
+  }
 }

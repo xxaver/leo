@@ -1,4 +1,22 @@
 {
+  "news_652": {
+    "type": "news",
+    "id": "news_652",
+    "name": "Vorlesewettbewerb Französisch",
+    "description": "Kurz nach dem deutsch-französischem Tag fand der Vorlesewettbewerb Französisch statt. Jede Lerngruppe stellte 2 Kandidat*innen. In der 7a sorgte dies kurz für Hektik, weil einer der Kandidaten dann doch krank war. Aber es fand sich schnell Ersatz. Jede*r Kandidat*in stellte sich erst auf Französisch vor und las dann einen vorbereiteten Text. In der zweiten Runde gab es einen unbekannten Text. Am Ende gab es 2 Siegerinnen: Charlotte Remsch und Alina Schlecht waren punktgleich. Aufgrund der besseren Leistung im unbekannten Text entschied sich die Jury, mit Charlotte in den Regionalwettbewerb Ende Februar zu gehen.",
+    "date": 1770768000000,
+    "image": "https://www.gymnasium-weingarten.de/fileadmin/user_upload/20260123_084828.jpg",
+    "link": "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=652&cHash=a9c7f9c1f90591716f0c69f90f06e127"
+  },
+  "news_651": {
+    "type": "news",
+    "id": "news_651",
+    "name": "Pia Kreutle, Elisa Miltner und Valerian Schulte beim Landeswettbewerb Mathematik erfolgreich",
+    "description": "Pia Kreutle und Elisa Miltner haben beim Landeswettbewerb Mathematik einen dritten Platz erreicht. Sie hatten im Rahmen des normalen Mathematik-Unterrichts die Aufgaben bekommen, als sie mit anderen Aufgaben fertig waren. Da haben die Mädchen Feuer gefangen und die Aufgaben über die Herbstferien fertig gestellt. Valerian Schulte schnitt sogar noch besser ab. Er erreichte einen zweiten Platz mit Sachpreis und Weiterleitung in die nächste Runde. Er hat sich komplett selbstständig um die Aufgaben gekümmert, seine Mathematiklehrerin hat erst durch die Preisverleihung erfahren, dass er teilgenommen hat.",
+    "date": 1770768000000,
+    "image": "https://www.gymnasium-weingarten.de/fileadmin/user_upload/20260122_091320.jpg",
+    "link": "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=651&cHash=b61f3400fc8d68e5c116816707ef2c19"
+  },
   "news_650": {
     "type": "news",
     "id": "news_650",
