@@ -922,6 +922,10 @@
     "content": [
       "Schulleben Aktuelles Aktuelles",
       {
+        "image": "/fileadmin/_processed_/d/b/csm_Skilager6b107_4604d1f014.jpg"
+      },
+      "12.02.2026 Skilager der 6b In der ersten Februarwoche ging es gemeinsam mit unseren Lehrern Herr Stiegeler und Frau Gönner ins Skischullandheim. weiterlesen »",
+      {
         "image": "/fileadmin/_processed_/c/1/csm_Tischtennis106_4f69ca9a7b.jpg"
       },
       "07.02.2026 Erfolgreicher Tag für unsere U23 Mädchen Tischtennis Schulmannschaft! Dank des Sieges in Fischbach qualifizieren sich unsere Mädchen erneut für das Landesfinale am 10. März 2026 in Albstadt-Tailfingen. weiterlesen »",
@@ -948,11 +952,7 @@
       {
         "image": "/fileadmin/_processed_/6/7/csm_StundeimAdvent108_ff6bbbbc4b.jpg"
       },
-      "20.12.2025 Ein Fest der Klänge Das Studienkolleg St. Johann Blönried lud zu einem abwechslungsreichen Adventskonzert ein, das die große Bandbreite seiner musikalischen Talente zeigte. weiterlesen »",
-      {
-        "image": "/fileadmin/_processed_/f/1/csm_Gruselnacht107_c23d3f227b.jpg"
-      },
-      "15.12.2025 SMV-Gruselnacht Ende November fand an unserer Schule wieder die alljährliche Gruselnacht der SMV statt. weiterlesen » Siehe auch Archiv"
+      "20.12.2025 Ein Fest der Klänge Das Studienkolleg St. Johann Blönried lud zu einem abwechslungsreichen Adventskonzert ein, das die große Bandbreite seiner musikalischen Talente zeigte. weiterlesen » Siehe auch Archiv"
     ]
   },
   "https://studienkolleg-st-johann.de/schulleben/theater": {
@@ -2184,7 +2184,7 @@
   },
   "https://studienkolleg-st-johann.de/service-1/kalender": {
     "content": [
-      "Service Kalender Listenansicht Kalenderansicht Kalender wählen Alle Lehrkräfte Februar 2026 So 1 Mo 2 Di 3 Mi 4 Do 5 Fr 6 Sa 7 So 8 Mo 9 Di 10 Mi 11 Do 12 Fr 13 Sa 14 So 15 Mo 16 Di 17 Mi 18 Do 19 Fr 20 Sa 21 So 22 Mo 23 Di 24 Mi 25 Do 26 Fr 27 Sa 28 12.02.26 Gumpiger Donnerstag - SMV Fasnet 13.02.26 - 22.02.26 Fasnetsferien 23.02.26 Medien- und Gewaltprävention Herr Füchlse, 7c 24.02.26, 8:25 Uhr Fahrradunfall-Prävention Kl.6a 25.02.26, 20:00 Uhr Mitgliederversammlung des Freundes- und Förderkreises 26.02.26, 8:25 Uhr Fahrradunfall-Prävention Kl.6b 27.02.26 Anmeldung Klasse 5 St. Johann 27.02.26 - 28.02.26 Elternsprechtage Ferienzeiträume 25/26",
+      "Service Kalender Listenansicht Kalenderansicht Kalender wählen Alle Lehrkräfte Februar 2026 So 1 Mo 2 Di 3 Mi 4 Do 5 Fr 6 Sa 7 So 8 Mo 9 Di 10 Mi 11 Do 12 Fr 13 Sa 14 So 15 Mo 16 Di 17 Mi 18 Do 19 Fr 20 Sa 21 So 22 Mo 23 Di 24 Mi 25 Do 26 Fr 27 Sa 28 13.02.26 - 22.02.26 Fasnetsferien 23.02.26 Medien- und Gewaltprävention Herr Füchlse, 7c 24.02.26, 8:25 Uhr Fahrradunfall-Prävention Kl.6a 25.02.26, 20:00 Uhr Mitgliederversammlung des Freundes- und Förderkreises 26.02.26, 8:25 Uhr Fahrradunfall-Prävention Kl.6b 27.02.26 Anmeldung Klasse 5 St. Johann 27.02.26 - 28.02.26 Elternsprechtage Ferienzeiträume 25/26",
       {
         "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/02_Downloads/Ferienplan_2425.pdf"
       }
@@ -4944,6 +4944,32 @@
       "Erfolgreicher Tag für unsere U23 Mädchen Tischtennis Schulmannschaft! Erfolgreicher Tag für unsere U23 Mädchen Tischtennis Schulmannschaft! Am 5. Februar 2026 traten unsere talentierten Spielerinnen beim Regierungspräsidiumsfinale in Fischbach gegen das Gymnasium aus Ehingen an. In einem spannenden und umkämpften Match, das fast 3 Stunden dauerte, setzten sich unsere Mädels mit 5:2 durch! Die Spielerinnen Lina, Nele, Emma und Luisa zeigten dabei eine beeindruckende Leistung. Dank dieses Sieges qualifizieren sich unsere Mädchen erneut für das Landesfinale am 10. März 2026 in Albstadt-Tailfingen. Wir sind stolz auf euch und drücken die Daumen, dass ihr euren Titel verteidigen könnt!",
       {
         "image": "/fileadmin/_processed_/c/1/csm_Tischtennis106_45dd7157f7.jpg"
+      }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/skilager-6b-1": {
+    "title": "Skilager der 6b",
+    "content": [
+      "Skilager 6b Skilager der 6b In der ersten Februarwoche ging es gemeinsam mit unseren Lehrern Herr Stiegeler und Frau Gönner ins Skischullandheim nach Schröcken (Österreich). Dort verbrachten wir eine super Woche mit abwechslungsreichem Programm und tollem Wetter.",
+      {
+        "image": "/fileadmin/_processed_/3/8/csm_Skilager6b106_e1dc8c1788.jpg"
+      },
+      "Nach dem Frühstück und der Fahrt mit dem Skibus zum Skigebiet ging es auf die Piste an den Saloberkopf. Die Anfängerinnen und Anfänger übten mit Herrn Stiegeler und Betreuerin Moni zunächst fleißig am Tellerlift und dem 2er-Sessel, bevor sie ab Mitte der Woche auch die roten Pisten und die Abfahrten rund um den 6er-Sessel bewältigten. Für die Fortgeschrittenen ging es mit Wolfi, Max und Frau Gönner direkt auf die anspruchsvolleren Pisten. Die Gruppen wurden nach Niveau eingeteilt und erhielten ihre eigenen SkilehrerInnen. Die „Profis“ fuhren bereits ab Montag das ganze Gebiet bis nach Warth ab und probierten sich an den zahlreichen schwarzen Pisten aus. Die ein oder andere koordinative Übungsaufgabe von Skilehrer Max konnten wir gut bewältigen. Bei schönstem Wetter testeten wir die verschiedenen Rennstationen mit Geschwindigkeitsmessungen, die im Skigebiet aufgebaut waren und traten wir immer wieder gegeneinander an. Am Donnerstagvormittag veranstalteten wir dann ein gemeinsames Abschlussrennen. Dank der einzigartigen Moderation des Rennes durch Max kam echtes Weltcup-Feeling auf und wir hatten viel Spaß. Am Ende ging Nicholas als Klassensieger hervor.",
+      {
+        "image": "/fileadmin/_processed_/8/b/csm_Skilager6b108_cd990601cb.jpg"
+      },
+      "Nach dem Tag auf der Skipiste gab es immer Kakao und Kuchen in unserer Unterkunft. Anschließend wurde unter Monis Anleitung gemeinsam das Abendessen gekocht, das immer sehr lecker schmeckte. Außerdem nutzten wir die Zeit am Abend, um Herrn Stiegelers berühmten „Jodler“ zu lernen, kreative Spiele von Wolfi zu testen oder gegen Max und Frau Gönner im Tischtennis anzutreten. Auch die ein oder andere Handballpartie oder Dartrunde in der kleinen Sporthalle durften nicht fehlen. Das Highlight jeden Abend war das vorbereitete Abendprogramm, das sich verschiedene Schülergruppen überlegt hatten. Bei verschiedenen Programmpunkten von „Lehrer zuordnen“ über „Skifahrertypen kennenlernen“ oder beim „Lieder erraten“ ging es immer sehr lustig zu. Vielen Dank an Moni, Wolfi und Max für die tolle Betreuung auf und neben der Piste. Das Skilager hat sehr viel Spaß gemacht und wir werden die Woche sicherlich gut in Erinnerung behalten!",
+      {
+        "image": "/fileadmin/_processed_/d/a/csm_Skilager6b109_a7a71e813c.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/8/8/csm_Skilager6b110_a4d910e2f2.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/2/e/csm_Skilager6b111_31e0a1bb64.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/b/1/csm_Skilager6b112_d3e6fe5ae6.jpg"
       }
     ]
   }
