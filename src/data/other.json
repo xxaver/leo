@@ -922,6 +922,10 @@
     "content": [
       "Schulleben Aktuelles Aktuelles",
       {
+        "image": "/fileadmin/_processed_/6/6/csm_Gumpiger106_def2c490cc.jpg"
+      },
+      "25.02.2026 Gumpiger Donnerstag Egal ob „Narri Narro“, „Doraus Detnaus“ oder „Jo, was saischt au“ – die Fasnet ist ein feierlicher und wesentlicher Bestandteil der Tradition - auch in St. Johann. weiterlesen »",
+      {
         "image": "/fileadmin/_processed_/d/b/csm_Skilager6b107_4604d1f014.jpg"
       },
       "12.02.2026 Skilager der 6b In der ersten Februarwoche ging es gemeinsam mit unseren Lehrern Herr Stiegeler und Frau Gönner ins Skischullandheim. weiterlesen »",
@@ -948,11 +952,7 @@
       {
         "image": "/fileadmin/_processed_/2/3/csm_Gewaltpraevention7er00001_5669891128.jpeg"
       },
-      "19.01.2026 Gewaltprävention in Klasse 7 Diese Woche stand für die Klasse 7a des Studienkollegs St. Johann Gewaltprävention auf dem Stundenplan. weiterlesen »",
-      {
-        "image": "/fileadmin/_processed_/6/7/csm_StundeimAdvent108_ff6bbbbc4b.jpg"
-      },
-      "20.12.2025 Ein Fest der Klänge Das Studienkolleg St. Johann Blönried lud zu einem abwechslungsreichen Adventskonzert ein, das die große Bandbreite seiner musikalischen Talente zeigte. weiterlesen » Siehe auch Archiv"
+      "19.01.2026 Gewaltprävention in Klasse 7 Diese Woche stand für die Klasse 7a des Studienkollegs St. Johann Gewaltprävention auf dem Stundenplan. weiterlesen » Siehe auch Archiv"
     ]
   },
   "https://studienkolleg-st-johann.de/schulleben/theater": {
@@ -2184,7 +2184,7 @@
   },
   "https://studienkolleg-st-johann.de/service-1/kalender": {
     "content": [
-      "Service Kalender Listenansicht Kalenderansicht Kalender wählen Alle Lehrkräfte Februar 2026 So 1 Mo 2 Di 3 Mi 4 Do 5 Fr 6 Sa 7 So 8 Mo 9 Di 10 Mi 11 Do 12 Fr 13 Sa 14 So 15 Mo 16 Di 17 Mi 18 Do 19 Fr 20 Sa 21 So 22 Mo 23 Di 24 Mi 25 Do 26 Fr 27 Sa 28 25.02.26, 20:00 Uhr Mitgliederversammlung des Freundes- und Förderkreises 26.02.26, 8:25 Uhr Fahrradunfall-Prävention Kl.6b 27.02.26 Anmeldung Klasse 5 St. Johann 27.02.26 - 28.02.26 Elternsprechtage Ferienzeiträume 25/26",
+      "Service Kalender Listenansicht Kalenderansicht Kalender wählen Alle Lehrkräfte Februar 2026 So 1 Mo 2 Di 3 Mi 4 Do 5 Fr 6 Sa 7 So 8 Mo 9 Di 10 Mi 11 Do 12 Fr 13 Sa 14 So 15 Mo 16 Di 17 Mi 18 Do 19 Fr 20 Sa 21 So 22 Mo 23 Di 24 Mi 25 Do 26 Fr 27 Sa 28 26.02.26, 8:25 Uhr Fahrradunfall-Prävention Kl.6b 27.02.26 Anmeldung Klasse 5 St. Johann 27.02.26 - 28.02.26 Elternsprechtage Ferienzeiträume 25/26",
       {
         "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/02_Downloads/Ferienplan_2425.pdf"
       }
@@ -4977,6 +4977,18 @@
     "title": "Anmeldung zum Elternsprechtag",
     "content": [
       "Anmeldung zum Elternsprechtag Anmeldung zum Elternsprechtag Über diesen Link können Sie sich für den Elternsprechtag anmelden: https://studienkolleg-st-johann.ifswangen.de/e_abend_formular.php"
+    ]
+  },
+  "https://studienkolleg-st-johann.de/gumpiger-donnerstag": {
+    "title": "Gumpiger Donnerstag",
+    "content": [
+      "Gumpiger Donnerstag Gumpiger Donnerstag Egal ob „Narri Narro“, „Doraus Detnaus“ oder „Jo, was saischt au“ – die Fasnet ist ein feierlicher und wesentlicher Bestandteil der Tradition hierzulande. Und natürlich wurde sie als ebendieser auch bei uns an der Schule gebührend eingeläutet. Am Gumpigen Donnerstag startete für viele die Fasnet, so auch für die Schülerinnen und Schüler an unserer Schule. Nachdem in den ersten drei Stunden noch mehr oder weniger Unterricht stattfand, wurden die Schüler traditionell und durch beschwingte Musik von unserer Krachkapelle befreit. Bei der anschließenden Fasnets-Party in unserer Kulturhalle startete dann der spaßige Teil: Egal ob Lehrerkaraoke oder Berliner-Wettessen – das abwechslungs- sowie einfallsreiche Programm der SMV sorgte mal wieder für ordentlich Stimmung unter den Schülern. Auch für das leibliche Wohl wurde gesorgt: Wie jedes Jahr verteilte die SMV Berliner unter den Schülern, was bei allen auf große Begeisterung traf. Insgesamt war es wieder ein feierlicher Abschluss des ersten Halbjahres und ein stimmungsvoller Einklang auf die bevorstehenden Fasnetsferien.",
+      {
+        "image": "/fileadmin/_processed_/6/6/csm_Gumpiger106_4d26a7ff21.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/9/d/csm_Gumpiger107_285b970dd6.jpg"
+      }
     ]
   }
 }
