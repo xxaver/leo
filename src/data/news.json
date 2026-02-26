@@ -1,4 +1,13 @@
 {
+  "news_654": {
+    "type": "news",
+    "id": "news_654",
+    "name": "Endlich Frühling",
+    "description": "Das Biotop erwacht. Die Nistkästen sind gereinigt und alle fünf Bienenvölker des Gymnasiums haben den Winter wohlbehalten überstanden.",
+    "date": 1772064000000,
+    "image": "https://www.gymnasium-weingarten.de/fileadmin/user_upload/fruehl.jpeg",
+    "link": "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=654&cHash=60a617aab1a6de8fa42f5752279c4071"
+  },
   "news_653": {
     "type": "news",
     "id": "news_653",

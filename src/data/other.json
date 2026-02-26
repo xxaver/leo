@@ -5098,5 +5098,14 @@
         "image": "/fileadmin/user_upload/Foto_Blind_Date_26.jpg"
       }
     ]
+  },
+  "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=654&cHash=60a617aab1a6de8fa42f5752279c4071": {
+    "title": "Endlich Frühling",
+    "content": [
+      "Endlich Frühling 26.02.2026 Das Biotop erwacht. Die Nistkästen sind gereinigt und alle fünf Bienenvölker des Gymnasiums haben den Winter wohlbehalten überstanden.",
+      {
+        "image": "/fileadmin/user_upload/fruehl.jpeg"
+      }
+    ]
   }
 }
