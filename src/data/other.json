@@ -5107,5 +5107,23 @@
         "image": "/fileadmin/user_upload/fruehl.jpeg"
       }
     ]
+  },
+  "https://www.gymnasium-weingarten.de/aktuelles/news?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=655&cHash=21c9bfa7547fb30601152d3a1f8ccdfa": {
+    "title": "Leistungsfach Sport auf Exkursion",
+    "content": [
+      "Leistungsfach Sport auf Exkursion 02.03.2026 Vom 25.2.-27.02.2026 waren die Leistungsfächer Sport der Klassen 11 und 12 auf Exkursion in der Sportschule Oberhaching. Beim Volleyball, Turnen, Krafttraining, Fußball, Schwimmen, Handball und Spikeball kamen alle ins Schwitzen. Die Sportschule hat einen tollen Rahmen geboten, um gemeinsam Spaß zu haben, denn neben großen Sporthallen und Freiflächen konnte auch Dart, Billard und Tischtennis gespielt werden. Das war bestimmt nicht der letzte Besuch in Oberhaching... wir kommen wieder!",
+      {
+        "image": "/fileadmin/user_upload/Sport_1.jpg"
+      },
+      {
+        "image": "/fileadmin/user_upload/Sport_2.jpg"
+      },
+      {
+        "image": "/fileadmin/user_upload/Sport_4.jpg"
+      },
+      {
+        "image": "/fileadmin/user_upload/Sport_3.jpg"
+      }
+    ]
   }
 }
