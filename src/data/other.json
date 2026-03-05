@@ -922,6 +922,10 @@
     "content": [
       "Schulleben Aktuelles Aktuelles",
       {
+        "image": "/fileadmin/_processed_/d/a/csm_GartenAG108_d8bea58998.jpg"
+      },
+      "05.03.2026 Frühlingsputzete bei der Garten AG Die Garten AG \"Kraut und Rüben\" startet jetzt im Frühling wieder mit viel Schwung in eine neue Gartensaison. weiterlesen »",
+      {
         "image": "/fileadmin/_processed_/e/a/csm_Fahrradpraevention106_1926dee7e0.jpg"
       },
       "03.03.2026 Schütze dein Bestes: Fahrradunfall-Prävention in Sankt Johann Unter dem Motto „Schütze dein Bestes“ fand Ende Februar eine zweistündige Fahrradunfall-Prävention in den Klassen 6 statt. weiterlesen »",
@@ -948,11 +952,7 @@
       {
         "image": "/fileadmin/_processed_/d/9/csm_image106_404ebfeb82.jpg"
       },
-      "30.01.2026 Ausgezeichnet! Wir sind DELF-Schule. Seit 2015 bietet das Studienkolleg St. Johann die Möglichkeit, das französische Sprachzertifikat DELF (Diplôme d’études de la langue française) zu erwerben. weiterlesen »",
-      {
-        "image": "/fileadmin/_processed_/b/c/csm_TagderBerufsorientierung110_f39bd3830d.jpg"
-      },
-      "29.01.2026 „St. Johann – Was dann?“ Einen Vormittag lang stand für die Schülerinnen und Schüler der Jahrgangsstufe 1 am Studienkolleg St. Johann alles im Zeichen ihrer beruflichen Zukunft. weiterlesen » Siehe auch Archiv"
+      "30.01.2026 Ausgezeichnet! Wir sind DELF-Schule. Seit 2015 bietet das Studienkolleg St. Johann die Möglichkeit, das französische Sprachzertifikat DELF (Diplôme d’études de la langue française) zu erwerben. weiterlesen » Siehe auch Archiv"
     ]
   },
   "https://studienkolleg-st-johann.de/schulleben/theater": {
@@ -5030,6 +5030,24 @@
       "Unter dem Motto „Schütze dein Bestes“ fand Ende Februar eine zweistündige Fahrradunfall-Prävention in den Klassen 6 statt. Frau Zweifel von der Polizei Ravensburg leitete die Veranstaltung, in der sie den Schülern und Schülerinnen wichtige Informationen rund um das sichere Verhalten mit dem Fahrrad im Straßenverkehr vermittelte. Die Prävention begann mit einer Fragerunde, in der die Polizistin die Kinder nach ihrem Verhalten beim Fahrradfahren befragte. Mit Hilfe von Antwortkarten konnten die Lernenden individuell und interaktiv auf die Fragen reagieren. Diese Methode förderte nicht nur das Verständnis, sondern auch die aktive Beteiligung der Schüler. Ein weiterer Schwerpunkt war die „Kleine Fahrschule“, bei der die Verkehrsregeln, die die Schüler und Schülerinnen bereits in der Grundschule gelernt hatten, spielerisch wiederholt wurden. Themen wie Ablenkung, der tote Winkel, das verkehrssichere Fahrrad und der Fahrradhelm standen auf der Tagesordnung. Die Veranstaltung war nicht nur informativ, sondern auch abwechslungsreich gestaltet. Mit vielen wirklichen Beispielen aus dem Polizeialltag schaffte es Frau Zweifel, die Sechstklässler für die Sicherheit im Straßenverkehr zu sensibilisieren und ihnen die notwendigen Werkzeuge an die Hand zu geben, um sich selbst und andere zu schützen.",
       {
         "image": "/fileadmin/_processed_/0/4/csm_Fahrradpraevention107_07e124cdd8.jpg"
+      }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/fruehingsputzete-bei-der-garten-ag": {
+    "title": "Frühlingsputzete bei der Garten AG",
+    "content": [
+      "Frühingsputzete bei der Garten AG Frühlingsputzete bei der Garten AG Die Garten AG \"Kraut und Rüben\" startet jetzt im Frühling wieder mit viel Schwung in eine neue Gartensaison. Zuletzt war \"Frühlingsputzete\" in den vier Beeten angesagt. An manchen Stellen blühen schon die ersten Primeln und Schneeglöckchen. Unser Hausmeister, Paul Müller, hat für uns eine Erweiterung des Komposters gebaut. Damit kann die Garten AG schon sehr bald ihre eigene Komposterde verwenden. So wächst unser Schulgarten und bietet immer mehr Möglichkeiten für tolle Projekte.",
+      {
+        "image": "/fileadmin/_processed_/8/2/csm_GartenAG106_ef97f8731c.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/d/e/csm_GartenAG107_b1dad96c38.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/d/a/csm_GartenAG108_3925f0d67b.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/9/6/csm_GartenAG109_20a4caf4a4.jpg"
       }
     ]
   }
