@@ -922,6 +922,14 @@
     "content": [
       "Schulleben Aktuelles Aktuelles",
       {
+        "image": "/fileadmin/_processed_/2/2/csm_Juniorwahl106_c5d23de654.jpg"
+      },
+      "12.03.2026 St. Johann wählt! Um auch die Interessen der noch nicht wahlberechtigten Jugendlichen abzubilden, durften diese landesweit bei der Juniorwahl ihre Stimme abgeben. weiterlesen »",
+      {
+        "image": "/fileadmin/_processed_/e/8/csm_TTJtfO106_6ab2c5524e.jpg"
+      },
+      "11.03.2026 Titelverteidigung bei den Landesmeisterschaften im Tischtennis Bei den Landesmeisterschaften im Tischtennis hat die U-23 Mädchen-Mannschaft ihren Titel aus dem Vorjahr erfolgreich verteidigt. weiterlesen »",
+      {
         "image": "/fileadmin/_processed_/d/a/csm_GartenAG108_d8bea58998.jpg"
       },
       "05.03.2026 Frühlingsputzete bei der Garten AG Die Garten AG \"Kraut und Rüben\" startet jetzt im Frühling wieder mit viel Schwung in eine neue Gartensaison. weiterlesen »",
@@ -944,15 +952,7 @@
       {
         "image": "/fileadmin/_processed_/d/b/csm_Skilager6b107_4604d1f014.jpg"
       },
-      "12.02.2026 Skilager der 6b In der ersten Februarwoche ging es gemeinsam mit unseren Lehrern Herr Stiegeler und Frau Gönner ins Skischullandheim. weiterlesen »",
-      {
-        "image": "/fileadmin/_processed_/c/1/csm_Tischtennis106_4f69ca9a7b.jpg"
-      },
-      "07.02.2026 Erfolgreicher Tag für unsere U23 Mädchen Tischtennis Schulmannschaft! Dank des Sieges in Fischbach qualifizieren sich unsere Mädchen erneut für das Landesfinale am 10. März 2026 in Albstadt-Tailfingen. weiterlesen »",
-      {
-        "image": "/fileadmin/_processed_/d/9/csm_image106_404ebfeb82.jpg"
-      },
-      "30.01.2026 Ausgezeichnet! Wir sind DELF-Schule. Seit 2015 bietet das Studienkolleg St. Johann die Möglichkeit, das französische Sprachzertifikat DELF (Diplôme d’études de la langue française) zu erwerben. weiterlesen » Siehe auch Archiv"
+      "12.02.2026 Skilager der 6b In der ersten Februarwoche ging es gemeinsam mit unseren Lehrern Herr Stiegeler und Frau Gönner ins Skischullandheim. weiterlesen » Siehe auch Archiv"
     ]
   },
   "https://studienkolleg-st-johann.de/schulleben/theater": {
@@ -2184,7 +2184,7 @@
   },
   "https://studienkolleg-st-johann.de/service-1/kalender": {
     "content": [
-      "Service Kalender Listenansicht Kalenderansicht Kalender wählen Alle Lehrkräfte März 2026 So 1 Mo 2 Di 3 Mi 4 Do 5 Fr 6 Sa 7 So 8 Mo 9 Di 10 Mi 11 Do 12 Fr 13 Sa 14 So 15 Mo 16 Di 17 Mi 18 Do 19 Fr 20 Sa 21 So 22 Mo 23 Di 24 Mi 25 Do 26 Fr 27 Sa 28 So 29 Mo 30 Di 31 11.03.26 Studieninformationstag KN J1 11.03.26 Besinnungstag Kl. 5c 12.03.26 Elternabend Sprachwahl 16.03.26 Vera Englisch Kl. 8a 1./2. Std. oder 3./4. Std. 16.03.26 - 20.03.26 Skilager 6a 16.03.26 Vera Englisch 8b und 8c 1./2. Std. 16.03.26 Dachau Kl. 9b/c 18.03.26 Vera Deutsch Kl. 8b und 8c 1./2. Std. 18.03.26, 8:25 Uhr Vera Deutsch Kl. 8a 2./3. Std 19.03.26, 19:30 Uhr Elternbeiratssitzung 24.03.26 Ende Sprach-/Profilwahl 27.03.26 Abi Vergatterung 27.03.26 Schauturnen 27.03.26, 7:20 Uhr Gottesdienste 2./3. St. 28.03.26 - 12.04.26 Osterferien Ferienzeiträume 25/26",
+      "Service Kalender Listenansicht Kalenderansicht Kalender wählen Alle Lehrkräfte März 2026 So 1 Mo 2 Di 3 Mi 4 Do 5 Fr 6 Sa 7 So 8 Mo 9 Di 10 Mi 11 Do 12 Fr 13 Sa 14 So 15 Mo 16 Di 17 Mi 18 Do 19 Fr 20 Sa 21 So 22 Mo 23 Di 24 Mi 25 Do 26 Fr 27 Sa 28 So 29 Mo 30 Di 31 12.03.26 Elternabend Sprachwahl 16.03.26 Vera Englisch Kl. 8a 1./2. Std. oder 3./4. Std. 16.03.26 - 20.03.26 Skilager 6a 16.03.26 Vera Englisch 8b und 8c 1./2. Std. 16.03.26 Dachau Kl. 9b/c 18.03.26 Vera Deutsch Kl. 8b und 8c 1./2. Std. 18.03.26, 8:25 Uhr Vera Deutsch Kl. 8a 2./3. Std 19.03.26, 19:30 Uhr Elternbeiratssitzung 24.03.26 Ende Sprach-/Profilwahl 27.03.26 Abi Vergatterung 27.03.26 Schauturnen 27.03.26, 7:20 Uhr Gottesdienste 2./3. St. 28.03.26 - 12.04.26 Osterferien Ferienzeiträume 25/26",
       {
         "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/02_Downloads/Ferienplan_2425.pdf"
       }
@@ -5061,6 +5061,46 @@
       "Im 100-jährigen Jubiläumsjahr öffnet das Studienkolleg St. Johann seine Türen zur nächsten Jubiläumsveranstaltung: Das Ponticelli Ensemble spielt am Sonntag, 15. März, um 17.00Uhr in der Kulturhalle seinaktuelles Programm: „Tierisch gut drauf!“ – ein musikalischer Streifzug voller Eleganz, Energie und überraschender Tierbegegnungen. Mit einem Augenzwinkern und viel Liebe zum Detail verweben wir in diesem Programm musikalische Tiergestalten aus Klassik, Film und Moderne zu einem Abend, der gleichermaßen berührt, begeistert und zum Schmunzeln einlädt. So trifft die Grazie des Schwans aus Saint-Saëns’ gleichnamigen Stück auf die spielerische Leichtfüßigkeit von Mancinis Baby Elephant Walk. Die großen Emotionen der Filmwelt klingen in Nino Rotas La dolce Vita nach, während es mitreißend wird, wenn Khachaturians berühmter Waltz aus der „Masquerade Suite“ seine Schleier hebt. Feurig lodert de Fallas „Danza ritual del fuego“, während Malagueña und Cascade rhythmische Farben und virtuose Bewegungen hinzufügen. Das Konzert wird gemeinsam mit dem Streichensemble des Studienkollegs St. Johann eröffnet. Schließlich war unter anderem das Musizieren am Studienkolleg St. Johann vor über 25 Jahren ein Anlass, der die ersten Ensemblemitglieder bewegte unter dem Namen „Ponticelli Ensemble“ gemeinsam aufzutreten. Freuen Sie sich auf ein Konzertprogramm, das Geist und Sinne weckt – mal temperamentvoll, mal anmutig, mal humorvoll – und vor allem: Tierisch gut drauf! Sonntag, 15. März 2026 Kulturhalle des Studienkollegs St. Johann Beginn um 17.00 Uhr Einlass: 45 min vor Beginn Der Eintritt ist frei. Spenden sind willkommen. Weitere Informationen zum Ponticelli Ensemble finden Sie hier.",
       {
         "image": "/fileadmin/_processed_/e/e/csm_Ponticelli106_d509c1e9c8.jpg"
+      }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/st-johann-waehlt": {
+    "title": "St. Johann wählt!",
+    "content": [
+      "St. Johann wählt! St. Johann wählt! Am 8. März hatten die Wahllokale ihre Türen geöffnet und in Baden-Württemberg wurde ein neuer Landtag gewählt. Erstmals durften auch 16- und 17-jährige ihr Kreuzchen setzen und über die Zukunft des Landes mitentscheiden. Um auch die Interessen der Jüngeren und noch nicht wahlberechtigten Jugendlichen abzubilden, durften sie landesweit bei der Juniorwahl ihre Stimme abgeben. Die Juniorwahl ist ein bundesweites Schulprojekt, das seit 1999 regelmäßig Wahlsimulationen zu Europa-, Bundes- und Landeswahlen durchführt. Ziel des Projekts ist es, “das Interesse der Jugendlichen an Politik zu fördern, Begeisterung für politische Teilhabe und gesellschaftliches Engagement zu wecken, Meinungsbildungsprozesse zu fördern und das Urteilsvermögen zu stärken und Wertschätzung des demokratischen Systems zu vermitteln” (Quelle: juniorwahl.de). Auch in St. Johann wurde in der Woche vor der Landtagswahl gewählt, die Wahl war freiwillig, das Wahllokal immer zur großen Pause sowie zur Mittagspause von Wahlhelfern besetzt. So lernten unsere Schülerinnen und Schüler der Jahrgangsstufen 9 bis J2 nicht nur den Gang zur Urne, sondern auch das wichtige Amt des Wahlhelfers kennen, bei dem sie auch die Auszählung der Stimmzettel mitübernahmen. Am Ende lag die Wahlbeteiligung bei 244 Wahlberechtigten bei 48,4 %, danke an alle Helfer!",
+      {
+        "image": "/fileadmin/_processed_/2/2/csm_Juniorwahl106_efedfc8b3f.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/8/0/csm_Juniorwahl107_a9c55c908c.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/c/a/csm_Juniorwahl112_43b4a20dc5.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/5/f/csm_Juniorwahl110_2eff834ae1.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/7/5/csm_Juniorwahl109_d341a6f513.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/4/2/csm_Juniorwahl108_116b156282.jpg"
+      }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/titelverteidigung-bei-den-landesmeisterschaften-im-tischtennis": {
+    "title": "Titelverteidigung bei den Landesmeisterschaften im Tischtennis",
+    "content": [
+      "Titelverteidigung bei den Landesmeisterschaften im Tischtennis Titelverteidigung bei den Landesmeisterschaften im Tischtennis",
+      {
+        "image": "/fileadmin/_processed_/4/0/csm_TTJtfO107_f0bca54881.jpg"
+      },
+      "Bei den Landesmeisterschaften im Tischtennis hat die U-23 Mädchen-Mannschaft des Studienkollegs St. Johann ihren Titel aus dem Vorjahr erfolgreich verteidigt. Der Wettbewerb fand im Rahmen von Jugend trainiert für Olympia in Albstadt statt. Als Vertreterinnen des Regierungspräsidiums Tübingen trafen unsere vier Spielerinnen im ersten Spiel auf Marbach (RP Stuttgart). Obwohl die Gegnerinnen stark aufspielten, konnte sich das Studienkolleg deutlich mit 5:1 durchsetzen. Nachdem man im zweiten Spiel kurzzeitig gegen Königsbach-Stein (RP Karlsruhe) 2:3 in Rückstand geraten war, gelang es noch durch drei starke Einzel die Partie herumzureißen und auf 5:3 zu stellen. Im letzten Spiel trat das Team dann wieder gewohnt dominant auf und sicherte sich mit einem klaren 5:1 gegen Backnang (als Ersatz für das RP Freiburg) den Titel. Prämiert wurde die herausragende Leistung mit mehreren Sportartikeln und natürlich dem Landespokal, von dem sich die vier nach der Rückfahrt kaum trennen konnten. Wir gratulieren Luisa, Emma, Nele und Lina zum Titelgewinn und einer geschlossenen Mannschaftsleistung.",
+      {
+        "image": "/fileadmin/_processed_/e/8/csm_TTJtfO106_3e60c5a050.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/3/8/csm_TTJtfO108_d4a1585d57.jpg"
       }
     ]
   }
