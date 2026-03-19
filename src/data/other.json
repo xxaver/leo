@@ -922,6 +922,10 @@
     "content": [
       "Schulleben Aktuelles Aktuelles",
       {
+        "image": "/fileadmin/_processed_/e/1/csm_Stadtputzete108_5287fca8f1.jpg"
+      },
+      "18.03.2026 Saubere Sache: St. Johann packt an! In diesen Tagen wird in Aulendorf ordentlich aufgeräumt! Auch wir beteiligen uns daran. weiterlesen »",
+      {
         "image": "/fileadmin/_processed_/3/f/csm_Oper107_edb79d976b.jpg"
       },
       "17.03.2026 Opernbesuch Die Musikbasiskurs der Jahrgangsstufen besuchten in der Stadthalle Biberach die berühmte Oper „Carmen“. weiterlesen »",
@@ -948,11 +952,7 @@
       {
         "image": "/fileadmin/_processed_/c/b/csm_Heureka106_68fbd20607.jpg"
       },
-      "27.02.2026 Dritter Platz in der Landeswertung Beim diesjährigen HEUREKA-Wettbewerb „Mensch und Natur“ beantworteten Schülerinnen und Schüler Fragen im Bereich Naturwissenschaften sowie Technik und Fortschritt. weiterlesen »",
-      {
-        "image": "/fileadmin/_processed_/6/6/csm_Gumpiger106_def2c490cc.jpg"
-      },
-      "25.02.2026 Gumpiger Donnerstag Egal ob „Narri Narro“, „Doraus Detnaus“ oder „Jo, was saischt au“ – die Fasnet ist ein feierlicher und wesentlicher Bestandteil der Tradition - auch in St. Johann. weiterlesen » Siehe auch Archiv"
+      "27.02.2026 Dritter Platz in der Landeswertung Beim diesjährigen HEUREKA-Wettbewerb „Mensch und Natur“ beantworteten Schülerinnen und Schüler Fragen im Bereich Naturwissenschaften sowie Technik und Fortschritt. weiterlesen » Siehe auch Archiv"
     ]
   },
   "https://studienkolleg-st-johann.de/schulleben/theater": {
@@ -5112,6 +5112,21 @@
       },
       {
         "image": "/fileadmin/_processed_/f/2/csm_Oper109_0708b622fd.jpg"
+      }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/saubere-sache-st-johann-packt-an": {
+    "title": "Saubere Sache: St. Johann packt an!",
+    "content": [
+      "Saubere Sache: St. Johann packt an! Saubere Sache: St. Johann packt an! In diesen Tagen wird in Aulendorf ordentlich aufgeräumt! Auch wir beteiligen uns daran. Die Bilder zeigen die Klasse 7c, die heute Morgen die Schulbank gegen Müllzange und Handschuhe tauschte und die Stadtputzete tatkräftig unterstützte. Egal ob achtlos weggeworfene Verpackungen oder versteckter Unrat im Gebüsch – vor der 7c war kein Schnipsel sicher. Es ist schön zu sehen, dass sich unsere Schülerinnen und Schüler für eine saubere Umwelt und unsere Stadt Aulendorf einsetzen.",
+      {
+        "image": "/fileadmin/_processed_/f/a/csm_Stadtputzete106_2f8058e348.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/f/d/csm_Stadtputzete107_4919ad73d4.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/e/1/csm_Stadtputzete108_e1611eebfa.jpg"
       }
     ]
   }
