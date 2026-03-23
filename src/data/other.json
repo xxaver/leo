@@ -922,6 +922,10 @@
     "content": [
       "Schulleben Aktuelles Aktuelles",
       {
+        "image": "/fileadmin/_processed_/6/a/csm_Solisatt106_f9785b2fd4.jpg"
+      },
+      "23.03.2026 Spendenaktion Solisatt Das Studienkolleg hat wieder wichtige Spenden für den Solisatt-Laden in Aulendorf. weiterlesen »",
+      {
         "image": "/fileadmin/_processed_/e/1/csm_Dachau106_efd346fcc8.jpg"
       },
       "22.03.2026 Besuch der 9. Klasse in der KZ-Gedenkstätte Dachau: Eindrücke, die bleiben Am Montag besuchte die 9. Jahrgangsstufe unserer Schule die KZ-Gedenkstätte Dachau. Ziel war es, Geschichte am authentischen Ort zu begreifen. weiterlesen »",
@@ -948,11 +952,7 @@
       {
         "image": "/fileadmin/_processed_/d/a/csm_GartenAG108_d8bea58998.jpg"
       },
-      "05.03.2026 Frühlingsputzete bei der Garten AG Die Garten AG \"Kraut und Rüben\" startet jetzt im Frühling wieder mit viel Schwung in eine neue Gartensaison. weiterlesen »",
-      {
-        "image": "/fileadmin/_processed_/e/a/csm_Fahrradpraevention106_1926dee7e0.jpg"
-      },
-      "03.03.2026 Schütze dein Bestes: Fahrradunfall-Prävention in Sankt Johann Unter dem Motto „Schütze dein Bestes“ fand Ende Februar eine zweistündige Fahrradunfall-Prävention in den Klassen 6 statt. weiterlesen » Siehe auch Archiv"
+      "05.03.2026 Frühlingsputzete bei der Garten AG Die Garten AG \"Kraut und Rüben\" startet jetzt im Frühling wieder mit viel Schwung in eine neue Gartensaison. weiterlesen » Siehe auch Archiv"
     ]
   },
   "https://studienkolleg-st-johann.de/schulleben/theater": {
@@ -5267,6 +5267,15 @@
       },
       {
         "image": "/fileadmin/_processed_/3/f/csm_Dachau119_253564da2e.jpg"
+      }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/spendenaktion-solisatt": {
+    "title": "Spendenaktion Solisatt",
+    "content": [
+      "Spendenaktion Solisatt Spendenaktion Solisatt Das Studienkolleg St. Johann kooperiert mit der Solidarischen Gemeinde Aulendorf. Als der Vorsitzende Josef Bühler anfragte, ob wir an der Schule mit der Solidarischen Gemeinde in ihrem Projekt mitarbeiten, Solisatt mit Lebensmittelspenden zu unterstützen, war die Antwort klar: \"Ja, gerne!\" So eine Spendenaktion passt gut zur Fastenzeit und zum Geist der Schule. Am Freitag, den 20.3. 2026 wurden die Lebensmittel am Studienkolleg abgeholt. Josef Bühler bedankte sich bei Schulleiter Marc Grünbaum: \"So viele gute Lebensmittel, die bei Solisatt gebraucht werden. Ihre Spendenaktion ist für uns auf jeden Fall wertvoll!\"",
+      {
+        "image": "/fileadmin/_processed_/6/a/csm_Solisatt106_c75051f914.jpg"
       }
     ]
   }
