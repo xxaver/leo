@@ -922,6 +922,10 @@
     "content": [
       "Schulleben Aktuelles Aktuelles",
       {
+        "image": "/fileadmin/_processed_/9/b/csm_TTDMLS106_3147c7e8d4.jpg"
+      },
+      "13.04.2026 Luisa Spieß wird Deutsche Jugendmeisterin Bei den Deutschen Jugendmeisterschaften Parasport räumt das Tischtennis-Ass gleich doppelt ab. weiterlesen »",
+      {
         "image": "/fileadmin/_processed_/1/7/csm_Ponticelli110_da30ae8eac.jpg"
       },
       "27.03.2026 Musikalische Safari in der Kulturhalle: Ponticelli-Konzert ein „tierischer“ Erfolg Im Rahmen der Feierlichkeiten zum 100-jährigen Bestehen der Schule erlebten die Zuhörer mit dem renommierten Ponticelli Ensemble ein besonderes musikalisches Highlight. weiterlesen »",
@@ -948,11 +952,7 @@
       {
         "image": "/fileadmin/_processed_/2/2/csm_Juniorwahl106_c5d23de654.jpg"
       },
-      "12.03.2026 St. Johann wählt! Um auch die Interessen der noch nicht wahlberechtigten Jugendlichen abzubilden, durften diese landesweit bei der Juniorwahl ihre Stimme abgeben. weiterlesen »",
-      {
-        "image": "/fileadmin/_processed_/e/8/csm_TTJtfO106_6ab2c5524e.jpg"
-      },
-      "11.03.2026 Titelverteidigung bei den Landesmeisterschaften im Tischtennis Bei den Landesmeisterschaften im Tischtennis hat die U-23 Mädchen-Mannschaft ihren Titel aus dem Vorjahr erfolgreich verteidigt. weiterlesen » Siehe auch Archiv"
+      "12.03.2026 St. Johann wählt! Um auch die Interessen der noch nicht wahlberechtigten Jugendlichen abzubilden, durften diese landesweit bei der Juniorwahl ihre Stimme abgeben. weiterlesen » Siehe auch Archiv"
     ]
   },
   "https://studienkolleg-st-johann.de/schulleben/theater": {
@@ -5300,6 +5300,18 @@
       },
       {
         "image": "/fileadmin/_processed_/1/7/csm_Ponticelli110_a1a40ddbce.jpg"
+      }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/luisa-spiess-wird-deutsche-jugendmeisterin-im": {
+    "title": "Luisa Spieß wird Deutsche Jugendmeisterin",
+    "content": [
+      "Luisa Spieß wird Deutsche Jugendmeisterin Luisa Spieß wird Deutsche Jugendmeisterin Luisa Spieß aus der Klasse 9b hat am 21.März 2026 in Frankfurt bei den Deutschen Jugendmeisterschaften Parasport im Tischtennis sehr erfolgreich teilgenommen. In ihrer Leistungsklasse AB holte sie sich gleich 2 Goldmedaillen und wurde sowohl im Einzel als auch im Doppel, mit ihrer Partnerin vom TSC Dachau, Deutsche Meisterin 2026. Ein großer Erfolg für das junge Talent!",
+      {
+        "image": "/fileadmin/_processed_/a/f/csm_TTDMLS107_c168e9b411.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/9/b/csm_TTDMLS106_2e8ee89a77.jpg"
       }
     ]
   }
