@@ -922,6 +922,10 @@
     "content": [
       "Schulleben Aktuelles Aktuelles",
       {
+        "image": "/fileadmin/_processed_/6/4/csm_Kaenguru106_6cf605ac51.jpg"
+      },
+      "11.05.2026 Große Sprünge in Mathe Sieben Schülerinnen und Schüler haben beim diesjährigen Känguru-Wettbewerb Sonderpreise für besondere viele Punkte erzielt. weiterlesen »",
+      {
         "image": "/fileadmin/_processed_/2/c/csm_Mittelstufenkonzert110_8650263209.jpg"
       },
       "11.05.2026 Erstes Mittelstufenkonzert bringt die Aula zum Beben Zum ersten Mal hat die SMV in diesem Jahr das Mittelstufenkonzert veranstaltet. Mit ihrem breiten Repertoire brachte die Schulband die Meute zum Kochen. weiterlesen »",
@@ -948,11 +952,7 @@
       {
         "image": "/fileadmin/_processed_/1/7/csm_Ponticelli110_da30ae8eac.jpg"
       },
-      "27.03.2026 Musikalische Safari in der Kulturhalle: Ponticelli-Konzert ein „tierischer“ Erfolg Im Rahmen der Feierlichkeiten zum 100-jährigen Bestehen der Schule erlebten die Zuhörer mit dem renommierten Ponticelli Ensemble ein besonderes musikalisches Highlight. weiterlesen »",
-      {
-        "image": "/fileadmin/_processed_/6/a/csm_Solisatt106_f9785b2fd4.jpg"
-      },
-      "23.03.2026 Spendenaktion Solisatt Das Studienkolleg hat wieder wichtige Spenden für den Solisatt-Laden in Aulendorf. weiterlesen » Siehe auch Archiv"
+      "27.03.2026 Musikalische Safari in der Kulturhalle: Ponticelli-Konzert ein „tierischer“ Erfolg Im Rahmen der Feierlichkeiten zum 100-jährigen Bestehen der Schule erlebten die Zuhörer mit dem renommierten Ponticelli Ensemble ein besonderes musikalisches Highlight. weiterlesen » Siehe auch Archiv"
     ]
   },
   "https://studienkolleg-st-johann.de/schulleben/theater": {
@@ -5627,6 +5627,19 @@
       {
         "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/02_Ankuendigungen_und_Berichte/02_Berichte/2025-2026/Mittelstufenkonzert/MVI_4765.MP4"
       }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/grosse-spruenge-in-mathe": {
+    "title": "Große Sprünge in Mathe",
+    "content": [
+      "Große Sprünge in Mathe Große Sprünge in Mathe",
+      {
+        "image": "/fileadmin/_processed_/7/5/csm_Kaenguru107_b1fecdc6ed.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/6/4/csm_Kaenguru106_81f0cec7e8.jpg"
+      },
+      "Fast 60 Schülerinnen und Schüler haben sich den Herausforderungen beim diesjährigen „Känguru der Mathematik“ gestellt. Sieben Schülerinnen und Schüler haben Sonderpreise für besondere viele Punkte erzielt. Einen sagenhaften 1. Preis erreichte Avital Mangold aus der 5a mit 106 von 120 Punkten. Das T-Shirt für den größten Känguru-Sprung, d.h. die meisten fehlerfrei gelösten Aufgaben hintereinander, erhielt Nicholas Schlegat aus der 6b. Die Bilder zeigen Nicholas und die weiteren Preisträger: Moritz Lauber (8b), Simon Voggel (9b), Sebastian Bauser (6b), Neo Bertsch (7c), Max Wiedemann (7b)"
     ]
   }
 }
