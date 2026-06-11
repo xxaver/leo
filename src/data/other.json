@@ -358,9 +358,9 @@
       },
       "Paul Müller",
       {
-        "image": "/fileadmin/_processed_/a/6/csm_08-JF-22-03_3a3472a391.jpg"
+        "image": "/fileadmin/_processed_/b/4/csm_BlankDaniel106_d6c1a8c710.jpg"
       },
-      "Josef Felder"
+      "Daniel Blank"
     ]
   },
   "https://studienkolleg-st-johann.de/unsere-schule-1/smv": {
@@ -922,6 +922,10 @@
     "content": [
       "Schulleben Aktuelles Aktuelles",
       {
+        "image": "/fileadmin/_processed_/d/8/csm_SpeckleFranziska106_a3e422acc1.jpg"
+      },
+      "11.06.2026 Neue Referendarin Unsere neue Referendarin für die Fächer Englisch und katholische Religion stellt sich vor. weiterlesen »",
+      {
         "image": "/fileadmin/_processed_/4/2/csm_SocialMediaPraevention106_a8e6535e59.jpg"
       },
       "09.06.2026 Prävention Social Media - durchgeführt von unseren Schülermentoren Einige unserer Schülermentoren besuchen derzeit die Klassen 6 und 7, um Workshops zu den Risiken und Herausforderungen von Social Media durchzuführen. weiterlesen »",
@@ -948,11 +952,7 @@
       {
         "image": "/fileadmin/_processed_/0/6/csm_Klassentage_7111_318191ff7c.jpg"
       },
-      "21.04.2026 Klassentage 7 Im März hatten unsere Schülerinnen und Schüler der Klassen 7 die Gelegenheit, an einem Klassentag in der Dobelmühle teilzunehmen. weiterlesen »",
-      {
-        "image": "/fileadmin/_processed_/9/b/csm_TTDMLS106_3147c7e8d4.jpg"
-      },
-      "13.04.2026 Luisa Spieß wird Deutsche Jugendmeisterin Bei den Deutschen Jugendmeisterschaften Parasport räumt das Tischtennis-Ass gleich doppelt ab. weiterlesen » Siehe auch Archiv"
+      "21.04.2026 Klassentage 7 Im März hatten unsere Schülerinnen und Schüler der Klassen 7 die Gelegenheit, an einem Klassentag in der Dobelmühle teilzunehmen. weiterlesen » Siehe auch Archiv"
     ]
   },
   "https://studienkolleg-st-johann.de/schulleben/theater": {
@@ -6597,6 +6597,25 @@
       },
       {
         "image": "/fileadmin/_processed_/f/2/csm_Apfelbaum_307_d8207977b8.jpg"
+      }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/unsere-neue-referendarin-frau-speckle-stellt-sich-vor": {
+    "title": "Neue Referendarin",
+    "content": [
+      "Unsere neue Referendarin Frau Speckle stellt sich vor Neue Referendarin",
+      {
+        "image": "/fileadmin/_processed_/d/8/csm_SpeckleFranziska106_8d7ccd01bb.jpg"
+      },
+      "Liebe SchülerInnen, Eltern und KollegInnen, mein Name ist Franziska Speckle und ich freue mich sehr, dass ich für mein Referendariat am Studienkolleg St. Johann sein darf! Meine Fächer Englisch und katholische Theologie habe ich an der Eberhard Karls Universität in Tübingen studiert. Gebürtig komme ich aus Meckenbeuren und freue mich deshalb umso mehr, dass ich nach meiner Studienzeit im schönen Tübingen wieder ein wenig näher zurück am Bodensee bin! Meine Freizeit verbringe ich sehr gerne im Kreise meiner Liebsten in der Nähe des Bodensees mit tollen Gesprächen, einem schönen Ausblick und einem Tässchen Cappuccino. Generell genieße ich die Zeit draußen in der Natur und mit lieben Menschen: Baden, Radeln, Skifahren, Joggen und Spaziergänge bereiten mir dabei besondere Freude! Nach all den Jahren an der Universität freue ich mich nun sehr auf den praktischen Teil meiner Ausbildung, den ich hier gemeinsam mit Ihnen allen am Studienkolleg St. Johann verbringen darf!"
+    ]
+  },
+  "https://studienkolleg-st-johann.de/schulradeln": {
+    "title": "Schulradeln",
+    "content": [
+      "Schulradeln Schulradeln Auch in diesem Schuljahr nimmt das Studienkolleg St. Johann wieder an der Aktion „Stadtradeln/Schulradeln“ teil. Ab dem 13 Juni heißt es drei Wochen lang: Rauf aufs Rad – und gemeinsam Kilometer sammeln! Mitmachen kann jeder: Schülerinnen und Schüler, Lehrkräfte, Eltern und Angehörige – gemeinsam als Team wollen wir unsere Platzierung vom letzten Jahr noch übertreffen! Jetzt mitradeln! Die Anmeldung ist ganz einfach über diesen Link möglich. Anmeldeinformation: Kommune: Aulendorf Team: Studienkolleg St. Johann Viel Spaß und gute Fahrt! Hier seht ihr unsere gemeinsamen Ergebnisse!",
+      {
+        "image": "/fileadmin/_processed_/a/3/csm_Schulradeln106_fd474f084b.jpg"
       }
     ]
   }
