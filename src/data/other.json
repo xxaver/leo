@@ -922,6 +922,10 @@
     "content": [
       "Schulleben Aktuelles Aktuelles",
       {
+        "image": "/fileadmin/_processed_/4/f/csm_ias-uk_de49dbb6b7.png"
+      },
+      "12.06.2026 Wissenschaft und KI live im Klassenzimmer Im Projekt „I'm a scientist“ führte die Klasse 9b einen lebendigen Live‑Chat mit vier KI‑Experten. weiterlesen »",
+      {
         "image": "/fileadmin/_processed_/d/8/csm_SpeckleFranziska106_a3e422acc1.jpg"
       },
       "11.06.2026 Neue Referendarin Unsere neue Referendarin für die Fächer Englisch und katholische Religion stellt sich vor. weiterlesen »",
@@ -948,11 +952,7 @@
       {
         "image": "/fileadmin/_processed_/3/6/csm_Schreibwettbewerb_1896e45172.jpg"
       },
-      "21.04.2026 St. Johann kürt die kreativsten Schriftstellerinnen und Schriftsteller In diesem Schuljahr führte das Studienkolleg St. Johann Blönried zum zweiten Mal den Schreibwettbewerb durch. weiterlesen »",
-      {
-        "image": "/fileadmin/_processed_/0/6/csm_Klassentage_7111_318191ff7c.jpg"
-      },
-      "21.04.2026 Klassentage 7 Im März hatten unsere Schülerinnen und Schüler der Klassen 7 die Gelegenheit, an einem Klassentag in der Dobelmühle teilzunehmen. weiterlesen » Siehe auch Archiv"
+      "21.04.2026 St. Johann kürt die kreativsten Schriftstellerinnen und Schriftsteller In diesem Schuljahr führte das Studienkolleg St. Johann Blönried zum zweiten Mal den Schreibwettbewerb durch. weiterlesen » Siehe auch Archiv"
     ]
   },
   "https://studienkolleg-st-johann.de/schulleben/theater": {
@@ -4432,7 +4432,7 @@
   "https://studienkolleg-st-johann.de/ehemalige": {
     "title": "Anmeldung zum Ehemaligentreffen",
     "content": [
-      "Unsere Schule Ehemalige Anmeldung zum Ehemaligentreffen Liebe Ehemalige, anlässlich des 100-jährigen Jubiläums unserer Schule laden wir euch herzlich zu unserem Ehemaligentreffen ein! Eingeladen sind alle ehemaligen Schülerinnen und Schüler, Kolleginnen und Kollegen, Tagesheimmitarbeiterinnen, Mitarbeiterinnen und Mitarbeiter, sowie Steyler Missionare und Ordensleute. Wann: 25. Juli 2026 Ort und Uhrzeit: Studienkolleg St. Johann, 15:00 – 20:00 Uhr Geplanter Ablauf Im Anschluss an das Treffen (ab 20 Uhr) besteht die Möglichkeit im Schalander in Aulendorf, das Treffen in lockerer Partyatmosphäre ausklingen zu lassen. Bitte meldet euch unten bis spätestens 08.06.2026 an. Wir möchten zudem Fotos der einzelnen Jahrgänge sammeln. Bitte sendet eure Erinnerungen an ehemalige @ sksjb.de. Es wäre gut, wenn die Fotos datiert wären. Wir freuen uns auf euch alle und einen unvergesslichen Tag! Mit herzlichen Grüßen Marc Grünbaum Evi Rimmele Peter Stiegeler Schulleiter Organisationsteam Hiermit melde ich mich verbindlich zum Ehemaligentreffen am 25.07.26 an: Vorname: * Nachname (ggf. Geburtsname): * E-Mail-Adresse: * Falls ehemalige Schülerin/Schüler Abschlussjahr deines Jahrgangs: Bemerkungen: Falls ehemalige Lehrkraft, Mitarbeiterin/Mitarbeiter Tagesheimmitarbeiterin bzw. Steyler Missionare Tätigkeit: Zeitraum der Tätigkeit: Bemerkung: Absenden"
+      "Unsere Schule Ehemalige Anmeldung zum Ehemaligentreffen Liebe Ehemalige, anlässlich des 100-jährigen Jubiläums unserer Schule laden wir euch herzlich zu unserem Ehemaligentreffen ein! Eingeladen sind alle ehemaligen Schülerinnen und Schüler, Kolleginnen und Kollegen, Tagesheimmitarbeiterinnen, Mitarbeiterinnen und Mitarbeiter, sowie Steyler Missionare und Ordensleute. Wann: 25. Juli 2026 Ort und Uhrzeit: Studienkolleg St. Johann, 15:00 – 20:00 Uhr Geplanter Ablauf 15.00 Uhr: 15.00 - 16.15 Uhr: 16.15 Uhr: 19.30 Uhr: Ankommen mit einem Begrüßungsgetränk Schulgebäude besichtigen/Führungen Kaffee und Kuchen Treffen der einzelnen Jahrgänge und offizielle Begrüßung mit kleinem Rahmenprogramm Anschließend gemütliches Zusammensein Foodtrucks und Getränke Gesamtfoto mit allen und Gruppenbilder der einzelnen Jahrgänge Im Anschluss an das Treffen (ab 20 Uhr) besteht die Möglichkeit im Schalander in Aulendorf, das Treffen in lockerer Partyatmosphäre ausklingen zu lassen. Bitte meldet euch unten bis spätestens 26.06.2026 an. (Neue, verlängerte Anmeldefrist) Wir möchten zudem Fotos der einzelnen Jahrgänge sammeln. Bitte sendet eure Erinnerungen an ehemalige @ sksjb.de. Es wäre gut, wenn die Fotos datiert wären. Wir freuen uns auf euch alle und einen unvergesslichen Tag! Mit herzlichen Grüßen Marc Grünbaum Evi Rimmele Peter Stiegeler Schulleiter Organisationsteam Hiermit melde ich mich verbindlich zum Ehemaligentreffen am 25.07.26 an: Vorname: * Nachname (ggf. Geburtsname): * E-Mail-Adresse: * Falls ehemalige Schülerin/Schüler Abschlussjahr deines Jahrgangs: Bemerkungen: Falls ehemalige Lehrkraft, Mitarbeiterin/Mitarbeiter Tagesheimmitarbeiterin bzw. Steyler Missionare Tätigkeit: Zeitraum der Tätigkeit: Bemerkung: Absenden"
     ]
   },
   "https://studienkolleg-st-johann.de/smv-tag-3": {
@@ -4507,11 +4507,14 @@
   "https://studienkolleg-st-johann.de/schuljubilaeum": {
     "title": "Wir werden 100!",
     "content": [
-      "Unsere Schule Wir werden 100! Wir werden 100!",
+      "Unsere Schule Wir werden 100! Wir werden 100! Im Herbst 1926 begann der Unterricht für die ersten 15 Schüler im Missionshaus St. Johann. Vieles hat sich seither verändert. Zunächst war St. Johann ein Internat, an dem Jungs mit dem Ziel unterrichtet wurden, Priester oder Missionare zu werden. In den 1980er Jahren öffnete sich die Schule auch für Mädchen, und seit 1992 kann man in St. Johann das Abitur machen. Das haben inzwischen mehrere Tausend Schülerinnen und Schüler geschafft! Manches ist auch gleich geblieben: Schon in den 1920er Jahren wurde bei uns Theater gespielt! Auf diese Tradition sind wir stolz. Und so beginnt das Jubiläumsjahr mit den Aufführungen unseres Theaters Blönried im November 2025.",
       {
         "image": "/fileadmin/_processed_/c/f/csm_250716StudienkollegStJohann_Logo_100_vektorisiert_final_5673b3a1f6.jpg"
       },
-      "Im Herbst 1926 begann der Unterricht für die ersten 15 Schüler im Missionshaus St. Johann. Vieles hat sich seither verändert. Zunächst war St. Johann ein Internat, an dem Jungs mit dem Ziel unterrichtet wurden, Priester oder Missionare zu werden. In den 1980er Jahren öffnete sich die Schule auch für Mädchen, und seit 1992 kann man in St. Johann das Abitur machen. Das haben inzwischen mehrere Tausend Schülerinnen und Schüler geschafft! Manches ist auch gleich geblieben: Schon in den 1920er Jahren wurde bei uns Theater gespielt! Auf diese Tradition sind wir stolz. Und so beginnt das Jubiläumsjahr mit den Aufführungen unseres Theaters Blönried im November 2025. Wir würden uns freuen, Sie im Jubiläumsjahr 2025/26 in St. Johann willkommen heißen zu dürfen, zum Beispiel beim… Schultheater am 7., 8., 9., 12., 14. und 15. November 2025 Adventskonzert am 18. Dezember 2025 Konzert des Landespolizeiorchesters am 25. Januar 2026 Musikalischen Abend der Jahrgangsstufe 2 am 30. und 31. Januar 2026 Konzert des Ponticelli-Ensembles am 15. März 2026 Musical der Unterstufe am 19., 20. und 21. Juni 2026 Sommerkonzert am 16. Juli 2026 Ehemaligentreffen am 25. Juli 2026 Schulfest am 26. Juli 2026 Festakt am 1. Oktober 2026"
+      "Wir würden uns freuen, Sie im Jubiläumsjahr 2025/26 in St. Johann willkommen heißen zu dürfen, zum Beispiel beim… Schultheater am 7., 8., 9., 12., 14. und 15. November 2025 Adventskonzert am 18. Dezember 2025 Konzert des Landespolizeiorchesters am 25. Januar 2026 Musikalischen Abend der Jahrgangsstufe 2 am 30. und 31. Januar 2026 Konzert des Ponticelli-Ensembles am 15. März 2026 Musical der Unterstufe am 19., 20. und 21. Juni 2026 - entfällt wegen Krankheit Sommerkonzert am 16. Juli 2026 Ehemaligentreffen am 25. Juli 2026 Schulfest am 26. Juli 2026 Festakt am 1. Oktober 2026",
+      {
+        "image": "/fileadmin/_processed_/e/4/csm_Spenden_c31ae59954.jpg"
+      }
     ]
   },
   "https://studienkolleg-st-johann.de/demokratie-workshop-rich-democracy-am-studienkolleg-st-johann": {
@@ -6617,6 +6620,16 @@
       {
         "image": "/fileadmin/_processed_/a/3/csm_Schulradeln106_fd474f084b.jpg"
       }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/wissenschaft-und-ki-live-im-klassenzimmer": {
+    "title": "Wissenschaft und KI live im Klassenzimmer",
+    "content": [
+      "Wissenschaft und KI live im Klassenzimmer Wissenschaft und KI live im Klassenzimmer",
+      {
+        "image": "/fileadmin/_processed_/4/f/csm_ias-uk_f22dad79b9.png"
+      },
+      "Im Projekt „I'm a scientist“ führte die Klasse 9b einen lebendigen Live‑Chat mit vier KI‑Experten aus den Bereichen Kunst- und Medienwissenschaft, Professur für KI und Künstliche Intelligenz, Physik sowie Zeitreihenmodelle (Doktorand) und erhielten direkte Einblicke in Forschung, Alltag und ethische Fragen. „Im Bachelorstudium Kommunikationsdesign — da habe ich meinen ersten Text über Fotografie gelesen und gemerkt, wie sehr mich das interessiert“, berichtete Mona über ihren Weg in die Wissenschaft, Tobias ergänzte: „Ich habe als studentischer Mitarbeiter gearbeitet und gemerkt, dass ich es sehr mag.“ Felix erinnerte sich an Jugend‑Forscht‑Projekte, die ihn „angefuchst“ hätten, und Jona beschrieb, wie sich sein Interesse schon kurz vor dem Abi Richtung Naturwissenschaften wandelte. Die Gespräche reichten von praktischen Tipps bis zu grundsätzlichen Debatten: „Wir finanzieren uns im Wesentlichen durch Forschungsprojekte, die wir einwerben“, erklärte Tobias, während Felix ergänzte, dass Forschungsstellen oft projektgebunden und konkurrenzbehaftet seien. Die Wissenschaftler beantworteten zentrale Fragen klar: Auf die Frage, ob KI der Welt schaden könne, sagte Jona, das passiere „bislang nur indirekt“ durch schädliche Anwendungen, und Tobias wies darauf hin, dass „eher die Nutzer seien und diejenigen, die KI bereitstellen, von denen der Schaden ausgehen kann.“ Zur Überwachung stellten sie fest, dass KI überwachen kann, „wenn man ihr die technischen Befugnisse gibt und die Anweisung das zu tun“ (Jona). Felix erklärte die Lernweise von KI: Regeln werden aufgestellt und auf Computern so trainiert, dass Daten sinnvoll verarbeitet werden. Jona nannte sinnvolle Einsatzfelder: „Verkehrssteuerung, aber auch Medizin“, sofern juristische Fragen geklärt sind. Zum Wettstreit globaler Technologien betonte Jona, Europa müsse vergleichbare, datenschutzfreundliche Angebote schaffen; Tobias verwies auf fehlende Rohstoffe und begrenzte digitale Souveränität. Fünf zentrale Aussagen aus dem Livechat waren: KI verändert unser Verständnis von Wahrheit und kann Politik beeinflussen (Mona); der ökologische Footprint umfasst Strom, Rechenzentren und Rohstoffgewinnung (Tobias); Programmierprojekte schärfen praktische Fähigkeiten (Felix); Jobs verändern sich, Routineaufgaben sind besonders betroffen (Tobias/Jona); und Transparenz, Verantwortung sowie Medienbildung sind zentral, um Chancen zu nutzen und Risiken zu begrenzen. Die Veranstaltung motivierte viele Schüler, sich intensiver mit Informatik, Ethik und Wissenschaft auseinanderzusetzen. Auf die Frage, ob das Projekt in weiteren Klassen durchgeführt werden solle, kam ein klares Ja! Siehe auch Digitaler Unterricht"
     ]
   }
 }
