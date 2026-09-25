@@ -1384,6 +1384,10 @@
       },
       "Startseite Schulleben Aktuelles Aktuelles",
       {
+        "image": "/fileadmin/_processed_/4/a/csm_DELE106_d41c634d9c.jpg"
+      },
+      "25.09.2026 DELE-Zertifikate weiterlesen",
+      {
         "image": "/fileadmin/_processed_/5/7/csm_Einschulung5er113_33a5632397.jpg"
       },
       "18.09.2026 Leinen los zur großen Fahrt am Studienkolleg St. Johann weiterlesen",
@@ -1410,11 +1414,7 @@
       {
         "image": "/fileadmin/_processed_/3/3/csm_SMV-Vollversammlung111_335f6b30df.jpg"
       },
-      "16.06.2026 SMV Vollversammlung 2026 weiterlesen",
-      {
-        "image": "/fileadmin/_processed_/4/f/csm_ias-uk_de49dbb6b7.png"
-      },
-      "12.06.2026 Wissenschaft und KI live im Klassenzimmer weiterlesen Siehe auch Archiv"
+      "16.06.2026 SMV Vollversammlung 2026 weiterlesen Siehe auch Archiv"
     ]
   },
   "https://studienkolleg-st-johann.de/schulleben/theater": {
@@ -3452,7 +3452,7 @@
       {
         "image": "/fileadmin/_processed_/4/1/csm_20221019_103533_b5d0ba4aff.jpg"
       },
-      "Startseite Service Kalender September 2026 Di 1 Mi 2 Do 3 Fr 4 Sa 5 So 6 Mo 7 Di 8 Mi 9 Do 10 Fr 11 Sa 12 So 13 Mo 14 Di 15 Mi 16 Do 17 Fr 18 Sa 19 So 20 Mo 21 Di 22 Mi 23 Do 24 Fr 25 Sa 26 So 27 Mo 28 Di 29 Mi 30 25.09.2026 - 28.09.2026 Theaterhütte 29.09.2026 9:25 Uhr Lernstand Deutsch Kl. 5"
+      "Startseite Service Kalender September 2026 Di 1 Mi 2 Do 3 Fr 4 Sa 5 So 6 Mo 7 Di 8 Mi 9 Do 10 Fr 11 Sa 12 So 13 Mo 14 Di 15 Mi 16 Do 17 Fr 18 Sa 19 So 20 Mo 21 Di 22 Mi 23 Do 24 Fr 25 Sa 26 So 27 Mo 28 Di 29 Mi 30 25.09.2026 - 27.09.2026 Theaterhütte 29.09.2026 9:25 Uhr Lernstand Deutsch Kl. 5"
     ]
   },
   "https://studienkolleg-st-johann.de/service-1/jahrgangsstufe": {
@@ -9428,6 +9428,30 @@
         "image": "/fileadmin/_processed_/4/1/csm_20221019_103533_b5d0ba4aff.jpg"
       },
       "Startseite Kennen Sie schon? Hier kannst du dich über unsere AGs informieren und findest Zeiten und Ansprechparter. Unterstufentheater Technik-AG Unterstufenband Big Band Der große Schulchor Der Unterstufenchor Streicherensemble Volleyball AG Fußball AG Kraut und Rüben Kreativangebot Tanz AG Schulladen Schulsanitätsdienst Morgenlob Siehe auch Freizeitangebote des Tagesheims"
+    ]
+  },
+  "https://studienkolleg-st-johann.de/dele-4": {
+    "content": [
+      {
+        "image": "/fileadmin/_processed_/c/8/csm_S2_mit_neuer_Tartanbahn_1__6aff71648b.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/1/6/csm_IMG_5171_6b60495d4c.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/f/b/csm_A_T_40_15d5f3c3d6.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/d/1/csm_DSC_0173_63a9599c1e.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/4/1/csm_20221019_103533_b5d0ba4aff.jpg"
+      },
+      "Startseite DELE",
+      {
+        "image": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/02_Ankuendigungen_und_Berichte/02_Berichte/2026-2027/DELE-Zertifikate/DELE106.jpg"
+      },
+      "Die Schülerinnen und Schüler der Klasse 10 haben im Mai die Dele Escolar‑Prüfung abgelegt und können sich nun über die tollen Ergebnisse freuen. Wir gratulieren herzlich!"
     ]
   }
 }
