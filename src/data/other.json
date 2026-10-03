@@ -1477,6 +1477,10 @@
       },
       "Startseite Schulleben Aktuelles Aktuelles",
       {
+        "image": "/fileadmin/_processed_/8/9/csm_Kennenlerntage5c115_1ece0e2cc9.jpg"
+      },
+      "03.10.2026 Gemeinsam stark sein in Blönried weiterlesen",
+      {
         "image": "/fileadmin/_processed_/4/a/csm_DELE106_d41c634d9c.jpg"
       },
       "25.09.2026 DELE-Zertifikate weiterlesen",
@@ -1503,11 +1507,7 @@
       {
         "image": "/fileadmin/_processed_/e/5/csm_NeueSchuelersprecher106_d55dd44754.jpg"
       },
-      "06.07.2026 SMV-Wahlen weiterlesen",
-      {
-        "image": "/fileadmin/_processed_/3/3/csm_SMV-Vollversammlung111_335f6b30df.jpg"
-      },
-      "16.06.2026 SMV Vollversammlung 2026 weiterlesen Siehe auch Archiv"
+      "06.07.2026 SMV-Wahlen weiterlesen Siehe auch Archiv"
     ]
   },
   "https://studienkolleg-st-johann.de/schulleben/theater": {
@@ -9952,6 +9952,64 @@
       "Startseite Das Schultheater spielt \"Die Nashörner\" Das Schultheater spielt \"Die Nashörner\" von Eugen Ionesco",
       {
         "image": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/01_Erste_Seite/DieNashoerner-Flyer-vorne-hinten.jpg"
+      }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/gemeinsam-stark-sein-in-bloenried": {
+    "title": "Gemeinsam stark sein in Blönried",
+    "content": [
+      {
+        "image": "/fileadmin/_processed_/c/8/csm_S2_mit_neuer_Tartanbahn_1__6aff71648b.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/d/6/csm_DieNashorner_Banner_quer_525198c97c.png"
+      },
+      {
+        "image": "/fileadmin/_processed_/1/6/csm_IMG_5171_6b60495d4c.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/f/b/csm_A_T_40_15d5f3c3d6.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/d/1/csm_DSC_0173_63a9599c1e.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/4/1/csm_20221019_103533_b5d0ba4aff.jpg"
+      },
+      "Startseite Gemeinsam stark sein in Blönried Gemeinsam stark sein in Blönried Kennenlerntage für die neuen Fünftklässler am Studienkolleg St. Johann",
+      {
+        "image": "/fileadmin/_processed_/f/c/csm_Kennenlerntage5c107_072bb98438.jpg"
+      },
+      "Für die jüngsten Mitschülerinnen und Mitschüler am Studienkolleg St. Johann Blönried stehen die ersten Schulwochen ganz im Zeichen des Einlebens und Zusammenwachsens. Daher fanden in der 2. Schulwoche die traditionellen Kennenlerntage für die neuen fünften Klassen statt. Stehen im Zeichen von Gemeinschaft, Vertrauen und gegenseitiger Unterstützung. Begleitet wurden die Fünftklässler dabei von ihren Patinnen und Paten aus den 10. Klassen, die den jüngeren Mitschülern bereits seit dem ersten Schultag helfend zur Seite stehen. Durch ein abwechslungsreiches Programm aus durchdachten Kooperations- und Kennenlernspielen erlebten die Kinder hautnah, wie wichtig Teamgeist im Schulalltag ist. Bei verschiedenen Aufgabenstellungen wurde schnell deutlich: Knifflige Herausforderungen lassen sich nicht als Einzelkämpfer, sondern nur durch Absprache und Zusammenhalt in der Gruppe erfolgreich meistern. Die Kennenlerntage legen somit ein wichtiges Fundament für die Klassengemeinschaft der kommenden Jahre.",
+      {
+        "image": "/fileadmin/_processed_/b/c/csm_Kennenlerntage5c106_887c297ca8.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/f/c/csm_Kennenlerntage5c107_416363b672.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/7/0/csm_Kennenlerntage5c108_cb4bdf1c21.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/1/8/csm_Kennenlerntage5c109_6805ebe430.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/7/3/csm_Kennenlerntage5c110_b83e7049d7.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/8/1/csm_Kennenlerntage5c111_b9d734d080.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/f/d/csm_Kennenlerntage5c112_6a61172986.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/8/5/csm_Kennenlerntage5c113_06dddf0f28.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/7/2/csm_Kennenlerntage5c114_47b1092deb.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/8/9/csm_Kennenlerntage5c115_572ff7d927.jpg"
       }
     ]
   }
