@@ -1477,6 +1477,10 @@
       },
       "Startseite Schulleben Aktuelles Aktuelles",
       {
+        "image": "/fileadmin/_processed_/f/3/csm_MaZ106_f67c74257c.jpg"
+      },
+      "07.10.2026 Von Blönried in die weite Welt hinaus weiterlesen",
+      {
         "image": "/fileadmin/_processed_/6/a/csm_Festakt108_a305331676.jpg"
       },
       "04.10.2026 100 Jahre St. Johann: Ein Jahrhundert voller Geschichte mit „Herz, Hirn und Horizont“ weiterlesen",
@@ -1503,11 +1507,7 @@
       {
         "image": "/fileadmin/_processed_/2/4/csm_Schnuppernachmittag107_c947a0b769.jpg"
       },
-      "13.07.2026 „Schnuppertag“ Großer Tag für kleine Entdecker! weiterlesen",
-      {
-        "image": "/fileadmin/_processed_/9/f/csm_Entlassfeier106_5fb91e5844.jpg"
-      },
-      "08.07.2026 Studienkolleg St. Johann Blönried verabschiedet 59 Abiturienten weiterlesen Siehe auch Archiv"
+      "13.07.2026 „Schnuppertag“ Großer Tag für kleine Entdecker! weiterlesen Siehe auch Archiv"
     ]
   },
   "https://studienkolleg-st-johann.de/schulleben/theater": {
@@ -10054,6 +10054,36 @@
       },
       {
         "image": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/02_Ankuendigungen_und_Berichte/02_Berichte/2026-2027/Festakt/Festakt111.jpg"
+      }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/von-bloenried-in-die-weite-welt-hinaus": {
+    "title": "Von Blönried in die weite Welt hinaus",
+    "content": [
+      {
+        "image": "/fileadmin/_processed_/c/8/csm_S2_mit_neuer_Tartanbahn_1__6aff71648b.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/d/6/csm_DieNashorner_Banner_quer_525198c97c.png"
+      },
+      {
+        "image": "/fileadmin/_processed_/1/6/csm_IMG_5171_6b60495d4c.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/f/b/csm_A_T_40_15d5f3c3d6.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/d/1/csm_DSC_0173_63a9599c1e.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/4/1/csm_20221019_103533_b5d0ba4aff.jpg"
+      },
+      "Startseite Von Blönried in die weite Welt hinaus Von Blönried in die weite Welt hinaus Steyler Missionar stellt Freiwilligendienst am Studienkolleg St. Johann Blönried vor. Eine besondere Orientierungshilfe für die Zeit nach dem Schulabschluss erhielt die Jahrgangsstufe 2 des Studienkollegs: Pater Edwin Arockiam SVD von den Steyler Missionaren war zu Gast, um das Projekt „Mitleben auf Zeit“ (MaZ) zu präsentieren. Der internationale Freiwilligendienst bietet jungen Menschen die Gelegenheit, nach dem Abitur in weltweiten Niederlassungen des Ordens mitzuarbeiten. Neben dem konkreten Anpacken vor Ort stehen das Kennenlernen neuer Kulturen, persönliches Wachstum und der interkulturelle Austausch im Mittelpunkt. Für die angehenden Abiturientinnen und Abiturienten bildet das Programm eine hervorragende Möglichkeit, über den eigenen Tellerrand hinauszuschauen und den weltoffenen Geist Blönrieds in die Welt zu tragen. Ein besonderer Moment des Vortrags: Pater Edwin hatte ein Foto dabei, auf dem vier Blönrieder Abiturienten des Jahrgangs 2026 zu sehen sind, die derzeit ihren MaZ-Dienst in fernen Ländern leisten. Mona in Ghana, Julia in Argentinien, Jonathan in Paraguay und Johannes in Bolivien. Die Schulgemeinschaft sendet auf diesem Wege herzliche Grüße und wünscht ihnen und den kommenden „Mazlern“ wertvolle Erfahrungen!",
+      {
+        "image": "/fileadmin/_processed_/f/3/csm_MaZ106_8ac70b75be.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/6/f/csm_MaZ107_a71bb80c6f.jpg"
       }
     ]
   }
