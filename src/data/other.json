@@ -3507,6 +3507,10 @@
       {
         "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/01_Anmeldung/Information_und_Anmeldung_Blaeserklasse.pdf"
       },
+      "Elternabendinformationen Präsentation vom Elternabend",
+      {
+        "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/02_Downloads/Praesentation-Elternabend_Hompage.pdf"
+      },
       "Ferienzeiträume Ferienzeiträume 24/25",
       {
         "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/02_Downloads/Ferienplan_2425.pdf"
@@ -3711,7 +3715,7 @@
       {
         "image": "/fileadmin/_processed_/4/1/csm_20221019_103533_b5d0ba4aff.jpg"
       },
-      "Startseite Service Kalender Oktober 2026 Do 1 Fr 2 Sa 3 So 4 Mo 5 Di 6 Mi 7 Do 8 Fr 9 Sa 10 So 11 Mo 12 Di 13 Mi 14 Do 15 Fr 16 Sa 17 So 18 Mo 19 Di 20 Mi 21 Do 22 Fr 23 Sa 24 So 25 Mo 26 Di 27 Mi 28 Do 29 Fr 30 Sa 31 14.10.2026 - 17.10.2026 Geoexkursion LF J2 15.10.2026 Elternpflegschaft Kl. 5, 8, 9, 10a 19.10.2026 8:30 Uhr Berufsberatung Hr. Wild 20.10.2026 Schulausflug 20.10.2026 7:30 Uhr Deutschklausur J2 22.10.2026 Elternpflegschaft J1/J2 23.10.2026 GFS Festlegung 26.10.2026 - 02.11.2026 Herbstferien"
+      "Startseite Service Kalender Oktober 2026 Do 1 Fr 2 Sa 3 So 4 Mo 5 Di 6 Mi 7 Do 8 Fr 9 Sa 10 So 11 Mo 12 Di 13 Mi 14 Do 15 Fr 16 Sa 17 So 18 Mo 19 Di 20 Mi 21 Do 22 Fr 23 Sa 24 So 25 Mo 26 Di 27 Mi 28 Do 29 Fr 30 Sa 31 15.10.2026 Elternpflegschaft Kl. 5, 8, 9, 10a 19.10.2026 8:30 Uhr Berufsberatung Hr. Wild 20.10.2026 Schulausflug 20.10.2026 7:30 Uhr Deutschklausur J2 22.10.2026 Elternpflegschaft J1/J2 23.10.2026 GFS Festlegung 26.10.2026 - 02.11.2026 Herbstferien"
     ]
   },
   "https://studienkolleg-st-johann.de/service-1/jahrgangsstufe": {
@@ -10167,6 +10171,34 @@
       {
         "image": "/fileadmin/_processed_/1/9/csm_Theaterhuette122_271d7658b0.jpg"
       }
+    ]
+  },
+  "https://studienkolleg-st-johann.de/elternabendinformationen": {
+    "title": "Elternabendinformationen",
+    "content": [
+      {
+        "image": "/fileadmin/_processed_/c/8/csm_S2_mit_neuer_Tartanbahn_1__6aff71648b.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/d/6/csm_DieNashorner_Banner_quer_525198c97c.png"
+      },
+      {
+        "image": "/fileadmin/_processed_/1/6/csm_IMG_5171_6b60495d4c.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/f/b/csm_A_T_40_15d5f3c3d6.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/d/1/csm_DSC_0173_63a9599c1e.jpg"
+      },
+      {
+        "image": "/fileadmin/_processed_/4/1/csm_20221019_103533_b5d0ba4aff.jpg"
+      },
+      "Startseite Elternabendinformationen Elternabendinformationen Hier",
+      {
+        "document": "/fileadmin/mediapool/baukaesten/St_Johann_Bloenried/07_Service/02_Downloads/Praesentation-Elternabend_Hompage.pdf"
+      },
+      "finden Sie die Informationen des Elternabends. Zukünftig können Sie diese im Bereich Downloads in der Spalte “Dokumente” herunterladen."
     ]
   }
 }
